@@ -1,15 +1,15 @@
 import React from 'react';
 import './styles/Home.css'
-// import HomeVideo from '../video/home.mp4'
+import HomeVideo from '../video/home.mp4'
 
 const Home = () => (
     <div className="home-container">
         <div className="wrap">
             <div className='video-container'>
-                {/* <video autoPlay loop>
+                <video autoPlay loop>
                     <source src={HomeVideo} type='video/mp4' />
                     Your browser does not support the video tag.
-                 </video> */}
+                 </video>
             </div>
         </div>
         <div className='donate-button-wrap'>

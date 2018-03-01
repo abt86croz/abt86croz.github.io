@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/Home.css'
-import HomeVideo from '../video/home.mp4'
+import HomeVideo from '../video/intromin.mp4'
 
 const Home = () => (
     <div className="home-container">

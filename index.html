@@ -1,96 +1,83 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Single Page Apps for GitHub Pages</title>
-    <meta name="description" content="Lightweight solution for deploying single page apps with GitHub Pages. Code and concept by Rafael Pedicini.">
 
-    <style>
-      html, body, div, span, a, p, ul, li, h1, code, nav {
-        margin: 0;
-        border: 0;
-        padding: 0;
-        box-sizing: inherit;
-        font: inherit;
-        text-decoration: inherit;
-        text-align: inherit;
-        color: inherit;
-        background: transparent;
-      }
-      /*pass window height (w/o scroll bars) down to react app, note can't use vh becasue that
-      includes scroll bars and mobile browser footer, etc so doesn't give viewable area*/
-      html, body { height: 100%; }
-      html { background-color: rgb(0, 120, 0); }
-      #root { background-color: #F0F0F0; min-height: 100%; }
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
 
-      /*required for IE/Edge to be compatible with left:50vw & transform:translate(-50%, 0),
-      otherwise there is a phantom div on the right side of the screen (from the left:50vw),
-      that the window will scroll to. Note the left:50vw and transform is used to center content
-      horizaontally based on vw to prevent content jump when vertical scroll bar show/hide.*/
-      body { overflow-x: hidden; }
-    </style>
+  <!-- <meta property="fb:app_id" content="302184056577324" /> -->
+  <meta property="og:type" content="business.business" />
+  <!-- EDIT -->
+  <meta property="og:url" content="Put your own URL to the object here" />
+  <meta property="og:title" content="Albemarle Ballet Theatre" />
+  <!-- EDIT -->
+  <meta property="og:image" content="" />
+  <meta property="business:contact_data:street_address" content="5798 Three Notched Road, Suite 200 - Rear Entrance, Crozet, VA 22932"
+  />
+  <!-- Edit -->
+  <meta property="business:contact_data:locality" content="Crozet, VA, Charlottesville, VA" />
 
-    <!-- start favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="http://favicon.rafrex.com/green-grid-144-168-192/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="http://favicon.rafrex.com/green-grid-144-168-192/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="http://favicon.rafrex.com/green-grid-144-168-192/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="http://favicon.rafrex.com/green-grid-144-168-192/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="http://favicon.rafrex.com/green-grid-144-168-192/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="http://favicon.rafrex.com/green-grid-144-168-192/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="http://favicon.rafrex.com/green-grid-144-168-192/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="http://favicon.rafrex.com/green-grid-144-168-192/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="http://favicon.rafrex.com/green-grid-144-168-192/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="http://favicon.rafrex.com/green-grid-144-168-192/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="http://favicon.rafrex.com/green-grid-144-168-192/favicon-194x194.png" sizes="194x194">
-    <link rel="icon" type="image/png" href="http://favicon.rafrex.com/green-grid-144-168-192/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="http://favicon.rafrex.com/green-grid-144-168-192/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="http://favicon.rafrex.com/green-grid-144-168-192/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="http://favicon.rafrex.com/green-grid-144-168-192/manifest.json">
-    <link rel="mask-icon" href="http://favicon.rafrex.com/green-grid-144-168-192/safari-pinned-tab.svg" color="#00a800">
-    <link rel="shortcut icon" href="http://favicon.rafrex.com/green-grid-144-168-192/favicon.ico">
-    <meta name="msapplication-TileColor" content="#000000">
-    <meta name="msapplication-TileImage" content="http://favicon.rafrex.com/green-grid-144-168-192/mstile-144x144.png">
-    <meta name="msapplication-config" content="http://favicon.rafrex.com/green-grid-144-168-192/browserconfig.xml">
-    <meta name="theme-color" content="#000000">
-    <!-- end favicon -->
+  <meta property="business:contact_data:postal_code" content="22932" />
+  <meta property="business:contact_data:country_name" content="United States" />
+  <meta property="place:location:latitude" content="38.074763" />
+  <meta property="place:location:longitude" content="-78.700105" />
+  <meta property="og:description" content="Ballet, jazz, and modern, dance school and dance studio, dance classes and ballet classes in Crozet Albemarle, near Charlottesville, Western Albemarle High School, Henley, Brownsville, and Crozet Elementary."
+  />
+  <meta name="keywords" content="Ballet, jazz, modern, dance, pilates, dance studio, studio, school, dance classes, ballet classes, ballet school, ballet
+        studio, dance school, Albemarle, Charlottesville, Crozet, Western Albemarle High School, Henley, Brownsville, Crozet Elementary"
+  />
 
-    <!-- Start Single Page Apps for GitHub Pages -->
-    <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // https://github.com/rafrex/spa-github-pages
-      // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
-      // ----------------------------------------------------------------------
-      // This script checks to see if a redirect is present in the query string
-      // and converts it back into the correct url and adds it to the
-      // browser's history using window.history.replaceState(...),
-      // which won't cause the browser to attempt to load the new url.
-      // When the single page app is loaded further down in this file,
-      // the correct url will be waiting in the browser's history for
-      // the single page app to route accordingly.
-      (function(l) {
-        if (l.search) {
-          var q = {};
-          l.search.slice(1).split('&').forEach(function(v) {
-            var a = v.split('=');
-            q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
-          });
-          if (q.p !== undefined) {
-            window.history.replaceState(null, null,
-              l.pathname.slice(0, -1) + (q.p || '') +
-              (q.q ? ('?' + q.q) : '') +
-              l.hash
-            );
-          }
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <!-- Latest compiled and minified Bootstrap JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+  <!-- Start Single Page Apps for GitHub Pages -->
+  <script type="text/javascript">
+    // Single Page Apps for GitHub Pages
+    // https://github.com/rafrex/spa-github-pages
+    // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
+    // ----------------------------------------------------------------------
+    // This script checks to see if a redirect is present in the query string
+    // and converts it back into the correct url and adds it to the
+    // browser's history using window.history.replaceState(...),
+    // which won't cause the browser to attempt to load the new url.
+    // When the single page app is loaded further down in this file,
+    // the correct url will be waiting in the browser's history for
+    // the single page app to route accordingly.
+    (function (l) {
+      if (l.search) {
+        var q = {};
+        l.search.slice(1).split('&').forEach(function (v) {
+          var a = v.split('=');
+          q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
+        });
+        if (q.p !== undefined) {
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + (q.p || '') +
+            (q.q ? ('?' + q.q) : '') +
+            l.hash
+          );
         }
-      }(window.location))
-    </script>
-    <!-- End Single Page Apps for GitHub Pages -->
+      }
+    }(window.location))
+  </script>
+  <!-- End Single Page Apps for GitHub Pages -->
 
-  </head>
-  <body>
-    <div id="root"></div>
-    <!-- single page app in bundle.js -->
-    <script src="/build/bundle.js"></script>
-  </body>
+  <title>Albemarle Ballet Theatre</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <!-- single page app in bundle.js -->
+  <script src="/build/bundle.js"></script>
+</body>
+
 </html>

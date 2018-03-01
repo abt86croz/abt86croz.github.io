@@ -1,0 +1,33 @@
+.not-found-container {
+  text-align: center;
+  margin: 60px auto;
+}
+
+.not-found-container img {
+  margin: 0 auto;
+  display: block;
+  width: 700px;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+  .not-found-container img {
+    width: 700px;
+  }
+  .not-found-container .btn {
+    width: 200px;
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .not-found-container img {
+    font-size: 18px;
+    width: 300px;
+  }
+  .not-found-container .btn {
+    width: 200px;
+    padding: 8px;
+  }
+}

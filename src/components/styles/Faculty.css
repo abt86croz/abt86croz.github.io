@@ -1,0 +1,13 @@
+.faculty-container {
+    width: 80%;
+    margin: 40px auto 80px auto;
+}
+
+.faculty-container .bios img {
+  float: left;
+  padding: 0 15px 10px 0;
+}
+
+.faculty-container .bios p {
+  text-align: left;
+}

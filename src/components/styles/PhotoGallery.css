@@ -1,0 +1,24 @@
+.photo-gallery-container {
+    box-sizing: border-box;
+    width: 100vw;
+    min-height: 100vh;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+
+#ReactGridGallery {
+    min-height: 100vh;
+    margin: 60px;
+}
+
+#lightboxBackdrop {
+    z-index: 99999;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 568px) {
+    #ReactGridGallery {
+        margin: 10px;
+    }
+}

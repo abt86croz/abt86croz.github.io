@@ -1,0 +1,41 @@
+.mission-container {
+    background: url('../../images/site/mission_min.jpg') no-repeat fixed;
+    background-size: 500px 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    display: inline-table;
+    height: 100vh;
+}
+
+.mission-container .title {
+    font-size: 26px;
+    padding-top: 12px;
+}
+
+.mission-container .sub-title {
+    font-size: 18px;
+}
+
+.mission-container p {
+    padding: 0 30px 0 20px;
+}
+
+.mission-container .btn-wrap {
+    margin: 0 auto 20px auto;
+    display: table;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+    .mission-container {
+        margin: 0 auto 55px auto;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .mission-container {
+        margin: 0 auto 55px auto;
+        background-size: cover;
+    }
+}

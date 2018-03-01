@@ -1,0 +1,168 @@
+.schedule-container {
+  background: url('../../images/site/classhedule_min.jpg') no-repeat fixed;
+  background-size: 500px 100vh;
+  width: 100vw;
+  margin: 0 auto;
+  display: inline-table;
+  height: 100vh;
+}
+
+.schedule-container .content {
+  background: none !important;
+  border: none;
+}
+
+.schedule-container .google-class-schedule {
+  display: block;
+  margin: 30px auto 0 auto;
+  width: 95%;
+  height: 550px;
+}
+
+.schedule-container .btn-sm {
+  font-size: 15px !important;
+}
+
+.schedule-container .weekly-schedule {
+  margin: 0 auto 20px auto;
+  display: block;
+}
+
+.schedule-container .weekly-schedule .day {
+  text-align: left;
+  width: 80;
+  padding: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.schedule-container .classType p {
+  font-size: 14px;
+  text-align: left;
+  padding: 4px;
+  margin: 0;
+  border: 0.5px solid #c7c8c9;
+  border-bottom: none;
+}
+
+.schedule-container .classType p:last-child {
+  border-bottom: 0.5px solid #c7c8c9;
+}
+
+.schedule-container .weekly-schedule {
+  width: 600px;
+  padding: 0 4px;
+}
+
+.schedule-container .btn-wrap {
+  margin-bottom: 50px;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+  .schedule-container {
+    margin: 0 auto 55px auto;
+  }
+  .schedule-container .content {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+  }
+  .schedule-container .google-class-schedule {
+    height: 650px;
+  }
+  .schedule-container .classType p {
+    font-size: 14px;
+  }
+  .schedule-container .weekly-schedule {
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .schedule-container {
+    margin: 0 auto 13px auto;
+  }
+  .schedule-container .content {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+  }
+  .schedule-container .classType p {
+    font-size: 14px;
+  }
+  .schedule-container .weekly-schedule {
+    width: 100vw;
+  }
+}
+
+/* CLASS DESCRIPTION */
+
+.description-container {
+  background: url('../../images/site/description_min.jpg') no-repeat fixed;
+  background-size: 500px 100vh;
+  width: 100vw;
+  margin: 0 auto;
+  display: inline-table;
+  height: 100vh;
+}
+
+.description-container .content {
+  margin: 30px auto 50px auto !important;
+}
+
+.description-container .quote {
+  text-align: center;
+  margin: 25px auto;
+}
+
+.description-container img {
+  margin: 16px auto 40px auto;
+  display: block;
+}
+
+.description-container .heading {
+  font-size: 30px;
+}
+
+.description-container .sub-title {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.description-container p {
+  padding: 0 30px 0 20px;
+}
+
+.description-container .description {
+  margin-bottom: 30px;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+  .description-container {
+    margin: 0 auto 55px auto;
+  }
+  .description-container .heading {
+    font-size: 20px;
+  }
+  .description-container img {
+    width: 300px;
+  }
+  .description-container .quote {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .description-container {
+    margin: 0 auto 13px auto;
+  }
+  .description-container .heading {
+    font-size: 20px;
+  }
+  .description-container img {
+    width: 300px;
+  }
+  .description-container .quote {
+    width: 90%;
+  }
+}

@@ -1,0 +1,149 @@
+/* Container */
+
+.summer-program-container {
+    margin: 30px auto;
+}
+
+/* Poster */
+
+.summer-program-container .summer-poster {
+    float: left;
+    width: 50vw;
+}
+
+.summer-program-container .summer-poster img {
+    width: 100%;
+}
+
+/* Schedule */
+
+.summer-program-container .summer-schedule {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 50vw;
+    float: left;
+    padding: 10px 13px 0 17px;
+}
+
+.summer-program-container .summer-schedule .column-1 {
+    float: left;
+    width: 55%;
+}
+
+.summer-program-container .summer-schedule .column-2 {
+    float: left;
+    width: 45%;
+}
+
+/* Clear floats after the columns */
+
+.summer-schedule:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.summer-program-container .summer-schedule p {
+    font-size: 14px;
+    text-align: left;
+    padding: 4px;
+    margin: 0;
+    border: 0.5px solid #c7c8c9;
+    border-bottom: none;
+    height: 54px;
+}
+
+.summer-program-container .summer-schedule p:last-child {
+    border-bottom: 0.5px solid #c7c8c9;
+}
+
+.summer-program-container .summer-schedule .head {
+    height: 30px;
+    background-color: #5c5f6b;
+    color: #fff;
+}
+
+/* Content */
+
+.summer-program-container .summer-content-wrap {
+    display: block;
+    width: 50vw;
+    float: right;
+}
+
+.summer-program-container .summer-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-left: 2px solid #9b863c;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    margin: 15px;
+}
+
+.summer-program-container .summer-content .title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+.summer-program-container .summer-content .sub-title {
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px;
+}
+
+.summer-program-container .summer-content .date {
+    text-decoration: underline;
+}
+
+/* Button */
+
+.summer-program-container .btn-wrap {
+    margin-bottom: 60px;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+    .summer-program-container .summer-poster {
+        float: none;
+        width: 100vw;
+    }
+    .summer-program-container .summer-schedule {
+        float: none;
+        width: 100vw;
+    }
+    .summer-program-container .summer-content-wrap {
+        float: none;
+        width: 100vw;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .summer-program-container .summer-schedule p {
+        height: 65px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .summer-program-container .summer-poster {
+        float: none;
+        width: 100vw;
+    }
+    .summer-program-container .summer-schedule {
+        float: none;
+        width: 100vw;
+    }
+    .summer-program-container .summer-content-wrap {
+        float: none;
+        width: 100vw;
+    }
+    .summer-program-container .summer-schedule p {
+        height: 85px;
+    }
+}

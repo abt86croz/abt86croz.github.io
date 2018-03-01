@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+html body {
+    min-height: 100vh;
+}
+
+/* Global Styles */
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body {
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "PT Serif", serif;
+}
+
+select.form-control, textarea.form-control, input.form-control {
+    font-size: 16px;
+}
+
+input[type=file] {
+    width: 100%;
+}
+
+#root {
+    /* height: 100%; */
+    min-height: 100vh;
+}
+
+.App {
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 249, 250);
+}
+
+.content {
+    border-left: 2px solid #93760e;
+    float: right;
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 30px auto 0 auto;
+    width: 65vw;
+}
+
+.clear {
+    clear: both;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    color: #5bc0de;
+}
+
+hr {
+    border-color: #9b863c;
+}
+
+.bt {
+    color: #232223;
+    text-decoration: none !important;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+    width: 300px;
+    background-color: #b1c5ca;
+}
+
+.bt:visited {
+    background-color: #b1c5ca;
+    color: #232223;
+}
+
+.bt:hover {
+    color: #9b863c;
+}
+
+/* Buttons */
+
+/* green */
+
+a.btn-green {
+    background-color: #00d1b2;
+}
+
+a.btn-green:visited {
+    color: #ffffff;
+}
+
+a.btn-green:hover {
+    background-color: transparent;
+    border-color: #00d1b2;
+    color: #00d1b2;
+}
+
+/* red */
+
+a.btn-red {
+    background-color: #ff3860;
+}
+
+a.btn-red:visited {
+    color: #ffffff;
+}
+
+a.btn-red:hover {
+    background-color: transparent;
+    border-color: #ff3860;
+    color: #ff3860;
+}
+
+/* blue */
+
+a.btn-blue {
+    background-color: #209cee
+}
+
+a.btn-blue:visited {
+    color: #ffffff;
+}
+
+a.btn-blue:hover {
+    background-color: transparent;
+    border-color: #209cee;
+    color: #209cee;
+}
+
+/* yellow */
+
+a.btn-yellow {
+    background-color: #f8c109;
+}
+
+a.btn-yellow:visited {
+    color: #ffffff;
+}
+
+a.btn-yellow:hover {
+    background-color: transparent;
+    border-color: #f8c109;
+    color: #f8c109;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100vw;
+    }
+    .content {
+        width: 100vw;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .container {
+        width: 100vw;
+    }
+    .content {
+        width: 100vw;
+        border: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 100vw;
+    }
+}

@@ -1,0 +1,56 @@
+/* Special Needs Container */
+
+.special-needs-container {
+  background: url('../../images/site/specialneeds_min.jpg') no-repeat fixed;
+  background-size: 500px 100%;
+  width: 100vw;
+  margin: 0 auto;
+  height: 100vh;
+  display: inline-table;
+}
+
+.special-needs-container .content {
+  margin: 30px auto 50px auto !important;
+}
+
+.special-needs-container .content p:first-of-type {
+  padding-top: 20px;
+}
+
+.special-needs-container .content p {
+  padding: 0 30px 0 20px;
+}
+
+.special-needs-container .content img {
+  float: left;
+  padding: 0 15px 10px 0;
+}
+
+.special-needs-container p:last-child {
+  padding-top: 20px;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+  .special-needs-container img {
+    float: none !important;
+    margin: 0 auto;
+    display: block;
+  }
+  .special-needs-container {
+    margin: 0 auto 55px auto;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .special-needs-container img {
+    float: none !important;
+    margin: 0 auto;
+    display: block;
+    padding: 5px 0;
+  }
+  .special-needs-container {
+    margin: 0 auto 13px auto;
+  }
+}

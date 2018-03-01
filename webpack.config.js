@@ -11,6 +11,20 @@ module.exports = {
   module: {
     rules: [
       { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
+      {
+        test: /\.css$/,
+        use: ['style-loader', { loader: 'css-loader', options: { minimize: true } }],
+      },
+      {
+        test: /\.(pdf|jpg|png|svg)$/,
+        use: {
+          loader: "file-loader",
+          options: {
+            name: "[path][name].[hash].[ext]",
+          },
+        },
+      },
+
     ],
   },
 

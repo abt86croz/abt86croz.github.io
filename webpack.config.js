@@ -12,7 +12,7 @@ module.exports = {
   module: {
     rules: [
       { test: /\.html$/, loader: 'html-loader?attrs[]=video:src' },
-      { test: /\.mp4$/, loader: 'url-loader?limit=10000&mimetype=home/mp4' },
+      { test: /\.mp4$/, loader: 'url-loader?limit=10000&mimetype=video/mp4' },
       { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
       {
         test: /\.css$/,

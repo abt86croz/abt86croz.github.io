@@ -5,7 +5,7 @@ const Home = () => (
     <div className="home-container">
         <div className="wrap">
             <div className='video-container'>
-                <iframe src="https://www.youtube.com/embed/bgSMpRpObCg?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=bgSMpRpObCg&amp;modestbranding=1&amp;fs=0" frameBorder="0" allow="autoplay; encrypted-media"></iframe>
+                <iframe src="https://www.youtube.com/embed/bgSMpRpObCg?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=bgSMpRpObCg" frameBorder="0" allow="autoplay; encrypted-media"></iframe>
             </div>
         </div>
         <div className='donate-button-wrap'>

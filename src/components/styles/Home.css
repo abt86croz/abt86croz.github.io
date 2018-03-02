@@ -1,5 +1,5 @@
 .home-container {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   margin: 0 auto;
   background: #000000;
@@ -12,15 +12,16 @@
   height: 420px;
 }
 
-.home-container .video-container video {
-  object-fit: contain;
-  width: 100%;
+.home-container .video-container iframe {
+  width: 680px;
   height: 100%;
+  margin: 0 auto;
+  display: block;
 }
 
 .home-container .wrap {
   position: relative;
-  top: 30px;
+  top: 40px;
 }
 
 .home-container .donate-button-wrap {
@@ -40,15 +41,20 @@
 
 @media screen and (max-width: 768px) {
   .home-container .donate-button-wrap {
-    margin-bottom: -2px;
+    position: absolute;
+    bottom: 20px;
+  }
+  .home-container .video-container iframe {
+    width: 96vw;
   }
 }
 
 @media screen and (max-width: 568px) {
-  .home-container .video-container video {
-    height: auto;
+  .home-container .video-container iframe {
+    width: 90vw;
   }
   .home-container .donate-button-wrap {
-    margin-bottom: -5px;
+    position: absolute;
+    bottom: 20px;
   }
 }

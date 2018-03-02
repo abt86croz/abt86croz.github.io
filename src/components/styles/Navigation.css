@@ -159,7 +159,7 @@ img.logo-image {
 
 @media screen and (max-width: 568px) {
     img.logo-image {
-        width: 240px;
+        width: 230px;
     }
     li.nav-menu a {
         text-decoration: none;

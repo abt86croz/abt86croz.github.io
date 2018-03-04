@@ -5,9 +5,10 @@ const Home = () => (
     <div className="home-container">
         <div className="wrap">
             <div className='video-container'>
-                <iframe src="https://www.youtube.com/embed/bgSMpRpObCg?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=bgSMpRpObCg" frameBorder="0" allow="autoplay; encrypted-media"></iframe>
+                <iframe src="https://www.youtube.com/embed/bgSMpRpObCg?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=bgSMpRpObCg" frameBorder="0" allow="encrypted-media"></iframe>
             </div>
         </div>
+        <div className='clear'></div>
         <div className='donate-button-wrap'>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
                 <input type="hidden" name="cmd" value="_s-xclick" />

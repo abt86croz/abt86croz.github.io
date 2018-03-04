@@ -44,20 +44,19 @@ const SummerProgram = () => (
             </div>
             <div className="column-2">
                 <p className="head">Dates & Times</p>
-                <p>Tuesday • 4:30 to 5:30pm • 6/19 - 7/31 • 6-weeks</p>
-                <p>Tuesday • 5:30 to 6:30pm • 6/19 - 7/31 • 6-weeks</p>
-                <p>Tuesday • 6:30 to 7:30pm • 6/19 - 7/31 • 6-weeks</p>
-                <p>Thursday • 4:30 to 5:30pm • 6/21 - 8/2  • 6-weeks </p>
-                <p>Thursday • 5:30 to 6:30pm • 6/21 - 8/2  • 6-weeks</p>
-                <p>Monday 4:45 - 6:45pm & Thursday 6:45 - 8:45pm •
-                    6/18 - 8/9 • 6-Weeks </p>
-                <p>Monday 6:45 - 8:45pm & Wednesday • 5:00 - 7:00pm • 6/18 - 8/8 • 6-weeks</p>
+                <p>Tuesday 4:30 to 5:30pm • 6/19-7/31</p>
+                <p>Tuesday 5:30 to 6:30pm • 6/19-7/31</p>
+                <p>Tuesday 6:30 to 7:30pm • 6/19-7/31</p>
+                <p>Thursday 4:30 to 5:30pm • 6/21-8/2 </p>
+                <p>Thursday 5:30 to 6:30pm • 6/21-8/2</p>
+                <p>Monday 4:45-6:45pm & Thursday 6:45-8:45pm •6/18 - 8/9</p>
+                <p>Monday 6:45-8:45pm & Wednesday 5:00-7:00pm • 6/18 - 8/8</p>
                 <p className="head">Dates & Times</p>
-                <p>August 6 - 9 • Mon - Thurs • <br />10am - 12pm</p>
-                <p>July 9 - 13 • Mon - Fri • <br />9am - 3pm*</p>
-                <p>July 16 - 20 • Mon - Fri •<br /> 9am - 3pm*</p>
-                <p>July 23 - 27 • Mon - Fri •<br /> 9am - 4pm*</p>
-                <p>July 30 - August 3 • Mon - Fri • <br />9am - 4pm*</p>
+                <p>August 6-9 • Mon-Thurs 10am-12pm</p>
+                <p>July 9-13 • Mon-Fri 9am-3pm</p>
+                <p>July 16-20 • Mon-Fri 9am-3pm</p>
+                <p>July 23-27 • Mon-Fri 9am-4pm</p>
+                <p>July 30 to August 3 • Mon-Fri 9am-4pm</p>
             </div>
         </div>
         <div className='clear'></div>

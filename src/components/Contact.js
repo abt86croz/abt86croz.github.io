@@ -12,7 +12,7 @@ const Contact = () => (
                 <p>
                     <a id="bt-email" className="bt" href="mailto:albemarleballettheatre@gmail.com" target="_top">
                         <Mail/> albemarleballettheatre@gmail.com
-                 </a>
+                    </a>
                 </p>
                 <p>
                     <a className="bt" href="tel:+1-434-823-8888">

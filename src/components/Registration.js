@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import FreeClassCupon from '../pdf/free-dance-class-coupon.pdf';
-import ClassSchePDF from '../pdf/abt-1718-class-schedule.pdf';
+import ClassSchePDF from '../pdf/class-schedule.pdf';
 import FamilyDiscountPDF from '../pdf/families-with-multiple-students-form.pdf';
 import PDFIcon from 'react-icons/lib/fa/file-pdf-o';
 import Pencil from 'react-icons/lib/fa/pencil';

@@ -12,7 +12,7 @@
   height: 350px;
 }
 
-.home-container .video-container video {
+.home-container .video-container iframe {
   width: 680px;
   height: 100%;
   margin: 0 auto;
@@ -44,7 +44,7 @@
     width: 100vw;
     min-height: 100vh;
   }
-  .home-container .video-container video {
+  .home-container .video-container iframe {
     width: 86vw;
     height: 100%;
   }
@@ -60,11 +60,11 @@
     width: 100vw;
     min-height: 100vh;
   }
-  .home-container .video-container video {
+  .home-container .video-container iframe {
     width: 86vw;
     height: 100%;
   }
-  .home-container .video-container video {
+  .home-container .video-container iframe {
     margin: 0 auto;
     height: 300px;
     width: 600px;
@@ -90,7 +90,7 @@
     width: 100vw;
     min-height: 100vh;
   }
-  .home-container .video-container video {
+  .home-container .video-container iframe {
     width: 86vw;
     height: 70%;
   }
@@ -110,7 +110,7 @@
     width: 100vw;
     min-height: 100vh;
   }
-  .home-container .video-container video {
+  .home-container .video-container iframe {
     width: 96vw;
   }
 }

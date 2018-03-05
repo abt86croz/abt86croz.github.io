@@ -11,20 +11,8 @@ module.exports = {
 
   module: {
     rules: [
-      //{ test: /\.jade$/, loader: 'html?attrs[]=img:src&attrs[]source:src!jade-html?doctype=html' },
-
       { test: /\.html$/, loader: 'html-loader?attrs[]=video:src' },
       { test: /\.(mov|mp4)$/, loader: 'url-loader' },
-      // {
-      //   test: /\.(mov|mp4)$/, use: [
-      //     {
-      //       loader: 'file-loader',
-      //       options: {
-      //         name: '[path][name].[ext]'
-      //       }
-      //     }
-      //   ]
-      // },
       { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
       {
         test: /\.css$/,

@@ -7,9 +7,6 @@ const Home = () => (
     <div className="home-container">
         <div className="wrap">
             <div className='video-container'>
-                {/* <div className='video-container'>
-                    <iframe src="https://www.youtube.com/embed/bgSMpRpObCg?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;playlist=bgSMpRpObCg" frameBorder="0" allow="encrypted-media"></iframe>
-                </div>     */}
                 <video autoPlay loop>
                     <source src={HomeVideo} type="video/mp4" />
                     Your browser does not support the video tag.<a href="https://youtu.be/bgSMpRpObCg" rel="noopener noreferrer" target="_blank">Watch it here</a>

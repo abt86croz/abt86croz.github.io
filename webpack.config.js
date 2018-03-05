@@ -11,8 +11,17 @@ module.exports = {
 
   module: {
     rules: [
-      { test: /\.html$/, loader: 'html-loader?attrs[]=video:src' },
-      { test: /\.mp4$/, loader: 'url-loader?limit=10000&mimetype=video/mp4' },
+      //{ test: /\.html$/, loader: 'html-loader?attrs[]=video:src' },
+      {
+        test: /\.(mov|mp4)$/, use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[path][name].[ext]'
+            }
+          }
+        ]
+      },
       { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
       {
         test: /\.css$/,

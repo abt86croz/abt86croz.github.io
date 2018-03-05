@@ -11,6 +11,8 @@ module.exports = {
 
   module: {
     rules: [
+      { test: /\.jade$/, loader: 'html?attrs[]=img:src&attrs[]source:src!jade-html?doctype=html' },
+
       //{ test: /\.html$/, loader: 'html-loader?attrs[]=video:src' },
       //{ test: /\.(mov|mp4)$/, loader: 'url-loader?limit=10000&mimetype=video/mp4' },
       {

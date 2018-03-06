@@ -10,11 +10,11 @@ const Faculty = () => (
             <p>
                 Director <span className='bold'>Sally Hart</span>, formerly danced with the Joffrey Ballet under the direction of
                 Robert Joffrey. She performed at the grand opening of the Kennedy Center, with Kevin McKenzie, and in Joffrey Ballet
-                classics Petrouchka,Trinity, Viva Vivaldi, and The Seasons.
+                classics Petrouchka, Trinity, Viva Vivaldi, and The Seasons.
             </p>
             <p>
                 After her dance career, Mrs. Hart went on to become a professional make-up artist and did work on movie sets, runway
-                shows, and for modeling agencies.Mrs. Hart began teaching ballet locally in 1992. She has produced many local dance
+                shows, and for modeling agencies. Mrs. Hart began teaching ballet locally in 1992. She has produced many local dance
                 productions. Sally has trained and mentored numerous students who have become professional dancers. Her unique curriculum includes
                 a blend of English, Italian, and Russian technique.
             </p>

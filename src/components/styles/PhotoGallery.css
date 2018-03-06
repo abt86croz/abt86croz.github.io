@@ -3,7 +3,7 @@
     width: 100vw;
     min-height: 100vh;
     display: inline-block;
-    margin-bottom: 80px;
+    margin: 45px auto 80px auto;
 }
 
 #ReactGridGallery {

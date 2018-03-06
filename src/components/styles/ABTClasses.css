@@ -10,6 +10,7 @@
 .schedule-container .content {
   background: none !important;
   border: none;
+  margin: 80px auto 0 auto;
 }
 
 .schedule-container .google-class-schedule {
@@ -104,10 +105,6 @@
   margin: 0 auto;
   display: inline-table;
   height: 100vh;
-}
-
-.description-container .content {
-  margin: 30px auto 50px auto !important;
 }
 
 .description-container .quote {

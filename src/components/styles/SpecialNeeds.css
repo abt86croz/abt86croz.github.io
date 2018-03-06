@@ -9,10 +9,6 @@
   display: inline-table;
 }
 
-.special-needs-container .content {
-  margin: 30px auto 50px auto !important;
-}
-
 .special-needs-container .content p:first-of-type {
   padding-top: 20px;
 }

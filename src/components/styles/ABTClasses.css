@@ -1,6 +1,6 @@
 .schedule-container {
   background: url('../../images/site/schedule.jpg') no-repeat fixed;
-  background-size: 500px 100vh;
+  background-size: 500px 100%;
   width: 100vw;
   margin: 0 auto;
   display: inline-table;
@@ -100,7 +100,7 @@
 
 .description-container {
   background: url('../../images/site/description.jpg') no-repeat fixed;
-  background-size: 500px 100vh;
+  background-size: 500px 100%;
   width: 100vw;
   margin: 0 auto;
   display: inline-table;

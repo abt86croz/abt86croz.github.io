@@ -5,6 +5,8 @@ import ClassSchePDF from '../pdf/class-schedule.pdf';
 import FamilyDiscountPDF from '../pdf/families-with-multiple-students-form.pdf';
 import PDFIcon from 'react-icons/lib/fa/file-pdf-o';
 import Pencil from 'react-icons/lib/fa/pencil';
+import SummerRegistrationForm from '../pdf/2018SummerRegistration.pdf';
+
 import './styles/Registration.css';
 
 const Forms = () => (
@@ -14,6 +16,7 @@ const Forms = () => (
             <a className="bt" href={FamilyDiscountPDF} target="_blank" rel="noopener noreferrer">Family Discount Program <PDFIcon /></a>
             <Link to="/registration/scholarships" className="bt">Scholarships <Pencil /></Link>
             <a className="bt" href={FreeClassCupon} target="_blank" rel="noopener noreferrer">Try a Free class <PDFIcon /></a>
+            <a className="bt" href={SummerRegistrationForm} target="_blank" rel="noopener noreferrer">Summer Registration <PDFIcon /></a>
         </div>
     </div>
 );

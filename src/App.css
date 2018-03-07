@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:bold');
 html body {
     min-height: 100vh;
 }
@@ -9,10 +9,6 @@ body {
     font-family: 'Quicksand', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     color: #000000;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: "PT Serif", serif;
 }
 
 select.form-control, textarea.form-control, input.form-control {

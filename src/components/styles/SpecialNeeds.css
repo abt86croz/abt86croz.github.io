@@ -40,7 +40,7 @@
     display: block;
   }
   .special-needs-container {
-    margin: 0 auto 55px auto;
+    margin: 0 auto;
   }
 }
 
@@ -52,6 +52,9 @@
     padding: 5px 0;
   }
   .special-needs-container {
-    margin: 0 auto 13px auto;
+    margin: 0 auto;
+  }
+  .special-needs-container .content {
+    background-size: 100% 100%;
   }
 }

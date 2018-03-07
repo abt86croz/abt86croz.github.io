@@ -44,7 +44,7 @@ input[type=file] {
     float: right;
     z-index: 9999;
     background-color: rgba(255, 255, 255, 0.8);
-    margin: 80px auto 60px auto;
+    margin: 80px auto;
     width: 65vw;
 }
 
@@ -164,21 +164,23 @@ a.btn-yellow:hover {
 
 @media screen and (max-width: 768px) {
     .container {
-        width: 100vw;
+        width: 100%;
     }
     .content {
-        width: 100vw;
+        width: 100%;
         border: none;
+        margin: 80px auto;
     }
 }
 
 @media screen and (max-width: 568px) {
     .container {
-        width: 100vw;
+        width: 100%;
     }
     .content {
-        width: 100vw;
+        width: 100%;
         border: none;
+        margin: 80px auto;
     }
 }
 

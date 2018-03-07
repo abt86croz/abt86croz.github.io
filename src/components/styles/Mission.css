@@ -29,13 +29,13 @@
 
 @media screen and (max-width: 768px) {
     .mission-container {
-        margin: 0 auto 55px auto;
+        margin: 0 auto;
     }
 }
 
 @media screen and (max-width: 568px) {
     .mission-container {
-        margin: 0 auto 55px auto;
-        background-size: cover;
+        margin: 0 auto;
+        background-size: 100% 100%;
     }
 }

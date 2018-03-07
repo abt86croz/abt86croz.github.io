@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 768px) {
   .registration-container {
-    margin: 0 auto 55px auto;
+    margin: 0 auto;
   }
   .registration-container .content {
     background-color: rgba(255, 255, 255, 0.8) !important;
@@ -25,7 +25,7 @@
 
 @media screen and (max-width: 568px) {
   .registration-container {
-    margin: 0 auto 55px auto;
+    margin: 0 auto;
     background-size: cover;
   }
   .registration-container .content {
@@ -56,12 +56,13 @@
 
 @media screen and (max-width: 768px) {
   .scholarships-container {
-    margin: 0 auto 55px auto;
+    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 568px) {
   .scholarships-container {
-    margin: 0 auto 55px auto;
+    margin: 0 auto;
+    background-size: 100% 100%;
   }
 }

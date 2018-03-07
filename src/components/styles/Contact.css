@@ -85,7 +85,7 @@
 
 @media screen and (max-width: 768px) {
     .contact-container {
-        margin: 0 auto 55px auto;
+        margin: 0 auto;
     }
     .contact-container #wrap p {
         font-size: 18px;
@@ -103,7 +103,8 @@
 
 @media screen and (max-width: 568px) {
     .contact-container {
-        margin: 0 auto 55px auto;
+        margin: 0 auto;
+        background-size: 100% 100%;
     }
     .contact-container #wrap p {
         font-size: 18px;

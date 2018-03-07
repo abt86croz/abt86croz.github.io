@@ -13,11 +13,12 @@
   margin: 80px auto 0 auto;
 }
 
-.schedule-container .google-class-schedule {
+.schedule-container iframe {
   display: block;
   margin: 30px auto 0 auto;
   width: 95%;
   height: 550px;
+  box-sizing: border-box;
 }
 
 .schedule-container .btn-sm {
@@ -54,7 +55,7 @@
 }
 
 .schedule-container .btn-wrap {
-  margin-bottom: 70px;
+  margin: 39px auto 70px auto;
 }
 
 /* MOBILE */
@@ -64,11 +65,13 @@
     margin: 0 auto;
   }
   .schedule-container .content {
-    background-color: rgba(255, 255, 255, 0.8) !important;
+    background: none !important;
   }
   .schedule-container iframe {
-    height: auto;
-    width: 95%;
+    height: 500px;
+    width: 700px;
+    position: relative;
+    top: 10px;
   }
   .schedule-container .classType p {
     font-size: 14px;
@@ -77,12 +80,26 @@
     width: 100%;
     background: none;
   }
+  .schedule-container .data-wrap {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: 540px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
 }
 
 @media screen and (max-width: 568px) {
   .schedule-container {
     margin: 0 auto;
     background-size: 100% 100%;
+  }
+  .schedule-container .data-wrap {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: 330px;
+    background: none;
   }
   .schedule-container .content {
     background-color: rgba(255, 255, 255, 0.8) !important;
@@ -95,8 +112,10 @@
     background: none;
   }
   .schedule-container iframe {
-    height: auto;
-    width: 95% !important;
+    height: 320px;
+    width: 360px !important;
+    position: relative;
+    top: 15px;
   }
 }
 

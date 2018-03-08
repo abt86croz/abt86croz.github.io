@@ -13,12 +13,20 @@
   margin: 80px auto 0 auto;
 }
 
-.schedule-container iframe {
-  display: block;
-  margin: 30px auto 0 auto;
-  width: 95%;
-  height: 550px;
+.schedule-container .google-class-container {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin: 20px auto 0 auto;
   box-sizing: border-box;
+}
+
+.schedule-container iframe {
+  width: 90%;
+  height: 700px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: block;
 }
 
 .schedule-container .btn-sm {
@@ -68,10 +76,10 @@
     background: none !important;
   }
   .schedule-container iframe {
-    height: 500px;
     width: 700px;
-    position: relative;
-    top: 10px;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
   }
   .schedule-container .classType p {
     font-size: 14px;
@@ -114,8 +122,8 @@
   .schedule-container iframe {
     height: 320px;
     width: 360px !important;
-    position: relative;
-    top: 15px;
+    margin: 0 auto;
+    display: block;
   }
 }
 

@@ -24,10 +24,6 @@ const Data = () => {
     })
 }
 
-/*
-    <iframe className="google-class-schedule" title="ABT Class Schedule" src="https://calendar.google.com/calendar/embed?src=albemarleballettheatre%40gmail.com&ctz=America%2FNew_York" frameborder="0" scrolling="yes"></iframe>        
-*/
-
 const WeeklySchedule = () => (
     <div className="schedule-container">
         <div className='content'>
@@ -35,7 +31,10 @@ const WeeklySchedule = () => (
                 <Data />
             </div>
         </div>
-        <iframe className="google-class-schedule" title="ABT Class Schedule" src="https://calendar.google.com/calendar/embed?src=albemarleballettheatre%40gmail.com&ctz=America%2FNew_York" frameBorder="0" scrolling="yes"></iframe>
+        <div className='google-class-container'>
+            <iframe title="ABT Class Schedule" src="https://calendar.google.com/calendar/embed?src=albemarleballettheatre%40gmail.com&ctz=America%2FNew_York" frameBorder="0" scrolling="no"></iframe>
+        </div>
+        <div className='clear'></div>
         <div className='btn-wrap'>
             <a className='btn-sm bt' href={ClassSchePDF} target="_blank" rel="noopener noreferrer"><PDFIcon /> Print Schedule & Registration Form</a>
             <Link to='/classes/description' className='btn-sm bt' href="">Class Descriptions <RightArrow /></Link>

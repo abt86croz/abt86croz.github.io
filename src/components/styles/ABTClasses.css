@@ -97,6 +97,20 @@
   }
 }
 
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .schedule-container iframe {
+    height: 340px;
+    width: 480px;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
 @media screen and (max-width: 568px) {
   .schedule-container {
     margin: 0 auto;
@@ -121,7 +135,7 @@
   }
   .schedule-container iframe {
     height: 340px;
-    width: 300px;
+    width: 98vw;
     margin: 0 auto;
     display: block;
   }

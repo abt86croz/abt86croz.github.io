@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:bold');
 html body {
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 /* Global Styles */

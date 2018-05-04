@@ -1,4 +1,4 @@
-const webpack = require('webpack');
+const webpack = require('webpack')
 
 module.exports = {
   entry: `${__dirname}/src/index.js`,
@@ -13,7 +13,7 @@ module.exports = {
     rules: [
       { test: /\.html$/, loader: 'html-loader?attrs[]=video:src' },
       { test: /\.(mov|mp4)$/, loader: 'url-loader' },
-      { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
+      { test: /\.js$/, exclude: /node_modules/, loader: ['babel-loader', 'eslint-loader'] },
       {
         test: /\.css$/,
         use: ['style-loader', { loader: 'css-loader', options: { minimize: true } }],
@@ -21,13 +21,13 @@ module.exports = {
       {
         test: /\.(pdf|jpg|png|svg)$/,
         use: {
-          loader: "file-loader",
+          loader: 'file-loader',
           options: {
-            name: "[path][name].[hash].[ext]",
+            name: '[path][name].[hash].[ext]',
           },
         },
       },
-    ]
+    ],
   },
 
   plugins: process.argv.indexOf('-p') === -1 ? [] : [
@@ -37,5 +37,4 @@ module.exports = {
       },
     }),
   ],
-};
-
+}

@@ -81,6 +81,16 @@
     height: 450px
 }
 
+.contact-container .mailing-address p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px !important;
+}
+
+.contact-container #wrap hr {
+    width: 300px;
+}
+
 /* MOBILE */
 
 @media screen and (max-width: 768px) {

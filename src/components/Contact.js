@@ -27,7 +27,7 @@ const Contact = () => (
         </p>
         <div className="mailing-address">
           <p>Mailing Address:</p>
-          <p>PO box 805 Crozet, VA 22932</p>
+          <p>P.O. Box 805 Crozet, VA 22932</p>
         </div>
         <hr />
       </div>

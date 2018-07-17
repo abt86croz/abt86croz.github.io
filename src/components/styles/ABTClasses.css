@@ -1,6 +1,6 @@
 .schedule-container {
   background: url('../../images/site/schedule.jpg') no-repeat fixed;
-  background-size: 500px 100%;
+  background-size: auto 100%;
   width: 100vw;
   margin: 0 auto;
   display: inline-table;

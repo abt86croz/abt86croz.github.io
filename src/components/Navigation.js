@@ -6,7 +6,6 @@ import { Logo } from './Images'
 import './styles/Navigation.css'
 
 const Navigation = () => (
-
   <Navbar fluid collapseOnSelect>
     <Navbar.Header>
       <Navbar.Brand>
@@ -38,8 +37,8 @@ const Navigation = () => (
             <MenuItem eventKey={3.2}>Description</MenuItem>
           </LinkContainer>
 
-          <LinkContainer to="/classes/special-needs-dance-class">
-            <MenuItem eventKey={3.3}>Special Needs</MenuItem>
+          <LinkContainer to="/classes/movement-therapy">
+            <MenuItem eventKey={3.3}>Movement Therapy</MenuItem>
           </LinkContainer>
           <LinkContainer to="/classes/summer-program">
             <MenuItem eventKey={3.4}>Summer Program</MenuItem>

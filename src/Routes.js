@@ -7,7 +7,8 @@ import NotFound from './components/NotFound'
 import Mission from './components/Mission'
 import Faculty from './components/Faculty'
 import Performances from './components/Performances'
-import { WeeklySchedule, Description, EspecialNeeds } from './components/ABTClasses'
+import MovementTherapy from './components/movement-therapy/MovementTherapy'
+import { WeeklySchedule, Description } from './components/ABTClasses'
 import SummerProgram from './components/SummerProgram'
 import PhotoGallery from './components/PhotoGallery'
 
@@ -22,7 +23,7 @@ const Routes = () => (
     <Route path="/registration/scholarships" exact component={Scholarships} />
     <Route path="/classes/schedule" component={WeeklySchedule} />
     <Route path="/classes/description" component={Description} />
-    <Route path="/classes/special-needs-dance-class" component={EspecialNeeds} />
+    <Route path="/classes/movement-therapy" component={MovementTherapy} />
     <Route path="/classes/summer-program" component={SummerProgram} />
     <Redirect from="/classes/" to="/classes/schedule" />
     <Route path="/performances" exact component={Performances} />

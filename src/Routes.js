@@ -8,7 +8,7 @@ import Mission from './components/Mission'
 import Faculty from './components/Faculty'
 import Performances from './components/Performances'
 import MovementTherapy from './components/movement-therapy/MovementTherapy'
-import { WeeklySchedule, Description } from './components/ABTClasses'
+import { WeeklySchedule, Description } from './components/abt-classes/ABTClasses'
 import SummerProgram from './components/SummerProgram'
 import PhotoGallery from './components/PhotoGallery'
 

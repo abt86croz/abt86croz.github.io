@@ -10,10 +10,10 @@
 .schedule-container .content {
   background: none !important;
   border: none;
-  margin: 80px auto 0 auto;
+  margin: 20px auto 0 auto;
 }
 
-.schedule-container .google-class-container {
+.schedule-container .calendar-class-container {
   display: inline-block;
   width: 100%;
   height: auto;
@@ -22,10 +22,10 @@
 }
 
 .schedule-container iframe {
-  width: 90%;
-  height: 700px;
+  width: 800px;
+  height: 620px;
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: 65px 20px 0 auto;
   display: block;
 }
 
@@ -77,8 +77,8 @@
   }
   .schedule-container iframe {
     width: 700px;
-    height: 500px;
-    margin: 0 auto;
+    height: 630px;
+    margin: 50px auto 0 auto;
     display: block;
   }
   .schedule-container .classType p {
@@ -104,9 +104,9 @@
 
 @media (min-width: 481px) and (max-width: 767px) {
   .schedule-container iframe {
-    height: 340px;
+    height: 670px;
     width: 480px;
-    margin: 0 auto;
+    margin: 50px auto 0 auto;
     display: block;
   }
 }
@@ -124,6 +124,7 @@
     background: none;
   }
   .schedule-container .content {
+    margin-top: 750px;
     background-color: rgba(255, 255, 255, 0.8) !important;
   }
   .schedule-container .classType p {
@@ -133,11 +134,17 @@
     width: 100%;
     background: none;
   }
+  .schedule-container .calendar-class-container {
+    position: relative;
+    height: 0;
+  }
   .schedule-container iframe {
-    height: 340px;
-    width: 98vw;
-    margin: 0 auto;
+    height: 670px;
+    width: 100vw;
+    margin: 60px auto 0 auto;
     display: block;
+    padding: 0;
+    position: absolute;
   }
 }
 

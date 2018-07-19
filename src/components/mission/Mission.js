@@ -2,7 +2,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import RightArrow from 'react-icons/lib/fa/angle-double-right'
-import './styles/Mission.css'
+import './Mission.css'
 
 /* eslint-disable max-len */
 const Mission = () => (

@@ -45,7 +45,7 @@ const FinancialAid = () => (
       </p>
       <p>
         With the help of local businesses and community members,
-        <span className="bold"> SFTPA has provided over $60K in scholarships to nearly sixty local students.</span>
+        SFTPA has provided over $60K in scholarships to nearly sixty local students.
       </p>
       <div className="button-wrap">
         <a className="bt" href={ScholarshipApplication} target="_blank" rel="noopener noreferrer">Scholarship Application <PDFIcon /></a>

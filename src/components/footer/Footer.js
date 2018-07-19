@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/Footer.css'
+import './Footer.css'
 
 /* eslint-disable max-len */
 const Footer = () => (

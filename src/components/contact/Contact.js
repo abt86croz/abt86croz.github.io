@@ -2,7 +2,7 @@ import React from 'react'
 import Facebook from 'react-icons/lib/fa/facebook-official'
 import Mail from 'react-icons/lib/fa/envelope'
 import Phone from 'react-icons/lib/fa/phone'
-import './styles/Contact.css'
+import './Contact.css'
 
 /* eslint-disable max-len */
 const Contact = () => (

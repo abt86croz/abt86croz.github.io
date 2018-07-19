@@ -1,16 +1,17 @@
 import React from 'react'
 import { Route, Switch, Redirect } from 'react-router-dom'
 import Home from './components/Home'
-import Contact from './components/Contact'
-import { Forms, Scholarships } from './components/Registration'
+import Contact from './components/contact/Contact'
 import NotFound from './components/NotFound'
 import Mission from './components/Mission'
 import Faculty from './components/Faculty'
 import Performances from './components/Performances'
 import MovementTherapy from './components/movement-therapy/MovementTherapy'
-import { WeeklySchedule, Description } from './components/abt-classes/ABTClasses'
 import SummerProgram from './components/SummerProgram'
 import PhotoGallery from './components/PhotoGallery'
+import { WeeklySchedule, Description } from './components/abt-classes/ABTClasses'
+import { Forms, Scholarships } from './components/Registration'
+
 
 const Routes = () => (
   <Switch>

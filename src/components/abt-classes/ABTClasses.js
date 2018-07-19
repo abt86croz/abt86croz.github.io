@@ -48,12 +48,12 @@ const Description = () => (
   <div className="description-container">
     <div className="content">
       <div className="quote-container">
-        <p className="italic quote">
-          &quot;Our seasoned teachers all come from professional dance
+        <p className="italic">
+          Our seasoned teachers all come from professional dance
           backgrounds and offer a cohesive blend of Russian and English ballet
           training with strong emphasis on correct alignment and placement,
           strength, flexibility, terminology, etiquette and respect, strong work
-          ethic, and professionalism.&quot;
+          ethic, and professionalism.
         </p>
       </div>
       <p className="heading bold">Class Descriptions</p>

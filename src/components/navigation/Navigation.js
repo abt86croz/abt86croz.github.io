@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
-import { Logo } from './Images'
-import './styles/Navigation.css'
+import { Logo } from '../Images'
+import './Navigation.css'
 
 const Navigation = () => (
   <Navbar fluid collapseOnSelect>
@@ -18,6 +18,7 @@ const Navigation = () => (
 
     <Navbar.Collapse>
       <Nav pullRight>
+        {/* About */}
         <NavDropdown eventKey={3} id="formId" title="About">
           <LinkContainer to="/about/faculty">
             <MenuItem eventKey={3.1}>Faculty</MenuItem>
@@ -28,6 +29,7 @@ const Navigation = () => (
           </LinkContainer>
         </NavDropdown>
 
+        {/* Classes */}
         <NavDropdown eventKey={3} id="formId" title="Classes">
           <LinkContainer to="/classes/schedule">
             <MenuItem eventKey={3.1}>Schedule</MenuItem>
@@ -45,10 +47,14 @@ const Navigation = () => (
           </LinkContainer>
         </NavDropdown>
 
-        <LinkContainer to="/registration">
-          <NavItem className="nav-menu">Registration</NavItem>
-        </LinkContainer>
+        {/* Registration */}
+        <NavDropdown eventKey={3} id="formId" title="Registration">
+          <LinkContainer to="/registration/financial-aid">
+            <MenuItem eventKey={3.1}>Financial Aid</MenuItem>
+          </LinkContainer>
+        </NavDropdown>
 
+        {/* Performances */}
         <LinkContainer to="/performances">
           <NavItem className="nav-menu">Performances</NavItem>
         </LinkContainer>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Routes from './Routes'
 import Footer from './components/Footer'
-import Navigation from './components/Navigation'
+import Navigation from './components/navigation/Navigation'
 import './App.css'
 
 const App = () => (

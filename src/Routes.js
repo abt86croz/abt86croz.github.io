@@ -10,7 +10,7 @@ import MovementTherapy from './components/movement-therapy/MovementTherapy'
 import SummerProgram from './components/SummerProgram'
 import PhotoGallery from './components/PhotoGallery'
 import { WeeklySchedule, Description } from './components/abt-classes/ABTClasses'
-import { Forms, Scholarships } from './components/Registration'
+import { Forms, FinancialAid } from './components/registration/Registration'
 
 
 const Routes = () => (
@@ -21,7 +21,8 @@ const Routes = () => (
     <Route path="/about/what-we-do" exact component={Mission} />
     <Redirect from="/about/" to="/about/faculty" />
     <Route path="/registration" exact component={Forms} />
-    <Route path="/registration/scholarships" exact component={Scholarships} />
+    <Route path="/registration/financial-aid" exact component={FinancialAid} />
+    <Redirect from="/registration/" to="/registration/forms" />
     <Route path="/classes/schedule" component={WeeklySchedule} />
     <Route path="/classes/description" component={Description} />
     <Route path="/classes/movement-therapy" component={MovementTherapy} />

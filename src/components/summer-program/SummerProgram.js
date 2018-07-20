@@ -1,8 +1,8 @@
 import React from 'react'
 import PDFIcon from 'react-icons/lib/fa/file-pdf-o'
-import SummerRegistrationForm from '../pdf/2018SummerRegistration.pdf'
-import './styles/SummerProgram.css'
-import { SummerPosterImage } from './Images'
+import SummerRegistrationForm from '../../pdf/2018SummerRegistration.pdf'
+import './SummerProgram.css'
+import { SummerPosterImage } from '../Images'
 
 /* eslint-disable max-len */
 const SummerProgram = () => (

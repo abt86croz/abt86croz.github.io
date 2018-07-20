@@ -1,6 +1,6 @@
 import React from 'react'
-import { SallyImage, AshleyImage, VeronicaImage, AmandaImage } from './Images'
-import './styles/Faculty.css'
+import { SallyImage, AshleyImage, VeronicaImage, AmandaImage } from '../Images'
+import './Faculty.css'
 
 /* eslint-disable max-len */
 const Faculty = () => (

@@ -1,6 +1,6 @@
 import React from 'react'
-import { SpringPerformanceImage } from './Images'
-import './styles/Performances.css'
+import { SpringPerformanceImage } from '../Images'
+import './Performances.css'
 
 /* eslint-disable max-len */
 const Performances = () => (

@@ -65,6 +65,10 @@ input[type=file] {
   text-align: center;
 }
 
+.small {
+  font-size: 14px;
+}
+
 p {
     font-size: 18px;
 }

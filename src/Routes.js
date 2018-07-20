@@ -12,14 +12,17 @@ import PhotoGallery from './components/PhotoGallery'
 import { WeeklySchedule, Description } from './components/abt-classes/ABTClasses'
 import { Forms, FinancialAid } from './components/registration/Registration'
 
+// Route paths
+const aboutPhilosophy = '/about/our-philosophy'
+const aboutInstructors = '/about/our-instructors'
 
 const Routes = () => (
   <Switch>
     <Route path="/" exact component={Home} />
     <Route path="/contact" exact component={Contact} />
-    <Route path="/about/faculty" exact component={Faculty} />
-    <Route path="/about/what-we-do" exact component={Mission} />
-    <Redirect from="/about/" to="/about/faculty" />
+    <Route path={`${aboutInstructors}`} exact component={Faculty} />
+    <Route path={`${aboutPhilosophy}`} exact component={Mission} />
+    <Redirect from="/about/" to={`${aboutInstructors}`} />
     <Route path="/registration" exact component={Forms} />
     <Route path="/registration/financial-aid" exact component={FinancialAid} />
     <Redirect from="/registration/" to="/registration/forms" />

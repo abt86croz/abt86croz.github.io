@@ -1,41 +1,45 @@
 .mission-container {
-    background: url('../../images/site/about.jpg') no-repeat fixed;
-    background-size: 500px 100%;
-    width: 100vw;
-    margin: 0 auto;
-    display: inline-table;
-    height: 100vh;
+  background: url('../../images/site/about.jpg') no-repeat fixed;
+  background-size: 500px 100%;
+  width: 100vw;
+  margin: 0 auto;
+  display: inline-table;
+  height: 100vh;
 }
 
 .mission-container .title {
-    font-size: 26px;
-    padding-top: 12px;
+  font-size: 26px;
+  padding-top: 12px;
 }
 
 .mission-container .sub-title {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .mission-container p {
-    padding: 0 30px 0 20px;
+  padding: 0 30px 0 20px;
+}
+
+.mission-container .content p.small.italic.center {
+  padding-top: 30px !important;
 }
 
 .mission-container .btn-wrap {
-    margin: 0 auto 20px auto;
-    display: table;
+  margin: 0 auto 20px auto;
+  display: table;
 }
 
 /* MOBILE */
 
 @media screen and (max-width: 768px) {
-    .mission-container {
-        margin: 0 auto;
-    }
+  .mission-container {
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 568px) {
-    .mission-container {
-        margin: 0 auto;
-        background-size: 100% 100%;
-    }
+  .mission-container {
+    margin: 0 auto;
+    background-size: 100% 100%;
+  }
 }

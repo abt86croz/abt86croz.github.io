@@ -21,11 +21,11 @@ const Navigation = () => (
         {/* About */}
         <NavDropdown eventKey={3} id="formId" title="About">
           <LinkContainer to="/about/faculty">
-            <MenuItem eventKey={3.1}>Faculty</MenuItem>
+            <MenuItem eventKey={3.1}>Our Instructors</MenuItem>
           </LinkContainer>
 
-          <LinkContainer to="/about/what-we-do">
-            <MenuItem eventKey={3.2}>What We Do</MenuItem>
+          <LinkContainer to="/about/our-philosophy">
+            <MenuItem eventKey={3.2}>Our Philosophy</MenuItem>
           </LinkContainer>
         </NavDropdown>
 

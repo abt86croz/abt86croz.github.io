@@ -28,6 +28,37 @@
   padding: 0 30px 0 20px;
 }
 
+.tuition-container .table {
+  padding: 30px 0;
+  margin: 0 auto;
+  text-align: center;
+  width: 350px;
+}
+
+.tuition-container .flexbox {
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+}
+
+.tuition-container .centerRow {
+  text-align: center;
+  background: lightgray;
+  width: 350px;
+  border: 0.7px solid #c7c8c9;
+}
+
+.tuition-container .leftRow {
+  width: 175px;
+  border: .0.6px solid #c7c8c9;
+}
+
+.tuition-container .rightRow {
+  border: .6px solid #c7c8c9;
+  width: 175px;
+}
+
 /* MOBILE */
 
 @media screen and (max-width: 768px) {

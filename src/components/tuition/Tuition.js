@@ -1,6 +1,31 @@
 import React from 'react'
 import './Tuition.css'
 
+const tuitionDiscounts = [
+  { numberOfClasses: 'Classes per week', price: 'Rate after discount', id: 1 },
+  { numberOfClasses: '1', price: '$298', id: 2 },
+  { numberOfClasses: '2', price: '$518', id: 3 },
+  { numberOfClasses: '3', price: '$722', id: 4 },
+  { numberOfClasses: '4', price: '$920', id: 5 },
+  { numberOfClasses: '5', price: '$1,053', id: 6 },
+  { numberOfClasses: '6', price: '$1,185', id: 7 },
+  { numberOfClasses: '7', price: '$1,317', id: 8 },
+  { numberOfClasses: '8', price: '$1,450', id: 9 },
+  { numberOfClasses: '9', price: '$1,581', id: 10 },
+  { numberOfClasses: '10', price: '$1,653', id: 11 },
+]
+
+const GenerateTuitionDiscountTable = () => {
+  return tuitionDiscounts.map((o) => {
+    return (
+      <div className="flexbox" key={o.id.toString()}>
+        <div className="leftRow">{o.numberOfClasses}</div>
+        <div className="rightRow">{o.price}</div>
+      </div>
+    )
+  })
+}
+
 /* eslint-disable max-len */
 const Tuition = () => (
   <div className="tuition-container">
@@ -52,9 +77,31 @@ const Tuition = () => (
         first and last name in the memo of your check or include a note.
       </p>
       <p className="italic">
-        <span className="bold">Write checks to Albemarle Ballet Theatre and drop off or mail to:</span> <br />
+        <span className="bold">
+          Write checks to Albemarle Ballet Theatre and drop off or mail to:
+        </span>
+        <br />
         P.O. Box 805 <br />
         Crozet, VA 22932
+      </p>
+      <div className="table">
+        <div className="centerRow center bold">16-Week Semester</div>
+        <GenerateTuitionDiscountTable />
+      </div>
+      <p>
+        <span className="underline bold">Mat Pilates</span> <br />
+        Drop-in Classes: $15 <br />
+        10-Class Card: $120 <br />
+        *Drop-in classes are listed under ‘Events’ in the Dancer Portal. **Class
+        cards can be purchased in person at ABT.
+      </p>
+      <p>
+        <span className="underline bold">
+          Baby & Me Barre, Dance With Me & Creative Movement Classes, Movement
+        </span>
+        <br />
+        Therapy 8-Week Session: $149 <br />
+        *Must be paid in full.<br />
       </p>
     </div>
   </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import PDFIcon from 'react-icons/lib/fa/file-pdf-o'
 import RightArrow from 'react-icons/lib/fa/angle-double-right'
 import { Link } from 'react-router-dom'
-import { weeklyClasses } from '../../data/ClassSchedule'
+import { weeklyClasses } from './ClassScheduleData'
 import './ClassSchedule.css'
 import ClassSchePDF from '../../pdf/class-schedule.pdf'
 

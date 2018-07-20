@@ -9,8 +9,10 @@ import Performances from './components/Performances'
 import MovementTherapy from './components/movement-therapy/MovementTherapy'
 import SummerProgram from './components/SummerProgram'
 import PhotoGallery from './components/PhotoGallery'
+import Tuition from './components/tuition/Tuition'
 import { WeeklySchedule, Description } from './components/abt-classes/ABTClasses'
 import { Forms, FinancialAid } from './components/registration/Registration'
+// import HandbookDoc from './pdf/2018-2019-handbook-policies.pdf'
 
 // Route paths
 const aboutPhilosophy = '/about/our-philosophy'
@@ -25,6 +27,7 @@ const Routes = () => (
     <Redirect from="/about/" to={`${aboutInstructors}`} />
     <Route path="/registration" exact component={Forms} />
     <Route path="/registration/financial-aid" exact component={FinancialAid} />
+    <Route path="/registration/tuition" exact component={Tuition} />
     <Redirect from="/registration/" to="/registration/forms" />
     <Route path="/classes/schedule" component={WeeklySchedule} />
     <Route path="/classes/description" component={Description} />

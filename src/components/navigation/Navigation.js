@@ -3,7 +3,12 @@ import { Link } from 'react-router-dom'
 import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
 import { Logo } from '../Images'
+import HandbookDoc from '../../pdf/2018-2019-handbook-policies.pdf'
 import './Navigation.css'
+
+const handlePoliciesClick = () => {
+  window.open(HandbookDoc, '_blank')
+}
 
 const Navigation = () => (
   <Navbar fluid collapseOnSelect>
@@ -52,6 +57,13 @@ const Navigation = () => (
           <LinkContainer to="/registration/financial-aid">
             <MenuItem eventKey={3.1}>Financial Aid</MenuItem>
           </LinkContainer>
+          <LinkContainer to="/registration/tuition">
+            <MenuItem eventKey={3.2}>Tuition</MenuItem>
+          </LinkContainer>
+          <MenuItem onClick={handlePoliciesClick} eventKey={3.3}>
+              Policies
+            </MenuItem>
+
         </NavDropdown>
 
         {/* Performances */}
@@ -69,6 +81,6 @@ const Navigation = () => (
       </Nav>
     </Navbar.Collapse>
   </Navbar>
-)
+  )
 
 export default Navigation

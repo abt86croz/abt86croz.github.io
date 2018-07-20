@@ -1,0 +1,44 @@
+.tuition-container {
+  background: url('../../images/site/financial-aid.jpg') no-repeat fixed;
+  background-size: 500px 100%;
+  width: 100vw;
+  margin: 0 auto;
+  display: inline-table;
+  height: 100vh;
+}
+
+.tuition-container .title {
+  font-size: 26px;
+  padding-top: 12px;
+}
+
+.tuition-container .sub-title {
+  font-size: 18px;
+}
+
+.tuition-container p:first-child {
+  padding-top: 30px;
+}
+
+.tuition-container p:last-child {
+  padding-bottom: 30px;
+}
+
+.tuition-container p {
+  padding: 0 30px 0 20px;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+  .tuition-container {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .tuition-container {
+    margin: 0 auto;
+    background-size: 100% 100%;
+  }
+}

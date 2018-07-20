@@ -8,34 +8,44 @@ import Faculty from './components/faculty/Faculty'
 import Performances from './components/performances/Performances'
 import MovementTherapy from './components/movement-therapy/MovementTherapy'
 import SummerProgram from './components/summer-program/SummerProgram'
-import PhotoGallery from './components/PhotoGallery'
+import PhotoGallery from './components/photo-gallery/PhotoGallery'
 import Tuition from './components/tuition/Tuition'
-import { WeeklySchedule, Description } from './components/abt-classes/ABTClasses'
-import { Forms, FinancialAid } from './components/registration/Registration'
-// import HandbookDoc from './pdf/2018-2019-handbook-policies.pdf'
+import FinancialAid from './components/financial-aid/FinancialAid'
+import Forms from './components/registration/Registration'
+import Description from './components/class-description/ClassDescription'
+import Schedule from './components/class-schedule/ClassSchedule'
 
 // Route paths
-const aboutPhilosophy = '/about/our-philosophy'
-const aboutInstructors = '/about/our-instructors'
+const contactPath = '/contact'
+const philosophyPath = '/about/our-philosophy'
+const instructorsPath = '/about/our-instructors'
+const financialAidPath = '/registration/financial-aid'
+const tuitionPath = '/registration/tuition'
+const descriptionPath = '/classes/description'
+const movementTherapyPath = '/classes/movement-therapy'
+const summerProgramPath = '/classes/summer-program'
+const classSchedulePath = '/classes/schedule'
+const performancesPath = '/performances'
+const photosPath = '/photos'
 
 const Routes = () => (
   <Switch>
     <Route path="/" exact component={Home} />
-    <Route path="/contact" exact component={Contact} />
-    <Route path={`${aboutInstructors}`} exact component={Faculty} />
-    <Route path={`${aboutPhilosophy}`} exact component={Mission} />
-    <Redirect from="/about/" to={`${aboutInstructors}`} />
+    <Route path={contactPath} exact component={Contact} />
+    <Route path={instructorsPath} exact component={Faculty} />
+    <Route path={philosophyPath} exact component={Mission} />
+    <Redirect from="/about/" to={instructorsPath} />
     <Route path="/registration" exact component={Forms} />
-    <Route path="/registration/financial-aid" exact component={FinancialAid} />
-    <Route path="/registration/tuition" exact component={Tuition} />
+    <Route path={financialAidPath} exact component={FinancialAid} />
+    <Route path={tuitionPath} exact component={Tuition} />
     <Redirect from="/registration/" to="/registration/forms" />
-    <Route path="/classes/schedule" component={WeeklySchedule} />
-    <Route path="/classes/description" component={Description} />
-    <Route path="/classes/movement-therapy" component={MovementTherapy} />
-    <Route path="/classes/summer-program" component={SummerProgram} />
-    <Redirect from="/classes/" to="/classes/schedule" />
-    <Route path="/performances" exact component={Performances} />
-    <Route path="/photos" exact component={PhotoGallery} />
+    <Route path={classSchedulePath} component={Schedule} />
+    <Route path={descriptionPath} component={Description} />
+    <Route path={movementTherapyPath} component={MovementTherapy} />
+    <Route path={summerProgramPath} component={SummerProgram} />
+    <Redirect from="/classes/" to={classSchedulePath} />
+    <Route path={performancesPath} exact component={Performances} />
+    <Route path={photosPath} exact component={PhotoGallery} />
     <Route component={NotFound} />
   </Switch>
 )

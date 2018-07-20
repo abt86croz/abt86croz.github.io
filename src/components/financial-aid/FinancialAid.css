@@ -1,0 +1,37 @@
+/* financial-aid Container */
+
+.financial-aid-container {
+  background: url('../../images/site/scholarship_min.jpg') no-repeat fixed;
+  background-size: 500px 100%;
+  width: 100vw;
+  margin: 0 auto;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.financial-aid-container .content p {
+  padding: 20px 30px 0 20px;
+}
+
+.financial-aid-container .content p:last-child {
+  padding-bottom: 20px;
+}
+
+.financial-aid-container .button-wrap {
+  padding-top: 20px;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+  .financial-aid-container {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .financial-aid-container {
+    margin: 0 auto;
+    background-size: 100% 100%;
+  }
+}

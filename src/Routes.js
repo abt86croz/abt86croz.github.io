@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Switch, Redirect } from 'react-router-dom'
-import Home from './components/Home'
+import Home from './components/home/Home'
 import Contact from './components/contact/Contact'
 import NotFound from './components/not-found/NotFound'
 import Mission from './components/mission/Mission'

@@ -18,7 +18,7 @@ const tuitionDiscounts = [
 const GenerateTuitionDiscountTable = () => {
   return tuitionDiscounts.map((o) => {
     return (
-      <div className="flexbox" key={o.id.toString()}>
+      <div className="flexbox" id={`id${o.id}`} key={o.id.toString()}>
         <div className="leftRow">{o.numberOfClasses}</div>
         <div className="rightRow">{o.price}</div>
       </div>
@@ -92,12 +92,12 @@ const Tuition = () => (
         <span className="underline bold">Mat Pilates</span> <br />
         Drop-in Classes: $15 <br />
         10-Class Card: $120 <br />
-        *Drop-in classes are listed under ‘Events’ in the Dancer Portal. **Class
-        cards can be purchased in person at ABT.
+        *Drop-in classes are listed under ‘Events’ in the Dancer Portal. <br />
+        **Class cards can be purchased in person at ABT.
       </p>
       <p>
         <span className="underline bold">
-          Baby & Me Barre, Dance With Me & Creative Movement Classes, Movement
+          Baby & Me Barre, Movement Therapy, Dance With Me & Creative Movement
         </span>
         <br />
         Therapy 8-Week Session: $149 <br />

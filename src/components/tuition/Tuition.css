@@ -47,16 +47,19 @@
   background: lightgray;
   width: 350px;
   border: 0.7px solid #c7c8c9;
+  border-bottom: none;
 }
 
-.tuition-container .leftRow {
+.tuition-container .leftRow, .tuition-container .rightRow {
   width: 175px;
   border: .0.6px solid #c7c8c9;
+  border-bottom: none;
+  text-align: left;
+  padding-left: 6px;
 }
 
-.tuition-container .rightRow {
-  border: .6px solid #c7c8c9;
-  width: 175px;
+.tuition-container #id11 {
+  border-bottom: 0.6px solid #c7c8c9;
 }
 
 /* MOBILE */

@@ -10,6 +10,10 @@ const handlePoliciesClick = () => {
   window.open(HandbookDoc, '_blank')
 }
 
+const handleDancerPortalClick = () => {
+  window.open('https://app.jackrabbitclass.com/jr3.0/ParentPortal/Login?orgID=534011', '_blank')
+}
+
 const Navigation = () => (
   <Navbar fluid collapseOnSelect>
     <Navbar.Header>
@@ -73,10 +77,17 @@ const Navigation = () => (
           <NavItem className="nav-menu">Performances</NavItem>
         </LinkContainer>
 
+        {/* Photos */}
         <LinkContainer to="/photos">
           <NavItem className="nav-menu">Photos</NavItem>
         </LinkContainer>
 
+        {/* Portal */}
+        <NavItem className="nav-menu" onClick={handleDancerPortalClick}>
+          Portal
+        </NavItem>
+
+        {/* Contact */}
         <LinkContainer to="/contact">
           <NavItem className="nav-menu">Contact</NavItem>
         </LinkContainer>

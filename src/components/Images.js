@@ -1,5 +1,5 @@
 import React from 'react'
-import AbtLogo from '../images/abt-logo.png'
+import AbtLogo from '../images/logo/logo-white.png'
 import SallyImg from '../images/site/sally.jpg'
 import AshleyImg from '../images/site/ashley.jpg'
 import VeronicaImg from '../images/site/veronica.jpg'

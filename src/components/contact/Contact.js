@@ -17,7 +17,7 @@ const Contact = () => (
         </p>
         <p>
           <a className="bt" href="tel:+1-434-823-8888">
-            <Phone /><span className="space" />434-823-8888
+            <Phone />434-823-8888
           </a>
         </p>
         <p>

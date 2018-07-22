@@ -18,20 +18,84 @@
 
 .class-attire-container p {
   padding: 0 30px 0 20px;
+  margin: 0;
 }
 
-.class-attire-container .content p.small.italic.center {
-  padding-top: 30px !important;
+.class-attire-container .block {
+  padding-bottom: 20px;
 }
 
-.class-attire-container .btn-wrap {
-  margin: 0 auto 20px auto;
-  display: table;
+.class-attire-container .row-1 {
+  float: left;
+  padding: 0 13px 0 20px;
 }
 
-/* MOBILE */
+.class-attire-container .row-2 {
+  display: inline-block;
+  text-align: left;
+  width: 630px;
+}
 
-@media screen and (max-width: 768px) {
+.class-attire-container .girls {
+  padding-left: 4px;
+}
+
+.class-attire-container .italic {
+  padding: 18px 30px 22px 20px;
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .class-attire-container .row-2 {
+    width: 600px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .class-attire-container .row-2 {
+    width: 500px;
+  }
+}
+
+/* ----------- iPad Pro ----------- */
+
+/* Portrait*/
+
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .class-attire-container .row-2 {
+    width: 540px;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .class-attire-container .row-2 {
+    width: 500px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .class-attire-container .row-2 {
+    width: 200px;
+  }
   .class-attire-container {
     margin: 0 auto;
   }
@@ -41,5 +105,8 @@
   .class-attire-container {
     margin: 0 auto;
     background-size: 100% 100%;
+  }
+  .class-attire-container .row-2 {
+    width: 60%;
   }
 }

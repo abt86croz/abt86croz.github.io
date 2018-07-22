@@ -17,8 +17,8 @@ import './Faculty.css'
 const Faculty = () => (
   <div className="faculty-container">
     <div className="bios">
-      <p className="bold">Sally Hart - Owner/Director </p>
       <SallyImage />
+      <span className="bold instructor">Sally Hart - Owner/Director</span>
       <p>
         A former dancer with the Joffrey Ballet under the direction of Robert
         Joffrey. She performed at the grand opening of the Kennedy Center, with
@@ -44,9 +44,11 @@ const Faculty = () => (
     </div>
     <hr />
     <div className="bios">
-      <p className="bold">Veronica Piller - Artistic Director </p>
       <p>
         <VeronicaImage />
+        <span className="bold instructor">
+          Veronica Piller - Artistic Director
+        </span>
         Mrs. Piller is the founder and director of concorDance contemporary, a
         professional contemporary dance company. She formerly danced with the
         Charleston Ballet Theatre, San Diego Ballet, The Garage Contemporary
@@ -72,9 +74,11 @@ const Faculty = () => (
     </div>
     <hr />
     <div className="bios">
-      <p className="bold">Ashley Geisler - Director of Operations/Instructor</p>
       <p>
         <AshleyImage />
+        <span className="bold instructor">
+          Ashley Geisler - Director of Operations/Instructor
+        </span>
         Mrs. Geisler studied with the Old Dominion Ballet Company in Norfolk,
         Virginia, under the husband and wife team of Istvan and Nelli Ament.She
         spent her summers training with Nina Sakhnovskaya of the Vaganova
@@ -92,11 +96,11 @@ const Faculty = () => (
     </div>
     <hr />
     <div className="bios">
-      <p className="bold">
-        Nicky Coelho - Executive Associate/Production Manager
-      </p>
       <p>
         <NickyImage />
+        <span className="bold instructor">
+          Nicky Coelho - Executive Associate/Production Manager
+        </span>
         Mrs. Coelho began dancing with her mother Sally Hart. She has also
         studied with Virginia School of the Arts, Maryland Youth Ballet, and on
         scholarship at the Joffrey Ballet. Nicky has danced with Charleston
@@ -119,9 +123,9 @@ const Faculty = () => (
     </div>
     <hr />
     <div className="bios">
-      <p className="bold">Amanda Jo Parks - Instructor </p>
       <p>
         <AmandaImage />
+        <span className="bold instructor">Amanda Jo Parks - Instructor</span>
         Mrs. Parks received her early dance training under the direction of
         Christine Meneer and then received a scholarship to study at the Dance
         Institute at the University of Akron. She spent summers training at the
@@ -142,9 +146,9 @@ const Faculty = () => (
     </div>
     <hr />
     <div className="bios">
-      <p className="bold">Alanna Mahon - Instructor</p>
       <p>
         <AlannaImage />
+        <span className="bold instructor">Alanna Mahon - Instructor</span>
         Alanna is studio alumni and now instructor and choreographer at ABT.
         Alanna trained at The Joffrey Ballet‘s Jazz/Modern school, The Hip Hop
         Conservatory in NYC, and The Institute For American Musical Theatre.
@@ -160,9 +164,9 @@ const Faculty = () => (
     </div>
     <hr />
     <div className="bios">
-      <p className="bold">Sarah Gillespie - Guest Instructor </p>
       <p>
         <SarahImage />
+        <span className="bold instructor">Sarah Gillespie - Guest Instructor</span>
         Sarah is a tango instructor at ABT. Mrs. Gillespie began her dance
         training in classical ballet under Tristi Ann McMaster Robinson at her
         studio in Richmond Virginia. She continued studying ballet throughout
@@ -179,9 +183,11 @@ const Faculty = () => (
     </div>
     <hr />
     <div className="bios">
-      <p className="bold">Megan Hillary - Guest Instructor</p>
       <p>
         <MeganImage />
+        <span className="bold instructor">
+          Megan Hillary - Guest Instructor
+        </span>
         A returning teacher for Acting for Dancers, Megan holds degrees in
         visual art and technical theater design, though she grew up with ballet
         until college, when she discovered modern and was wholly seduced by it.
@@ -195,9 +201,9 @@ const Faculty = () => (
     </div>
     <hr />
     <div className="bios">
-      <p className="bold">Edwin Roa - Guest Instructor </p>
       <p>
         <EdwinImage />
+        <span className="bold instructor">Edwin Roa - Guest Instructor</span>
         A native of Bogota, Colombia, Edwin O. Roa moved to the US in 1995. He
         is a professional dancer who has trained in multiple dance disciplines
         and he currently teaches ballroom dances at James Madison University.
@@ -212,9 +218,9 @@ const Faculty = () => (
     </div>
     <hr />
     <div className="bios">
-      <p className="bold">Devin Sweet - Guest Instructor </p>
       <p>
         <DevinImage />
+        <span className="bold instructor">Devin Sweet - Guest Instructor </span>
         A native of upstate New York, Devin began his dance training with the
         Fokine Ballet Company at the age of 4. He attended college at the
         University of North Carolia School of the Arts. During his 4 years at

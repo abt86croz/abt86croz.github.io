@@ -14,6 +14,7 @@ import FinancialAid from './components/financial-aid/FinancialAid'
 import Forms from './components/registration/Registration'
 import Description from './components/class-description/ClassDescription'
 import Schedule from './components/class-schedule/ClassSchedule'
+import ClassAttire from './components/class-attire/ClassAttire'
 
 // Route paths
 const contactPath = '/contact'
@@ -23,6 +24,7 @@ const financialAidPath = '/registration/financial-aid'
 const tuitionPath = '/registration/tuition'
 const descriptionPath = '/classes/description'
 const movementTherapyPath = '/classes/movement-therapy'
+const classAttirePath = '/classes/class-attire'
 const summerProgramPath = '/classes/summer-program'
 const classSchedulePath = '/classes/schedule'
 const performancesPath = '/performances'
@@ -42,6 +44,7 @@ const Routes = () => (
     <Route path={classSchedulePath} component={Schedule} />
     <Route path={descriptionPath} component={Description} />
     <Route path={movementTherapyPath} component={MovementTherapy} />
+    <Route path={classAttirePath} component={ClassAttire} />
     <Route path={summerProgramPath} component={SummerProgram} />
     <Redirect from="/classes/" to={classSchedulePath} />
     <Route path={performancesPath} exact component={Performances} />

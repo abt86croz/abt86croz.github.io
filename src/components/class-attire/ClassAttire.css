@@ -1,0 +1,45 @@
+.class-attire-container {
+  background: url('../../images/site/about.jpg') no-repeat fixed;
+  background-size: 500px 100%;
+  width: 100vw;
+  margin: 0 auto;
+  display: inline-table;
+  height: 100vh;
+}
+
+.class-attire-container .title {
+  font-size: 26px;
+  padding-top: 12px;
+}
+
+.class-attire-container .sub-title {
+  font-size: 18px;
+}
+
+.class-attire-container p {
+  padding: 0 30px 0 20px;
+}
+
+.class-attire-container .content p.small.italic.center {
+  padding-top: 30px !important;
+}
+
+.class-attire-container .btn-wrap {
+  margin: 0 auto 20px auto;
+  display: table;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+  .class-attire-container {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .class-attire-container {
+    margin: 0 auto;
+    background-size: 100% 100%;
+  }
+}

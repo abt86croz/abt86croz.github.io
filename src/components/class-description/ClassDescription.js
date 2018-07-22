@@ -9,11 +9,11 @@ const Description = () => (
     <div className="content">
       <div className="quote-container">
         <p className="italic">
-          Our seasoned teachers all come from professional dance
-          backgrounds and offer a cohesive blend of Russian and English ballet
-          training with strong emphasis on correct alignment and placement,
-          strength, flexibility, terminology, etiquette and respect, strong work
-          ethic, and professionalism.
+          Our seasoned teachers all come from professional dance backgrounds and
+          offer a cohesive blend of Russian and English ballet training with
+          strong emphasis on correct alignment and placement, strength,
+          flexibility, terminology, etiquette and respect, strong work ethic,
+          and professionalism.
         </p>
       </div>
       <p className="heading bold">Class Descriptions</p>
@@ -272,10 +272,13 @@ const Description = () => (
           Nelson County, Orange County and Waynesboro.
         </p>
         <p className="italic">
-          For more information, email us at{' '}
+          For more information, email us at
           <a href="mailto:albemarleballettheatre@gmail.com" target="_top">
-            albemarleballettheatre@gmail.com
-          </a>, or call us at <span className="bold">434.823.8888</span>.
+            <span> albemarleballettheatre@gmail.com</span>
+          </a>, or call us at
+          <a href="tel:+1-434-823-8888">
+            <span> (434) 823-8888</span>
+          </a>.
         </p>
         <p>
           <a

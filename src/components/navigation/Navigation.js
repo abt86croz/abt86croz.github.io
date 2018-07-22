@@ -47,8 +47,11 @@ const Navigation = () => (
           <LinkContainer to="/classes/movement-therapy">
             <MenuItem eventKey={3.3}>Movement Therapy</MenuItem>
           </LinkContainer>
+          <LinkContainer to="/classes/class-attire">
+            <MenuItem eventKey={3.4}>Class Attire</MenuItem>
+          </LinkContainer>
           <LinkContainer to="/classes/summer-program">
-            <MenuItem eventKey={3.4}>Summer Program</MenuItem>
+            <MenuItem eventKey={3.5}>Summer Program</MenuItem>
           </LinkContainer>
         </NavDropdown>
 
@@ -61,9 +64,8 @@ const Navigation = () => (
             <MenuItem eventKey={3.2}>Tuition</MenuItem>
           </LinkContainer>
           <MenuItem onClick={handlePoliciesClick} eventKey={3.3}>
-              Policies
-            </MenuItem>
-
+            Policies
+          </MenuItem>
         </NavDropdown>
 
         {/* Performances */}
@@ -81,6 +83,6 @@ const Navigation = () => (
       </Nav>
     </Navbar.Collapse>
   </Navbar>
-  )
+)
 
 export default Navigation

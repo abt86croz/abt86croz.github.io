@@ -1,8 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
-import { Logo } from '../Images'
 import HandbookDoc from '../../pdf/2018-2019-handbook-policies.pdf'
 import './Navigation.css'
 
@@ -17,11 +15,6 @@ const handleDancerPortalClick = () => {
 const Navigation = () => (
   <Navbar fluid collapseOnSelect>
     <Navbar.Header>
-      <Navbar.Brand>
-        <Link to="/">
-          <Logo />
-        </Link>
-      </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>
 

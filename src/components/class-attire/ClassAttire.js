@@ -22,6 +22,7 @@ const ClassAttireContent = () => {
 
 const ClassAttire = () => (
   <div className="class-attire-container">
+    <div className="bg-image class-attire-img" />
     <div className="content">
       <p className="title bold">Class Attire</p>
       <p className="italic">

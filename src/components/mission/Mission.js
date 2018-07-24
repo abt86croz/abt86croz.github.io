@@ -7,6 +7,7 @@ import './Mission.css'
 /* eslint-disable max-len */
 const Mission = () => (
   <div className="mission-container">
+    <div className="bg-image mission-img" />
     <div className="content">
       <p className="title bold">Our Philosophy</p>
       <p>
@@ -55,15 +56,15 @@ const Mission = () => (
         Blue Ridge Mountain views, making it the perfect home for our school.
       </p>
       <p className="small italic center">
-          “ABT is a truly unique dance studio I sought it out for my 2 daughters
-          because I wanted expert instruction in a low-key environment. I have
-          not been disappointed. In the past 3 years, I have watched my daughter
-          gain confidence, skill and poise and was awed by her performance in
-          the annual spring show. The spring production showcased ABT’s
-          one-of-kind talent for developing young girls into beautiful
-          performers and dancers as well as delivering the audience an
-          exceptional experience. This is first-rate, quality instruction, and I
-          couldn’t be more pleased.” –Kelly Raz
+        “ABT is a truly unique dance studio I sought it out for my 2 daughters
+        because I wanted expert instruction in a low-key environment. I have not
+        been disappointed. In the past 3 years, I have watched my daughter gain
+        confidence, skill and poise and was awed by her performance in the
+        annual spring show. The spring production showcased ABT’s one-of-kind
+        talent for developing young girls into beautiful performers and dancers
+        as well as delivering the audience an exceptional experience. This is
+        first-rate, quality instruction, and I couldn’t be more pleased.” –Kelly
+        Raz
       </p>
       <div className="btn-wrap">
         <Link to="/classes" className="bt">

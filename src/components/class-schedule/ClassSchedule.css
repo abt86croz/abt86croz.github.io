@@ -1,31 +1,31 @@
 .schedule-container {
-  background: url('../../images/site/schedule.jpg') no-repeat fixed;
-  background-size: 500px 100%;
-  width: 100vw;
   margin: 0 auto;
-  display: inline-table;
-  height: 100vh;
 }
 
-.schedule-container .content {
-  background: none !important;
-  border: none;
-  margin: 20px auto 0 auto;
+.schedule-container .schedule-img {
+background: url('../../images/site/schedule.jpg') no-repeat;
+background-size: 100% auto;
+}
+
+.schedule-container:after {
+  content: " ";
+  display: block;
+  clear: both;
 }
 
 .schedule-container .calendar-class-container {
-  display: inline-block;
-  width: 100%;
+  width: 70%;
   height: auto;
-  margin: 20px auto 0 auto;
+  margin: 0 auto;
   box-sizing: border-box;
+  float: right;
 }
 
 .schedule-container iframe {
-  width: 800px;
+  width: 840px;
   height: 620px;
   box-sizing: border-box;
-  margin: 65px 20px 0 auto;
+  margin: 0 auto 30px auto;
   display: block;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .schedule-container .btn-wrap {
-  margin: 39px auto 70px auto;
+  margin: 40px auto;
 }
 
 /* MOBILE */
@@ -115,6 +115,10 @@
   .schedule-container {
     margin: 0 auto;
     background-size: 100% 100%;
+  }
+  .schedule-container .calendar-class-container {
+    width: 100%;
+    float: none;
   }
   .schedule-container .data-wrap {
     float: none;

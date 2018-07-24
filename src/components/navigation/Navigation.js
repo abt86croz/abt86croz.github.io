@@ -1,8 +1,12 @@
 import React from 'react'
 import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import { LinkContainer } from 'react-router-bootstrap'
 import HandbookDoc from '../../pdf/2018-2019-handbook-policies.pdf'
+// import Header from '../header/Header'
 import './Navigation.css'
+import { Logo } from '../Images'
+
 
 const handlePoliciesClick = () => {
   window.open(HandbookDoc, '_blank')
@@ -14,6 +18,9 @@ const handleDancerPortalClick = () => {
 
 const Navigation = () => (
   <Navbar fluid collapseOnSelect>
+    <Link to="/">
+      <Logo />
+    </Link>
     <Navbar.Header>
       <Navbar.Toggle />
     </Navbar.Header>

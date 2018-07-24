@@ -1,10 +1,16 @@
 .mission-container {
-  background: url('../../images/site/about.jpg') no-repeat fixed;
-  background-size: 500px 100%;
-  width: 100vw;
   margin: 0 auto;
-  display: inline-table;
-  height: 100vh;
+}
+
+.mission-container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.mission-container .mission-img {
+  background: url('../../images/site/about.jpg') no-repeat;
+  background-size: 100% auto;
 }
 
 .mission-container .title {

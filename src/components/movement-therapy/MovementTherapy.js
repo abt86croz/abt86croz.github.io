@@ -7,6 +7,7 @@ import './MovementTherapy.css'
 
 const MovementTherapy = () => (
   <div className="movement-therapy-container">
+    <div className="bg-image movement-img" />
     <div className="content">
       <p className="italic bold center">
         Our Movement Therapy Through Dance class is for ages 2 – 6. It is a
@@ -70,10 +71,16 @@ const MovementTherapy = () => (
       <p>
         For more information, please call us at
         <span className="phone-number">
-          <a href="tel:+1-434-823-8888" target="_top"> 434.823.8888 </a>
+          <a href="tel:+1-434-823-8888" target="_top">
+            {' '}
+            434.823.8888{' '}
+          </a>
         </span>
         or email us at
-        <a href="mailto:albemarleballettheatre@gmail.com" target="_top"> albemarleballettheatre@gmail.com </a>
+        <a href="mailto:albemarleballettheatre@gmail.com" target="_top">
+          {' '}
+          albemarleballettheatre@gmail.com{' '}
+        </a>
       </p>
     </div>
     <div className="clear" />

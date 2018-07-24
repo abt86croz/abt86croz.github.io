@@ -1,6 +1,6 @@
 .faculty-container {
   width: 80%;
-  margin: 100px auto 80px auto;
+  margin: 30px auto 50px auto;
 }
 
 .faculty-container .bios img {
@@ -19,4 +19,18 @@
 .faculty-container .instructor {
   display: block;
   padding-bottom: 4px;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+  .faculty-container {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .faculty-container {
+    margin: 0 auto;
+  }
 }

@@ -3,7 +3,7 @@
     width: 100vw;
     min-height: 100vh;
     display: inline-block;
-    margin: 45px auto 80px auto;
+    margin: 10px auto 80px auto;
 }
 
 #ReactGridGallery {
@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 568px) {
     .photo-gallery-container {
-        margin: 72px auto 80px auto;
+        margin: 0 auto 80px auto;
     }
     #ReactGridGallery {
         margin: 10px;

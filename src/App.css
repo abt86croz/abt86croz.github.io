@@ -38,15 +38,21 @@ input[type=file] {
   margin: 0;
   padding: 0;
   background-color: rgb(247, 249, 250);
+  padding-top: 109px;
 }
 
 .content {
-  border-left: 2px solid #93760e;
-  float: right;
   z-index: 9999;
-  background-color: rgba(255, 255, 255, 0.8);
-  margin: 80px auto;
-  width: 65vw;
+  background-color: hsla(0, 0%, 100%, .8);
+  width: 70vw;
+  float: right;
+  padding-bottom: 40px;
+}
+
+.bg-image {
+  width: 30vw;
+  position: fixed;
+  height: 100vh;
 }
 
 .clear {
@@ -82,7 +88,7 @@ a {
 }
 
 hr {
-  border-color: #9b863c;
+  border-color: #babcbc;
 }
 
 .bt {
@@ -182,7 +188,9 @@ a.btn-yellow:hover {
   .content {
     width: 100%;
     border: none;
-    margin: 80px auto;
+  }
+  .bg-image {
+    display: none;
   }
 }
 
@@ -193,7 +201,9 @@ a.btn-yellow:hover {
   .content {
     width: 100%;
     border: none;
-    margin: 80px auto;
+  }
+  .bg-image {
+    display: none;
   }
 }
 

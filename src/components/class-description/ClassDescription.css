@@ -1,11 +1,18 @@
 /* CLASS DESCRIPTION */
+
 .description-container {
-  background: url('../../images/site/description.jpg') no-repeat fixed;
-  background-size: 500px 100%;
-  width: 100vw;
   margin: 0 auto;
-  display: inline-table;
-  height: 100vh;
+}
+
+.description-container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.description-container .description-img {
+  background: url('../../images/site/description.jpg') no-repeat;
+  background-size: 100% auto;
 }
 
 .description-container .quote-container p:first-child {
@@ -15,11 +22,6 @@
 .description-container .quote {
   text-align: center;
   margin: 25px auto;
-}
-
-.description-container img {
-  margin: 16px auto 40px auto;
-  display: block;
 }
 
 .description-container .heading {
@@ -39,37 +41,4 @@
   margin-bottom: 30px;
 }
 
-/* MOBILE */
-
-@media screen and (max-width: 768px) {
-  .description-container {
-    margin: 0 auto;
-  }
-  .description-container .heading {
-    font-size: 20px;
-  }
-  .description-container img {
-    width: 300px;
-  }
-  .description-container .quote {
-    width: 90%;
-  }
-}
-
-@media screen and (max-width: 568px) {
-  .description-container {
-    margin: 0 auto;
-  }
-  .description-container .heading {
-    font-size: 20px;
-  }
-  .description-container img {
-    width: 300px;
-  }
-  .description-container .quote {
-    width: 90%;
-  }
-  .description-container .content {
-    background-size: 100% 100%;
-  }
-}
+/* Mobile Styles on Index.css */

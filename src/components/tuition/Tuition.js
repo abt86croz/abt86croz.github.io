@@ -16,6 +16,7 @@ const GenerateTuitionDiscountTable = () => {
 /* eslint-disable max-len */
 const Tuition = () => (
   <div className="tuition-container">
+    <div className="bg-image tuition-img" />
     <div className="content">
       <p className="sub-title bold">2018-2019 School Year Classes </p>
       <p>

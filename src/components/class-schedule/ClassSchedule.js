@@ -23,6 +23,7 @@ const Data = () => {
 
 const Schedule = () => (
   <div className="schedule-container">
+    <div className="bg-image schedule-img" />
     <div className="calendar-class-container">
       <iframe
         title="ABT Class Schedule"
@@ -36,20 +37,20 @@ const Schedule = () => (
       <div className="data-wrap">
         <Data />
       </div>
-    </div>
-    <div className="clear" />
-    <div className="btn-wrap">
-      <a
-        className="btn-sm bt"
-        href={ClassSchePDF}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <PDFIcon /> Print Weekly Class Schedule
-      </a>
-      <Link to="/classes/description" className="btn-sm bt" href="">
-        Class Descriptions <RightArrow />
-      </Link>
+      <div className="clear" />
+      <div className="btn-wrap">
+        <a
+          className="btn-sm bt"
+          href={ClassSchePDF}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <PDFIcon /> Print Weekly Class Schedule
+        </a>
+        <Link to="/classes/description" className="btn-sm bt" href="">
+          Class Descriptions <RightArrow />
+        </Link>
+      </div>
     </div>
   </div>
 )

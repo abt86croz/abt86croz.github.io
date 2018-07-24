@@ -15,8 +15,12 @@ import MovementTherapyImg from '../images/site/daniel-molly-rossberg-sally-hart.
 import SpringPerformanceImg from '../images/performances/piedpiper-compressed.jpg'
 import SummerPoster from '../images/performances/SummerGazetteAd2018.jpg'
 
+// import ClassDescriptionImg from '../images/site/description.jpg'
+
 /* eslint-disable max-len */
 export const Logo = () => <img className="logo-image" src={AbtLogo} alt="abt logo" />
+export const Minion404 = () => <img src={Minion404Img} alt="Minion 404" title="Minion 404" />
+
 export const SallyImage = () => <img src={SallyImg} alt="Sally Hart" title="Sally Hart" />
 export const VeronicaImage = () => <img src={VeronicaImg} alt="Veronica Piller" title="Sally Hart" />
 export const AshleyImage = () => <img src={AshleyImg} alt="Ashley Geisler" title="Ashley Geisler" />
@@ -27,7 +31,9 @@ export const SarahImage = () => <img src={SarahImg} alt="Sarah Gillespie" title=
 export const MeganImage = () => <img src={MeganImg} alt="Megan Hillary" title="Megan Hillary" />
 export const EdwinImage = () => <img src={EdwinImg} alt="Edwin Roa" title="Edwin Roa" />
 export const DevinImage = () => <img src={DevinImg} alt="Devin Sweet" title="Devin Sweet" />
-export const Minion404 = () => <img src={Minion404Img} alt="Minion 404" title="Minion 404" />
+
 export const MovementTherapyImage = () => <img src={MovementTherapyImg} alt="Movement Therapy Classes" title="Movement Therapy Classes" />
 export const SpringPerformanceImage = () => <img src={SpringPerformanceImg} alt="spring performance poster" title="spring performance poster" />
 export const SummerPosterImage = () => <img src={SummerPoster} alt="summerperformance poster" title="summer performance poster" />
+
+// export const ClassDescriptionImage = () => <img src={ClassDescriptionImg} alt="Class Description Img" title="Class Description Image" />

@@ -1,12 +1,18 @@
 /* Movement Therapy Container */
 
 .movement-therapy-container {
-  background: url('../../images/site/movement-therapy.jpg') no-repeat fixed;
-  background-size: 500px 100%;
-  width: 100vw;
   margin: 0 auto;
-  height: 100vh;
-  display: inline-table;
+}
+
+.movement-therapy-container .movement-img {
+  background: url('../../images/site/movement-therapy.jpg') no-repeat;
+  background-size: 100% auto;
+}
+
+.movement-therapy-container:after {
+  content: " ";
+  display: block;
+  clear: both;
 }
 
 .movement-therapy-container .content p:first-of-type {

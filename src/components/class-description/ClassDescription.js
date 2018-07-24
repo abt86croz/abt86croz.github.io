@@ -6,6 +6,7 @@ import './ClassDescription.css'
 // CLASS DESCRIPTION
 const Description = () => (
   <div className="description-container">
+    <div className="bg-image description-img" />
     <div className="content">
       <div className="quote-container">
         <p className="italic">
@@ -272,7 +273,7 @@ const Description = () => (
           Nelson County, Orange County and Waynesboro.
         </p>
         <p className="italic">
-          For more information, email us at
+          For more information: <br /> email us at
           <a href="mailto:albemarleballettheatre@gmail.com" target="_top">
             <span> albemarleballettheatre@gmail.com</span>
           </a>, or call us at

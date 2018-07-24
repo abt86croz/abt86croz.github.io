@@ -1,3 +1,16 @@
+img.logo-image {
+  width: 565px;
+  margin: 11px 0 0;
+}
+
+.nav-container {
+  background-color: #f7f9fa;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: inline-block;
+}
+
 .dropdown-menu {
   border: 0;
   background-color: none;
@@ -32,10 +45,15 @@
   margin: 0;
   border-radius: 0;
   position: fixed;
-  top: 75px;
+  top: 0;
   width: 100%;
   z-index: 999;
-  color: rgb(35, 34, 35);
+}
+
+.navbar-default:after {
+  content: " ";
+  display: block;
+  clear: both;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -59,10 +77,6 @@ li.nav-menu a {
   color: rgb(35, 34, 35);
 }
 
-li.nav-menu a:hover {
-  color: rgb(155, 134, 60);
-}
-
 .navbar-default .navbar-nav>li>a {
   text-decoration: none;
   color: rgb(35, 34, 35);
@@ -70,6 +84,7 @@ li.nav-menu a:hover {
 
 .navbar-default .navbar-nav>li>a:active, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
   color: rgb(35, 34, 35);
+  font-weight: bold;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
@@ -229,6 +244,9 @@ button.navbar-toggle .icon-bar:nth-of-type(4) {
 }
 
 @media screen and (max-width: 768px) {
+  img.logo-image {
+    width: 240px;
+  }
   li.nav-menu a {
     text-decoration: none;
     color: rgb(35, 34, 35);
@@ -268,6 +286,10 @@ button.navbar-toggle .icon-bar:nth-of-type(4) {
 }
 
 @media screen and (max-width: 568px) {
+  img.logo-image {
+    width: 230px;
+  }
+  
   li.nav-menu a {
     text-decoration: none;
     color: rgb(35, 34, 35);

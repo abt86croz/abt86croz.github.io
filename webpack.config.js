@@ -7,16 +7,24 @@ module.exports = {
     publicPath: '/build/',
     filename: 'bundle.js',
   },
-
-
+  externals: {
+    jquery: 'jQuery',
+  },
   module: {
     rules: [
       { test: /\.html$/, loader: 'html-loader?attrs[]=video:src' },
       { test: /\.(mov|mp4)$/, loader: 'url-loader' },
-      { test: /\.js$/, exclude: /node_modules/, loader: ['babel-loader', 'eslint-loader'] },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: ['babel-loader', 'eslint-loader'],
+      },
       {
         test: /\.css$/,
-        use: ['style-loader', { loader: 'css-loader', options: { minimize: true } }],
+        use: [
+          'style-loader',
+          { loader: 'css-loader', options: { minimize: true } },
+        ],
       },
       {
         test: /\.(pdf|jpg|png|svg)$/,
@@ -30,11 +38,16 @@ module.exports = {
     ],
   },
 
-  plugins: process.argv.indexOf('-p') === -1 ? [] : [
-    new webpack.optimize.UglifyJsPlugin({
-      output: {
-        comments: false,
-      },
-    }),
-  ],
+  plugins:
+    process.argv.indexOf('-p') === -1 ? [] : [
+      new webpack.optimize.UglifyJsPlugin({
+        output: {
+          comments: false,
+        },
+      }),
+      new webpack.ProvidePlugin({
+        $: 'jquery',
+        jQuery: 'jquery',
+      }),
+    ],
 }

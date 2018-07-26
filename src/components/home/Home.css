@@ -39,7 +39,7 @@ a.go-to-registration {
 }
 
 .home-container .home-img:hover {
-  opacity: 0.6;
+  /* opacity: 0.6; */
 }
 
 .home-container .jack-rabbit-img {
@@ -214,5 +214,8 @@ a.go-to-registration {
   }
   .home-container .wrap {
     padding: 0;
+  }
+  .home-container .jack-rabbit-img {
+    height: 60px;
   }
 }

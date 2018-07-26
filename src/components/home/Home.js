@@ -5,18 +5,18 @@ import './Home.css'
 const Home = () => (
   <div className="home-container">
     <div className="wrap">
-      <a
+      {/* <a
         className="go-to-registration"
         href="https://app.jackrabbitclass.com/regv2.asp?id=534011"
         target="_blank"
         rel="noopener noreferrer"
-      >
-        <div className="home-img">
-          <span className="quote">
+      > */}
+      <div className="home-img">
+        <span className="quote">
             “Serving Crozet and the arts since 2005“
           </span>
-        </div>
-      </a>
+      </div>
+      {/* </a> */}
     </div>
 
     <div className="video-container">

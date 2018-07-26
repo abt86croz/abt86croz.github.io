@@ -16,8 +16,6 @@ import MovementTherapyImg from '../images/site/daniel-molly-rossberg-sally-hart.
 import SpringPerformanceImg from '../images/performances/piedpiper-compressed.jpg'
 import SummerPoster from '../images/performances/SummerGazetteAd2018.jpg'
 
-// import ClassDescriptionImg from '../images/site/description.jpg'
-
 /* eslint-disable max-len */
 export const Logo = () => <img className="logo-image" src={AbtLogo} alt="abt logo" />
 export const Minion404 = () => <img src={Minion404Img} alt="Minion 404" title="Minion 404" />
@@ -38,5 +36,3 @@ export const DevinImage = () => <img src={DevinImg} alt="Devin Sweet" title="Dev
 export const MovementTherapyImage = () => <img src={MovementTherapyImg} alt="Movement Therapy Classes" title="Movement Therapy Classes" />
 export const SpringPerformanceImage = () => <img src={SpringPerformanceImg} alt="spring performance poster" title="spring performance poster" />
 export const SummerPosterImage = () => <img src={SummerPoster} alt="summerperformance poster" title="summer performance poster" />
-
-// export const ClassDescriptionImage = () => <img src={ClassDescriptionImg} alt="Class Description Img" title="Class Description Image" />

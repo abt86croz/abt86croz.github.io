@@ -1,5 +1,4 @@
 import React from 'react'
-// import { HomeImage } from '../Images'
 import './Home.css'
 
 /* eslint-disable max-len */

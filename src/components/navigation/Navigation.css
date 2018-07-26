@@ -251,7 +251,7 @@ button.navbar-toggle .icon-bar:nth-of-type(4) {
 
 @media screen and (max-width: 768px) {
   img.logo-image {
-    width: 240px;
+    width: 300px;
   }
   li.nav-menu a {
     text-decoration: none;
@@ -291,6 +291,16 @@ button.navbar-toggle .icon-bar:nth-of-type(4) {
   }
 }
 
+/********** Ipad Pro ***************/
+
+/* Portrait*/
+
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  a.social-icon {
+    top: 18px;
+  }
+}
+
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
@@ -303,6 +313,22 @@ button.navbar-toggle .icon-bar:nth-of-type(4) {
     width: 30px!important;
     height: 30px!important;
     left: 10px;
+  }
+}
+
+/* Tablet Portrait */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .navbar-header {
+    margin-top: 25px !important;
+  }
+}
+
+/* Iphone 10 Portrait */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+  .navbar-header {
+    margin-top: 10px !important;
   }
 }
 

@@ -33,8 +33,10 @@ const Tuition = () => (
       <p>
         Annual tuition, excluding 8-week sessions and Pilates classes, is billed
         monthly. If you would like to pay in full, please let us know via email.
-        Monthly payments are due on the 10th of each month for the following
-        month’s tuition.
+        Monthly payments are due on the 10th of each month. <span className="bold">For your
+        convenience your card on file will automatically be charged</span> if another
+        form of payment (cash or check) is not received by the 10th of the
+        month.
       </p>
       <p>
         Tuition is due in full at the time of registration for 8-Week Sessions

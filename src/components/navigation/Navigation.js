@@ -17,6 +17,10 @@ const handleDancerPortalClick = () => {
   window.open('https://app.jackrabbitclass.com/jr3.0/ParentPortal/Login?orgID=534011', '_blank')
 }
 
+const handleRegistrationClick = () => {
+  window.open('https://app.jackrabbitclass.com/regv2.asp?id=534011', '_blank')
+}
+
 const Navigation = () => (
   <Navbar fluid collapseOnSelect>
     <Link to="/">
@@ -70,8 +74,11 @@ const Navigation = () => (
           <LinkContainer to="/registration/tuition">
             <MenuItem eventKey={3.2}>Tuition</MenuItem>
           </LinkContainer>
-          <MenuItem onClick={handlePoliciesClick} eventKey={3.3}>
+          <MenuItem eventKey={3.3} onClick={handlePoliciesClick}>
             Policies
+          </MenuItem>
+          <MenuItem eventKey={3.4} onClick={handleRegistrationClick}>
+            Register
           </MenuItem>
         </NavDropdown>
 

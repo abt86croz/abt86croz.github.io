@@ -1,15 +1,16 @@
 import React from 'react'
 import AbtLogo from '../images/logo/logo-gray.png'
-import SallyImg from '../images/site/sally.jpg'
-import AshleyImg from '../images/site/ashley.jpg'
-import VeronicaImg from '../images/site/veronica.jpg'
-import NickyImg from '../images/site/nicky.jpg'
-import AmandaImg from '../images/site/amanda.jpg'
-import AlannaImg from '../images/site/alanna.jpg'
-import SarahImg from '../images/site/sarah.jpg'
-import MeganImg from '../images/site/megan.jpg'
-import EdwinImg from '../images/site/edwin.jpg'
-import DevinImg from '../images/site/devin.jpg'
+import HomeImg from '../images/site/home.png'
+import SallyImg from '../images/faculty/sally.jpg'
+import AshleyImg from '../images/faculty/ashley.jpg'
+import VeronicaImg from '../images/faculty/veronica.jpg'
+import NickyImg from '../images/faculty/nicky.jpg'
+import AmandaImg from '../images/faculty/amanda.jpg'
+import AlannaImg from '../images/faculty/alanna.jpg'
+import SarahImg from '../images/faculty/sarah.jpg'
+import MeganImg from '../images/faculty/megan.jpg'
+import EdwinImg from '../images/faculty/edwin.jpg'
+import DevinImg from '../images/faculty/devin.jpg'
 import Minion404Img from '../images/site/minion404.jpg'
 import MovementTherapyImg from '../images/site/daniel-molly-rossberg-sally-hart.jpg'
 import SpringPerformanceImg from '../images/performances/piedpiper-compressed.jpg'
@@ -20,6 +21,8 @@ import SummerPoster from '../images/performances/SummerGazetteAd2018.jpg'
 /* eslint-disable max-len */
 export const Logo = () => <img className="logo-image" src={AbtLogo} alt="abt logo" />
 export const Minion404 = () => <img src={Minion404Img} alt="Minion 404" title="Minion 404" />
+export const HomeImage = () => <img className="home-image" src={HomeImg} alt="Home Page" />
+
 
 export const SallyImage = () => <img src={SallyImg} alt="Sally Hart" title="Sally Hart" />
 export const VeronicaImage = () => <img src={VeronicaImg} alt="Veronica Piller" title="Sally Hart" />

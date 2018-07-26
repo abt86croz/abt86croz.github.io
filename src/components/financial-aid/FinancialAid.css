@@ -1,12 +1,17 @@
 /* financial-aid Container */
-
 .financial-aid-container {
-  background: url('../../images/site/scholarship_min.jpg') no-repeat fixed;
-  background-size: 500px 100%;
-  width: 100vw;
   margin: 0 auto;
-  min-height: 100vh;
-  overflow: auto;
+}
+
+.financial-aid-container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.financial-aid-container .financial-img {
+  background: url('../../images/site/scholarship_min.jpg') no-repeat;
+  background-size: 100% auto;
 }
 
 .financial-aid-container .content p {

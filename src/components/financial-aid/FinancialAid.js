@@ -6,6 +6,7 @@ import './FinancialAid.css'
 
 const FinancialAid = () => (
   <div className="financial-aid-container">
+    <div className="bg-image financial-img" />
     <div className="content">
       <p>
         The goal of our Scholarship and Work-Study programs are to ensure that

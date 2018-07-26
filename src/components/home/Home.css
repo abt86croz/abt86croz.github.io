@@ -1,5 +1,16 @@
-.home-container .video-container {
-  margin-top: 100px;
+.home-container .quote {
+  position: absolute;
+  top: 160px;
+  margin-left: 18px;
+  font-size: 30px;
+}
+
+a.go-to-registration {
+  color: black;
+}
+
+.home-container .wrap {
+  padding: 0 140px;
 }
 
 .home-container .video-container iframe {
@@ -18,18 +29,72 @@
   display: block;
 }
 
+.home-container .home-img {
+  background: url('../../images/site/home.png') center no-repeat;
+  background-size: 100%;
+  width: 1000px;
+  height: 500px;
+  display: block;
+  margin: 35px auto;
+}
+
+.home-container .home-img:hover {
+  opacity: 0.6;
+}
+
+.home-container .jack-rabbit-img {
+  background: url('../../images/site/badge.png') center no-repeat;
+  background-size: contain;
+  display: block;
+  height: 90px;
+  margin: 30px auto 40px auto;
+}
+
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .home-container .video-container {
-    margin-top: 100px;
+  .home-container .home-img {
+    width: 90%;
+    margin: 10px auto 30px auto;
+    height: 352px;
   }
   .home-container .video-container iframe {
-    width: 600px;
-    height: 400px;
+    width: 530px;
+    height: 252px;
+  }
+  .home-container .quote {
+    top: 128px;
+    bottom: 0;
+  }
+}
+
+/********** Ipad Pro ***************/
+
+/* Landscape*/
+
+@media only screen and (min-device-width: 1366px) and (max-device-height: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .home-container .quote {
+    top: 168px;
+  }
+}
+
+/* Portrait*/
+
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .home-container .home-img {
+    width: 90%;
+    margin: 45px auto 30px auto;
+    height: 465px;
+  }
+  .home-container .video-container iframe {
+    width: 530px;
+    height: 252px;
+  }
+  .home-container .quote {
+    top: 165px;
   }
 }
 
@@ -39,21 +104,29 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .home-container .video-container {
-    margin-top: 100px;
+  .home-container .home-img {
+    width: 90%;
+    margin: 0 auto;
+    height: 550px;
   }
   .home-container .video-container iframe {
     margin: 0 auto;
     width: 600px;
     height: 400px;
   }
+  .home-container .quote {
+    top: 168px;
+  }
 }
 
 /* iphone X */
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation:landscape) {
-  .home-container .video-container {
-    margin-top: 100px;
+  .home-container .home-img {
+    width: 600px;
+    height: 240px;
+    margin: 0 auto 20px auto;
+    background-size: contain;
   }
   .home-container .video-container iframe {
     width: 86vw;
@@ -63,6 +136,11 @@
     position: static;
     margin-top: 30px;
   }
+  .home-container .quote {
+    top: 115px;
+    font-size: 13px;
+    margin-left: 90px;
+  }
 }
 
 /* 
@@ -71,11 +149,14 @@
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  .home-container .video-container {
-    margin-top: 80px;
+  .home-container .home-img {
+    width: 500px;
+    height: 210px;
+    margin: 0 auto 20px auto;
+    background-size: contain;
   }
   .home-container .video-container iframe {
-    width: 400px;
+    width: 350px;
     height: 220px;
   }
   .home-container .donate-button-wrap {
@@ -85,6 +166,14 @@
   .home-container {
     min-height: 100vh;
   }
+  .home-container .jack-rabbit-img {
+    margin: 30px auto 50px;
+  }
+  .home-container .quote {
+    top: 115px;
+    margin-left: 58px;
+    font-size: 13px;
+  }
 }
 
 /* 
@@ -93,14 +182,25 @@
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .home-container .video-container {
-    margin-top: 100px;
+  .home-container .home-img {
+    width: 90%;
+    height: 170px;
+    margin: 0 auto 20px auto;
+    background-size: contain;
   }
   .home-container .video-container iframe {
-    width: 96vw;
+    width: 300px;
+    height: 169px;
   }
   .home-container .donate-button-wrap {
     position: static;
     margin-top: 35px;
+  }
+  .home-container .jack-rabbit-img {
+    margin: 30px auto 50px;
+  }
+  .home-container .quote {
+    top: 111px;
+    font-size: 13px;
   }
 }

@@ -19,6 +19,7 @@
 .faculty-container .instructor {
   display: block;
   padding-bottom: 4px;
+  font-size: 18px;
 }
 
 /* MOBILE */

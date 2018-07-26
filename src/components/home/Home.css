@@ -69,6 +69,9 @@ a.go-to-registration {
     top: 128px;
     bottom: 0;
   }
+  .home-container .wrap {
+    padding: 0;
+  }
 }
 
 /********** Ipad Pro ***************/
@@ -141,6 +144,9 @@ a.go-to-registration {
     font-size: 13px;
     margin-left: 90px;
   }
+  .home-container .wrap {
+    padding: 0;
+  }
 }
 
 /* 
@@ -174,6 +180,9 @@ a.go-to-registration {
     margin-left: 58px;
     font-size: 13px;
   }
+  .home-container .wrap {
+    padding: 0;
+  }
 }
 
 /* 
@@ -202,5 +211,8 @@ a.go-to-registration {
   .home-container .quote {
     top: 111px;
     font-size: 13px;
+  }
+  .home-container .wrap {
+    padding: 0;
   }
 }

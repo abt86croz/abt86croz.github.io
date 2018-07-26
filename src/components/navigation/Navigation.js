@@ -1,11 +1,12 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react'
 import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { LinkContainer } from 'react-router-bootstrap'
-import HandbookDoc from '../../pdf/2018-2019-handbook-policies.pdf'
-// import Header from '../header/Header'
-import './Navigation.css'
+import { SocialIcon } from 'react-social-icons'
 import { Logo } from '../Images'
+import HandbookDoc from '../../pdf/2018-2019-handbook-policies.pdf'
+import './Navigation.css'
 
 
 const handlePoliciesClick = () => {
@@ -21,6 +22,8 @@ const Navigation = () => (
     <Link to="/">
       <Logo />
     </Link>
+    <SocialIcon url="https://www.instagram.com/albemarleballet/" />
+    <SocialIcon url="https://www.facebook.com/AlbemarleBallet/" />
     <Navbar.Header>
       <Navbar.Toggle />
     </Navbar.Header>

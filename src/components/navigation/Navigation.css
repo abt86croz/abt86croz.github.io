@@ -3,6 +3,12 @@ img.logo-image {
   margin: 11px 0 0;
 }
 
+a.social-icon {
+  float: right;
+  top: 5px;
+  margin-right: 12px;
+}
+
 .nav-container {
   background-color: #f7f9fa;
   position: fixed;
@@ -285,11 +291,34 @@ button.navbar-toggle .icon-bar:nth-of-type(4) {
   }
 }
 
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  a.social-icon {
+    top: 5px;
+    margin-right: none;
+    width: 30px!important;
+    height: 30px!important;
+    left: 10px;
+  }
+}
+
+/* Mobile Portrait */
+
 @media screen and (max-width: 568px) {
+  a.social-icon {
+    top: 8px;
+    width: 30px!important;
+    height: 30px!important;
+    margin-right: 5px;
+    left: 6px;
+  }
   img.logo-image {
     width: 230px;
   }
-  
   li.nav-menu a {
     text-decoration: none;
     color: rgb(35, 34, 35);
@@ -325,5 +354,17 @@ button.navbar-toggle .icon-bar:nth-of-type(4) {
   }
   .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
     color: #8d8e8e;
+  }
+}
+
+/* Iphone 5 Portrait */
+
+@media screen and (device-aspect-ratio: 40/71) and (orientation:portrait) {
+  a.social-icon {
+    top: 7px;
+    margin-right: 1px;
+    width: 25px!important;
+    height: 25px!important;
+    margin-left: 3px;
   }
 }

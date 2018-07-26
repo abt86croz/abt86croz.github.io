@@ -1,6 +1,7 @@
 import React from 'react'
 import classAttireData from './ClassAttireData'
 import './ClassAttire.css'
+
 /* eslint-disable max-len */
 const ClassAttireContent = () => {
   return classAttireData.map((o) => {

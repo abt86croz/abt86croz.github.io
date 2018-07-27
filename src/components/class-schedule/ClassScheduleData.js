@@ -48,7 +48,7 @@ export const weeklyClasses = [
     day: 'Friday',
     classDescription: [
         { classType: '4:00-5:15pm: Ballet IIB (Beginner Intermediate)', id: '5a' },
-        { classType: '5:15-7:15pm: Ballet IV (Beginner Advanced)', id: '5b' },
+        { classType: '5:30-7:30pm: Ballet IV (Beginner Advanced)', id: '5b' },
     ],
   },
   {

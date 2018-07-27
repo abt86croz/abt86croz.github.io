@@ -270,7 +270,7 @@ const Description = () => (
           Our dance studio is conveniently located in Crozet, near Western
           Albemarle High School, Henley, Brownsville, and Crozet Elementary
           Schools, minutes away from Charlottesville, and near Greene County,
-          Nelson County, OrangeCounty and Waynesboro.
+          Nelson County, Orange County and Waynesboro.
         </p>
         <p className="italic">
           For more information: <br /> email us at

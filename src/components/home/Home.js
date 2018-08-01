@@ -11,11 +11,7 @@ const Home = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <div className="home-img">
-          <span className="quote">
-            “Serving Crozet and the arts since 2005“
-          </span>
-        </div>
+        <div className="home-img" />
       </a>
     </div>
 

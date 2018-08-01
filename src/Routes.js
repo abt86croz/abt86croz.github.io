@@ -1,5 +1,6 @@
 import React from 'react'
 import { Route, Switch, Redirect } from 'react-router-dom'
+import ScrollToTop from './components/ScrollToTop'
 import Home from './components/home/Home'
 import Contact from './components/contact/Contact'
 import NotFound from './components/not-found/NotFound'
@@ -30,26 +31,27 @@ const classSchedulePath = '/classes/schedule'
 const performancesPath = '/performances'
 const photosPath = '/photos'
 
+// <ScrollToTop /> wraps <Route />
 const Routes = () => (
   <Switch>
-    <Route path="/" exact component={Home} />
-    <Route path={contactPath} exact component={Contact} />
-    <Route path={instructorsPath} exact component={Faculty} />
-    <Route path={philosophyPath} exact component={Mission} />
+    <ScrollToTop path="/" exact component={Home} />
+    <ScrollToTop path={contactPath} exact component={Contact} />
+    <ScrollToTop path={instructorsPath} exact component={Faculty} />
+    <ScrollToTop path={philosophyPath} exact component={Mission} />
     <Redirect from="/about/" to={instructorsPath} />
     <Route path="/registration" exact component={Forms} />
-    <Route path={financialAidPath} exact component={FinancialAid} />
-    <Route path={tuitionPath} exact component={Tuition} />
+    <ScrollToTop path={financialAidPath} exact component={FinancialAid} />
+    <ScrollToTop path={tuitionPath} exact component={Tuition} />
     <Redirect from="/registration/" to="/registration/forms" />
-    <Route path={classSchedulePath} component={Schedule} />
-    <Route path={descriptionPath} component={Description} />
-    <Route path={movementTherapyPath} component={MovementTherapy} />
-    <Route path={classAttirePath} component={ClassAttire} />
-    <Route path={summerProgramPath} component={SummerProgram} />
+    <ScrollToTop path={classSchedulePath} component={Schedule} />
+    <ScrollToTop path={descriptionPath} component={Description} />
+    <ScrollToTop path={movementTherapyPath} component={MovementTherapy} />
+    <ScrollToTop path={classAttirePath} component={ClassAttire} />
+    <ScrollToTop path={summerProgramPath} component={SummerProgram} />
     <Redirect from="/classes/" to={classSchedulePath} />
-    <Route path={performancesPath} exact component={Performances} />
-    <Route path={photosPath} exact component={PhotoGallery} />
-    <Route component={NotFound} />
+    <ScrollToTop path={performancesPath} exact component={Performances} />
+    <ScrollToTop path={photosPath} exact component={PhotoGallery} />
+    <ScrollToTop component={NotFound} />
   </Switch>
 )
 

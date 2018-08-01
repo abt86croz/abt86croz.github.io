@@ -3,12 +3,12 @@
     width: 100vw;
     min-height: 100vh;
     display: inline-block;
-    margin: 10px auto 80px auto;
+    margin: 0 auto 80px auto;
 }
 
 #ReactGridGallery {
     min-height: 100vh;
-    margin: 60px;
+    margin: 30px 60px;
 }
 
 #lightboxBackdrop {

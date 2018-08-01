@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Switch, Redirect } from 'react-router-dom'
+import { Switch, Redirect } from 'react-router-dom'
 import ScrollToTop from './components/ScrollToTop'
 import Home from './components/home/Home'
 import Contact from './components/contact/Contact'
@@ -12,7 +12,6 @@ import SummerProgram from './components/summer-program/SummerProgram'
 import PhotoGallery from './components/photo-gallery/PhotoGallery'
 import Tuition from './components/tuition/Tuition'
 import FinancialAid from './components/financial-aid/FinancialAid'
-import Forms from './components/registration/Registration'
 import Description from './components/class-description/ClassDescription'
 import Schedule from './components/class-schedule/ClassSchedule'
 import ClassAttire from './components/class-attire/ClassAttire'
@@ -39,10 +38,9 @@ const Routes = () => (
     <ScrollToTop path={instructorsPath} exact component={Faculty} />
     <ScrollToTop path={philosophyPath} exact component={Mission} />
     <Redirect from="/about/" to={instructorsPath} />
-    <Route path="/registration" exact component={Forms} />
     <ScrollToTop path={financialAidPath} exact component={FinancialAid} />
     <ScrollToTop path={tuitionPath} exact component={Tuition} />
-    <Redirect from="/registration/" to="/registration/forms" />
+    <Redirect from="/registration/" to={financialAidPath} />
     <ScrollToTop path={classSchedulePath} component={Schedule} />
     <ScrollToTop path={descriptionPath} component={Description} />
     <ScrollToTop path={movementTherapyPath} component={MovementTherapy} />

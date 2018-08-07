@@ -1,14 +1,19 @@
 .contact-container {
-  background: url('../../images/site/contact.jpg') no-repeat fixed;
-  background-size: 500px 100%;
-  width: 100vw;
   margin: 0 auto;
-  height: 100vh;
-  display: inline-table;
+}
+
+.contact-container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.contact-container .contact-img {
+  background: url('../../images/bkgrnd/contact.jpg') no-repeat;
+  background-size: 100% auto;
 }
 
 .contact-container .content {
-  background: none !important;
   border: none;
 }
 

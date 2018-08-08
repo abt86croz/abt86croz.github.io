@@ -17,15 +17,6 @@ a.go-to-registration {
   display: block;
 }
 
-.home-container .donate-button-wrap {
-  width: 160px;
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 50px;
-  display: block;
-}
-
 .home-container .home-img {
   background: url('../../images/site/home.png') center no-repeat;
   background-size: contain;
@@ -43,7 +34,7 @@ a.go-to-registration {
   background: url('../../images/site/badge.png') center no-repeat;
   background-size: contain;
   display: block;
-  height: 90px;
+  height: 70px;
   margin: 30px auto 40px auto;
 }
 
@@ -124,10 +115,6 @@ a.go-to-registration {
     width: 86vw;
     height: 240px;
   }
-  .home-container .donate-button-wrap {
-    position: static;
-    margin-top: 30px;
-  }
   .home-container .wrap {
     padding: 0;
   }
@@ -148,10 +135,6 @@ a.go-to-registration {
   .home-container .video-container iframe {
     width: 350px;
     height: 220px;
-  }
-  .home-container .donate-button-wrap {
-    position: static;
-    margin-top: 30px;
   }
   .home-container {
     min-height: 100vh;
@@ -182,10 +165,6 @@ a.go-to-registration {
   .home-container .video-container iframe {
     width: 300px;
     height: 169px;
-  }
-  .home-container .donate-button-wrap {
-    position: static;
-    margin-top: 35px;
   }
   .home-container .jack-rabbit-img {
     margin: 30px auto 50px;

@@ -19,19 +19,17 @@ const FinancialAid = () => (
       <p>
         ABT offers a limited number of scholarships and work-study positions.
         Click on links below for printable application forms. You can submit
-        your application via email to{' '}
+        your application via email to
         <a href="mailto:albemarleballettheatre@gmail.com" target="_top">
-          {' '}
           albemarleballettheatre@gmail.com
         </a>, in person, or by mail. If you have any questions, please contact
         ABT at
         <a href="tel:+1-434-823-8888" target="_top">
-          {' '}
           (434) 823-8888
         </a>.
       </p>
       <p className="italic">
-        Mailing Address: <br />
+        <span className="no-italic">Mailing Address:</span> <br />
         Albemarle Ballet Theatre <br />
         P.O. Box 805 <br />
         Crozet, VA, 22932 <br />

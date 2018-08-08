@@ -9,7 +9,7 @@ const MovementTherapy = () => (
   <div className="movement-therapy-container">
     <div className="bg-image movement-img" />
     <div className="content">
-      <p className="italic bold center">
+      <p>
         Our Movement Therapy Through Dance class is for ages 2 – 6. It is a
         creative movement and dance class for those with all levels of attention
         and ability that utilizes games, songs, and stories to strengthen both

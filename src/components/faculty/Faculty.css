@@ -22,6 +22,10 @@
   font-size: 18px;
 }
 
+.faculty-container .quote {
+  padding-top: 15px;
+  display: block;
+}
 /* MOBILE */
 
 @media screen and (max-width: 768px) {

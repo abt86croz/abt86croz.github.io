@@ -97,6 +97,14 @@
   width: 300px;
 }
 
+.contact-container .donate-button-wrap {
+  position: relative;
+  bottom: 0;
+  margin: 0 auto 20px auto;
+  display: block;
+  text-align: center;
+}
+
 /* MOBILE */
 
 @media screen and (max-width: 768px) {

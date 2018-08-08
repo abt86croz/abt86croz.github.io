@@ -18,7 +18,7 @@ const Tuition = () => (
   <div className="tuition-container">
     <div className="bg-image tuition-img" />
     <div className="content">
-      <p className="sub-title bold">2018-2019 School Year Classes </p>
+      <p className="sub-title bold underline">2018-2019 School Year Classes </p>
       <p>
         All classes are $298/semester before multi-class discounts. Because all
         classes are billed monthly, class prices are listed as $74.50 per month
@@ -33,10 +33,12 @@ const Tuition = () => (
       <p>
         Annual tuition, excluding 8-week sessions and Pilates classes, is billed
         monthly. If you would like to pay in full, please let us know via email.
-        Monthly payments are due on the 10th of each month. <span className="bold">For your
-        convenience your card on file will automatically be charged</span> if another
-        form of payment (cash or check) is not received by the 10th of the
-        month.
+        Monthly payments are due on the 10th of each month.{' '}
+        <span className="bold">
+          For your convenience your card on file will automatically be charged
+        </span>{' '}
+        if another form of payment (cash or check) is not received by the 10th
+        of the month.
       </p>
       <p>
         Tuition is due in full at the time of registration for 8-Week Sessions

@@ -6,7 +6,7 @@
 
 .movement-therapy-container .movement-img {
   background: url('../../images/bkgrnd/movement.jpg') no-repeat;
-  background-size: 100% 80%;
+  background-size: 100% auto;
 }
 
 .movement-therapy-container:after {

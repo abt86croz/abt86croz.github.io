@@ -34,7 +34,7 @@ const Faculty = () => (
         curriculum includes a blend of English, Italian, and Russian technique.
       </p>
       <p>
-        <span className="italic small">
+        <span className="italic small quote">
           “If you are looking for a dance instructor for your fledgling child or
           aspiring professional, Mrs. Sally Hart is the teacher that you want to
           train with!”- Linda M. Kuchera-Gage, formerly with “American Ballet
@@ -61,13 +61,11 @@ const Faculty = () => (
         scholarships.
       </p>
       <p>
-        Veronica has performed leading roles in
-        <span className="italic">
-          Cinderella, Paquita, Les Corsaire, Les Sylphedes, and Swan Lake
-        </span>, and choreographers have created roles for her. Additional
-        memorable performances include
-        <span className="italic">
-          The King and I wiith Ash Lawn Opera, with the Duke Ellington
+        Veronica has performed leading roles in <span className="italic">
+           Cinderella, Paquita, Les Corsaire, Les Sylphedes, and Swan Lake
+         </span>, and choreographers have created roles for her. Additional
+        memorable performances include <span className="italic">The King
+          and I with Ash Lawn Opera, with the Duke Ellington
           Orchestra, Maria in West Side Story, and Keith Lee’s Mama Rose.
         </span>
       </p>

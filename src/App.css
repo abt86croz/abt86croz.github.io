@@ -79,6 +79,10 @@ input[type=file] {
   text-decoration: underline;
 }
 
+.no-italic {
+  font-style: normal;
+}
+
 p {
   font-size: 18px;
 }

@@ -25,12 +25,12 @@
 }
 
 .description-container .heading {
-  font-size: 30px;
+  font-size: 40px;
   padding-top: 8px;
+  text-align: center;
 }
 
 .description-container .sub-title {
-  text-decoration: underline;
   font-size: 20px;
 }
 

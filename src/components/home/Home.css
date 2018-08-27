@@ -35,7 +35,6 @@ a.go-to-registration {
   display: block;
   margin: 30px auto 30px auto;
   text-align: center;
-  /* padding: 0 140px; */
 }
 
 .home-container .image-links .img-link {
@@ -206,11 +205,19 @@ a.go-to-registration {
   .home-container .home-img {
     width: 90%;
     height: 170px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto;
     background-size: contain;
   }
+  .home-container .wrap {
+    width: 90%;
+    margin: 0 auto 6px auto !important;
+  }
+  .home-container .video-container {
+    width: 90%;
+    margin: 0 auto;
+  }
   .home-container .video-container iframe {
-    width: 300px;
+    width: 90%;
     height: 169px;
   }
   .home-container .jack-rabbit-img {
@@ -218,11 +225,21 @@ a.go-to-registration {
   }
   .home-container .wrap {
     padding: 0;
+    margin: 0;
   }
   .home-container .jack-rabbit-img {
     height: 60px;
   }
-  .home-container .video-container {
-    margin-top: 5px;
+  .home-container .image-links {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .home-container .image-links .img-link {
+    margin: 0 auto 20px auto;
+    padding: 0;
+    width: 90%;
+  }
+  .home-container .image-links .img-link img {
+    width: 100%;
   }
 }

@@ -24,7 +24,7 @@ const Home = () => (
 
     <div className="image-links">
       <div className="img-link new-classes">
-        <Link to="/classes/description">
+        <Link to="/classes/new-classes">
           <HomeBtn1 />
         </Link>
       </div>

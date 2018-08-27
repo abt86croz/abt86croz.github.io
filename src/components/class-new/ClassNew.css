@@ -1,0 +1,50 @@
+/* NEW CLASSES */
+
+.new-classes-container {
+  margin: 0 auto;
+}
+
+.new-classes-container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.new-classes-container .description-img {
+  background: url('../../images/bkgrnd/new-classes.jpg') no-repeat;
+  background-size: 100% auto;
+}
+
+.new-classes-container .description p:first-child {
+  margin-top: 25px;
+}
+
+.new-classes-container .quote {
+  text-align: center;
+  margin: 25px auto;
+}
+
+.new-classes-container .heading {
+  font-size: 30px;
+  padding-top: 8px;
+}
+
+.new-classes-container .sub-title {
+  font-size: 20px;
+}
+
+.new-classes-container p {
+  padding: 0 30px 0 20px;
+}
+
+.new-classes-container .description {
+  margin-bottom: 30px;
+}
+
+.new-classes-container span.sub-title-specs {
+  display: block;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+/* Mobile Styles are on Index.css */

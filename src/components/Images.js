@@ -13,7 +13,6 @@ import EdwinImg from '../images/faculty/edwin.jpg'
 import DevinImg from '../images/faculty/devin.jpg'
 import Minion404Img from '../images/site/minion404.jpg'
 import MovementTherapyImg from '../images/site/daniel-molly-rossberg-sally-hart.jpg'
-import SpringPerformanceImg from '../images/performances/piedpiper-compressed.jpg'
 import SummerPoster from '../images/performances/SummerGazetteAd2018.jpg'
 import HomeBtn1Img from '../images/site/home-btn1.png'
 import HomeBtn2Img from '../images/site/home-btn2.png'
@@ -38,7 +37,6 @@ export const EdwinImage = () => <img src={EdwinImg} alt="Edwin Roa" title="Edwin
 export const DevinImage = () => <img src={DevinImg} alt="Devin Sweet" title="Devin Sweet" />
 
 export const MovementTherapyImage = () => <img src={MovementTherapyImg} alt="Movement Therapy Classes" title="Movement Therapy Classes" />
-export const SpringPerformanceImage = () => <img src={SpringPerformanceImg} alt="spring performance poster" title="spring performance poster" />
 export const SummerPosterImage = () => <img src={SummerPoster} alt="summerperformance poster" title="summer performance poster" />
 
 export const HomeBtn1 = () => <img src={HomeBtn1Img} alt="New Classes Link" title="New Classes Link" />

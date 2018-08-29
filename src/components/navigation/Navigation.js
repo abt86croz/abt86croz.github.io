@@ -51,18 +51,22 @@ const Navigation = () => (
             <MenuItem eventKey={3.1}>Schedule</MenuItem>
           </LinkContainer>
 
+          <LinkContainer to="/classes/new-classes">
+            <MenuItem eventKey={3.2}>New Classes</MenuItem>
+          </LinkContainer>
+
           <LinkContainer to="/classes/description">
-            <MenuItem eventKey={3.2}>Description</MenuItem>
+            <MenuItem eventKey={3.3}>Description</MenuItem>
           </LinkContainer>
 
           <LinkContainer to="/classes/movement-therapy">
-            <MenuItem eventKey={3.3}>Movement Therapy</MenuItem>
+            <MenuItem eventKey={3.4}>Movement Therapy</MenuItem>
           </LinkContainer>
           <LinkContainer to="/classes/class-attire">
-            <MenuItem eventKey={3.4}>Class Attire</MenuItem>
+            <MenuItem eventKey={3.5}>Class Attire</MenuItem>
           </LinkContainer>
           <LinkContainer to="/classes/summer-program">
-            <MenuItem eventKey={3.5}>Summer Program</MenuItem>
+            <MenuItem eventKey={3.6}>Summer Program</MenuItem>
           </LinkContainer>
         </NavDropdown>
 

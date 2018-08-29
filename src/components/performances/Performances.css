@@ -1,45 +1,46 @@
-.performace-container {
-  width: 100%;
-  margin: 0 auto 30px auto;
-  padding: 40px;
-  display: table;
-}
+/* NEW CLASSES */
 
-.performace-container img {
-  width: 700px;
-  display: block;
+.performances-container {
   margin: 0 auto;
 }
 
-/* MOBILE */
-
-@media screen and (max-width: 768px) {
-  .performace-container {
-    width: 100%;
-    padding: 0;
-  }
-  .performace-container img {
-    width: 80%;
-    padding: 0;
-  }
+.performances-container:after {
+  content: " ";
+  display: block;
+  clear: both;
 }
 
-@media screen and (max-width: 568px) {
-  .performace-container {
-    width: 100%;
-    padding: 0;
-  }
-  .performace-container img {
-    width: 80%;
-    padding: 0;
-  }
+.performances-container .description-img {
+  background: url('../../images/bkgrnd/performances.jpg') no-repeat;
+  background-size: 100% auto;
 }
 
-/* IPAD */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .performace-container img {
-    width: 600px;
-    padding: 0;
-  }
+.performances-container .quote {
+  text-align: center;
+  margin: 25px auto;
 }
+
+.performances-container .heading {
+  font-size: 30px;
+  padding: 20px 0 30px 0;
+}
+
+.performances-container .sub-title {
+  font-size: 20px;
+}
+
+.performances-container p {
+  padding: 0 30px 0 20px;
+}
+
+.performances-container .description {
+  margin-bottom: 30px;
+}
+
+.performances-container span.sub-title-specs {
+  display: block;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+/* Mobile Styles are on Index.css */

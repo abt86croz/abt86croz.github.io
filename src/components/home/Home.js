@@ -1,5 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Home.css'
+import { HomeBtn1, HomeBtn2, HomeBtn3, HomeBtn4 } from '../Images'
+import HandbookDoc from '../../pdf/2018-2019-handbook-policies.pdf'
+
+const handlePoliciesClick = () => {
+  window.open(HandbookDoc, '_blank')
+}
 
 /* eslint-disable max-len */
 const Home = () => (
@@ -13,6 +20,29 @@ const Home = () => (
       >
         <div className="home-img" />
       </a>
+    </div>
+
+    <div className="image-links">
+      <div className="img-link new-classes">
+        <Link to="/classes/new-classes">
+          <HomeBtn1 />
+        </Link>
+      </div>
+      <div className="img-link calendar">
+        <Link to="/classes/schedule">
+          <HomeBtn2 />
+        </Link>
+      </div>
+      <div className="img-link performances">
+        <Link to="/performances">
+          <HomeBtn3 />
+        </Link>
+      </div>
+      <div className="img-link handbook-policies">
+        <Link to="" onClick={handlePoliciesClick}>
+          <HomeBtn4 />
+        </Link>
+      </div>
     </div>
 
     <div className="video-container">

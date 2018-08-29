@@ -13,6 +13,7 @@ import PhotoGallery from './components/photo-gallery/PhotoGallery'
 import Tuition from './components/tuition/Tuition'
 import FinancialAid from './components/financial-aid/FinancialAid'
 import Description from './components/class-description/ClassDescription'
+import NewClasses from './components/class-new/ClassNew'
 import Schedule from './components/class-schedule/ClassSchedule'
 import ClassAttire from './components/class-attire/ClassAttire'
 
@@ -23,6 +24,7 @@ const instructorsPath = '/about/our-instructors'
 const financialAidPath = '/registration/financial-aid'
 const tuitionPath = '/registration/tuition'
 const descriptionPath = '/classes/description'
+const newClassesPath = '/classes/new-classes'
 const movementTherapyPath = '/classes/movement-therapy'
 const classAttirePath = '/classes/class-attire'
 const summerProgramPath = '/classes/summer-program'
@@ -42,6 +44,7 @@ const Routes = () => (
     <ScrollToTop path={tuitionPath} exact component={Tuition} />
     <Redirect from="/registration/" to={financialAidPath} />
     <ScrollToTop path={classSchedulePath} component={Schedule} />
+    <ScrollToTop path={newClassesPath} component={NewClasses} />
     <ScrollToTop path={descriptionPath} component={Description} />
     <ScrollToTop path={movementTherapyPath} component={MovementTherapy} />
     <ScrollToTop path={classAttirePath} component={ClassAttire} />

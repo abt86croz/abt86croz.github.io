@@ -7,7 +7,7 @@ a.go-to-registration {
 }
 
 .home-container .video-container {
-  margin-top: 50px;
+  clear: both;
 }
 
 .home-container .video-container iframe {
@@ -30,12 +30,38 @@ a.go-to-registration {
   opacity: 0.6;
 }
 
+.home-container .image-links {
+  width: 100%;
+  display: block;
+  margin: 30px auto 30px auto;
+  text-align: center;
+}
+
+.home-container .image-links .img-link {
+  display: inline-block;
+  padding-right: 12.5px;
+}
+
+.home-container .image-links .img-link img {
+  height: 160px;
+  padding: 0;
+  margin: 0;
+}
+
+.home-container .image-links .new-classes:hover, .home-container .image-links .calendar:hover, .home-container .image-links .performances:hover, .home-container .image-links .handbook-policies:hover {
+  opacity: 0.6;
+}
+
+.home-container .image-links .img-link:last-child {
+  padding-right: 0;
+}
+
 .home-container .jack-rabbit-img {
   background: url('../../images/site/badge.png') center no-repeat;
   background-size: contain;
   display: block;
   height: 70px;
-  margin: 30px auto 40px auto;
+  margin: 30px auto 50px auto;
 }
 
 /* 
@@ -46,18 +72,37 @@ a.go-to-registration {
 @media (min-width: 768px) and (max-width: 1024px) {
   .home-container .home-img {
     width: 90%;
-    margin: 10px auto 30px auto;
+    margin: 10px auto 10px auto;
     height: 352px;
   }
   .home-container .video-container iframe {
-    width: 530px;
-    height: 252px;
+    width: 692px;
   }
   .home-container .wrap {
     padding: 0;
   }
   .home-container .video-container {
-    margin-top: 5px;
+    margin-top: 7px;
+  }
+  .home-container .image-links {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .home-container .image-links .img-link {
+    width: 50%;
+    padding: 0;
+  }
+  .home-container .image-links .img-link img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    padding-right: 0;
+  }
+  .home-container .image-links .new-classes, .home-container .image-links .performances {
+    padding-right: 5px;
+  }
+  .home-container .image-links .calendar, .home-container .image-links .handbook-policies {
+    padding-left: 5px;
   }
 }
 
@@ -75,9 +120,13 @@ a.go-to-registration {
     margin: 45px auto 30px auto;
     height: 465px;
   }
+  .home-container .video-container {
+    margin-top: 20px;
+  }
+  
   .home-container .video-container iframe {
-    width: 530px;
-    height: 252px;
+    width: 920px;
+    height: 460px;
   }
 }
 
@@ -88,17 +137,30 @@ a.go-to-registration {
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .home-container .home-img {
-    width: 90%;
-    margin: 0 auto;
-    height: 550px;
+    width: 100%;
+    margin: 0 auto 20px auto;
+    /* height: 550px; */
   }
   .home-container .video-container iframe {
     margin: 0 auto;
-    width: 600px;
-    height: 400px;
+    width: 700px;
+    height: 390px;
   }
   .home-container .video-container {
-    margin-top: 5px;
+    margin-top: 10px;
+  }
+  .home-container .image-links .img-link {
+    width: auto;
+    margin-bottom: 10px;
+  }
+  .home-container .image-links .img-link img {
+    width: 340px;
+  }
+  .home-container .image-links .new-classes, .home-container .image-links .performances {
+    padding-right: 10px;
+  }
+  .home-container .image-links .calendar, .home-container .image-links .handbook-policies {
+    padding-left: 10px;
   }
 }
 
@@ -106,8 +168,8 @@ a.go-to-registration {
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation:landscape) {
   .home-container .home-img {
-    width: 600px;
-    height: 240px;
+    width: 760px;
+    height: 300px;
     margin: 0 auto 20px auto;
     background-size: contain;
   }
@@ -118,6 +180,9 @@ a.go-to-registration {
   .home-container .wrap {
     padding: 0;
   }
+  .home-container .video-container {
+    margin-top: 15px;
+  }
 }
 
 /* 
@@ -126,9 +191,13 @@ a.go-to-registration {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
+  .home-container .wrap {
+    margin: 0 auto;
+    width: 100%;
+  }
   .home-container .home-img {
-    width: 500px;
-    height: 210px;
+    width: 100%;
+    height: 260px;
     margin: 0 auto 20px auto;
     background-size: contain;
   }
@@ -140,13 +209,29 @@ a.go-to-registration {
     min-height: 100vh;
   }
   .home-container .jack-rabbit-img {
-    margin: 30px auto 50px;
+    margin: 20px auto 50px auto;
   }
   .home-container .wrap {
     padding: 0;
   }
   .home-container .video-container {
-    margin-top: 5px;
+    margin-top: 4px;
+  }
+  .home-container .image-links {
+    margin: 20px auto 0 auto;
+  }
+  .home-container .image-links .img-link {
+    padding: 0;
+    margin-bottom: 12px;
+  }
+  .home-container .image-links .img-link img {
+    width: 252px;
+  }
+  .home-container .image-links .new-classes, .home-container .image-links .performances {
+    padding-right: 6px;
+  }
+  .home-container .image-links .calendar, .home-container .image-links .handbook-policies {
+    padding-left: 6px;
   }
 }
 
@@ -159,11 +244,19 @@ a.go-to-registration {
   .home-container .home-img {
     width: 90%;
     height: 170px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto;
     background-size: contain;
   }
+  .home-container .wrap {
+    width: 90%;
+    margin: 0 auto 6px auto !important;
+  }
+  .home-container .video-container {
+    width: 90%;
+    margin: 0 auto;
+  }
   .home-container .video-container iframe {
-    width: 300px;
+    width: 90%;
     height: 169px;
   }
   .home-container .jack-rabbit-img {
@@ -171,11 +264,30 @@ a.go-to-registration {
   }
   .home-container .wrap {
     padding: 0;
+    margin: 0;
   }
   .home-container .jack-rabbit-img {
     height: 60px;
   }
-  .home-container .video-container {
-    margin-top: 5px;
+  .home-container .image-links {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .home-container .image-links .img-link {
+    margin: 0 auto 20px auto;
+    padding: 0;
+    width: 90%;
+  }
+  .home-container .image-links .img-link img {
+    width: 100%;
+    height: 170px;
+  }
+}
+
+/* iPhone 6,7,8 Plus */
+
+@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+  .home-container .home-img {
+    margin-bottom: 15px;
   }
 }

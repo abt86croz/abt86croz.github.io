@@ -244,7 +244,7 @@ a.go-to-registration {
     width: 90%;
     height: 152px;
     margin: 0 auto;
-    background-size: cover;
+    background-size: contain;
   }
   .home-container .wrap {
     width: 90%;
@@ -286,10 +286,25 @@ a.go-to-registration {
   }
 }
 
+/* iPhone 5 */
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
+  .home-container .image-links-wrap .img-link:first-child {
+    margin-top: 5px;
+  }
+}
+
 /* iPhone 6,7,8 Plus */
 
 @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
   .home-container .home-img {
     height: 168px;
+  }
+  .home-container .image-links-wrap .img-link:first-child {
+    margin-top: 15px;
+  }
+  .home-container .image-links-wrap .img-link img {
+    width: 335px;
+    height: 162px;
   }
 }

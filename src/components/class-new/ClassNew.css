@@ -15,10 +15,6 @@
   background-size: 100% auto;
 }
 
-.new-classes-container .description p:first-child {
-  margin-top: 25px;
-}
-
 .new-classes-container .quote {
   text-align: center;
   margin: 25px auto;

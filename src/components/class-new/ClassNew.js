@@ -8,6 +8,7 @@ const NewClasses = () => (
   <div className="new-classes-container">
     <div className="bg-image description-img" />
     <div className="content">
+      <p className="heading">New Classes</p>
       <div className="description">
         <p className="sub-title bold">
           HOMESCHOOL BALLET • Ages 5+

@@ -30,29 +30,29 @@ a.go-to-registration {
   opacity: 0.6;
 }
 
-.home-container .image-links {
+.home-container .image-links-wrap {
   width: 100%;
   display: block;
   margin: 30px auto 30px auto;
   text-align: center;
 }
 
-.home-container .image-links .img-link {
+.home-container .image-links-wrap .img-link {
   display: inline-block;
   padding-right: 12.5px;
 }
 
-.home-container .image-links .img-link img {
+.home-container .image-links-wrap .img-link img {
   height: 160px;
   padding: 0;
   margin: 0;
 }
 
-.home-container .image-links .new-classes:hover, .home-container .image-links .calendar:hover, .home-container .image-links .performances:hover, .home-container .image-links .handbook-policies:hover {
+.home-container .image-links-wrap .new-classes:hover, .home-container .image-links-wrap .calendar:hover, .home-container .image-links-wrap .performances:hover, .home-container .image-links-wrap .handbook-policies:hover {
   opacity: 0.6;
 }
 
-.home-container .image-links .img-link:last-child {
+.home-container .image-links-wrap .img-link:last-child {
   padding-right: 0;
 }
 
@@ -84,24 +84,24 @@ a.go-to-registration {
   .home-container .video-container {
     margin-top: 7px;
   }
-  .home-container .image-links {
+  .home-container .image-links-wrap {
     margin: 0 auto;
     width: 90%;
   }
-  .home-container .image-links .img-link {
+  .home-container .image-links-wrap .img-link {
     width: 50%;
     padding: 0;
   }
-  .home-container .image-links .img-link img {
+  .home-container .image-links-wrap .img-link img {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
     padding-right: 0;
   }
-  .home-container .image-links .new-classes, .home-container .image-links .performances {
+  .home-container .image-links-wrap .new-classes, .home-container .image-links-wrap .performances {
     padding-right: 5px;
   }
-  .home-container .image-links .calendar, .home-container .image-links .handbook-policies {
+  .home-container .image-links-wrap .calendar, .home-container .image-links-wrap .handbook-policies {
     padding-left: 5px;
   }
 }
@@ -123,7 +123,6 @@ a.go-to-registration {
   .home-container .video-container {
     margin-top: 20px;
   }
-  
   .home-container .video-container iframe {
     width: 920px;
     height: 460px;
@@ -149,17 +148,17 @@ a.go-to-registration {
   .home-container .video-container {
     margin-top: 10px;
   }
-  .home-container .image-links .img-link {
+  .home-container .image-links-wrap .img-link {
     width: auto;
     margin-bottom: 10px;
   }
-  .home-container .image-links .img-link img {
+  .home-container .image-links-wrap .img-link img {
     width: 340px;
   }
-  .home-container .image-links .new-classes, .home-container .image-links .performances {
+  .home-container .image-links-wrap .new-classes, .home-container .image-links-wrap .performances {
     padding-right: 10px;
   }
-  .home-container .image-links .calendar, .home-container .image-links .handbook-policies {
+  .home-container .image-links-wrap .calendar, .home-container .image-links-wrap .handbook-policies {
     padding-left: 10px;
   }
 }
@@ -217,20 +216,20 @@ a.go-to-registration {
   .home-container .video-container {
     margin-top: 4px;
   }
-  .home-container .image-links {
+  .home-container .image-links-wrap {
     margin: 20px auto 0 auto;
   }
-  .home-container .image-links .img-link {
+  .home-container .image-links-wrap .img-link {
     padding: 0;
     margin-bottom: 12px;
   }
-  .home-container .image-links .img-link img {
+  .home-container .image-links-wrap .img-link img {
     width: 252px;
   }
-  .home-container .image-links .new-classes, .home-container .image-links .performances {
+  .home-container .image-links-wrap .new-classes, .home-container .image-links-wrap .performances {
     padding-right: 6px;
   }
-  .home-container .image-links .calendar, .home-container .image-links .handbook-policies {
+  .home-container .image-links-wrap .calendar, .home-container .image-links-wrap .handbook-policies {
     padding-left: 6px;
   }
 }
@@ -243,13 +242,13 @@ a.go-to-registration {
 @media (min-width: 320px) and (max-width: 480px) {
   .home-container .home-img {
     width: 90%;
-    height: 170px;
+    height: 152px;
     margin: 0 auto;
-    background-size: contain;
+    background-size: cover;
   }
   .home-container .wrap {
     width: 90%;
-    margin: 0 auto 6px auto !important;
+    margin: 0 auto !important;
   }
   .home-container .video-container {
     width: 90%;
@@ -257,7 +256,7 @@ a.go-to-registration {
   }
   .home-container .video-container iframe {
     width: 90%;
-    height: 169px;
+    height: 160px;
   }
   .home-container .jack-rabbit-img {
     margin: 30px auto 50px;
@@ -269,18 +268,21 @@ a.go-to-registration {
   .home-container .jack-rabbit-img {
     height: 60px;
   }
-  .home-container .image-links {
+  .home-container .image-links-wrap {
     margin: 0 auto;
     width: 90%;
   }
-  .home-container .image-links .img-link {
-    margin: 0 auto 20px auto;
+  .home-container .image-links-wrap .img-link {
+    margin: 0 auto 15px auto;
     padding: 0;
     width: 90%;
   }
-  .home-container .image-links .img-link img {
+  .home-container .image-links-wrap .img-link:first-child {
+    margin-top: 15px;
+  }
+  .home-container .image-links-wrap .img-link img {
     width: 100%;
-    height: 170px;
+    height: 152px;
   }
 }
 
@@ -288,6 +290,6 @@ a.go-to-registration {
 
 @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
   .home-container .home-img {
-    margin-bottom: 15px;
+    height: 168px;
   }
 }

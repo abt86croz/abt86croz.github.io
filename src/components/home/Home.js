@@ -22,7 +22,7 @@ const Home = () => (
       </a>
     </div>
 
-    <div className="image-links">
+    <div className="image-links-wrap">
       <div className="img-link new-classes">
         <Link to="/classes/new-classes">
           <HomeBtn1 />

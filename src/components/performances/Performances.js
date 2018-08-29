@@ -9,7 +9,7 @@ const Performances = () => (
     <div className="bg-image description-img" />
     <div className="content">
       <div className="description">
-        <div className="heading bold center">Upcoming Performances</div>
+        <div className="heading">Upcoming Performances</div>
         <p className="sub-title bold">
           December 8th, 2018: The Nutcracker
           <span className="sub-title-specs">
@@ -20,7 +20,11 @@ const Performances = () => (
         </p>
         <p>
           Follow the link below to purchased tickets online: <br />
-          <a href="http://waynetheatre.org/dec-8-the-nutcracker-presented-by-albemarle-ballet/">
+          <a
+            href="http://waynetheatre.org/dec-8-the-nutcracker-presented-by-albemarle-ballet/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             http://waynetheatre.org/dec-8-the-nutcracker-presented-by-albemarle-ballet/
           </a>
         </p>

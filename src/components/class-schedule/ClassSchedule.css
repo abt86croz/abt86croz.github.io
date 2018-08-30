@@ -2,9 +2,25 @@
   margin: 0 auto;
 }
 
+.schedule-container .calendar-class-container .rotate-phone {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+  display: none;
+  position: relative;
+  top: -13px;
+}
+
+.schedule-container .calendar-class-container .rotate-phone p {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 15px;
+}
+
 .schedule-container .schedule-img {
-background: url('../../images/bkgrnd/schedule.jpg') no-repeat;
-background-size: 100% auto;
+  background: url('../../images/bkgrnd/schedule.jpg') no-repeat;
+  background-size: 100% auto;
 }
 
 .schedule-container:after {
@@ -66,37 +82,6 @@ background-size: 100% auto;
   margin: 40px auto;
 }
 
-/* MOBILE */
-
-@media screen and (max-width: 768px) {
-  .schedule-container {
-    margin: 0 auto;
-  }
-  .schedule-container .content {
-    background: none !important;
-  }
-  .schedule-container iframe {
-    width: 700px;
-    height: 630px;
-    margin: 50px auto 0 auto;
-    display: block;
-  }
-  .schedule-container .classType p {
-    font-size: 14px;
-  }
-  .schedule-container .weekly-schedule {
-    width: 100%;
-    background: none;
-  }
-  .schedule-container .data-wrap {
-    float: none;
-    display: block;
-    margin: 0 auto;
-    width: 540px;
-    background-color: rgba(255, 255, 255, 0.8);
-  }
-}
-
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
@@ -104,14 +89,11 @@ background-size: 100% auto;
 
 @media (min-width: 481px) and (max-width: 767px) {
   .schedule-container iframe {
-    height: 670px;
-    width: 480px;
+    width: 90%;
     margin: 0 auto;
     display: block;
+    padding: 0;
   }
-}
-
-@media screen and (max-width: 568px) {
   .schedule-container {
     margin: 0 auto;
   }
@@ -122,13 +104,14 @@ background-size: 100% auto;
   .schedule-container .data-wrap {
     float: none;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
     width: 330px;
     background: none;
   }
   .schedule-container .content {
-    margin-top: 750px;
+    margin-top: 30px;
     background-color: rgba(255, 255, 255, 0.8) !important;
+    margin: 0 auto;
   }
   .schedule-container .classType p {
     font-size: 14px;
@@ -137,16 +120,91 @@ background-size: 100% auto;
     width: 100%;
     background: none;
   }
+}
+
+/* iPad Landscape  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation:landscape) {
+  .schedule-container iframe {
+    width: 85%;
+  }
+}
+
+/********** Ipad Pro ***************/
+
+/* Portrait*/
+
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .schedule-container .calendar-class-container {
-    position: relative;
-    height: 0;
+    width: 100%;
   }
   .schedule-container iframe {
-    height: 670px;
-    width: 100vw;
+    width: 90%;
+  }
+  .schedule-container .schedule-img {
+    background: none;
+  }
+  .schedule-container .content {
     margin: 0 auto;
+    width: 100%;
+  }
+}
+
+/* MOBILE PORTRAIT*/
+
+@media screen and (max-width: 768px) and (orientation:portrait) {
+  .schedule-container .calendar-class-container {
+    width: 100%;
+  }
+  /* Hide jackrabbit calendar on portrait  */
+  .schedule-container .calendar-class-container iframe {
+    display: none;
+  }
+  .schedule-container .weekly-schedule {
+    width: 90%;
+    background: none;
+    margin: 0 auto;
+  }
+  /* show rotate phone icon */
+  .schedule-container .calendar-class-container .rotate-phone {
+    display: block
+  }
+}
+
+/* iPhone 6,7,8 Plus */
+
+@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+  .schedule-container .calendar-class-container .rotate-phone {
+    display: none
+  }
+  /* Show jackrabbit calendar on portrait  */
+  .schedule-container .calendar-class-container iframe {
     display: block;
+    width: 410px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-device-width:768px) and (max-device-width: 1024px) and (device-aspect-ratio: 3/4) and (orientation:portrait) {
+  .schedule-container .calendar-class-container .rotate-phone {
+    display: none
+  }
+  .schedule-container iframe {
+    width: 90%;
+    margin: 0 auto;
+    display: block !important;
     padding: 0;
-    position: absolute;
+  }
+  .schedule-container {
+    margin: 0 auto;
+  }
+  .schedule-container .calendar-class-container {
+    width: 100%;
+    float: none;
+    margin: 20px auto;
   }
 }

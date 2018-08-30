@@ -3,6 +3,7 @@ import PDFIcon from 'react-icons/lib/fa/file-pdf-o'
 import RightArrow from 'react-icons/lib/fa/angle-double-right'
 import { Link } from 'react-router-dom'
 import { weeklyClasses } from './ClassScheduleData'
+import { IphoneImage } from '../Images'
 import './ClassSchedule.css'
 import ClassSchePDF from '../../pdf/class-schedule.pdf'
 
@@ -25,6 +26,11 @@ const Schedule = () => (
   <div className="schedule-container">
     <div className="bg-image schedule-img" />
     <div className="calendar-class-container">
+      <div className="rotate-phone">
+        <p>Please rotate your phone to view calendar schedule</p>
+        <IphoneImage />
+      </div>
+
       <iframe
         title="ABT Class Schedule"
         src="https://app.jackrabbitclass.com/eventcalendar.asp?orgid=534011"

@@ -18,6 +18,7 @@ const Tuition = () => (
   <div className="tuition-container">
     <div className="bg-image tuition-img" />
     <div className="content">
+      <p className="heading">Tuition</p>
       <p className="sub-title bold underline">2018-2019 School Year Classes </p>
       <p>
         All classes are $298/semester before multi-class discounts. Because all
@@ -36,7 +37,7 @@ const Tuition = () => (
         Monthly payments are due on the 10th of each month.{' '}
         <span className="bold">
           For your convenience your card on file will automatically be charged
-        </span>{' '}
+        </span>
         if another form of payment (cash or check) is not received by the 10th
         of the month.
       </p>
@@ -82,18 +83,17 @@ const Tuition = () => (
       </div>
       <p>
         <span className="underline bold">Mat Pilates</span> <br />
-        Drop-in Classes: $15 <br />
-        10-Class Card: $120 <br />
-        *Drop-in classes are listed under ‘Events’ in the Dancer Portal. <br />
-        **Class cards can be purchased in person at ABT.
+        1-Month Sessions: $15 per class <br />
       </p>
       <p>
         <span className="underline bold">
           Baby & Me Barre, Movement Therapy, Dance With Me & Creative Movement
+          Therapy
         </span>
         <br />
-        Therapy 8-Week Session: $149 <br />
-        *Must be paid in full.<br />
+        8-Week Session: $149 <br />
+        *Must be paid in full.
+        <br />
       </p>
     </div>
   </div>

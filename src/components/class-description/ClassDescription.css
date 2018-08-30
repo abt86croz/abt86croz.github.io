@@ -25,9 +25,12 @@
 }
 
 .description-container .heading {
-  font-size: 40px;
-  padding-top: 8px;
+  padding-bottom: 0 !important;
+}
+
+.description-container .note {
   text-align: center;
+  padding-bottom: 8px;
 }
 
 .description-container .sub-title {

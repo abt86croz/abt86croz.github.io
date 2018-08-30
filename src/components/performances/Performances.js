@@ -57,7 +57,7 @@ const Performances = () => (
       <hr />
       <div className="description">
         <p className="sub-title bold">
-          *April 28th, 2019: Exploring Ballet & Ballet IA Only
+          April 28th, 2019: Exploring Ballet & Ballet IA Only
           <span className="sub-title-specs">
             Studio Showing at ABT <br />
             Times TBA

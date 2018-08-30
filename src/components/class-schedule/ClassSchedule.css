@@ -30,19 +30,21 @@
 }
 
 .schedule-container .calendar-class-container {
-  width: 70%;
   height: auto;
   margin: 0 auto;
   box-sizing: border-box;
-  float: right;
 }
 
 .schedule-container iframe {
-  width: 840px;
+  width: 90%;
   height: 620px;
   box-sizing: border-box;
   margin: 0 auto 30px auto;
   display: block;
+}
+
+.schedule-container .content .heading {
+  padding-top: 12px !important;
 }
 
 .schedule-container .btn-sm {
@@ -120,13 +122,8 @@
     width: 100%;
     background: none;
   }
-}
-
-/* iPad Landscape  */
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation:landscape) {
-  .schedule-container iframe {
-    width: 85%;
+  .schedule-container .content .heading {
+    padding-top: 0;
   }
 }
 
@@ -153,6 +150,9 @@
 /* MOBILE PORTRAIT*/
 
 @media screen and (max-width: 768px) and (orientation:portrait) {
+  .schedule-container .content .heading {
+    display: none;
+  }
   .schedule-container .calendar-class-container {
     width: 100%;
   }
@@ -167,7 +167,8 @@
   }
   /* show rotate phone icon */
   .schedule-container .calendar-class-container .rotate-phone {
-    display: block
+    display: block;
+    padding: 0 1px;
   }
 }
 
@@ -181,6 +182,10 @@
   .schedule-container .calendar-class-container iframe {
     display: block;
     width: 410px;
+  }
+  .schedule-container .content .heading {
+    display: block;
+    font-size: 30px;
   }
 }
 

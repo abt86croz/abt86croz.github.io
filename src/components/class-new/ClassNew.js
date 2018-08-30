@@ -30,7 +30,7 @@ const NewClasses = () => (
         <p className="sub-title bold">
           MAT PILATES
           <span className="sub-title-specs">
-            $15 Drop-in Rate / $120 10-Class Card • 1-Hour Class
+            1-Month Sessions • $15 per class (introductory rate) • 1-Hour Class
           </span>
         </p>
         <p>

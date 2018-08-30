@@ -18,13 +18,57 @@ const Description = () => (
         </p>
       </div>
       <p className="heading">Class Descriptions</p>
+      <p className="note">Ballet IIA – Advanced is by placement only</p>
       <div className="description">
-        <p className="sub-title bold">EXPLORING BALLET • Ages 3-4 • 45-minutes</p>
+        <p className="sub-title bold">
+          CREATIVE MOVEMENT • Ages 2-4 • 45 minutes
+        </p>
+        <p>
+          Explore the world of movement and music, and develop motor skills and
+          rhythm through movement games, nursery rhymes, and songs! Fun props
+          are used to foster a creative, safe, and nurturing environment for
+          your little ones to socialize, interact, and learn in.
+        </p>
+      </div>
+      <hr />
+      <div className="description">
+        <p className="sub-title bold">DANCE WITH ME• Ages 2-4 • 45 minutes</p>
+        <p>
+          The same as Creative Movement with a parent or guardian participation.
+          One adult per child. Adult participation necessary.
+        </p>
+        <p>
+          Explore the world of movement and music, and develop motor skills and
+          rhythm through movement games, nursery rhymes, and songs! Fun props
+          are used to foster a creative, safe, and nurturing environment for
+          your little ones to socialize, interact, and learn in.
+        </p>
+      </div>
+      <hr />
+      <div className="description">
+        <p className="sub-title bold">
+          EXPLORING BALLET • Ages 3-4 • 45-minutes
+        </p>
         <p>
           Your preschool dancer’s very first peek at classical ballet! Our
           unique curriculum teaches and explores body positions, fundamental
           steps and their French names, developing and refining motor skills,
           creative movement and games, classical music, and classroom etiquette.
+        </p>
+      </div>
+      <hr />
+      <div className="description">
+        <p className="sub-title bold">
+          MOVEMENT THERAPY THROUGH DANCE • Ages 2-8 • 1 hour
+        </p>
+        <p>
+          A creative movement and dance class for those with all levels of
+          attention and ability that utilizes games, songs, and stories to
+          strengthen both hemispheres of the brain and target gross motor skill
+          development by combining movement, visual stimulation, patterns,
+          rhythm, and sequence. This promotes and supports physical and
+          emotional health, improves self-confidence, encourages creativity and
+          imagination, and the ability to express emotions.
         </p>
       </div>
       <hr />
@@ -36,6 +80,14 @@ const Description = () => (
           awareness, the separation of barre and center work, foundational steps
           and their French names, memorization, musicality, and classroom
           etiquette.
+        </p>
+      </div>
+      <hr />
+      <div className="description">
+        <p className="sub-title bold">HOMESCHOOL BALLET • Ages 5+ • 1 hour</p>
+        <p>
+          An open level ballet class for homeschool students with daytime
+          scheduling needs and availability.
         </p>
       </div>
       <hr />
@@ -58,7 +110,9 @@ const Description = () => (
       </div>
       <hr />
       <div className="description">
-        <p className="sub-title bold">BALLET IIA • Beginner Intermediate • 1 hour</p>
+        <p className="sub-title bold">
+          BALLET IIA • Beginner Intermediate • 1 hour
+        </p>
         <p>
           This curriculum is designed to help young dancers develop, learn, and
           feel empowered in their dance experience. Classes expand on the
@@ -121,7 +175,9 @@ const Description = () => (
       </div>
       <hr />
       <div className="description">
-        <p className="sub-title bold">BALLET IV • Beginner Advanced • 2 hours</p>
+        <p className="sub-title bold">
+          BALLET IV • Beginner Advanced • 2 hours
+        </p>
         <p>
           A multi-level advanced class tailored for the graduating Ballet IIIB
           or any advanced or pre-professional student. This class offers the
@@ -154,14 +210,6 @@ const Description = () => (
           complex footwork, center work, variations, and turns. In addition,
           there is a strong emphasis on correct use of the foot, strength and
           stability, and cross-training exercises.
-        </p>
-      </div>
-      <hr />
-      <div className="description">
-        <p className="sub-title bold">HOMESCHOOL BALLET • Ages 5+ • 1 hour</p>
-        <p>
-          An open level ballet class for homeschool students with daytime
-          scheduling needs and availability.
         </p>
       </div>
       <hr />
@@ -227,45 +275,6 @@ const Description = () => (
       </div>
       <hr />
       <div className="description">
-        <p className="sub-title bold">CREATIVE MOVEMENT • Ages 2-4 • 45 minutes</p>
-        <p>
-          Explore the world of movement and music, and develop motor skills and
-          rhythm through movement games, nursery rhymes, and songs! Fun props
-          are used to foster a creative, safe, and nurturing environment for
-          your little ones to socialize, interact, and learn in.
-        </p>
-      </div>
-      <hr />
-      <div className="description">
-        <p className="sub-title bold">DANCE WITH ME• Ages 2-4 • 45 minutes</p>
-        <p>
-          The same as Creative Movement with a parent or guardian participation.
-          One adult per child. Adult participation necessary.
-        </p>
-        <p>
-          Explore the world of movement and music, and develop motor skills and
-          rhythm through movement games, nursery rhymes, and songs! Fun props
-          are used to foster a creative, safe, and nurturing environment for
-          your little ones to socialize, interact, and learn in.
-        </p>
-      </div>
-      <hr />
-      <div className="description">
-        <p className="sub-title bold">
-          MOVEMENT THERAPY THROUGH DANCE • Ages 2-8 • 1 hour
-        </p>
-        <p>
-          A creative movement and dance class for those with all levels of
-          attention and ability that utilizes games, songs, and stories to
-          strengthen both hemispheres of the brain and target gross motor skill
-          development by combining movement, visual stimulation, patterns,
-          rhythm, and sequence. This promotes and supports physical and
-          emotional health, improves self-confidence, encourages creativity and
-          imagination, and the ability to express emotions.
-        </p>
-      </div>
-      <hr />
-      <div className="description">
         <p>
           Our dance studio is conveniently located in Crozet, near Western
           Albemarle High School, Henley, Brownsville, and Crozet Elementary
@@ -276,10 +285,12 @@ const Description = () => (
           For more information: <br /> email us at
           <a href="mailto:albemarleballettheatre@gmail.com" target="_top">
             <span> albemarleballettheatre@gmail.com</span>
-          </a>, or call us at
+          </a>
+          , or call us at
           <a href="tel:+1-434-823-8888">
             <span> (434) 823-8888</span>
-          </a>.
+          </a>
+          .
         </p>
         <p>
           <a

@@ -25,21 +25,22 @@ const Data = () => {
 const Schedule = () => (
   <div className="schedule-container">
     <div className="bg-image schedule-img" />
-    <div className="calendar-class-container">
-      <div className="rotate-phone">
-        <p>Please rotate your phone to view calendar schedule</p>
-        <IphoneImage />
-      </div>
-
-      <iframe
-        title="ABT Class Schedule"
-        src="https://app.jackrabbitclass.com/eventcalendar.asp?orgid=534011"
-        frameBorder="0"
-        scrolling="no"
-      />
-    </div>
-    <div className="clear" />
     <div className="content">
+      <p className="heading">Class Schedule & Calendar</p>
+      <div className="calendar-class-container">
+        <div className="rotate-phone">
+          <p>Please rotate your phone to view class calendar</p>
+          <IphoneImage />
+        </div>
+
+        <iframe
+          title="ABT Class Schedule"
+          src="https://app.jackrabbitclass.com/eventcalendar.asp?orgid=534011"
+          frameBorder="0"
+          scrolling="no"
+        />
+      </div>
+      <div className="clear" />
       <div className="data-wrap">
         <Data />
       </div>

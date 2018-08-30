@@ -25,7 +25,7 @@ const ClassAttire = () => (
   <div className="class-attire-container">
     <div className="bg-image class-attire-img" />
     <div className="content">
-      <p className="title bold">Class Attire</p>
+      <p className="heading">Class Attire</p>
       <p className="italic">
         Hair should be worn up in a neat bun. Dancers with short hair must pin
         back bangs or wear a headband. Remove all jewelry other than stud

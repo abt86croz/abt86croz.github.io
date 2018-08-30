@@ -83,6 +83,13 @@ input[type=file] {
   font-style: normal;
 }
 
+.heading {
+  font-size: 40px;
+  padding: 8px 0!important;
+  text-align: center;
+  margin: 0;
+}
+
 p {
   font-size: 18px;
 }

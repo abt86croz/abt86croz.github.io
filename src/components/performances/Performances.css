@@ -21,9 +21,7 @@
 }
 
 .performances-container .heading {
-  font-size: 40px;
-  padding: 8px 0;
-  text-align: center;
+  padding-bottom: 12px !important;
 }
 
 .performances-container .sub-title {

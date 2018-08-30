@@ -8,6 +8,7 @@ const FinancialAid = () => (
   <div className="financial-aid-container">
     <div className="bg-image financial-img" />
     <div className="content">
+      <p className="heading">Financial Aid</p>
       <p>
         The goal of our Scholarship and Work-Study programs are to ensure that
         all students, regardless of their financial status, are given the
@@ -22,11 +23,13 @@ const FinancialAid = () => (
         your application via email to
         <a href="mailto:albemarleballettheatre@gmail.com" target="_top">
           albemarleballettheatre@gmail.com
-        </a>, in person, or by mail. If you have any questions, please contact
-        ABT at
+        </a>
+        , in person, or by mail. If you have any questions, please contact ABT
+        at
         <a href="tel:+1-434-823-8888" target="_top">
           (434) 823-8888
-        </a>.
+        </a>
+        .
       </p>
       <p className="italic">
         <span className="no-italic">Mailing Address:</span> <br />

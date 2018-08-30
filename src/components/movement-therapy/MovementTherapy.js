@@ -9,6 +9,7 @@ const MovementTherapy = () => (
   <div className="movement-therapy-container">
     <div className="bg-image movement-img" />
     <div className="content">
+      <p className="heading">Movement Therapy</p>
       <p>
         Our Movement Therapy Through Dance class is for ages 2 – 6. It is a
         creative movement and dance class for those with all levels of attention
@@ -35,10 +36,11 @@ const MovementTherapy = () => (
         </span>
       </p>
       <p>
-        <MovementTherapyImage />In the mid-1990’s, when Sally began teaching
-        again in Afton, she took on a student with Cerebral Palsy. Her mother,
-        Anna Rossberg, has never forgotten Sally’s response to her desire for
-        ballet classes for her daughter Molly,
+        <MovementTherapyImage />
+        In the mid-1990’s, when Sally began teaching again in Afton, she took on
+        a student with Cerebral Palsy. Her mother, Anna Rossberg, has never
+        forgotten Sally’s response to her desire for ballet classes for her
+        daughter Molly,
         <span className="italic">
           “Everyone has something to overcome, in Molly’s case it’s just more
           obvious.”

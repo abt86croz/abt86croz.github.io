@@ -5,7 +5,7 @@
 .schedule-container .calendar-class-container .rotate-phone {
   margin: 0 auto;
   text-align: center;
-  padding: 0;
+  padding: 12px 1px 0px 1px;
   display: none;
   position: relative;
   top: -13px;
@@ -169,7 +169,6 @@
   /* show rotate phone icon */
   .schedule-container .calendar-class-container .rotate-phone {
     display: block;
-    padding: 0 1px;
   }
 }
 

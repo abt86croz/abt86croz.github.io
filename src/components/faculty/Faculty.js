@@ -23,7 +23,7 @@ const Faculty = () => (
         A former dancer with the Joffrey Ballet under the direction of Robert
         Joffrey. She performed at the grand opening of the Kennedy Center, with
         Kevin McKenzie, and in Joffrey Ballet classics Petrouchka, Trinity, Viva
-        Vivaldi, and The Seasons.
+        Vivaldi, and Seasons.
       </p>
       <p>
         After her dance career, Mrs. Hart went on to become a professional

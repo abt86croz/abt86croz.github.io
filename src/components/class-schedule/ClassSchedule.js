@@ -2,31 +2,16 @@ import React from 'react'
 import PDFIcon from 'react-icons/lib/fa/file-pdf-o'
 import RightArrow from 'react-icons/lib/fa/angle-double-right'
 import { Link } from 'react-router-dom'
-import { weeklyClasses } from './ClassScheduleData'
 import { IphoneImage } from '../Images'
 import './ClassSchedule.css'
 import ClassSchePDF from '../../pdf/class-schedule.pdf'
 
 /* eslint-disable max-len */
-const Data = () => {
-  return weeklyClasses.map((o) => {
-    // render
-    return (
-      <div className="weekly-schedule" key={o.id}>
-        <div className="day">{o.day}</div>
-        <div className="classType">
-          {o.classDescription.map(i => <p key={i.id}>{i.classType}</p>)}
-        </div>
-      </div>
-    )
-  })
-}
-
 const Schedule = () => (
   <div className="schedule-container">
     <div className="bg-image schedule-img" />
     <div className="content">
-      <p className="heading">Class Schedule & Calendar</p>
+      <p className="heading">Class Calendar</p>
       <div className="calendar-class-container">
         <div className="rotate-phone">
           <p>Please rotate your phone to view class calendar</p>
@@ -41,9 +26,16 @@ const Schedule = () => (
         />
       </div>
       <div className="clear" />
-      <div className="data-wrap">
-        <Data />
+      <div>
+        <p className="heading show">Class Schedule</p>
+        <iframe
+          src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsDirect?OrgID=534011"
+          frameBorder="0"
+          allowFullScreen
+          title="ABT Class Schedule"
+        />
       </div>
+
       <div className="clear" />
       <div className="btn-wrap">
         <a

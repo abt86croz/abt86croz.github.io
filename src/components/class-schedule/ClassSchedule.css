@@ -37,9 +37,9 @@
 
 .schedule-container iframe {
   width: 90%;
-  height: 620px;
+  height: 820px;
   box-sizing: border-box;
-  margin: 0 auto 30px auto;
+  margin: 0 auto;
   display: block;
 }
 
@@ -198,8 +198,12 @@
   .schedule-container .calendar-class-container .rotate-phone {
     display: none
   }
+  .schedule-container .content .heading {
+    display: block
+  }
   .schedule-container iframe {
-    width: 90%;
+    width: 92%;
+    height: 840px;
     margin: 0 auto;
     display: block !important;
     padding: 0;

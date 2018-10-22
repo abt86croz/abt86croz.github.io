@@ -49,7 +49,9 @@ const Performances = () => (
           December 15th & 16th: Step Into The Story- Nutcracker
           <span className="sub-title-specs">
             The White Box Theatre at ABT <br />
-            Times TBA <br />
+            Crozet, VA <br />
+            Saturday: 2:00pm & 4:00pm <br />
+            Sunday: 11:00am & 1:00pm <br />
             Ballet III – Advanced Only
           </span>
         </p>
@@ -76,7 +78,8 @@ const Performances = () => (
         <p className="sub-title bold">
           May 11th, 2019: Spring Gala
           <span className="sub-title-specs">
-            Two performance times TBA <br />
+            2:00pm & 6:00pm
+            <br />
             The Dickinson Theatre at Piedmont Community College <br />
             Charlottesville, VA
           </span>

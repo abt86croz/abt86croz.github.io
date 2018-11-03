@@ -64,6 +64,24 @@ a.go-to-registration {
   margin: 30px auto 50px auto;
 }
 
+.abt-nutcracker-container {
+  margin: 15px auto;
+}
+
+.abt-nutcracker-container div {
+  width: 630px;
+  margin: 0 auto;
+}
+
+.abt-nutcracker-container img {
+  width: 100%;
+  image-rendering: pixelated;
+}
+
+.abt-nutcracker-container img:hover {
+  opacity: 0.6;
+}
+
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
@@ -232,6 +250,10 @@ a.go-to-registration {
   .home-container .image-links-wrap .calendar, .home-container .image-links-wrap .handbook-policies {
     padding-left: 6px;
   }
+  .abt-nutcracker-container div {
+    width: 500px !important;
+    margin: 0 auto;
+  }
 }
 
 /* 
@@ -284,6 +306,9 @@ a.go-to-registration {
     width: 100%;
     height: 152px;
   }
+  .abt-nutcracker-container div {
+    width: 86%;
+  }
 }
 
 /* iPhone 5 */
@@ -291,6 +316,12 @@ a.go-to-registration {
 @media screen and (-webkit-min-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
   .home-container .image-links-wrap .img-link:first-child {
     margin-top: 5px;
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation: landscape) {
+  .abt-nutcracker-container div {
+    width: 300px !important;
   }
 }
 

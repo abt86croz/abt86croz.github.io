@@ -97,7 +97,7 @@ const Faculty = () => (
       <p>
         <NickyImage />
         <span className="bold instructor">
-          Nicky Coelho - Executive Associate/Production Manager
+          Nicky Coelho - Executive Consultant, Production Manager
         </span>
         Mrs. Coelho began dancing with her mother Sally Hart. She has also
         studied with Virginia School of the Arts, Maryland Youth Ballet, and on

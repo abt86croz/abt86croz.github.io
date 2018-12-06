@@ -18,7 +18,7 @@ const Faculty = () => (
   <div className="faculty-container">
     <div className="bios">
       <SallyImage />
-      <span className="bold instructor">Sally Hart - Owner/Director</span>
+      <span className="bold instructor">Sally Hart - Owner, Director</span>
       <p>
         A former dancer with the Joffrey Ballet under the direction of Robert
         Joffrey. She performed at the grand opening of the Kennedy Center, with
@@ -47,7 +47,7 @@ const Faculty = () => (
       <p>
         <VeronicaImage />
         <span className="bold instructor">
-          Veronica Piller - Artistic Director
+          Veronica Piller - Artistic Director, Choreographer, Instructor
         </span>
         Mrs. Piller is the founder and director of concorDance contemporary, a
         professional contemporary dance company. She formerly danced with the
@@ -75,7 +75,7 @@ const Faculty = () => (
       <p>
         <AshleyImage />
         <span className="bold instructor">
-          Ashley Geisler - Director of Operations/Instructor
+          Ashley Geisler - Director of Operations, Choreographer, Instructor
         </span>
         Mrs. Geisler studied with the Old Dominion Ballet Company in Norfolk,
         Virginia, under the husband and wife team of Istvan and Nelli Ament.She

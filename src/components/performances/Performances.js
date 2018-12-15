@@ -11,42 +11,6 @@ const Performances = () => (
     <div className="content">
       <div className="description">
         <div className="heading">Upcoming Performances</div>
-        <p className="sub-title bold">
-          December 8th, 2018: The Nutcracker
-          <span className="sub-title-specs">
-            2:00pm & 5:00pm <br />
-            The Wayne Theatre <br />
-            Waynesboro, VA
-          </span>
-        </p>
-        <p>
-          E.T.A. Hoffman’s classic holiday favorite story set to the iconic
-          music of Pyotr Illyich Tchaikovsky.
-        </p>
-        <p>
-          Follow the link below to purchased tickets online: <br />
-          <a
-            href="http://waynetheatre.org/dec-8-the-nutcracker-presented-by-albemarle-ballet/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            http://waynetheatre.org/dec-8-the-nutcracker-presented-by-albemarle-ballet/
-          </a>
-        </p>
-      </div>
-      <hr />
-      <div className="description">
-        <p className="sub-title bold">
-          Nutcracker Community Outreach Performances:
-          <span className="sub-title-specs">
-            Monday, December 3rd, 4:30pm <br />
-            Crozet Library <br />
-            Ballet III – Advanced only
-          </span>
-        </p>
-        <p>
-          * One more Outreach Performance will be scheduled, date and time TBA
-        </p>
       </div>
       <hr />
       <div className="description">
@@ -85,6 +49,11 @@ const Performances = () => (
           This is a paperless show! Just show your PayPal receipt on your phone
           at the door for entry. Tickets may also be purchased in person at the
           door.
+        </p>
+        <p className="bold">
+          *Online sales will be discontinued 2-hours prior to show time. Tickets
+          can be purchased in person at ABT. For ticket inquiries please call
+          434-823-8888.
         </p>
         {/* PAYPAL BUTTON */}
         <div id="paypal-nutcracker" className="paypal-nutcracker">

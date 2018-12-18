@@ -1,13 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { HashLink as NutLink } from 'react-router-hash-link'
+// import { HashLink as NutLink } from 'react-router-hash-link'
 import './Home.css'
 import {
   HomeBtn1,
   HomeBtn2,
   HomeBtn3,
   HomeBtn4,
-  NutCrackerImage,
 } from '../Images'
 import HandbookDoc from '../../pdf/2018-2019-handbook-policies.pdf'
 
@@ -18,13 +17,7 @@ const handlePoliciesClick = () => {
 /* eslint-disable max-len */
 const Home = () => (
   <div className="home-container">
-    <div className="abt-nutcracker-container">
-      <div>
-        <NutLink smooth to="/performances#abtnutcracker">
-          <NutCrackerImage />
-        </NutLink>
-      </div>
-    </div>
+    <div className="abt-nutcracker-container" />
     <div className="wrap">
       <a
         className="go-to-registration"

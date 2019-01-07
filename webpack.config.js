@@ -21,10 +21,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: [
-          'style-loader',
-          { loader: 'css-loader', options: { minimize: true } },
-        ],
+        use: ['style-loader', { loader: 'css-loader', options: { minimize: true } }],
       },
       {
         test: /\.(pdf|jpg|png|svg)$/,
@@ -39,11 +36,13 @@ module.exports = {
   },
 
   plugins:
-    process.argv.indexOf('-p') === -1 ? [] : [
-      new webpack.optimize.UglifyJsPlugin({
-        output: {
-          comments: false,
-        },
-      }),
-    ],
+    process.argv.indexOf('-p') === -1
+      ? []
+      : [
+        new webpack.optimize.UglifyJsPlugin({
+          output: {
+            comments: false,
+          },
+        }),
+      ],
 }

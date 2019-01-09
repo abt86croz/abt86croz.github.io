@@ -43,7 +43,6 @@ input[type=file] {
 
 .content {
   z-index: 9999;
-  background-color: hsla(0, 0%, 100%, .8);
   width: 70vw;
   float: right;
   padding-bottom: 40px;

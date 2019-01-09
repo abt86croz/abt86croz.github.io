@@ -36,15 +36,34 @@
 }
 
 .schedule-container iframe {
+  display: block;       
+  border: none;        
+  height: 100vh;      
   width: 90%;
-  height: 820px;
-  box-sizing: border-box;
   margin: 0 auto;
-  display: block;
+
+}
+
+.schedule-container .iframe-listing {
+  height: 240px;
+}
+
+.schedule-container .iframe-listing.placement {
+  height: 420px;
+}
+
+.schedule-container .iframe-schedule {
+  height: 640px;
 }
 
 .schedule-container .content .heading {
-  padding-top: 12px !important;
+  padding: 20px 0 0 0 !important;
+  font-size: 32px;
+}
+
+.schedule-container .subtitle-listing {
+  text-align: center;
+  display: block;
 }
 
 .schedule-container .btn-sm {
@@ -81,7 +100,7 @@
 }
 
 .schedule-container .btn-wrap {
-  margin: 40px auto;
+  margin: 40px auto 0 auto;
 }
 
 /* 

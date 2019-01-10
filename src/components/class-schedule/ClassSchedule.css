@@ -44,14 +44,6 @@
 
 }
 
-.schedule-container .iframe-listing {
-  height: 240px;
-}
-
-.schedule-container .iframe-listing.placement {
-  height: 420px;
-}
-
 .schedule-container .iframe-schedule {
   height: 640px;
 }
@@ -59,11 +51,6 @@
 .schedule-container .content .heading {
   padding: 20px 0 0 0 !important;
   font-size: 32px;
-}
-
-.schedule-container .subtitle-listing {
-  text-align: center;
-  display: block;
 }
 
 .schedule-container .btn-sm {

@@ -1,0 +1,49 @@
+ .class-listings-container {
+   width: 90%;
+   margin: 0 auto;
+ }
+
+ .class-listings-container .heading {
+   font-size: 28px;
+   text-align: center;
+   margin-bottom: -5px;
+   padding: 0;
+ }
+
+ .class-listings-container .subtitle-listing {
+   text-align: center;
+   display: block;
+ }
+
+ /* table styles*/
+ .class-listings-container table.responsive-table {
+   padding-top: 0;
+ }
+
+ .class-listings-container table.responsive-table td,
+ .class-listings-container table.responsive-table th {
+   border: solid 1px #1e1e1e;
+   background-color: #f7f9fa !important;
+   height: 40px;
+   font-size: 14px;
+ }
+
+ .class-listings-container a.jrRegLink {
+   text-decoration: none;
+   color: #d9534f;
+ }
+
+ /* mobile */
+
+ @media screen and (max-width: 568px) {
+
+   .class-listings-container table.responsive-table td,
+   .class-listings-container table.responsive-table th {
+     border: none;
+   }
+
+   .class-listings-container .heading {
+     font-size: 22px !important;
+     font-weight: bold;
+   }
+ }

@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import postscribe from 'postscribe'
+
 import PDFIcon from 'react-icons/lib/fa/file-pdf-o'
 import SummerClassSched from '../../pdf/2019-summer-class-schedule.pdf'
 import SummerCampSched from '../../pdf/2019-summer-camp-schedule.pdf'
@@ -7,7 +9,17 @@ import { SummerPosterImage } from '../Images'
 
 /* eslint-disable max-len */
 export default class SummerProgram extends Component {
-  componentDidMount() {}
+  componentDidMount() {
+    const summerCamps =
+      '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=Summer%20Camp&hidecols=Gender,Ages,EndDate,Session,openings&sort=times"></script>'
+
+    const summerClasses =
+      '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=Summer%20Classes&hidecols=Gender,Ages,EndDate,Session,openings&sort=class"></script>'
+
+    // postscribe
+    postscribe('#summer-camps', summerCamps)
+    postscribe('#summer-classes', summerClasses)
+  }
   render() {
     return (
       <div className="summer-program-container">
@@ -58,29 +70,31 @@ export default class SummerProgram extends Component {
               pre-pointe, and will gain strength in preparation for pointe work.
             </p>
           </div>
-          <p className="title">2019 Summer Class Schedule</p>
-          {/* Tables */}
-          <div className="right-container">
+        </div>
+        <p className="title">2019 Summer Class Schedule</p>
+        {/* Tables */}
+        <div className="left-container">
+          <div className="summer-schedule">
             <div className="summer-schedule">
-              <div className="column-1 right">
+              <div className="column-1 left">
                 <p className="head">Monday</p>
                 <p>4:00 - 5:15pm Ballet IIA/B</p>
                 <p>5:15 - 7:15pm Ballet III</p>
                 <p />
               </div>
-              <div className="column-1 right">
+              <div className="column-1 left">
                 <p className="head">Tuesday</p>
                 <p>4:00 - 5:00pm Beginner/Int Modern/Jazz</p>
                 <p>5:15 - 6:45pm Int/Adv Modern/Jazz</p>
                 <p>7:00 - 8:30pm Advanced Ballet</p>
               </div>
-              <div className="column-1 right">
+              <div className="column-1 left">
                 <p className="head">Wednesday</p>
                 <p>4:00 - 5:00pm Ballet IA/B</p>
                 <p>5:15 - 7:15pm Advanced Ballet</p>
                 <p />
               </div>
-              <div className="column-1 right">
+              <div className="column-1 left">
                 <p className="head">Thursday</p>
                 <p>4:00 - 5:00pm Ballet IB/C</p>
                 <p>5:15 - 7:15pm Ballet III</p>
@@ -89,41 +103,19 @@ export default class SummerProgram extends Component {
             </div>
           </div>
         </div>
-        <p className="title">2019 Summer Class Pricing and Times</p>
-        <p className="registration-wave">
-          $15 Registration Fee | Waived for Multi-Student Families
-        </p>
-        <div className="summer-schedule">
-          <div className="column-1">
-            <p className="head">Classes</p>
-            <p>Mat Pilates | All Levels | $100</p>
-            <p>Beginner/Intermediate Modern/Jazz Beginners Welcome | $115</p>
-            <p>Ballet IA/B | Ages 5+ Beginners Welcome | $115</p>
-            <p>Ballet IB/C | Ages 8+ Beginners Welcome | $115</p>
-            <p>Ballet IIA/B | Beginning Intermediate 2+ Years Training | $125</p>
-            <p>Intermediate/Advanced Modern/Jazz | $145</p>
-            <p>Ballet III | Intermediate Pre-Pointe & Beginning Pointe | $375</p>
-            <p>Advanced Ballet 2+ Years Pointe Experience | $325</p>
+        <div className="clear" />
+
+        <div className="summer-program-registration-container">
+          <p className="registration-wave">
+            $15 Registration Fee | Waived for Multi-Student Families
+          </p>
+          <div id="summer-camps">
+            <p className="heading show">Summer Camps | July 8 – August 15, 2019</p>
           </div>
-          <div className="column-2">
-            <p className="head">Dates & Times</p>
-            <p>June 20 - August 1 (No classes July 4) Thursday | 7:30 - 8:30pm</p>
-            <p>June 18 - July 30 (No classes July 2) Tuesday | 4:00 - 5:00pm</p>
-            <p>June 19 - July 31 (No classes July 3) Wednesday | 4:00 - 5:00pm</p>
-            <p>June 20 - August 1 (No classes July 4) Thursday | 4:00 - 5:00pm</p>
-            <p>June 17 - July 29 (No classes July 1) Mondays | 4:00 - 5:15pm</p>
-            <p>June 18 - August 6 (No classes July 2 and 30) Tuesday | 5:15 - 6:45pm</p>
-            <p>
-              June 17 - August 8 (No classes July 1, 4, 22 and 25) Monday | Ballet | 5:15 - 7:15pm
-              Thursday | Ballet | 5:15 - 7:15pm
-            </p>
-            <p>
-              June 18 - August 8 (No classes July 2, 3, 30, & 31) Tuesday | Ballet | 7:00 - 8:30pm
-              Wednesday | Ballet | 5:15 - 7:15pm
-            </p>
+          <div id="summer-classes">
+            <p className="heading show">Summer Classes | 6-Weeks | June 17 – August 7, 2019</p>
           </div>
         </div>
-        <div className="clear" />
 
         {/* Buttons */}
         <div className="btn-wrap">

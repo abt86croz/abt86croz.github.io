@@ -37,12 +37,12 @@
 }
 
 /* Schedule On right side of the page */
-.summer-program-container .right-container {
+.summer-program-container .left-container {
   text-align: center;
   margin-bottom: 25px;
 }
 
-.summer-program-container .summer-schedule .column-1.right {
+.summer-program-container .summer-schedule .column-1.left {
   width: 20%;
   display: inline-table;
   float: none;
@@ -148,6 +148,51 @@
   }
 }
 
+/**************************** Jack Rabbit Class Listings Styles ************************************/
+.summer-program-registration-container {
+  margin-top: 30px;
+}
+
+.summer-program-registration-container {
+  width: 90%;
+  display: table;
+  margin: 30px auto 0 auto;
+  text-align: center;
+}
+
+.summer-program-registration-container .heading {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: -5px;
+  padding: 0;
+}
+
+.summer-program-registration-container .subtitle-listing {
+  text-align: center;
+  display: block;
+}
+
+/* table styles*/
+.summer-program-registration-container table.responsive-table {
+  padding-top: 0;
+}
+
+.summer-program-registration-container table.responsive-table td,
+.summer-program-registration-container table.responsive-table th {
+  border: solid 1px #1e1e1e;
+  background-color: #f7f9fa !important;
+  height: 33px;
+  font-size: 14px;
+}
+
+.summer-program-registration-container a.jrRegLink {
+  text-decoration: none;
+  color: #d9534f;
+}
+
+/**************************** END of Jack Rabbit Class Listings Styles ************************************/
+
+
 /* 
   ##Device = Tablets, Ipads (landscape)
 */
@@ -161,25 +206,38 @@
 @media screen and (max-width: 568px) {
   .summer-program-container .summer-poster {
     float: none;
-    width: 100vw;
+    width: 100%;
   }
 
   .summer-program-container .summer-schedule {
     float: none;
-    width: 100vw;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
   }
 
   .summer-program-container .summer-content-wrap {
     float: none;
-    width: 100vw;
+    width: 100%;
   }
 
   .summer-program-container .summer-schedule p {
     height: 145px;
   }
 
-  .summer-program-container .summer-schedule .column-1.right {
+  .summer-program-container .summer-schedule .column-1.left {
     width: 50%
+  }
+
+  /* Jack Rabbit Listings */
+  .summer-program-registration-container table.responsive-table td,
+  .summer-program-registration-container table.responsive-table th {
+    border: none;
+  }
+
+  .summer-program-registration-container .heading {
+    font-size: 22px !important;
+    font-weight: bold;
   }
 }
 

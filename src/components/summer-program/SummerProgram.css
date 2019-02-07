@@ -9,6 +9,7 @@
 .summer-program-container .summer-poster {
   float: left;
   width: 50vw;
+  margin-bottom: 20px;
 }
 
 .summer-program-container .summer-poster img {
@@ -35,6 +36,19 @@
   width: 45%;
 }
 
+/* Schedule On right side of the page */
+.summer-program-container .right-container {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.summer-program-container .summer-schedule .column-1.right {
+  width: 20%;
+  display: inline-table;
+  float: none;
+}
+
+
 /* Clear floats after the columns */
 
 .summer-schedule:after {
@@ -50,7 +64,7 @@
   margin: 0;
   border: 0.5px solid #c7c8c9;
   border-bottom: none;
-  height: 50px;
+  height: 70px;
 }
 
 .summer-program-container .summer-schedule p:last-child {
@@ -79,10 +93,12 @@
   margin: 15px;
 }
 
-.summer-program-container .summer-content .title {
+.summer-program-container .title {
   text-align: center;
   font-weight: bolder;
   font-size: 28px;
+  margin: 0;
+  padding: 0;
 }
 
 .summer-program-container .summer-content .sub-title {
@@ -98,6 +114,15 @@
   font-size: 16px;
 }
 
+.summer-program-container .registration-wave {
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+  font-weight: bold;
+  display: table;
+  color: #963939;
+}
+
 /* Button */
 
 .summer-program-container .btn-wrap {
@@ -111,10 +136,12 @@
     float: none;
     width: 100vw;
   }
+
   .summer-program-container .summer-schedule {
     float: none;
     width: 100vw;
   }
+
   .summer-program-container .summer-content-wrap {
     float: none;
     width: 100vw;
@@ -127,7 +154,7 @@
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .summer-program-container .summer-schedule p {
-    height: 65px;
+    height: 90px;
   }
 }
 
@@ -136,15 +163,32 @@
     float: none;
     width: 100vw;
   }
+
   .summer-program-container .summer-schedule {
     float: none;
     width: 100vw;
   }
+
   .summer-program-container .summer-content-wrap {
     float: none;
     width: 100vw;
   }
+
   .summer-program-container .summer-schedule p {
-    height: 85px;
+    height: 145px;
+  }
+
+  .summer-program-container .summer-schedule .column-1.right {
+    width: 50%
+  }
+}
+
+/* ----------- iPad Pro ----------- */
+
+/* Portrait*/
+
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .summer-program-container .summer-schedule p {
+    height: 90px;
   }
 }

@@ -3,7 +3,7 @@ import postscribe from 'postscribe'
 
 /* eslint-disable max-len */
 
-class ClassListings extends Component {
+export default class ClassListings extends Component {
   componentDidMount() {
     const begginingBalletScript =
       '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat2=Beginning%20Ballet&hidecols=Gender,Ages,EndDate,Session,openings&sort=class"></script>'
@@ -45,5 +45,3 @@ class ClassListings extends Component {
     )
   }
 }
-
-export default ClassListings

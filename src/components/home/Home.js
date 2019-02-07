@@ -2,12 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 // import { HashLink as NutLink } from 'react-router-hash-link'
 import './Home.css'
-import {
-  HomeBtn1,
-  HomeBtn2,
-  HomeBtn3,
-  HomeBtn4,
-} from '../Images'
+import { HomeBtn1, HomeBtn2, HomeBtn3, HomeBtn4 } from '../Images'
 import HandbookDoc from '../../pdf/2018-2019-handbook-policies.pdf'
 
 const handlePoliciesClick = () => {
@@ -19,14 +14,16 @@ const Home = () => (
   <div className="home-container">
     <div className="abt-nutcracker-container" />
     <div className="wrap">
-      <a
+      {/* <a
         className="go-to-registration"
         href="https://app.jackrabbitclass.com/regv2.asp?id=534011"
         target="_blank"
         rel="noopener noreferrer"
-      >
+      > */}
+      <Link to="/classes/summer-program">
         <div className="home-img" />
-      </a>
+      </Link>
+      {/* </a> */}
     </div>
 
     <div className="image-links-wrap">

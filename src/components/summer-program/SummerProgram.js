@@ -59,7 +59,7 @@ export default class SummerProgram extends Component {
             </p>
             <p className="date">July 22 – 26 | Intermediate | Monday - Friday | 9am - 4pm | $385</p>
             <p className="date">
-              July 29 - August 2 | Advanced | Monday - Friday | 9am - 4pm | $335
+              July 29 - August 2 | Advanced | Monday - Friday | 9am - 4pm | $435
             </p>
             <p>
               For dancers that would like to fully immerse themselves in the world of ballet and

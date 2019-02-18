@@ -1,5 +1,6 @@
 import React from 'react'
 import './Performances.css'
+import springGalaImg from '../../images/site/2019-spring-gala.png'
 
 /* eslint-disable unescaped-entities */
 /* eslint-disable max-len */
@@ -24,9 +25,7 @@ const Performances = () => (
       </div>
       <hr />
       <div className="description">
-        <p className="sub-title bold">
-          Spring Gala Community Outreach Performances:
-        </p>
+        <p className="sub-title bold">Spring Gala Community Outreach Performances:</p>
         <p>Two performances will be scheduled, dates and times TBA</p>
       </div>
       <hr />
@@ -40,14 +39,25 @@ const Performances = () => (
             Charlottesville, VA
           </span>
         </p>
+        <img className="spring-gala-img" src={springGalaImg} alt="2019 Spring Gala" />
+        <div className="btn-wrap">
+          {/* Buy tickets */}
+          <a
+            className="bt"
+            href="http://click4tix.com/abt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Buy Tickets
+          </a>
+        </div>
       </div>
       <hr />
       <div className="description">
         <p>
-          Our dance studio is conveniently located in Crozet, near Western
-          Albemarle High School, Henley, Brownsville, and Crozet Elementary
-          Schools, minutes away from Charlottesville, and near Greene County,
-          Nelson County, Orange County and Waynesboro.
+          Our dance studio is conveniently located in Crozet, near Western Albemarle High School,
+          Henley, Brownsville, and Crozet Elementary Schools, minutes away from Charlottesville, and
+          near Greene County, Nelson County, Orange County and Waynesboro.
         </p>
         <p className="italic">
           For more information: <br /> email us at
@@ -61,11 +71,7 @@ const Performances = () => (
           .
         </p>
         <p>
-          <a
-            href="https://goo.gl/maps/QeM6BCDorfy"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://goo.gl/maps/QeM6BCDorfy" target="_blank" rel="noopener noreferrer">
             Click here for directions to our dance school
           </a>
         </p>

@@ -1,5 +1,17 @@
 /* NEW CLASSES */
 
+/* Spring Gala Image */
+.performances-container .description .spring-gala-img {
+  margin: 0 auto;
+  display: block;
+  width: 90%;
+}
+
+/* Button */
+.performances-container .description .btn-wrap a {
+  font-weight: bold;
+}
+
 .performances-container {
   margin: 0 auto;
 }

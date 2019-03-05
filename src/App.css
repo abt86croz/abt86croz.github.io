@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,700');
+
 html body {
   min-height: 100vh;
   overflow-x: hidden;
@@ -12,7 +13,9 @@ body {
   color: #000000;
 }
 
-select.form-control, textarea.form-control, input.form-control {
+select.form-control,
+textarea.form-control,
+input.form-control {
   font-size: 16px;
 }
 
@@ -84,7 +87,7 @@ input[type=file] {
 
 .heading {
   font-size: 40px;
-  padding: 8px 0!important;
+  padding: 8px 0 !important;
   text-align: center;
   margin: 0;
 }
@@ -195,10 +198,12 @@ a.btn-yellow:hover {
   .container {
     width: 100%;
   }
+
   .content {
     width: 100%;
     border: none;
   }
+
   .bg-image {
     display: none;
   }
@@ -208,13 +213,16 @@ a.btn-yellow:hover {
   .App {
     padding-top: 100px;
   }
+
   .container {
     width: 100%;
   }
+
   .content {
     width: 100%;
     border: none;
   }
+
   .bg-image {
     display: none;
   }
@@ -223,6 +231,11 @@ a.btn-yellow:hover {
 @media (min-width: 1200px) {
   .container {
     width: 100vw;
+  }
+
+  /* remove this */
+  .deploy {
+    display: none
   }
 }
 

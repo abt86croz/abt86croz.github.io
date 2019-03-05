@@ -3,6 +3,7 @@ import './Performances.css'
 import springGalaImg from '../../images/site/2019-spring-gala.png'
 
 /* eslint-disable unescaped-entities */
+
 /* eslint-disable max-len */
 
 // CLASS DESCRIPTION

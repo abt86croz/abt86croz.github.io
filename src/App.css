@@ -232,11 +232,6 @@ a.btn-yellow:hover {
   .container {
     width: 100vw;
   }
-
-  /* remove this */
-  .deploy {
-    display: none
-  }
 }
 
 /* ----------- iPad Pro ----------- */

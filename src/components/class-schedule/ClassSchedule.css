@@ -24,7 +24,7 @@
 }
 
 .schedule-container:after {
-  content: " ";
+  content: ' ';
   display: block;
   clear: both;
 }
@@ -36,12 +36,10 @@
 }
 
 .schedule-container iframe {
-  display: block;       
-  border: none;        
-  height: 100vh;      
+  display: block;
+  border: none;
   width: 90%;
   margin: 0 auto;
-
 }
 
 .schedule-container .iframe-schedule {
@@ -81,7 +79,7 @@
 .schedule-container .weekly-schedule {
   width: 470px;
   padding: 0;
-  background-color: hsla(0, 0%, 100%, .8);
+  background-color: hsla(0, 0%, 100%, 0.8);
   margin: 0 auto 20px auto;
   display: block;
 }
@@ -101,7 +99,6 @@
     margin: 0 auto;
     display: block;
     padding: 0;
-    height: 630px;
   }
   .schedule-container {
     margin: 0 auto;
@@ -156,7 +153,7 @@
 
 /* MOBILE PORTRAIT*/
 
-@media screen and (max-width: 768px) and (orientation:portrait) {
+@media screen and (max-width: 768px) and (orientation: portrait) {
   .schedule-container .content .heading {
     display: none;
   }
@@ -182,7 +179,7 @@
 
 @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
   .schedule-container .calendar-class-container .rotate-phone {
-    display: none
+    display: none;
   }
   /* Show jackrabbit calendar on portrait  */
   .schedule-container .calendar-class-container iframe {
@@ -200,16 +197,15 @@
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-device-width:768px) and (max-device-width: 1024px) and (device-aspect-ratio: 3/4) and (orientation:portrait) {
+@media (min-device-width: 768px) and (max-device-width: 1024px) and (device-aspect-ratio: 3/4) and (orientation: portrait) {
   .schedule-container .calendar-class-container .rotate-phone {
-    display: none
+    display: none;
   }
   .schedule-container .content .heading {
-    display: block
+    display: block;
   }
   .schedule-container iframe {
     width: 92%;
-    height: 840px;
     margin: 0 auto;
     display: block !important;
     padding: 0;

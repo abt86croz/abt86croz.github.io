@@ -30,7 +30,7 @@ const Schedule = () => (
           title="ABT Class Schedule"
           src="https://app.jackrabbitclass.com/eventcalendar.asp?orgid=534011"
           frameBorder="0"
-          scrolling="no"
+          scrolling="yes"
         />
       </div>
       <ClassListings />

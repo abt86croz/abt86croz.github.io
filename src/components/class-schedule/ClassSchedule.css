@@ -43,7 +43,7 @@
 }
 
 .schedule-container .iframe-schedule {
-  height: 950px;
+  height: 960px;
 }
 
 .schedule-container .content .heading {
@@ -99,6 +99,7 @@
     margin: 0 auto;
     display: block;
     padding: 0;
+    height: 960px;
   }
   .schedule-container {
     margin: 0 auto;
@@ -141,6 +142,7 @@
   }
   .schedule-container iframe {
     width: 90%;
+    height: 960px;
   }
   .schedule-container .schedule-img {
     background: none;
@@ -209,6 +211,7 @@
     margin: 0 auto;
     display: block !important;
     padding: 0;
+    height: 960px;
   }
   .schedule-container {
     margin: 0 auto;

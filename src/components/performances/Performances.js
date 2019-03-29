@@ -19,7 +19,11 @@ const Performances = () => (
           April 28th, 2019: Exploring Ballet & Ballet IA Only
           <span className="sub-title-specs">
             Studio Showing at ABT <br />
-            Times TBA
+            Wednesday, Exploring Ballet: 1:00pm
+            <br />
+            Saturday, Exploring Ballet: 2:30pm
+            <br />
+            Ballet IA, (All Combined): 4:00pm
           </span>
         </p>
       </div>

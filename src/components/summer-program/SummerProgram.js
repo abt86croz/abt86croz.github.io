@@ -96,9 +96,13 @@ export default class SummerProgram extends Component {
               </div>
               <div className="column-1 left">
                 <p className="head">Thursday</p>
-                <p>4:00 - 5:00pm Ballet IB/C</p>
-                <p>5:15 - 7:15pm Ballet III</p>
-                <p>7:30 - 8:30pm Mat Pilates</p>
+                <p>4:00 - 5:00pm Beginner/Intermediate Pointe</p>
+                <p>
+                  5:15 - 7:15pm <span>Ballet III</span>
+                </p>
+                <p>
+                  7:30 - 8:30pm <span>Mat Pilates</span>
+                </p>
               </div>
             </div>
           </div>

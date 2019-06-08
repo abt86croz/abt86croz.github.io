@@ -1,7 +1,7 @@
 /* Container */
 
 .summer-program-container {
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 /* Poster */
@@ -48,23 +48,26 @@
   float: none;
 }
 
-
 /* Clear floats after the columns */
 
 .summer-schedule:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
 
 .summer-program-container .summer-schedule p {
   font-size: 14px;
-  text-align: left;
   padding: 4px;
+  justify-content: center;
   margin: 0;
   border: 0.5px solid #c7c8c9;
   border-bottom: none;
   height: 70px;
+}
+
+.summer-program-container .summer-schedule p span {
+  display: block;
 }
 
 .summer-program-container .summer-schedule p:last-child {
@@ -192,7 +195,6 @@
 
 /**************************** END of Jack Rabbit Class Listings Styles ************************************/
 
-
 /* 
   ##Device = Tablets, Ipads (landscape)
 */
@@ -222,11 +224,11 @@
   }
 
   .summer-program-container .summer-schedule p {
-    height: 145px;
+    height: 70px;
   }
 
   .summer-program-container .summer-schedule .column-1.left {
-    width: 50%
+    width: 50%;
   }
 
   /* Jack Rabbit Listings */

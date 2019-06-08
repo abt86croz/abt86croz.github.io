@@ -1,6 +1,6 @@
 import React from 'react'
 import './Performances.css'
-import springGalaImg from '../../images/site/2019-spring-gala.png'
+// import springGalaImg from '../../images/site/2019-spring-gala.png'
 
 /* eslint-disable unescaped-entities */
 /* eslint-disable max-len */
@@ -14,7 +14,12 @@ const Performances = () => (
         <div className="heading">Upcoming Performances</div>
       </div>
       <hr />
+      {/* COMING SOON */}
       <div className="description">
+        <p className="sub-title bold">2019-2020 performance dates coming soon…</p>
+      </div>
+
+      {/* <div className="description">
         <p className="sub-title bold">
           April 28th, 2019: Exploring Ballet & Ballet IA Only
           <span className="sub-title-specs">
@@ -45,7 +50,7 @@ const Performances = () => (
         </p>
         <img className="spring-gala-img" src={springGalaImg} alt="2019 Spring Gala" />
         <div className="btn-wrap">
-          {/* Buy tickets */}
+
           <a
             className="bt"
             href="http://click4tix.com/abt"
@@ -56,6 +61,7 @@ const Performances = () => (
           </a>
         </div>
       </div>
+      */}
       <hr />
       <div className="description">
         <p>

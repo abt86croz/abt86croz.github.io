@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 // import { HashLink as NutLink } from 'react-router-hash-link'
 import './Home.css'
 import { HomeBtn1, HomeBtn2, HomeBtn3, HomeBtn4 } from '../Images'
-import HandbookDoc from '../../pdf/2018-2019-handbook-policies.pdf'
+import HandbookDoc from '../../pdf/2019-2020-handbook-policies.pdf'
 
 const handlePoliciesClick = () => {
   window.open(HandbookDoc, '_blank')

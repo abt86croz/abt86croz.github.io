@@ -1,47 +1,47 @@
-.tuition-container {
+/* .tuition-container {
   margin: 0 auto;
 }
 
 .tuition-container:after {
-  content: " ";
+  content: ' ';
   display: block;
   clear: both;
-}
+} */
 
-.tuition-container .tuition-img {
+/* .tuition-container .tuition-img {
   background: url('../../images/bkgrnd/tuition.jpg') no-repeat;
   background-size: 100% auto;
-}
+} */
 
-.tuition-container .title {
+/* .tuition-container .title {
   font-size: 26px;
   padding-top: 12px;
-}
+} */
 
-.tuition-container .sub-title {
+/* .tuition-container .sub-title {
   font-size: 18px;
-}
+} */
 
-.tuition-container p:first-child {
+/* .tuition-container p:first-child {
   padding-top: 30px;
-}
+} */
 
-.tuition-container p:last-child {
+/* .tuition-container p:last-child {
   padding-bottom: 30px;
-}
+} */
 
-.tuition-container p {
+/* .tuition-container p {
   padding: 0 30px 0 20px;
-}
+} */
 
-.tuition-container .table {
+/* .tuition-container .table {
   padding: 30px 0;
   margin: 0 auto;
   text-align: center;
-  width: 350px;
-}
+  width: 375px;
+} */
 
-.tuition-container .flexbox {
+/* .tuition-container .flexbox {
   display: -ms-flex;
   display: -webkit-flex;
   display: flex;
@@ -51,32 +51,33 @@
 .tuition-container .centerRow {
   text-align: center;
   background: lightgray;
-  width: 350px;
+  width: 375px;
   border: 0.7px solid #c7c8c9;
   border-bottom: none;
-}
+} */
 
-.tuition-container .leftRow, .tuition-container .rightRow {
-  width: 175px;
-  border: .0.6px solid #c7c8c9;
+/* .tuition-container .leftRow,
+.tuition-container .rightRow {
+  width: 200px;
+  border: 0.6px solid #c7c8c9;
   border-bottom: none;
   text-align: left;
   padding-left: 6px;
-}
+} */
 
-.tuition-container #id11 {
+/* .tuition-container #id11 {
   border-bottom: 0.6px solid #c7c8c9;
-}
+} */
 
 /* MOBILE */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .tuition-container {
     margin: 0 auto;
   }
-}
+} */
 
-@media screen and (max-width: 568px) {
+/* @media screen and (max-width: 568px) {
   .tuition-container {
     margin: 0 auto;
   }
@@ -91,4 +92,4 @@
   .tuition-container .centerRow {
     width: auto;
   }
-}
+} */

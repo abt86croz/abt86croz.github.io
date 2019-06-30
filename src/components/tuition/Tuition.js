@@ -1,102 +1,92 @@
 import React from 'react'
 import tuitionDiscounts from './TuitionData'
+import Title from '../styles/Title'
+import Subtitle from '../styles/Subtitle'
+import {
+  TuitionContainer,
+  TuitionClass,
+  TuitionImage,
+  Table,
+  FlexContainer,
+  LeftRow,
+  RightRow,
+  CenterRow,
+} from './TuitionStyles'
 import './Tuition.css'
 
 const GenerateTuitionDiscountTable = () => {
   return tuitionDiscounts.map((o) => {
     return (
-      <div className="flexbox" id={`id${o.id}`} key={o.id.toString()}>
-        <div className="leftRow">{o.numberOfClasses}</div>
-        <div className="rightRow">{o.price}</div>
-      </div>
+      <FlexContainer id={`id${o.id}`} key={o.id.toString()}>
+        <LeftRow>{o.numberOfClasses}</LeftRow>
+        <RightRow>{o.price}</RightRow>
+      </FlexContainer>
     )
   })
 }
 
 /* eslint-disable max-len */
 const Tuition = () => (
-  <div className="tuition-container">
-    <div className="bg-image tuition-img" />
+  <TuitionContainer>
+    <TuitionImage className="bg-image" />
     <div className="content">
-      <p className="heading">Tuition</p>
-      <p className="sub-title bold underline">2018-2019 School Year Classes </p>
+      <Title>Tuition</Title>
+      <Subtitle className="bold underline">2019-2020 School Year Classes </Subtitle>
       <p>
-        All classes are $298/semester before multi-class discounts. Because all
-        classes are billed monthly, class prices are listed as $74.50 per month
-        in JackRabbit before discounts. This number may be confusing, especially
-        for returning students. To understand your tuition per semester, please
-        see chart below. This is the total you will pay, which will then be
-        broken up into monthly payments, which will vary depending on the number
-        of classes offered in a given month, in Jackrabbit. Rates are calculated
-        based on 16-week semesters. In previous years we have held 15-week
-        semesters.
+        The base class rate is $18.62/per class per day, before multi-class discounts. Monthly rates
+        are listed as $74.50 in the Dancer Portal before multi-class discounts. For tuition
+        questions or to request your total tuition per semester, please contact Ashley at{' '}
+        <a href="mailto:Ashley@abtdance.org" target="_top">
+          Ashley@abtdance.org
+        </a>
+        . Please note that monthly rates will vary depending on the number of classes offered in a
+        given month.
       </p>
-      <p>
-        Annual tuition, excluding 8-week sessions and Pilates classes, is billed
-        monthly. If you would like to pay in full, please let us know via email.
-        Monthly payments are due on the 10th of each month.{' '}
-        <span className="bold">
-          For your convenience your card on file will automatically be charged
-        </span>
-        if another form of payment (cash or check) is not received by the 10th
-        of the month.
-      </p>
-      <p>
-        Tuition is due in full at the time of registration for 8-Week Sessions
-        and Events.
-      </p>
-      <p>
-        ABT requires a credit or debit card to be kept on file at the time of
-        registration. All payment information is completely secure through
-        SafeSave Payments. If another form of payment (cash, check, or alternate
-        card) is not received by the 10th of the month, your card on file will
-        automatically be charged. Any declined forms of payments will carry a
-        fee of $25.00. When paying by cash or check, a late fee of $25 will
-        automatically be applied to accounts past due, each month incurs a
-        separate late fee.
-      </p>
-      <p>
-        ABT accepts: Cash, Checks, Bank Draft, Visa, American Express, and
-        MasterCard.
-      </p>
-      <p>
-        If you choose to pay by Bank Draft, please ensure you have
-        <span className="underline">sufficient funds</span> in your account! If
-        the payment is returned due to insufficient funds, you will be charged a
-        fee from SafeSave, your bank, and ABT.
-      </p>
-      <p>
-        When making a payment by cash or check, please include the Dancer‘s
-        first and last name in the memo of your check or include a note.
-      </p>
-      <p className="italic">
-        <span className="bold">
-          Write checks to Albemarle Ballet Theatre and drop off or mail to:
-        </span>
-        <br />
-        P.O. Box 805 <br />
-        Crozet, VA 22932
-      </p>
-      <div className="table">
-        <div className="centerRow center bold">16-Week Semester</div>
+
+      <Table>
+        <CenterRow>Multi-Class Discounts</CenterRow>
         <GenerateTuitionDiscountTable />
-      </div>
+      </Table>
+
+      <TuitionClass>
+        <span>Mat Pilates</span>
+        1-Month Sessions: $15 per class
+      </TuitionClass>
+
+      <TuitionClass>
+        <span>Dance With Me &amp; Creative Movement</span>
+        8-Week Session: $149
+      </TuitionClass>
+
+      <TuitionClass>
+        <span>Adult Drop-Ins/Class Cards</span>
+        Adults may be eligible for drop-in rates in classes that already have a minimum number of
+        required enrolled students to run the class. Please inquire about eligibility by emailing{' '}
+        <a href="mailto:Ashley@abtdance.org" target="_top">
+          Ashley@abtdance.org
+        </a>
+        . All drop-in students must complete online registration and have a card on file. Please
+        notify Ashley via email prior to attending a class. Class fees will be added to your account
+        and charged within 24-hours of class.
+        <br /> Single Class: $20 <br /> 2-Hour Classes: $32
+      </TuitionClass>
+
       <p>
-        <span className="underline bold">Mat Pilates</span> <br />
-        1-Month Sessions: $15 per class <br />
-      </p>
-      <p>
-        <span className="underline bold">
-          Baby & Me Barre, Movement Therapy, Dance With Me & Creative Movement
-          Therapy
+        <span className="underline">
+          Please note that you are automatically enrolled in monthly auto-pay when you complete
+          online registration for annual classes
         </span>
-        <br />
-        8-Week Session: $149 <br />
-        *Must be paid in full.
-        <br />
+        . After the first tuition payment/deposit (made by the registrant), all subsequent monthly
+        payments will be made via auto-pay, unless the ABT office has been notified of another
+        preferred form of payment. Tuition will be posted on the 1st of the month and cards on file
+        will be charged on the 15th for the following month’s tuition.
+      </p>
+
+      <p>
+        Tuition is due in full at the time of registration for Pilates, 8-Week Sessions, and Events.
       </p>
     </div>
-  </div>
+  </TuitionContainer>
 )
 
 export default Tuition

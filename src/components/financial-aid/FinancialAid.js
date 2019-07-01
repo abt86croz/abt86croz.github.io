@@ -1,66 +1,47 @@
 import React from 'react'
-import PDFIcon from 'react-icons/lib/fa/file-pdf-o'
-import ScholarshipApplication from '../../pdf/scholarship-application.pdf'
-import WorkStudyApplication from '../../pdf/work-study-application.pdf'
-import './FinancialAid.css'
+import Title from '../styles/Title'
+import Button from '../styles/Button'
+import Content from '../styles/Content'
+import {
+  FinancialContainer,
+  Highlight,
+  ButtonContainer,
+  FinancialAidImage,
+} from './FinancialAidStyles'
+
+/* eslint-disable max-len */
+const ScholarshipApplication =
+  'https://docs.google.com/forms/d/e/1FAIpQLSdljQFC5Wnq0nip8FG1YkKykFB9N-_-CTUb3uaWwhTXdKsKgQ/viewform'
+
+const WorkStudyApplication =
+  'https://docs.google.com/forms/d/e/1FAIpQLSfdLcLfl0I8TfsufvqxVEPpjL-sMxe-PQE6tu2YJ2QQri_DkA/viewform'
 
 const FinancialAid = () => (
-  <div className="financial-aid-container">
-    <div className="bg-image financial-img" />
-    <div className="content">
-      <p className="heading">Financial Aid</p>
+  <FinancialContainer>
+    <FinancialAidImage className="bg-image" />
+    <Content>
+      <Title>Financial Aid</Title>
       <p>
-        The goal of our Scholarship and Work-Study programs are to ensure that
-        all students, regardless of their financial status, are given the
-        opportunity to study dance in a professional school. ABT has partnered
-        with The Studio for the Performing Arts (SFTPA), a 501(C)(3) non-profit
-        organization directed by Sally Hart, to offer scholarships based on
-        financial need to ABT students.
+        The goal of SFTPA&#39;s scholarship program is to ensure that all students, regardless of
+        their economic ability are given the opportunity to study dance in a professional school.
+        SFTPA offers Scholarships based on financial need to ABT students. Please note that SFTPA
+        only grants partial scholarships.
       </p>
-      <p>
-        ABT offers a limited number of scholarships and work-study positions.
-        Click on links below for printable application forms. You can submit
-        your application via email to
-        <a href="mailto:albemarleballettheatre@gmail.com" target="_top">
-          albemarleballettheatre@gmail.com
-        </a>
-        , in person, or by mail. If you have any questions, please contact ABT
-        at
-        <a href="tel:+1-434-823-8888" target="_top">
-          (434) 823-8888
-        </a>
-        .
-      </p>
-      <p className="italic">
-        <span className="no-italic">Mailing Address:</span> <br />
-        Albemarle Ballet Theatre <br />
-        P.O. Box 805 <br />
-        Crozet, VA, 22932 <br />
-      </p>
-      <p>
-        With the help of local businesses and community members, SFTPA has
-        provided over $60K in scholarships to nearly sixty local students.
-      </p>
-      <div className="button-wrap">
-        <a
-          className="bt"
-          href={ScholarshipApplication}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Scholarship Application <PDFIcon />
-        </a>
-        <a
-          className="bt"
-          href={WorkStudyApplication}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Work-Study Application <PDFIcon />
-        </a>
-      </div>
-    </div>
-  </div>
+      <Highlight>
+        <p>ABT offers a limited number of work-study positions.</p>
+        <p className="bold">Fall semester application deadline: September 1, 2019</p>
+        <p className="bold">Spring semester application deadline: December 19, 2019</p>
+      </Highlight>
+      <ButtonContainer>
+        <Button href={ScholarshipApplication} target="_blank" rel="noopener noreferrer">
+          Scholarship Application
+        </Button>
+        <Button href={WorkStudyApplication} target="_blank" rel="noopener noreferrer">
+          Work-Study Application
+        </Button>
+      </ButtonContainer>
+    </Content>
+  </FinancialContainer>
 )
 
 export default FinancialAid

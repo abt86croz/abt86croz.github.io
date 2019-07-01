@@ -2,46 +2,113 @@ import React from 'react'
 import Facebook from 'react-icons/lib/fa/facebook-official'
 import Mail from 'react-icons/lib/fa/envelope'
 import Phone from 'react-icons/lib/fa/phone'
+import styled from 'styled-components'
+import Button from '../styles/Button'
+import Title from '../styles/Title'
+import Content from '../styles/Content'
 import './Contact.css'
+
+const MailingAddress = styled.div`
+  p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px !important;
+  }
+`
+
+const StaffContactContainer = styled.div`
+  margin: 0 auto;
+  width: 500px;
+  hr {
+    width: 500px;
+  }
+
+  @media screen and (max-width: 568px) {
+    width: auto;
+    padding-left: 20px;
+    hr {
+      width: 90%;
+    }
+  }
+`
+
+const StaffContact = styled.div`
+  font-size: 18px;
+  padding-bottom: 5px;
+
+  @media screen and (max-width: 568px) {
+    font-size: 16px;
+  }
+`
 
 /* eslint-disable max-len */
 const Contact = () => (
   <div className="contact-container">
     <div className="bg-image contact-img" />
-    <div className="content">
-      <p className="heading">Contact us:</p>
+    <Content>
+      <Title>Contact us:</Title>
       <div id="wrap">
-        <p>
-          <a
-            id="bt-email"
-            className="bt"
-            href="mailto:albemarleballettheatre@gmail.com"
-            target="_top"
-          >
-            <Mail /> albemarleballettheatre@gmail.com
-          </a>
-        </p>
-        <p>
-          <a className="bt" href="tel:+1-434-823-8888">
-            <Phone />434-823-8888
-          </a>
-        </p>
-        <p>
-          <a
+        <div>
+          <Button id="bt-email" href="mailto:Info@abtdance.org" target="_top">
+            <Mail /> Info@abtdance.org
+          </Button>
+        </div>
+        <div>
+          <Button className="bt" href="tel:+1-434-823-8888">
+            <Phone />
+            434-823-8888
+          </Button>
+        </div>
+        <div>
+          <Button
             className="bt"
             href="https://www.facebook.com/AlbemarleBallet"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Facebook /> Visit us on Facebook
-          </a>
-        </p>
-        <div className="mailing-address">
+          </Button>
+        </div>
+        <MailingAddress>
           <p>Mailing Address:</p>
           <p>P.O. Box 805 Crozet, VA 22932</p>
-        </div>
+        </MailingAddress>
         <hr />
       </div>
+
+      <StaffContactContainer>
+        <StaffContact>
+          <span>Sally Hart</span>:{' '}
+          <a href="mailto:Sally@abtdance.org" target="_top">
+            Sally@abtdance.org
+          </a>
+        </StaffContact>
+        <StaffContact>
+          <span>Veronica Piller</span>:{' '}
+          <a href="mailto:Veronica@abtdance.org" target="_top">
+            Veronica@abtdance.org
+          </a>
+        </StaffContact>
+        <StaffContact>
+          <span>Ashley Geisler</span>:{' '}
+          <a href="mailto:Ashley@abtdance.org" target="_top">
+            Ashley@abtdance.org
+          </a>
+        </StaffContact>
+        <StaffContact>
+          <span>Nicky Coelho</span>:{' '}
+          <a href="mailto:Nicky@abtdance.org" target="_top">
+            Nicky@abtdance.org
+          </a>
+        </StaffContact>
+        <StaffContact>
+          <span className="bold">Send absences to</span>:{' '}
+          <a href="mailto:Attendance@abtdance.org" target="_top">
+            Attendance@abtdance.org
+          </a>
+        </StaffContact>
+        <hr />
+      </StaffContactContainer>
 
       <div className="clear" />
       <div className="map-wrap">
@@ -53,33 +120,7 @@ const Contact = () => (
           allowFullScreen
         />
       </div>
-
-      <div className="clear" />
-      <div className="donate-button-wrap">
-        <form
-          action="https://www.paypal.com/cgi-bin/webscr"
-          method="post"
-          target="_blank"
-        >
-          <input type="hidden" name="cmd" value="_s-xclick" />
-          <input type="hidden" name="hosted_button_id" value="YEGY2CH6H5M88" />
-          <input
-            type="image"
-            src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
-            border="0"
-            name="submit"
-            alt="PayPal - The safer, easier way to pay online!"
-          />
-          <img
-            alt=""
-            border="0"
-            src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-            width="1"
-            height="1"
-          />
-        </form>
-      </div>
-    </div>
+    </Content>
   </div>
 )
 

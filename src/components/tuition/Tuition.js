@@ -2,6 +2,7 @@ import React from 'react'
 import tuitionDiscounts from './TuitionData'
 import Title from '../styles/Title'
 import Subtitle from '../styles/Subtitle'
+import Content from '../styles/Content'
 import {
   TuitionContainer,
   TuitionClass,
@@ -12,7 +13,6 @@ import {
   RightRow,
   CenterRow,
 } from './TuitionStyles'
-import './Tuition.css'
 
 const GenerateTuitionDiscountTable = () => {
   return tuitionDiscounts.map((o) => {
@@ -29,7 +29,7 @@ const GenerateTuitionDiscountTable = () => {
 const Tuition = () => (
   <TuitionContainer>
     <TuitionImage className="bg-image" />
-    <div className="content">
+    <Content>
       <Title>Tuition</Title>
       <Subtitle className="bold underline">2019-2020 School Year Classes </Subtitle>
       <p>
@@ -85,7 +85,7 @@ const Tuition = () => (
       <p>
         Tuition is due in full at the time of registration for Pilates, 8-Week Sessions, and Events.
       </p>
-    </div>
+    </Content>
   </TuitionContainer>
 )
 

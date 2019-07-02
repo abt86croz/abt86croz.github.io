@@ -32,21 +32,21 @@
   margin: 25px auto;
 }
 
-.performances-container .heading {
+/* .performances-container .heading {
   padding-bottom: 12px !important;
 }
 
 .performances-container .sub-title {
   font-size: 20px;
-}
+} */
 
 .performances-container p {
-  padding: 0 30px 0 20px;
+  /* padding: 0 30px 0 20px; */
 }
 
-.performances-container .description {
+/* .performances-container .description {
   margin-bottom: 30px;
-}
+} */
 
 .performances-container .description .paypal-nutcracker {
   margin: 30px auto;

@@ -1,69 +1,75 @@
 import React from 'react'
+import styled from 'styled-components'
+import Content from '../styles/Content'
+import Title from '../styles/Title'
 import './Performances.css'
 // import springGalaImg from '../../images/site/2019-spring-gala.png'
 
 /* eslint-disable unescaped-entities */
 /* eslint-disable max-len */
 
-// CLASS DESCRIPTION
+const Description = styled.div`
+  margin-bottom: 10px;
+  padding: ${props => (props.primary ? '0 30px 0 20px' : '')};
+`
+
+const Show = styled.div`
+  padding: 0 30px 0 20px;
+  p {
+    font-size: 20px;
+  }
+`
+
+const Location = styled.div`
+  padding-bottom: 20px;
+  p {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+  }
+`
 const Performances = () => (
   <div className="performances-container">
     <div className="bg-image description-img" />
-    <div className="content">
-      <div className="description">
-        <div className="heading">Upcoming Performances</div>
-      </div>
+    <Content>
+      <Title>Upcoming Performances</Title>
       <hr />
       {/* COMING SOON */}
-      <div className="description">
+      {/* <Description>
         <p className="sub-title bold">2019-2020 performance dates coming soon…</p>
-      </div>
+      </Description> */}
 
-      {/* <div className="description">
-        <p className="sub-title bold">
-          April 28th, 2019: Exploring Ballet & Ballet IA Only
-          <span className="sub-title-specs">
-            Studio Showing at ABT <br />
-            Wednesday, Exploring Ballet: 1:00pm
-            <br />
-            Saturday, Exploring Ballet: 2:30pm
-            <br />
-            Ballet IA, (All Combined): 4:00pm
-          </span>
-        </p>
-      </div>
+      <Description>
+        <Show>
+          <p className="bold underline">
+            Nutcracker Community Outreach Performances - participation is voluntary
+          </p>
+          <Location>
+            <p> Monday, December 2, 2019 | 4:30pm </p>
+            <p> Crozet Library, Crozet, VA</p>
+            <p> Ballet IV - Advanced levels invited to perform</p>
+          </Location>
+          <Location>
+            <p> Wednesday, December 4, 2019 | 3:00pm</p>
+            <p> Mountain Side, Crozet, VA</p>
+            <p> Ballet IV - Advanced levels invited to perform</p>
+          </Location>
+        </Show>
+      </Description>
       <hr />
-      <div className="description">
-        <p className="sub-title bold">Spring Gala Community Outreach Performances:</p>
-        <p>Two performances will be scheduled, dates and times TBA</p>
-      </div>
-      <hr />
-      <div className="description">
-        <p className="sub-title bold">
-          May 11th, 2019: Spring Gala
-          <span className="sub-title-specs">
-            2:00pm & 6:00pm
-            <br />
-            The Dickinson Theatre at Piedmont Community College <br />
-            Charlottesville, VA
-          </span>
-        </p>
-        <img className="spring-gala-img" src={springGalaImg} alt="2019 Spring Gala" />
-        <div className="btn-wrap">
 
-          <a
-            className="bt"
-            href="http://click4tix.com/abt"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Buy Tickets
-          </a>
-        </div>
-      </div>
-      */}
+      <Description>
+        <Show>
+          <p className="bold underline">The Nutcracker </p>
+          <Location>
+            <p> December 7 &amp; 8, 2019</p>
+            <p> Saturday: 2:00pm &amp; 5:00pm | Sunday: 2:00pm</p>
+            <p> The Wayne Theatre in Waynesboro, VA </p>
+          </Location>
+        </Show>
+      </Description>
       <hr />
-      <div className="description">
+      <Description primary>
         <p>
           Our dance studio is conveniently located in Crozet, near Western Albemarle High School,
           Henley, Brownsville, and Crozet Elementary Schools, minutes away from Charlottesville, and
@@ -85,8 +91,8 @@ const Performances = () => (
             Click here for directions to our dance school
           </a>
         </p>
-      </div>
-    </div>
+      </Description>
+    </Content>
   </div>
 )
 

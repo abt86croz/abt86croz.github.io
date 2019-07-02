@@ -46,7 +46,7 @@ const classAttireData = [
     girls: {
       attire: 'Girls Attire',
       description:
-        'Solid colored leotard, black jazz pants, leggings, or shorts, black jazz shoes.',
+        'Solid colored leotard, black jazz pants, tights, leggings, or shorts, black jazz shoes.',
     },
     boys: {
       attire: 'Boys Attire',

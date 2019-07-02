@@ -1,5 +1,3 @@
-/* NEW CLASSES */
-
 /* Spring Gala Image */
 .performances-container .description .spring-gala-img {
   margin: 0 auto;
@@ -17,7 +15,7 @@
 }
 
 .performances-container:after {
-  content: " ";
+  content: ' ';
   display: block;
   clear: both;
 }
@@ -31,22 +29,6 @@
   text-align: center;
   margin: 25px auto;
 }
-
-/* .performances-container .heading {
-  padding-bottom: 12px !important;
-}
-
-.performances-container .sub-title {
-  font-size: 20px;
-} */
-
-.performances-container p {
-  /* padding: 0 30px 0 20px; */
-}
-
-/* .performances-container .description {
-  margin-bottom: 30px;
-} */
 
 .performances-container .description .paypal-nutcracker {
   margin: 30px auto;
@@ -67,7 +49,7 @@
   display: inline-block;
 }
 
-.performances-container .description .paypal-nutcracker input[type="image"]:focus {
+.performances-container .description .paypal-nutcracker input[type='image']:focus {
   outline: 0;
 }
 

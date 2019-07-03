@@ -9,6 +9,9 @@ import './Performances.css'
 /* eslint-disable max-len */
 
 const Description = styled.div`
+  hr {
+    margin: 0;
+  }
   margin-bottom: 10px;
   padding: ${props => (props.primary ? '0 30px 0 20px' : '')};
 `
@@ -55,8 +58,8 @@ const Performances = () => (
             <p> Ballet IV - Advanced levels invited to perform</p>
           </Location>
         </Show>
+        <hr />
       </Description>
-      <hr />
 
       <Description>
         <Show>
@@ -67,8 +70,56 @@ const Performances = () => (
             <p> The Wayne Theatre in Waynesboro, VA </p>
           </Location>
         </Show>
+        <hr />
       </Description>
-      <hr />
+
+      <Description>
+        <Show>
+          <p className="bold underline">‘Step Into The Story’ Nutcracker Series</p>
+          <Location>
+            <p> December 14 &amp; 15, 2019</p>
+            <p> Saturday: 2:00pm &amp; 4:00pm | Sunday: 11:00am &amp; 1:00pm</p>
+            <p> The White Box Theatre at ABT</p>
+            <p>Ballet IV - Advanced levels invited to perform</p>
+          </Location>
+        </Show>
+        <hr />
+      </Description>
+
+      <Description>
+        <Show>
+          <p className="bold underline">Exploring Ballet &amp; Ballet IA In-Studio Presentations</p>
+          <Location>
+            <p>May 3, 2020, | Times TBA *No performance Fee</p>
+          </Location>
+        </Show>
+        <hr />
+      </Description>
+
+      <Description>
+        <Show>
+          <p className="bold underline">Spring Gala</p>
+          <Location>
+            <p>Saturday, May 9, 2020 | 2:00pm &amp; 6:00pm</p>
+            <p>The Dickinson Theatre at Piedmont Community College, Charlottesville, VA </p>
+          </Location>
+        </Show>
+        <hr />
+      </Description>
+
+      <Description>
+        <Show>
+          <p className="bold underline">
+            Spring Gala Community Outreach Performances - participation is voluntary
+          </p>
+          <Location>
+            <p>Two performances will be scheduled. Dates and times TBA.</p>
+            <p>Ballet IV - Advanced levels invited to perform </p>
+          </Location>
+        </Show>
+        <hr />
+      </Description>
+
       <Description primary>
         <p>
           Our dance studio is conveniently located in Crozet, near Western Albemarle High School,

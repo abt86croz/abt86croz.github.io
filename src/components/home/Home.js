@@ -51,7 +51,7 @@ const Home = () => (
 
     <div className="video-container">
       <iframe
-        src="https://www.youtube.com/embed/bgSMpRpObCg?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=0&amp;loop=1&amp;playlist=bgSMpRpObCg"
+        src="https://www.youtube.com/embed/evsz4_AL2Hg?rel=0&amp;controls=1&amp;showinfo=0&amp;autoplay=0&amp;loop=1&amp;playlist=bgSMpRpObCg"
         frameBorder="0"
         allow="encrypted-media"
       />

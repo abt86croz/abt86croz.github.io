@@ -2,52 +2,25 @@ import React from 'react'
 import Facebook from 'react-icons/lib/fa/facebook-official'
 import Mail from 'react-icons/lib/fa/envelope'
 import Phone from 'react-icons/lib/fa/phone'
-import styled from 'styled-components'
+import {
+  MailingAddress,
+  StaffContact,
+  StaffContactContainer,
+  MapContainer,
+  Wrapper,
+  ContactImage,
+} from './ContactStyles'
 import Button from '../styles/Button'
 import Title from '../styles/Title'
 import Content from '../styles/Content'
-import './Contact.css'
-
-const MailingAddress = styled.div`
-  p {
-    margin: 0;
-    padding: 0;
-    font-size: 18px !important;
-  }
-`
-
-const StaffContactContainer = styled.div`
-  margin: 0 auto;
-  width: 500px;
-  hr {
-    width: 500px;
-  }
-
-  @media screen and (max-width: 568px) {
-    width: auto;
-    padding-left: 20px;
-    hr {
-      width: 90%;
-    }
-  }
-`
-
-const StaffContact = styled.div`
-  font-size: 18px;
-  padding-bottom: 5px;
-
-  @media screen and (max-width: 568px) {
-    font-size: 16px;
-  }
-`
 
 /* eslint-disable max-len */
 const Contact = () => (
   <div className="contact-container">
-    <div className="bg-image contact-img" />
+    <ContactImage className="bg-image" />
     <Content>
       <Title>Contact us:</Title>
-      <div id="wrap">
+      <Wrapper>
         <div>
           <Button id="bt-email" href="mailto:Info@abtdance.org" target="_top">
             <Mail /> Info@abtdance.org
@@ -74,7 +47,7 @@ const Contact = () => (
           <p>P.O. Box 805 Crozet, VA 22932</p>
         </MailingAddress>
         <hr />
-      </div>
+      </Wrapper>
 
       <StaffContactContainer>
         <StaffContact>
@@ -111,7 +84,7 @@ const Contact = () => (
       </StaffContactContainer>
 
       <div className="clear" />
-      <div className="map-wrap">
+      <MapContainer>
         <p>Directions to our Studio:</p>
         <iframe
           title="ABT Adress"
@@ -119,7 +92,7 @@ const Contact = () => (
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3141.0082499261734!2d-78.70194868530913!3d38.07018897970674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b37fab9e8c95e3%3A0x2a61bbc7bcd57c38!2sAlbemarle+Ballet+Theatre!5e0!3m2!1sen!2sus!4v1517544462711"
           allowFullScreen
         />
-      </div>
+      </MapContainer>
     </Content>
   </div>
 )

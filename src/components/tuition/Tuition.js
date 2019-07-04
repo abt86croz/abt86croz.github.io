@@ -72,11 +72,16 @@ const Tuition = () => (
       </TuitionClass>
 
       <p>
+        Your first tuition payment is due at the time of enrollment. Registration is a two-step
+        process: Step 1: enter all registration information and enroll in the class(es); Step 2: log
+        in to the Jackrabbit Dancer Portal and make your first payment. This first payment serves as
+        a deposit, without which we cannot guarantee a spot in the class. Your card on file will
+        automatically be charged if we do not receive payment within 72-hours.
         <span className="underline">
           Please note that you are automatically enrolled in monthly auto-pay when you complete
-          online registration for annual classes
+          online registration for annual classes.
         </span>
-        . After the first tuition payment/deposit (made by the registrant), all subsequent monthly
+        After the first tuition payment/deposit (made by the registrant), all subsequent monthly
         payments will be made via auto-pay, unless the ABT office has been notified of another
         preferred form of payment. Tuition will be posted on the 1st of the month and cards on file
         will be charged on the 15th for the following month’s tuition.

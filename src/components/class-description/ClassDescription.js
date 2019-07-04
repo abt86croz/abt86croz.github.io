@@ -88,7 +88,7 @@ const Description = () => (
       </div>
       <hr />
       <div className="description">
-        <p className="sub-title bold">Teen &amp; Adult Beginning Ballet’ • 1 hour</p>
+        <p className="sub-title bold"> TEEN and ADULT BEGINNING BALLET • 1 hour</p>
         <p>
           A class for the older beginner ballet student! The perfect fit for all students, from the
           ballet enthusiast to the serious dancer. Focusing on a variety of steps from plies to
@@ -124,10 +124,7 @@ const Description = () => (
       </div>
       <hr />
       <div className="description">
-        <p className="sub-title bold">
-          BEGINNER and INTERMEDIATE POINTE | For first year pointe and pointe students with 1-2
-          years of experience • 1 hour
-        </p>
+        <p className="sub-title bold">BEGINNER and INTERMEDIATE POINTE • 1 hour</p>
         <p>
           For students in their first two years of pointe work. These classes focuses on strength,
           stability, strong emphasis on correct use of the foot, refining technique, and helping
@@ -233,8 +230,8 @@ const Description = () => (
         </p>
         <p className="italic">
           For more information: <br /> email us at
-          <a href="mailto:albemarleballettheatre@gmail.com" target="_top">
-            <span> albemarleballettheatre@gmail.com</span>
+          <a href="mailto:Info@abtdance.org" target="_top">
+            <span> Info@abtdance.org</span>
           </a>
           , or call us at
           <a href="tel:+1-434-823-8888">
@@ -244,7 +241,7 @@ const Description = () => (
         </p>
         <p>
           <a href="https://goo.gl/maps/QeM6BCDorfy" target="_blank" rel="noopener noreferrer">
-            Click here for directions to our dance school
+            Click here for directions.
           </a>
         </p>
       </DescriptionClass>

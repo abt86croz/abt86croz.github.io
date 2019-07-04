@@ -19,7 +19,7 @@ input.form-control {
   font-size: 16px;
 }
 
-input[type=file] {
+input[type='file'] {
   width: 100%;
 }
 
@@ -97,7 +97,8 @@ p {
 }
 
 a {
-  color: #5bc0de;
+  /* color: #5bc0de; */
+  color: #e91e63;
 }
 
 hr {
@@ -163,7 +164,7 @@ a.btn-red:hover {
 /* blue */
 
 a.btn-blue {
-  background-color: #209cee
+  background-color: #209cee;
 }
 
 a.btn-blue:visited {

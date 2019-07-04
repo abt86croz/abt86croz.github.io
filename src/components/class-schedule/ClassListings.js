@@ -17,6 +17,8 @@ export default class ClassListings extends Component {
     const matPilates =
       '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat2=fitness&hidecols=Description,Gender,Ages,EndDate,Session,Openings&sort=days&sort=class"></script>'
 
+    // '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=Summer%20Camp&hidecols=Gender,Ages,EndDate,Session,openings&sort=times"></script>'
+
     // postscribe
     postscribe('#beggining-ballet', begginingBalletScript)
     postscribe('#eight-week', eightWeek)
@@ -28,15 +30,17 @@ export default class ClassListings extends Component {
     return (
       <div className="class-listings-container">
         <div id="beggining-ballet">
-          <p className="heading show">Beginning Ballet | January 3 - May 3, 2019</p>
+          <p className="heading show">Beginning Ballet | August 17 – May 2, 2020</p>
         </div>
         <div id="eight-week">
           <p className="heading show">8-Week Sessions</p>
-          <span className="subtitle-listing">Session 1: January 3 – February 27, 2019</span>
-          <span className="subtitle-listing">Session 2: February 28 – May 1, 2019</span>
+          <span className="subtitle-listing">Fall Session 1: August 21 – October 9, 2019 </span>
+          <span className="subtitle-listing">Fall Session 2: October 16 – December 11, 2019</span>
+          <span className="subtitle-listing">Spring Session 1: January 8 – February 26, 2020</span>
+          <span className="subtitle-listing">Spring Session 2: March 4 – April 29, 2020</span>
         </div>
         <div id="by-placement">
-          <p className="heading show">By Placement Only | January 3 – May 3, 2019</p>
+          <p className="heading show">By Placement Only | August 17 – May 2, 2020</p>
         </div>
         <div id="matt-pilates">
           <p className="heading show">Mat Pilates | 1-Month Sessions</p>

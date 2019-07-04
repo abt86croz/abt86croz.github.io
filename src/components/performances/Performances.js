@@ -44,9 +44,7 @@ const Performances = () => (
 
       <Description>
         <Show>
-          <p className="bold underline">
-            Nutcracker Community Outreach Performances - participation is voluntary
-          </p>
+          <p className="bold underline">Nutcracker Community Outreach Performances</p>
           <Location>
             <p> Monday, December 2, 2019 | 4:30pm </p>
             <p> Crozet Library, Crozet, VA</p>
@@ -90,7 +88,7 @@ const Performances = () => (
         <Show>
           <p className="bold underline">Exploring Ballet &amp; Ballet IA In-Studio Presentations</p>
           <Location>
-            <p>May 3, 2020, | Times TBA *No performance Fee</p>
+            <p>May 3, 2020, | Times TBA </p>
           </Location>
         </Show>
         <hr />
@@ -109,9 +107,7 @@ const Performances = () => (
 
       <Description>
         <Show>
-          <p className="bold underline">
-            Spring Gala Community Outreach Performances - participation is voluntary
-          </p>
+          <p className="bold underline">Spring Gala Community Outreach Performances</p>
           <Location>
             <p>Two performances will be scheduled. Dates and times TBA.</p>
             <p>Ballet IV - Advanced levels invited to perform </p>
@@ -128,8 +124,8 @@ const Performances = () => (
         </p>
         <p className="italic">
           For more information: <br /> email us at
-          <a href="mailto:albemarleballettheatre@gmail.com" target="_top">
-            <span> albemarleballettheatre@gmail.com</span>
+          <a href="mailto:Info@abtdance.org" target="_top">
+            <span> Info@abtdance.org</span>
           </a>
           , or call us at
           <a href="tel:+1-434-823-8888">
@@ -139,7 +135,7 @@ const Performances = () => (
         </p>
         <p>
           <a href="https://goo.gl/maps/QeM6BCDorfy" target="_blank" rel="noopener noreferrer">
-            Click here for directions to our dance school
+            Click here for directions.
           </a>
         </p>
       </Description>

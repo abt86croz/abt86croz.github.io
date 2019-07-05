@@ -40,7 +40,8 @@
   border: none;
   width: 90%;
   margin: 0 auto;
-  height: 1200px;
+  height: 600px;
+  padding-bottom: 20px;
 }
 
 .schedule-container .content .heading {
@@ -149,7 +150,7 @@
   .schedule-container .calendar-class-container {
     width: 100%;
   }
-  /* Hide jackrabbit calendar on portrait  */
+  /* Hide calendar on portrait  */
   .schedule-container .calendar-class-container iframe {
     display: none;
   }
@@ -187,6 +188,13 @@
 */
 
 @media (min-device-width: 768px) and (max-device-width: 1024px) and (device-aspect-ratio: 3/4) and (orientation: portrait) {
+  .schedule-container iframe {
+    display: block !important;
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    height: 600px;
+  }
   .schedule-container .calendar-class-container .rotate-phone {
     display: none;
   }

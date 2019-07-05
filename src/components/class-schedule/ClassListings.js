@@ -17,8 +17,6 @@ export default class ClassListings extends Component {
     const matPilates =
       '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat2=fitness&hidecols=Description,Gender,Ages,EndDate,Session,Openings&sort=days&sort=class"></script>'
 
-    // '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=Summer%20Camp&hidecols=Gender,Ages,EndDate,Session,openings&sort=times"></script>'
-
     // postscribe
     postscribe('#beggining-ballet', begginingBalletScript)
     postscribe('#eight-week', eightWeek)

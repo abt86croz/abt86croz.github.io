@@ -1,0 +1,46 @@
+/* NEW CLASSES */
+
+.level-placement-container {
+  margin: 0 auto;
+}
+
+.level-placement-container:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
+.level-placement-container .description-img {
+  background: url('../../images/bkgrnd/new-classes.jpg') no-repeat;
+  background-size: 100% auto;
+}
+
+.level-placement-container .quote {
+  text-align: center;
+  margin: 25px auto;
+}
+
+.level-placement-container .sub-title {
+  font-size: 20px;
+}
+
+.level-placement-container p {
+  padding: 0 30px 0 20px;
+}
+
+.level-placement-container .description {
+  margin-bottom: 30px;
+}
+
+.level-placement-container span.sub-title-specs {
+  display: block;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.level-placement-container li {
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+/* Mobile Styles are on Index.css */

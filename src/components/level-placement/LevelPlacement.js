@@ -10,7 +10,7 @@ const LevelPlacement = () => (
   <div className="level-placement-container">
     <div className="bg-image description-img" />
     <Content>
-      <Title>Level Placement Guidelines</Title>
+      <Title>Level Placement</Title>
       <div className="description">
         <p>
           Level placement is determined by ABT Owner & School Director, Sally Hart, and Artistic

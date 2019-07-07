@@ -77,10 +77,12 @@ const Tuition = () => (
         in to the Jackrabbit Dancer Portal and make your first payment. This first payment serves as
         a deposit, without which we cannot guarantee a spot in the class. Your card on file will
         automatically be charged if we do not receive payment within 72-hours.
+      </p>
+      <p>
         <span className="underline">
           Please note that you are automatically enrolled in monthly auto-pay when you complete
           online registration for annual classes.
-        </span>
+        </span>{' '}
         After the first tuition payment/deposit (made by the registrant), all subsequent monthly
         payments will be made via auto-pay, unless the ABT office has been notified of another
         preferred form of payment. Tuition will be posted on the 1st of the month and cards on file

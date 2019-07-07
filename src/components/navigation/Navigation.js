@@ -8,7 +8,6 @@ import { Logo } from '../Images'
 import HandbookDoc from '../../pdf/2019-2020-handbook-policies.pdf'
 import './Navigation.css'
 
-
 const handlePoliciesClick = () => {
   window.open(HandbookDoc, '_blank')
 }
@@ -51,8 +50,8 @@ const Navigation = () => (
             <MenuItem eventKey={3.1}>Schedule</MenuItem>
           </LinkContainer>
 
-          <LinkContainer to="/classes/new-classes">
-            <MenuItem eventKey={3.2}>New Classes</MenuItem>
+          <LinkContainer to="/classes/level-placement">
+            <MenuItem eventKey={3.2}>Level Placement</MenuItem>
           </LinkContainer>
 
           <LinkContainer to="/classes/description">

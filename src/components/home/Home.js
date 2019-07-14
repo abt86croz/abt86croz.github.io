@@ -9,23 +9,28 @@ const handlePoliciesClick = () => {
   window.open(HandbookDoc, '_blank')
 }
 
+const HomeButtonImg = () => (
+  <div className="wrap">
+    <a
+      className="go-to-registration"
+      href="https://app.jackrabbitclass.com/regv2.asp?id=534011"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div className="home-img" />
+      {/* <Link to="/classes/summer-program">
+          Place .home-img here for summer program
+    </Link> */}
+    </a>
+  </div>
+)
+
 /* eslint-disable max-len */
 const Home = () => (
   <div className="home-container">
     <div className="abt-nutcracker-container" />
-    <div className="wrap">
-      {/* <a
-        className="go-to-registration"
-        href="https://app.jackrabbitclass.com/regv2.asp?id=534011"
-        target="_blank"
-        rel="noopener noreferrer"
-      > */}
-      <Link to="/classes/summer-program">
-        <div className="home-img" />
-      </Link>
-      {/* </a> */}
-    </div>
-
+    {/* place home button image here */}
+    <HomeButtonImg />
     <div className="image-links-wrap">
       <div className="img-link new-classes">
         <Link to="/classes/new-classes">

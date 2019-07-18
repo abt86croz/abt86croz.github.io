@@ -22,13 +22,17 @@ const FinancialAid = () => (
     <Content>
       <Title>Financial Aid</Title>
       <p>
-        The goal of SFTPA&#39;s scholarship program is to ensure that all students, regardless of
-        their economic ability are given the opportunity to study dance in a professional school.
-        SFTPA offers Scholarships based on financial need to ABT students. Please note that SFTPA
-        only grants partial scholarships.
+        Scholarships are provided by Studio For The Performing Arts (SFTPA) a 501(c)3 non-profit
+        organization. The goal of SFTPA’s scholarship program is to ensure that all qualifying
+        students, regardless of their economic status are given the opportunity to study dance in a
+        professional school. Scholarships are based on financial need. Please note that SFTPA only
+        grants partial scholarships.
       </p>
       <Highlight>
-        <p>ABT offers a limited number of work-study positions.</p>
+        <p>
+          ABT offers a limited number of Work-Study positions available to all students. Work-Study
+          may be completed by students aged 15-years and older or family members.
+        </p>
         <p className="bold">Fall semester application deadline: September 1, 2019</p>
         <p className="bold">Spring semester application deadline: December 19, 2019</p>
       </Highlight>

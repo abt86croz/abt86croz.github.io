@@ -2,7 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 import Content from '../styles/Content'
 import Title from '../styles/Title'
+import StoryImg from '../../images/site/step-into-story.png'
+import NutImg from '../../images/site/nutcracker-ticket.png'
+
+import PayPalNutCracker from '../paypal/Paypal'
 import './Performances.css'
+
 // import springGalaImg from '../../images/site/2019-spring-gala.png'
 
 /* eslint-disable unescaped-entities */
@@ -36,6 +41,12 @@ const Performances = () => (
     <div className="bg-image description-img" />
     <Content>
       <Title>Upcoming Performances</Title>
+      <Description primary>
+        <p className="bold">
+          Presented by Studio For The Performing Arts with the students of Albemarle Ballet Theatre
+        </p>
+      </Description>
+
       <hr />
       {/* COMING SOON */}
       {/* <Description>
@@ -63,9 +74,13 @@ const Performances = () => (
         <Show>
           <p className="bold underline">The Nutcracker </p>
           <Location>
-            <p> December 7 &amp; 8, 2019</p>
-            <p> Saturday: 2:00pm &amp; 5:00pm | Sunday: 2:00pm</p>
-            <p> The Wayne Theatre in Waynesboro, VA </p>
+            <a
+              href="https://waynetheatre.ticketforce.com/eventperformances.asp?evt=142"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={NutImg} alt="The Nutcracker Performances" />
+            </a>
           </Location>
         </Show>
         <hr />
@@ -75,11 +90,9 @@ const Performances = () => (
         <Show>
           <p className="bold underline">‘Step Into The Story’ Nutcracker Series</p>
           <Location>
-            <p> December 14 &amp; 15, 2019</p>
-            <p> Saturday: 2:00pm &amp; 4:00pm | Sunday: 11:00am &amp; 1:00pm</p>
-            <p> The White Box Theatre at ABT</p>
-            <p>Ballet IV - Advanced levels invited to perform</p>
+            <img src={StoryImg} alt="Step Into The Story Performances" />
           </Location>
+          <PayPalNutCracker />
         </Show>
         <hr />
       </Description>

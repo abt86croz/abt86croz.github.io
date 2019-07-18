@@ -1,0 +1,23 @@
+/* PAYPAL BUTTON */
+.paypal-nutcracker {
+  margin: 10px auto;
+  display: block;
+  text-align: center;
+}
+
+.paypal-nutcracker select {
+  height: 40px;
+  border: 1px;
+  background-color: #0f70ba;
+  color: #ffffff;
+  font-weight: 700;
+  margin: 10px auto;
+}
+
+.paypal-nutcracker form {
+  display: inline-block;
+}
+
+.paypal-nutcracker input[type='image']:focus {
+  outline: 0;
+}

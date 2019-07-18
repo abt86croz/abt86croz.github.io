@@ -5,6 +5,10 @@
   width: 90%;
 }
 
+.performances-container img {
+  width: 100%;
+}
+
 /* Button */
 .performances-container .description .btn-wrap a {
   font-weight: bold;
@@ -28,29 +32,6 @@
 .performances-container .quote {
   text-align: center;
   margin: 25px auto;
-}
-
-.performances-container .description .paypal-nutcracker {
-  margin: 30px auto;
-  display: block;
-  text-align: center;
-}
-
-.performances-container .description .paypal-nutcracker select {
-  height: 40px;
-  border: 1px;
-  background-color: #0f70ba;
-  color: #ffffff;
-  font-weight: 700;
-  margin-bottom: 30px;
-}
-
-.performances-container .description .paypal-nutcracker form {
-  display: inline-block;
-}
-
-.performances-container .description .paypal-nutcracker input[type='image']:focus {
-  outline: 0;
 }
 
 .performances-container span.sub-title-specs {

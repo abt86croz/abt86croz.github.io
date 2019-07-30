@@ -1,22 +1,48 @@
 import React from 'react'
-import {
-  SallyImage,
-  AshleyImage,
-  VeronicaImage,
-  AmandaImage,
-  NickyImage,
-  SarahImage,
-  MeganImage,
-  EdwinImage,
-  KeithImage,
-  RoderickImage,
-} from '../Images'
+import styled from 'styled-components'
+import SallyImg from '../../images/faculty/sally.jpg'
+import AshleyImg from '../../images/faculty/ashley.jpg'
+import VeronicaImg from '../../images/faculty/veronica.jpg'
+import NickyImg from '../../images/faculty/nicky.jpg'
+import AmandaImg from '../../images/faculty/amanda.jpg'
+import SarahImg from '../../images/faculty/sarah.jpg'
+import MeganImg from '../../images/faculty/megan.jpg'
+import EdwinImg from '../../images/faculty/edwin.jpg'
+import KeithImg from '../../images/faculty/keith.jpg'
+import RoderickImg from '../../images/faculty/roderick.jpg'
+import LeanneImg from '../../images/faculty/leanne.jpg'
 import './Faculty.css'
+
+const SallyImage = () => <img src={SallyImg} alt="Sally Hart" title="Sally Hart" />
+const VeronicaImage = () => <img src={VeronicaImg} alt="Veronica Piller" title="Sally Hart" />
+const AshleyImage = () => <img src={AshleyImg} alt="Ashley Geisler" title="Ashley Geisler" />
+const NickyImage = () => <img src={NickyImg} alt="Nicky Coelho" title="Nicky Coelho" />
+const AmandaImage = () => <img src={AmandaImg} alt="Amanda Jo Parks" title="Amanda Jo Parks" />
+const LeanneImage = () => <img src={LeanneImg} alt="Leanne Higgins" title="Leanne Higgins" />
+const SarahImage = () => <img src={SarahImg} alt="Sarah Gillespie" title="Sarah Gillespie" />
+const MeganImage = () => <img src={MeganImg} alt="Megan Hillary" title="Megan Hillary" />
+const EdwinImage = () => <img src={EdwinImg} alt="Edwin Roa" title="Edwin Roa" />
+const KeithImage = () => <img src={KeithImg} alt="Keith Lee" title="Keith Lee" />
+const RoderickImage = () => <img src={RoderickImg} alt="Roderick Davis" title="Roderick Davis" />
+
+const Instructor = styled.div`
+  img {
+    float: left;
+    padding: 0 15px 10px 0;
+    height: 190px;
+    margin-top: 4px;
+  }
+  p {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+  }
+`
 
 /* eslint-disable max-len */
 const Faculty = () => (
   <div className="faculty-container">
-    <div className="bios">
+    <Instructor>
       <SallyImage />
       <span className="bold instructor">Sally Hart | Owner, Director</span>
       <p>
@@ -38,9 +64,9 @@ const Faculty = () => (
           Kuchera-Gage, formerly with “American Ballet Theatre”
         </span>
       </p>
-    </div>
-    <hr />
-    <div className="bios">
+      <hr />
+    </Instructor>
+    <Instructor>
       <p>
         <VeronicaImage />
         <span className="bold instructor">
@@ -66,10 +92,9 @@ const Faculty = () => (
           Story, and Keith Lee’s Mama Rose.
         </span>
       </p>
-    </div>
-    <hr />
-
-    <div className="bios">
+      <hr />
+    </Instructor>
+    <Instructor>
       <p>
         <NickyImage />
         <span className="bold instructor">
@@ -90,10 +115,9 @@ const Faculty = () => (
         Nicky has been the production and stage manager for ABT since 2005 and has choreographed
         several full-length ballets and original works in the repertoire.
       </p>
-    </div>
-
-    <hr />
-    <div className="bios">
+      <hr />
+    </Instructor>
+    <Instructor>
       <p>
         <AshleyImage />
         <span className="bold instructor">
@@ -111,9 +135,9 @@ const Faculty = () => (
         Ballet Theatre. She has been teaching and choreographing at ABT since 2006 and has performed
         with concorDance contemporary.
       </p>
-    </div>
-    <hr />
-    <div className="bios">
+      <hr />
+    </Instructor>
+    <Instructor>
       <p>
         <AmandaImage />
         <span className="bold instructor">Amanda Jo Parks | Instructor</span>
@@ -131,10 +155,26 @@ const Faculty = () => (
         political science but spends most of her time wrangling her three wild and delightful little
         boys.
       </p>
-    </div>
-
-    <hr />
-    <div className="bios">
+      <hr />
+    </Instructor>
+    <Instructor>
+      <p>
+        <LeanneImage />
+        <span className="bold instructor">Leanne Higgins | Instructor</span>
+        Leanne Higgins has a Master of Science in Exercise Physiology and a Doctorate in Education
+        from the University of Delaware. She has been teaching group exercise for 30 years and began
+        specializing in Pilates Mat work and Mat with props 18 years ago. With a background in
+        gymnastics, dance, and eventually college cheerleading at the Pennsylvania State University,
+        she found her passion in helping individuals discover physical strength and mental endurance
+        through exercise. Leanne has taught Pilates for students, professional dancers, and adult
+        participants at both the Mid-Atlantic Ballet in Newark, Delaware and First State Ballet
+        Theater in Wilmington, Delaware. Leanne truly believes the mind can master the muscles and
+        hopes to inspire students to believe in their own physical and emotional power through the
+        practice of Pilates principles.{' '}
+      </p>
+      <hr />
+    </Instructor>
+    <Instructor>
       <p>
         <KeithImage />
         <span className="bold instructor">Keith Lee | Guest Instructor</span>Keith Lee was born in
@@ -179,9 +219,9 @@ const Faculty = () => (
         received the First Artist Laureate Award. Mr. Lee is now pursuing a successful career as a
         freelance choreographer, master teacher, and performing arts coordinator.
       </p>
-    </div>
-    <hr />
-    <div className="bios">
+      <hr />
+    </Instructor>
+    <Instructor>
       <p>
         <RoderickImage />
         <span className="bold instructor">Roderick Davis | Guest Instructor</span>Roderick Davis is
@@ -208,9 +248,9 @@ const Faculty = () => (
         teaching capoeira in Charlottesville, VA.
       </p>
       <br />
-    </div>
-    <hr />
-    <div className="bios">
+      <hr />
+    </Instructor>
+    <Instructor>
       <p>
         <SarahImage />
         <span className="bold instructor">Sarah Gillespie | Guest Instructor</span>
@@ -225,9 +265,9 @@ const Faculty = () => (
         Gillespie is also a festival organizer, milonga host, and instructor at Charlottesville
         Tango.
       </p>
-    </div>
-    <hr />
-    <div className="bios">
+      <hr />
+    </Instructor>
+    <Instructor>
       <p>
         <MeganImage />
         <span className="bold instructor">Megan Hillary | Guest Instructor</span>A returning teacher
@@ -239,9 +279,9 @@ const Faculty = () => (
         Megan‘s actual day job is as the new manager of The Hip Joint in downtown Charlottesville.
       </p>
       <br />
-    </div>
-    <hr />
-    <div className="bios">
+      <hr />
+    </Instructor>
+    <Instructor>
       <p>
         <EdwinImage />
         <span className="bold instructor">Edwin Roa | Guest Instructor</span>A native of Bogota,
@@ -254,8 +294,8 @@ const Faculty = () => (
         perspectives of partner dance have encouraged him to experiment and develop a method of
         teaching social partner dance called Zabor Dance.
       </p>
-    </div>
-    <hr />
+      <hr />
+    </Instructor>
   </div>
 )
 

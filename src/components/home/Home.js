@@ -25,6 +25,7 @@ const HomeButtonImg = () => (
   </div>
 )
 
+//
 /* eslint-disable max-len */
 const Home = () => (
   <div className="home-container">
@@ -33,7 +34,7 @@ const Home = () => (
     <HomeButtonImg />
     <div className="image-links-wrap">
       <div className="img-link new-classes">
-        <Link to="/classes/new-classes">
+        <Link to="/registration/tuition">
           <HomeBtn1 />
         </Link>
       </div>

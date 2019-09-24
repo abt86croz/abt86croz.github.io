@@ -11,6 +11,7 @@ import EdwinImg from '../../images/faculty/edwin.jpg'
 import KeithImg from '../../images/faculty/keith.jpg'
 import RoderickImg from '../../images/faculty/roderick.jpg'
 import LeanneImg from '../../images/faculty/leanne.jpg'
+import JenniferImg from '../../images/faculty/jennifer.jpg'
 import './Faculty.css'
 
 const SallyImage = () => <img src={SallyImg} alt="Sally Hart" title="Sally Hart" />
@@ -19,6 +20,7 @@ const AshleyImage = () => <img src={AshleyImg} alt="Ashley Geisler" title="Ashle
 const NickyImage = () => <img src={NickyImg} alt="Nicky Coelho" title="Nicky Coelho" />
 const AmandaImage = () => <img src={AmandaImg} alt="Amanda Jo Parks" title="Amanda Jo Parks" />
 const LeanneImage = () => <img src={LeanneImg} alt="Leanne Higgins" title="Leanne Higgins" />
+const JenniferImage = () => <img src={JenniferImg} alt="Jennifer Gage" title="Jennifer Gage" />
 const SarahImage = () => <img src={SarahImg} alt="Sarah Gillespie" title="Sarah Gillespie" />
 const MeganImage = () => <img src={MeganImg} alt="Megan Hillary" title="Megan Hillary" />
 const EdwinImage = () => <img src={EdwinImg} alt="Edwin Roa" title="Edwin Roa" />
@@ -139,21 +141,21 @@ const Faculty = () => (
     </Instructor>
     <Instructor>
       <p>
-        <AmandaImage />
-        <span className="bold instructor">Amanda Jo Parks | Instructor</span>
-        Mrs. Parks received her early dance training under the direction of Christine Meneer and
-        then received a scholarship to study at the Dance Institute at the University of Akron. She
-        spent summers training at the Pittsburgh Ballet Theatre, Pennsylvania Ballet, Chautauqua
-        Dance Festival and Ballet Austin. Amanda performed professionally with the Pittsburgh
-        Ballet, BalletMet, and the Ohio Ballet appearing in productions such as George Balanchine’s
-        Rubies, Dwight Rhoden’s StrayLifeLushHorn, Ruthanna Boris’s Cakewalk, as well as in
-        contemporary classics, such as Beauty and the Beast, Cleopatra, and countless Nutcrackers.
-      </p>
-      <p>
-        Amanda went on to earn her undergraduate degree in journalism and then a PhD in political
-        science from the Pennsylvania State University. She now enjoys teaching both ballet and
-        political science but spends most of her time wrangling her three wild and delightful little
-        boys.
+        <JenniferImage />
+        <span className="bold instructor">Jennifer Gage | Instructor</span>
+        Jennifer recently moved to the area from Norfolk, VA, but it’s Chicago she called home where
+        she taught for over 20 years at many schools, including her own studio, NorthSide Dance
+        Theater. Most of her classical foundation is from her training with Ballet Tennessee
+        directors Anna and Barry Van-Cura in Cecchetti, Vaganova, and French styles. Her Urban
+        Contemporary Jazz formula stems from her later training with Joel Hall Dancers where she was
+        a company member, teacher, rehearsal assistant, and ballet mistress. Similar opportunities
+        with Ballet Theater North and Ballet Entre Nous brought out Jennifer’s passion for shaping
+        her own company and productions and in 2002 created her own not-for-profit company, Alliance
+        Dance Company. Over the 13 years they were active, Alliance grew into producing a 3 show
+        season with their own festival creating over 100 choreographed pieces, including 18
+        productions and 15 full length story works! Jennifer is a huge believer in age
+        appropriate/level appropriate and enjoys teaching with a positive and constructive
+        philosophy.
       </p>
       <hr />
     </Instructor>
@@ -218,6 +220,26 @@ const Faculty = () => (
         the Virginia Commission For The Arts (Outstanding Artist Award for Dance). In 2019 Mr. Lee
         received the First Artist Laureate Award. Mr. Lee is now pursuing a successful career as a
         freelance choreographer, master teacher, and performing arts coordinator.
+      </p>
+      <hr />
+    </Instructor>
+    <Instructor>
+      <p>
+        <AmandaImage />
+        <span className="bold instructor">Amanda Jo Parks | Guest Instructor</span>
+        Mrs. Parks received her early dance training under the direction of Christine Meneer and
+        then received a scholarship to study at the Dance Institute at the University of Akron. She
+        spent summers training at the Pittsburgh Ballet Theatre, Pennsylvania Ballet, Chautauqua
+        Dance Festival and Ballet Austin. Amanda performed professionally with the Pittsburgh
+        Ballet, BalletMet, and the Ohio Ballet appearing in productions such as George Balanchine’s
+        Rubies, Dwight Rhoden’s StrayLifeLushHorn, Ruthanna Boris’s Cakewalk, as well as in
+        contemporary classics, such as Beauty and the Beast, Cleopatra, and countless Nutcrackers.
+      </p>
+      <p>
+        Amanda went on to earn her undergraduate degree in journalism and then a PhD in political
+        science from the Pennsylvania State University. She now enjoys teaching both ballet and
+        political science but spends most of her time wrangling her three wild and delightful little
+        boys.
       </p>
       <hr />
     </Instructor>

@@ -97,15 +97,17 @@ const Faculty = () => (
       <p>
         <NickyImage />
         <span className="bold instructor">Nicky Coelho | Executive Director, Production Manager</span>
-        Mrs. Coelho began dancing with her mother Sally Hart. She has also studied with Virginia School of the Arts,
-        Maryland Youth Ballet, and on scholarship at the Joffrey Ballet. Nicky has danced with Charleston Ballet
-        Theater, Robert Ivey Ballet, Mikerline Haitian Folkloric Dance Company, and James Sewell Ballet where she was
-        also the Company Manager for two years. She has enjoyed working with choreographers Sharon Eyal, Joanna Kotze,
-        Belinda McGuire, Norbert De La Cruz III, Carl Flink, and Myron Johnson to name a few.
+        Mrs. Coelho began training with her mother Sally Hart and has also studied with Virginia School of the Arts,
+        Maryland Youth Ballet, and on scholarship at the Joffrey Ballet School. Nicky has danced with Charleston Ballet
+        Theater, Robert Ivey Ballet, Mikerline Haitian Folkloric Dance Company, Dance Co, and James Sewell Ballet where
+        she was also the Company Manager for two years. She recently appeared as a dancer in the film Only Dance Can
+        Save Us which was featured in the Twin Cities Film Fest.
       </p>
       <p>
-        Mrs. Coelho was on faculty at the Reif Center Summer Intensive in Grand Rapids, MN for five years and directed
-        the Intensive in Minneapolis in 2015.
+        Mrs. Coelho has taught at various ballet schools throughout the Twin Cities and was on faculty at the Reif
+        Center Summer Intensive in Grand Rapids, MN for five years and directed the Intensive in Minneapolis in 2015.
+        Nicky has been the production and stage manager for ABT since 2005 and has choreographed several full-length
+        ballets and original works in the repertoire.
       </p>
       <p>
         Nicky has been the production and stage manager for ABT since 2005 and has choreographed several full-length

@@ -1,21 +1,16 @@
 {
   "root": true,
   "parser": "babel-eslint",
-  "extends": [
-    "airbnb"
-  ],
+  "extends": ["airbnb"],
   "env": {
     "browser": true
   },
   "rules": {
     "arrow-body-style": "off",
-    "semi": [
-      2,
-      "never"
-    ],
+    "semi": [2, "never"],
     "max-len": [
       1,
-      100,
+      300,
       2,
       {
         "ignoreComments": true
@@ -32,9 +27,7 @@
     "import/no-extraneous-dependencies": [
       "error",
       {
-        "devDependencies": [
-          "./webpack.config.js"
-        ]
+        "devDependencies": ["./webpack.config.js"]
       }
     ],
     "react/forbid-prop-types": "off",
@@ -46,7 +39,5 @@
       "experimentalObjectRestSpread": true
     }
   },
-  "plugins": [
-    "react"
-  ]
+  "plugins": ["react"]
 }

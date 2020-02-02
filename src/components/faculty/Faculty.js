@@ -109,10 +109,6 @@ const Faculty = () => (
         Nicky has been the production and stage manager for ABT since 2005 and has choreographed several full-length
         ballets and original works in the repertoire.
       </p>
-      <p>
-        Nicky has been the production and stage manager for ABT since 2005 and has choreographed several full-length
-        ballets and original works in the repertoire.
-      </p>
       <hr />
     </Instructor>
     <Instructor>

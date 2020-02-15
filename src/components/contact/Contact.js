@@ -8,7 +8,7 @@ import {
   StaffContactContainer,
   MapContainer,
   Wrapper,
-  ContactImage,
+  ContactImage
 } from './ContactStyles'
 import Button from '../styles/Button'
 import Title from '../styles/Title'
@@ -51,31 +51,43 @@ const Contact = () => (
 
       <StaffContactContainer>
         <StaffContact>
-          <span>Sally Hart</span>:{' '}
+          <span>Sally Hart | Owner/Director</span>
+          <br />
           <a href="mailto:Sally@abtdance.org" target="_top">
             Sally@abtdance.org
           </a>
         </StaffContact>
         <StaffContact>
-          <span>Veronica Piller</span>:{' '}
+          <span>Veronica Piller | Artistic Director</span>
+          <br />
           <a href="mailto:Veronica@abtdance.org" target="_top">
             Veronica@abtdance.org
           </a>
         </StaffContact>
         <StaffContact>
-          <span>Ashley Geisler</span>:{' '}
-          <a href="mailto:Ashley@abtdance.org" target="_top">
-            Ashley@abtdance.org
-          </a>
-        </StaffContact>
-        <StaffContact>
-          <span>Nicky Coelho</span>:{' '}
+          <span>Nicky Coelho | Executive Director</span>
+          <br />
           <a href="mailto:Nicky@abtdance.org" target="_top">
             Nicky@abtdance.org
           </a>
         </StaffContact>
         <StaffContact>
-          <span className="bold">Send absences to</span>:{' '}
+          <span>Ashley Geisler | Director of Operations</span>
+          <br />
+          <a href="mailto:Ashley@abtdance.org" target="_top">
+            Ashley@abtdance.org
+          </a>
+        </StaffContact>
+        <StaffContact>
+          <span>Shannon Monahan | Office Administrator</span>
+          <br />
+          <a href="mailto:Shannon@abtdance.org" target="_top">
+            Shannon@abtdance.org
+          </a>
+        </StaffContact>
+        <StaffContact>
+          <span className="bold">Send absences to</span>
+          <br />
           <a href="mailto:Attendance@abtdance.org" target="_top">
             Attendance@abtdance.org
           </a>

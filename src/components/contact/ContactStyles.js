@@ -25,7 +25,7 @@ export const MailingAddress = styled.div`
 
 export const StaffContactContainer = styled.div`
   margin: 0 auto;
-  width: 500px;
+  width: 430px;
   hr {
     width: 500px;
   }
@@ -95,8 +95,8 @@ export const Wrapper = styled.div`
     text-align: center;
     display: block;
     width: 300px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-      'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+      'Helvetica Neue', sans-serif;
   }
 
   .bt:visited {

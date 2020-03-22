@@ -4,7 +4,7 @@ import Content from '../styles/Content'
 import Title from '../styles/Title'
 // import StoryImg from '../../images/site/step-into-story.png'
 // import NutImg from '../../images/site/nutcracker-ticket.png'
-import StepIntoStoryIMG from '../../images/site/StepIntoTheStory.png'
+// import StepIntoStoryIMG from '../../images/site/StepIntoTheStory.png'
 
 // import PayPalNutCracker from '../paypal/Paypal'
 import './Performances.css'
@@ -13,6 +13,7 @@ import './Performances.css'
 
 /* eslint-disable unescaped-entities */
 /* eslint-disable max-len */
+
 
 const Description = styled.div`
   hr {
@@ -43,7 +44,7 @@ const Performances = () => (
     <Content>
       <Title>Upcoming Performances</Title>
       <Description primary>
-        <p className="bold">
+        <p className="bold center">
           Presented by Studio For The Performing Arts with the students of Albemarle Ballet Theatre
         </p>
       </Description>
@@ -112,22 +113,24 @@ const Performances = () => (
 
       <Description>
         <Show>
-          <p className="bold underline">Spring Gala</p>
+          <p className="bold underline" style={{ color: 'red' }}>
+            ** Spring Gala Has been Canceled **
+          </p>
           <Location>
             <p>Saturday, May 9, 2020 | 2:00pm &amp; 6:00pm</p>
             <p>The Dickinson Theatre at Piedmont Community College, Charlottesville, VA </p>
           </Location>
           <Location>
-            <a href="https://v6.click4tix.com/event-details.php?e=431204" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://v6.click4tix.com/event-details.php?e=431204" target="_blank" rel="noopener noreferrer">
               <img src={StepIntoStoryIMG} alt="The Nutcracker Performances" />
-            </a>
+            </a> */}
           </Location>
         </Show>
         <hr />
       </Description>
 
       <Description>
-        <Show>
+        {/* <Show>
           <p className="bold underline">Spring Gala Community Outreach Performances</p>
           <Location>
             <p>Monday, April 27, 2020 | 5:00pm </p>
@@ -140,8 +143,8 @@ const Performances = () => (
             <p>The Lodge at Old Trail, Crozet, VA </p>
             <p>Ballet IV - Advanced levels invited to perform </p>
           </Location>
-        </Show>
-        <hr />
+        </Show> */}
+        {/* <hr /> */}
       </Description>
 
       <Description primary>

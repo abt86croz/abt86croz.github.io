@@ -96,6 +96,10 @@ p {
   font-size: 18px;
 }
 
+.red {
+  color: #e91e63;
+}
+
 a {
   /* color: #5bc0de; */
   color: #e91e63;

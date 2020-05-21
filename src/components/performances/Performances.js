@@ -101,7 +101,7 @@ const Performances = () => (
       </Description>
 */}
 
-      <Description>
+      {/* <Description>
         <Show>
           <p className="bold underline">Exploring Ballet &amp; Ballet IA In-Studio Presentations</p>
           <Location>
@@ -109,7 +109,7 @@ const Performances = () => (
           </Location>
         </Show>
         <hr />
-      </Description>
+      </Description> */}
 
       <Description>
         <Show>

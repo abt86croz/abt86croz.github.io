@@ -1,7 +1,7 @@
 import React from 'react'
 import PDFIcon from 'react-icons/lib/fa/file-pdf-o'
-import RightArrow from 'react-icons/lib/fa/angle-double-right'
-import { Link } from 'react-router-dom'
+// import RightArrow from 'react-icons/lib/fa/angle-double-right'
+// import { Link } from 'react-router-dom'
 import { IphoneImage } from '../Images'
 import ClassSchePDF from '../../pdf/class-schedule.pdf'
 import ClassListings from './ClassListings'
@@ -34,14 +34,14 @@ const Schedule = () => (
         />
       </div>
       <ClassListings />
-      <div className="btn-wrap">
+      {/* <div className="btn-wrap">
         <a className="btn-sm bt" href={ClassSchePDF} target="_blank" rel="noopener noreferrer">
           <PDFIcon /> Print Weekly Class Schedule
         </a>
         <Link to="/classes/description" className="btn-sm bt" href="">
           Class Descriptions <RightArrow />
         </Link>
-      </div>
+      </div> */}
     </div>
   </div>
 )

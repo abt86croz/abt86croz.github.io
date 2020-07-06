@@ -8,11 +8,10 @@ import AmandaImg from '../../images/faculty/amanda.jpg'
 import SarahImg from '../../images/faculty/sarah.jpg'
 import MeganImg from '../../images/faculty/megan.jpg'
 import EdwinImg from '../../images/faculty/edwin.jpg'
-import KeithImg from '../../images/faculty/keith.jpg'
 import RoderickImg from '../../images/faculty/roderick.jpg'
 import LeanneImg from '../../images/faculty/leanne.jpg'
 import JenniferImg from '../../images/faculty/jennifer.jpg'
-import ChristinaImg from '../../images/faculty/christina.jpg'
+import AnnaImg from '../../images/faculty/anna.jpg'
 import './Faculty.css'
 
 /* eslint-disable max-len */
@@ -26,9 +25,8 @@ const JenniferImage = () => <img src={JenniferImg} alt="Jennifer Gage" title="Je
 const SarahImage = () => <img src={SarahImg} alt="Sarah Gillespie" title="Sarah Gillespie" />
 const MeganImage = () => <img src={MeganImg} alt="Megan Hillary" title="Megan Hillary" />
 const EdwinImage = () => <img src={EdwinImg} alt="Edwin Roa" title="Edwin Roa" />
-const KeithImage = () => <img src={KeithImg} alt="Keith Lee" title="Keith Lee" />
 const RoderickImage = () => <img src={RoderickImg} alt="Roderick Davis" title="Roderick Davis" />
-const ChristinaImage = () => <img src={ChristinaImg} alt="Christina Rukavina" title="Christina Rukavina" />
+const AnnaImage = () => <img src={AnnaImg} alt="Anna Finan" title="Anna Finan" />
 
 const Instructor = styled.div`
   img {
@@ -162,79 +160,26 @@ const Faculty = () => (
     </Instructor>
     <Instructor>
       <p>
-        <ChristinaImage />
-        <span className="bold instructor">Christina Rukavina | Instructor</span>
-        Christina is a summa cum laude graduate, of both Tulane University, where she earned a B.A. in ballet, and
-        Hollins University, where she obtained an M.F.A. in children&#39;s literature. As a teen singer and dancer with
-        nationally acclaimed entertainment troupe, The Brothers and Sisters, she performed at a variety of venues,
-        including the White House, with such legends as Ethel Merman, Cab Calloway, George Burns, Woody Herman, John
-        Gary, Cesar Romero, Doc Severinsen, Robert Goulet, Tennessee Ernie Ford, and Red Skelton. She was a mezzo
-        soprano, dancer, and choreographer for Milwaukee&#39;s Skylight Comic Opera Company. While based in New Orleans,
-        she toured the globe as a singer and dancer with Komenka Ethnic Music and Dance Ensemble, performed in stage
-        productions at Le Petit Theatre de Vieux Carre, and was a featured dancer in the film Interview with the
-        Vampire.
+        <AnnaImage />
+        <span className="bold instructor">Anna Finan | Instructor</span>
+        Anna began her ballet training at the National Ballet School in Bytom, Poland. She studied the Vaganova
+        technique with Elisabeth Lebik, former principal dancer of the Silesian State Opera. At the age of 14, she
+        participated in the acclaimed international ballet competition, the Prix de Lausanne in Switzerland, where she
+        reached the half- final and was offered full scholarship to study at the Hamburg Ballet School in Germany. There
+        she fine-tuned her technique and artistry with Marianne Kruse, Kevin Haigen and Ingrid Glindemann. After
+        graduating from the school, she joined the Hamburg Ballet company directed by the renowned American
+        choreographer John Neumeier. There she performed group and soloist roles in his various classical and modern
+        ballets such as The Nutcracker, Swan Lake, A Midsummer Night’s Dream, and The Little Mermaid as well as works
+        from other choreographers like La Bayadere staged by N. Makarova and Jewels by G. Balanchine. Upon retiring from
+        the stage, she pursued a second career, becoming a risk manager at Germany’s largest bank, Deutsche Bank AG.
+        Yet, her love for movement never halted. She travelled to Thailand to became a certified Vinyasa Yoga instructor
+        and, after moving to Charlottesville, VA with her husband and two boys in April 2016, she become NASM-certified
+        personal trainer, Progressing Ballet Technique certified teacher and studied the American Ballet Theater
+        National Training Curriculum in Pre-Primary though Level 3 with Franco De Vita and Raymond Lukens. She loves
+        teaching dance and passing on her lifelong ballet experience.
       </p>
-      <p>
-        Children&#39;s master storyteller and creative movement specialist, Christina developed and ran the Early
-        Childhood Program at New Orleans Dance Academy for 25 years, and brought her expertise to many schools in the
-        Greater New Orleans Area as well as to the School of the Milwaukee Ballet, where she taught mainstream
-        children’s classes as well as outreach classes, in Spanish, to the neighboring Hispanic community. After
-        Katrina, she returned to Louisiana, entertaining and educating elementary schools with her one-woman, musical
-        science show, Poor Little Pluto. She also revived the New Orleans Dance Academy’s children’s program with an
-        environmentally themed ballet, The Treasure in the Woods, for which she also produced an accompanying narrated
-        book, celebrating the state’s indigenous flora and fauna.
-      </p>
-      <p>
-        A longtime legal analyst and an award-winning journalist – including being named top weekly columnist in the
-        State of Wisconsin -- Christina currently resides in Virginia’s Shenandoah Valley, where she is working on the
-        biography of the Irish American writer who pioneered the Young Adult genre of children’s literature, and on a
-        health-based style book for women. She is also one of the writers included in a major anthology launching in
-        early 2020.
-      </p>
-      <hr />
     </Instructor>
-    <Instructor>
-      <p>
-        <KeithImage />
-        <span className="bold instructor">Keith Lee | Guest Instructor</span>Keith Lee was born in The Bronx, New York.
-        He started his dance training with tap and theatre singing at the age of three. With encouragement from Ben
-        Vereen, Mr. Lee pursued his dance studies at the High School of the Performing Arts in New York. Upon
-        graduation, he received two Capezio Awards for excellence in both ballet and modern dance technique. Mr. Lee
-        pursued his studies at the Harkness School of Ballet and the School of American Ballet under full scholarship.
-        Mr. Lee was a member of the Harkness youth Company that performed for President Lyndon B. Johnson and Lady Bird
-        Johnson at the White House in 1968. He began his professional career with the Norman Walker Dance Company and
-        the Harkness Youth Ballet.
-      </p>
-      <br />
-      <p>
-        Mr. Lee joined American Ballet Theatre in 1969 and was promoted to the rank of soloist the following year. In
-        1970 as a member of American Ballet Theatre he appeared in the Kennedy Center Opera House’s grand opening. Mr.
-        Lee was also part of the original cast of Jelly’s Last Jam, the Broadway musical which featured Gregory Hines.
-      </p>
-      <br />
-      <p>
-        In 1968, Kathy Greene sponsored his first choreographic concert at the Clark Center for the Performing Arts and
-        has since created ballets for American Ballet Theatre, the Washington Ballet, the Geneva Ballet, the Oakland
-        Ballet, the Garden State Ballet, the Alvin Ailey Repertory Ensemble, the Capitol Ballet of Washington, D.C.,
-        Ballet Memphis, Lexington Ballet, and for his own company, Ballet of Contemporary Arts. He has also
-        choreographed for television, films, and videos.
-      </p>
-      <br />
-      <p>
-        Mr. Lee has also been a ballet master for the Alvin Ailey American Dance Theatre and the Capitol Ballet. Mr. Lee
-        has also been on the faculty of the Dance Department of Shenandoah University and from 1994-96 he was artistic
-        director of Syncopated Inc. Dance Company in Lexington, Kentucky. As artistic director Syncopated Inc. Dance
-        Company Mr. Lee staged many of his dances including The Ellington Project which won Best Dance Theatre Award in
-        1996. Mr. Lee has also started an outreach program, NeWorlDance, in Kentucky, and he continues his outreach work
-        in Virginia. From 1996-98 Mr. Lee was on the faculty of the Virginia School of the Arts. From 1998-99 Mr. Lee
-        was named co-artistic director of Neworldance in Toronto, Canada. In 1999 Mr. Lee established Dance Theatre of
-        Lynchburg in Lynchburg, Virginia. Mr. Lee marks his 50th Anniversary Celebration of Dance and Theatre, and in
-        2017 he was cited by the Virginia Commission For The Arts (Outstanding Artist Award for Dance). In 2019 Mr. Lee
-        received the First Artist Laureate Award. Mr. Lee is now pursuing a successful career as a freelance
-        choreographer, master teacher, and performing arts coordinator.
-      </p>
-      <hr />
-    </Instructor>
+    <hr />
     <Instructor>
       <p>
         <AmandaImage />

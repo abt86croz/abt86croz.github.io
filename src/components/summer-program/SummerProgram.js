@@ -59,9 +59,6 @@ export default class SummerProgram extends Component {
         </div>
         */}
 
-        <p className="title" style={{ margin: '30px' }}>
-          2020 Online Summer Class Schedule (coming soon)
-        </p>
         {/* Tables */}
         <div className="left-container">
           {/*

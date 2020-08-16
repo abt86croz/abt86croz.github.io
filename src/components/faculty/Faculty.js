@@ -70,7 +70,7 @@ const Faculty = () => (
     <Instructor>
       <p>
         <VeronicaImage />
-        <span className="bold instructor">Veronica Piller | Artistic Director, Choreographer, Instructor</span>
+        <span className="bold instructor">Veronica Piller | Artistic Director, Instructor</span>
         Mrs. Piller is the founder and director of concorDance contemporary, a professional contemporary dance company.
         She formerly danced with the Charleston Ballet Theatre, San Diego Ballet, The Garage Contemporary Ballet,
         Charlottesville Ballet, and Keith Lee Dances.
@@ -111,24 +111,8 @@ const Faculty = () => (
     </Instructor>
     <Instructor>
       <p>
-        <AshleyImage />
-        <span className="bold instructor">Ashley Geisler | Director of Operations, Choreographer, Instructor</span>
-        Mrs. Geisler studied with the Old Dominion Ballet Company in Norfolk, Virginia, under the husband and wife team
-        of Istvan and Nelli Ament.She spent her summers training with Nina Sakhnovskaya of the Vaganova Academy.
-      </p>
-      <p>
-        During her tenure at ODU Ballet, Ashley performed the roles of Marzipan, Chinese, and Russian in The Nutcracker,
-        and the lead roles in performances of Snow White and The Fairy Doll. After completing her undergraduate and
-        graduate work in Russian Language and Literature at the University of Virginia, Mrs. Geisler returned to ballet
-        at Albemarle Ballet Theatre. She has been teaching and choreographing at ABT since 2006 and has performed with
-        concorDance contemporary.
-      </p>
-      <hr />
-    </Instructor>
-    <Instructor>
-      <p>
         <JenniferImage />
-        <span className="bold instructor">Jennifer Gage | Instructor</span>
+        <span className="bold instructor">Jennifer Gage | Head of Communications, Instructor</span>
         Jennifer recently moved to the area from Norfolk, VA, but it’s Chicago she called home where she taught for over
         20 years at many schools, including her own studio, NorthSide Dance Theater. Most of her classical foundation is
         from her training with Ballet Tennessee directors Anna and Barry Van-Cura in Cecchetti, Vaganova, and French
@@ -180,6 +164,22 @@ const Faculty = () => (
       </p>
     </Instructor>
     <hr />
+    <Instructor>
+      <p>
+        <AshleyImage />
+        <span className="bold instructor">Ashley Geisler | Guest Instructor</span>
+        Mrs. Geisler studied with the Old Dominion Ballet Company in Norfolk, Virginia, under the husband and wife team
+        of Istvan and Nelli Ament.She spent her summers training with Nina Sakhnovskaya of the Vaganova Academy.
+      </p>
+      <p>
+        During her tenure at ODU Ballet, Ashley performed the roles of Marzipan, Chinese, and Russian in The Nutcracker,
+        and the lead roles in performances of Snow White and The Fairy Doll. After completing her undergraduate and
+        graduate work in Russian Language and Literature at the University of Virginia, Mrs. Geisler returned to ballet
+        at Albemarle Ballet Theatre. She has been teaching and choreographing at ABT since 2006 and has performed with
+        concorDance contemporary.
+      </p>
+      <hr />
+    </Instructor>
     <Instructor>
       <p>
         <AmandaImage />

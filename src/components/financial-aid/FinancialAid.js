@@ -8,8 +8,8 @@ import { FinancialContainer, Highlight, ButtonContainer, FinancialAidImage } fro
 const ScholarshipApplication =
   'https://docs.google.com/forms/d/e/1FAIpQLSdljQFC5Wnq0nip8FG1YkKykFB9N-_-CTUb3uaWwhTXdKsKgQ/viewform'
 
-const WorkStudyApplication =
-  'https://docs.google.com/forms/d/e/1FAIpQLSfdLcLfl0I8TfsufvqxVEPpjL-sMxe-PQE6tu2YJ2QQri_DkA/viewform'
+// const WorkStudyApplication =
+//   'https://docs.google.com/forms/d/e/1FAIpQLSfdLcLfl0I8TfsufvqxVEPpjL-sMxe-PQE6tu2YJ2QQri_DkA/viewform'
 
 const FinancialAid = () => (
   <FinancialContainer>
@@ -23,10 +23,10 @@ const FinancialAid = () => (
         Please note that SFTPA only grants partial scholarships.
       </p>
       <Highlight>
-        <p>
+        {/* <p>
           ABT offers a limited number of Work-Study positions available to all students. Work-Study may be completed by
           students aged 15-years and older or family members.
-        </p>
+        </p> */}
         {/* <p className="bold">Fall semester application deadline: September 1, 2019</p>
         <p className="bold">Spring semester application deadline: December 19, 2019</p> */}
       </Highlight>
@@ -34,9 +34,9 @@ const FinancialAid = () => (
         <Button href={ScholarshipApplication} target="_blank" rel="noopener noreferrer">
           Scholarship Application
         </Button>
-        <Button href={WorkStudyApplication} target="_blank" rel="noopener noreferrer">
+        {/* <Button href={WorkStudyApplication} target="_blank" rel="noopener noreferrer">
           Work-Study Application
-        </Button>
+        </Button> */}
       </ButtonContainer>
     </Content>
   </FinancialContainer>

@@ -8,7 +8,7 @@ import {
   StaffContactContainer,
   MapContainer,
   Wrapper,
-  ContactImage
+  ContactImage,
 } from './ContactStyles'
 import Button from '../styles/Button'
 import Title from '../styles/Title'
@@ -72,17 +72,10 @@ const Contact = () => (
           </a>
         </StaffContact>
         <StaffContact>
-          <span>Ashley Geisler | Director of Operations</span>
+          <span>Jennifer Gage | Head of Communications</span>
           <br />
-          <a href="mailto:Ashley@abtdance.org" target="_top">
-            Ashley@abtdance.org
-          </a>
-        </StaffContact>
-        <StaffContact>
-          <span>Shannon Monahan | Office Administrator</span>
-          <br />
-          <a href="mailto:Shannon@abtdance.org" target="_top">
-            Shannon@abtdance.org
+          <a href="mailto:Jennifer@abtdance.org" target="_top">
+            Jennifer@abtdance.org
           </a>
         </StaffContact>
         <StaffContact>

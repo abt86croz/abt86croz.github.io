@@ -14,7 +14,6 @@ import './Performances.css'
 /* eslint-disable unescaped-entities */
 /* eslint-disable max-len */
 
-
 const Description = styled.div`
   hr {
     margin: 0;
@@ -113,6 +112,14 @@ const Performances = () => (
 
       <Description>
         <Show>
+          <p className="bold center">Fall Performance TBD</p>
+          <Location />
+        </Show>
+        <hr />
+      </Description>
+
+      {/* <Description>
+        <Show>
           <p className="bold underline" style={{ color: 'red' }}>
             ** Spring Gala Has been Canceled **
           </p>
@@ -120,14 +127,14 @@ const Performances = () => (
             <p>Saturday, May 9, 2020 | 2:00pm &amp; 6:00pm</p>
             <p>The Dickinson Theatre at Piedmont Community College, Charlottesville, VA </p>
           </Location>
-          <Location>
-            {/* <a href="https://v6.click4tix.com/event-details.php?e=431204" target="_blank" rel="noopener noreferrer">
+          <Location> */}
+      {/* <a href="https://v6.click4tix.com/event-details.php?e=431204" target="_blank" rel="noopener noreferrer">
               <img src={StepIntoStoryIMG} alt="The Nutcracker Performances" />
             </a> */}
-          </Location>
+      {/* </Location>
         </Show>
         <hr />
-      </Description>
+      </Description> */}
 
       <Description>
         {/* <Show>

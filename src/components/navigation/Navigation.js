@@ -20,6 +20,11 @@ const handleRegistrationClick = () => {
   window.open('https://app.jackrabbitclass.com/regv2.asp?id=534011', '_blank')
 }
 
+// TODO: Update PDF
+const handleCovidProceduresClick = () => {
+  window.open(HandbookDoc, '_blank')
+}
+
 const Navigation = () => (
   <Navbar fluid collapseOnSelect>
     <Link to="/">
@@ -67,6 +72,9 @@ const Navigation = () => (
           <LinkContainer to="/classes/summer-program">
             <MenuItem eventKey={3.6}>Summer Program</MenuItem>
           </LinkContainer>
+          <MenuItem eventKey={3.7} onClick={handleCovidProceduresClick}>
+            COVID Procedures
+          </MenuItem>
         </NavDropdown>
 
         {/* Registration */}

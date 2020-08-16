@@ -115,7 +115,7 @@ export default class SummerProgram extends Component {
         </div>
         <div className="clear" />
         <div className="summer-program-registration-container">
-          <p className="registration-wave">$15 Registration Fee | Waived for Multi-Student Families</p>
+          {/* <p className="registration-wave">$15 Registration Fee | Waived for Multi-Student Families</p> */}
           <div id="summer-camps">
             {/* <p className="heading show">Summer Camps | June 15 - July 10, 2020</p> */}
             <p>
@@ -127,7 +127,7 @@ export default class SummerProgram extends Component {
             {/* <p>*Discounts will be applied to your account within 72-hours</p> */}
           </div>
           <div id="summer-classes">
-            <p className="heading show">Online Summer Classes | June 15 - August 14, 2020</p>
+            {/* <p className="heading show">Online Summer Classes | June 15 - August 14, 2020</p> */}
             {/* <p>Multi-class discounts automatically applied during enrollment</p> */}
           </div>
         </div>

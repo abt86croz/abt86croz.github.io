@@ -6,6 +6,7 @@ import { LinkContainer } from 'react-router-bootstrap'
 import { SocialIcon } from 'react-social-icons'
 import { Logo } from '../Images'
 import HandbookDoc from '../../pdf/2019-2020-policies.pdf'
+import CovidProceduresDoc from '../../pdf/health-and-safety-plan.pdf'
 import './Navigation.css'
 
 const handlePoliciesClick = () => {
@@ -22,7 +23,7 @@ const handleRegistrationClick = () => {
 
 // TODO: Update PDF
 const handleCovidProceduresClick = () => {
-  window.open(HandbookDoc, '_blank')
+  window.open(CovidProceduresDoc, '_blank')
 }
 
 const Navigation = () => (
@@ -73,7 +74,7 @@ const Navigation = () => (
             <MenuItem eventKey={3.6}>Summer Program</MenuItem>
           </LinkContainer>
           <MenuItem eventKey={3.7} onClick={handleCovidProceduresClick}>
-            COVID Procedures
+            Health & Safety Plan
           </MenuItem>
         </NavDropdown>
 

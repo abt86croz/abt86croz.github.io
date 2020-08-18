@@ -1,4 +1,4 @@
-const tuitionDiscounts = [
+export const tuitionDiscounts = [
   { numberOfClasses: '# Classes per week', price: 'Class Rate after discount', id: 1 },
   { numberOfClasses: '1', price: '$18.62', id: 2 },
   { numberOfClasses: '2', price: '$16.19', id: 3 },
@@ -12,4 +12,19 @@ const tuitionDiscounts = [
   { numberOfClasses: '10', price: '$10.33', id: 11 },
 ]
 
-export default tuitionDiscounts
+export const fallTuitionDiscounts = [
+  { numberOfClasses: '30 min. class', price: '$66', id: 1 },
+  { numberOfClasses: '40 min. class', price: '$72', id: 2 },
+  { numberOfClasses: '1 hr. class', price: '$74', id: 3 },
+  { numberOfClasses: '1 hr. 15 min. class', price: '$79', id: 4 },
+  { numberOfClasses: '1 hr. 30 min. class', price: '$85', id: 5 },
+]
+
+export const numberOfWeeks = [
+  { numberOfClasses: 'Monday', num1: '1', num2: '2', id: 1 },
+  { numberOfClasses: 'Tuesday', num1: '1', num2: '3', id: 2 },
+  { numberOfClasses: 'Wednesday', num1: '1', num2: '3', id: 3 },
+  { numberOfClasses: 'Thursday', num1: '1', num2: '3', id: 4 },
+  { numberOfClasses: 'Friday', num1: '1', num2: '3', id: 5 },
+  { numberOfClasses: 'Saturday', num1: '1', num2: '3', id: 6 },
+]

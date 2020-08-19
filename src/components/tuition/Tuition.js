@@ -105,20 +105,15 @@ const Tuition = () => (
         <br /> Single Class: $20 <br /> 2-Hour Classes: $32
       </TuitionClass> */}
       <p>
-        Your first tuition payment is due at the time of enrollment. Registration is a two-step process: Step 1: enter
-        all registration information and enroll in the class(es); Step 2: log in to the Jackrabbit Dancer Portal and
-        make your first payment. This first payment serves as a deposit, without which we cannot guarantee a spot in the
-        class. Your card on file will automatically be charged if we do not receive payment within 72-hours.
+        Annual tuition, excluding 6-week sessions and Pilates classes, is billed monthly. If you would like to pay in
+        full, please notify{' '}
+        <a href="mailto:Nicky@abtdance.org" target="_top">
+          Nicky.
+        </a>{' '}
+        Tuition will be posted on the 1st of the month and cards on file will be charged on the 15th for the following
+        month’s tuition, unless an alternative form of payment is received prior to the 15th.
       </p>
-      <p>
-        <span className="underline">
-          Please note that you are automatically enrolled in monthly auto-pay when you complete online registration for
-          annual classes.
-        </span>{' '}
-        After the first tuition payment/deposit (made by the registrant), all subsequent monthly payments will be made
-        via auto-pay, unless the ABT office has been notified of another preferred form of payment. Tuition will be
-        posted on the 1st of the month and cards on file will be charged on the 15th for the following month’s tuition.
-      </p>
+      <p>Tuition is due in full at the time of registration for Pilates, 6-Week Sessions, and Events.</p>
       <p>
         All tuition is non-refundable. If there are extenuating circumstances, please contact{' '}
         <a href="mailto:Nicky@abtdance.org" target="_top">

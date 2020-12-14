@@ -59,7 +59,7 @@ const Tuition = () => (
     <TuitionImage className="bg-image" />
     <Content>
       <Title>Tuition</Title>
-      <Subtitle className="bold underline">2020 Fall Semester Classes</Subtitle>
+      <Subtitle className="bold underline">2021 Spring Semester Classes</Subtitle>
       <p>
         Monthly class rates are based on a 4-week month and are listed below. For tuition questions or to request your
         total tuition per semester, please contact{' '}
@@ -80,17 +80,17 @@ const Tuition = () => (
         <Table>
           {/* <CenterRow>Multi-Class Discounts</CenterRow>
         <GenerateTuitionDiscountTable /> */}
-          <CenterRow>Number of weeks in Fall Semester</CenterRow>
-          <GenerateNumberOfWeeksTable />
+          {/* <CenterRow>Number of weeks in Fall Semester</CenterRow>
+          <GenerateNumberOfWeeksTable /> */}
         </Table>
       </TableContainerStyled>
-      <TuitionClass>
+      {/* <TuitionClass>
         <span>Mat Pilates</span>
         1-Month Session: $15 per class
-      </TuitionClass>
+      </TuitionClass> */}
       <TuitionClass>
-        <span>Exploring Ballet & Creative Movement</span>
-        6-Week Session: $99
+        <span>Exploring Ballet</span>
+        8-Week Session: $132
       </TuitionClass>
       {/* <TuitionClass>
         <span>Dance With Me &amp; Creative Movement</span>
@@ -105,15 +105,14 @@ const Tuition = () => (
         <br /> Single Class: $20 <br /> 2-Hour Classes: $32
       </TuitionClass> */}
       <p>
-        Annual tuition, excluding 6-week sessions and Pilates classes, is billed monthly. If you would like to pay in
-        full, please notify{' '}
+        Annual tuition, excluding 8-week sessions, is billed monthly. If you would like to pay in full, please notify{' '}
         <a href="mailto:Nicky@abtdance.org" target="_top">
           Nicky.
         </a>{' '}
         Tuition will be posted on the 1st of the month and cards on file will be charged on the 15th for the following
         month’s tuition, unless an alternative form of payment is received prior to the 15th.
       </p>
-      <p>Tuition is due in full at the time of registration for Pilates, 6-Week Sessions, and Events.</p>
+      <p>Tuition is due in full at the time of registration for 8-Week Sessions.</p>
       <p>
         All tuition is non-refundable. If there are extenuating circumstances, please contact{' '}
         <a href="mailto:Nicky@abtdance.org" target="_top">

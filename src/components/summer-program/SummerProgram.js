@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
-// import styled from 'styled-components'
+import styled from 'styled-components'
 import postscribe from 'postscribe'
 
-// import PDFIcon from 'react-icons/lib/fa/file-pdf-o'
-// import SummerClassSched from '../../pdf/2020-summer-class-schedule.pdf'
-// import SummerHandout from '../../pdf/2020-summer-handout.pdf'
+import PDFIcon from 'react-icons/lib/fa/file-pdf-o'
+import SummerClassSched from '../../pdf/summer-class-schedule.pdf'
+import SummerHandout from '../../pdf/summer-handout.pdf'
 // import SummerCampSched from '../../pdf/2020-summer-camp-schedule.pdf'
-import SummerPoster from '../../images/site/summer/summer-2020.png'
+import SummerPoster from '../../images/site/summer/summer-2021.png'
 import './SummerProgram.css'
 
-// const CampTitle = styled.p``
+const CampTitle = styled.p``
+
 
 /* eslint-disable max-len */
 export default class SummerProgram extends Component {
@@ -31,12 +32,12 @@ export default class SummerProgram extends Component {
         <div className="summer-poster">
           <img className="logo-image" src={SummerPoster} alt="abt logo" />
         </div>
-        {/*
+
         <div className="summer-content-wrap">
           <div className="summer-content">
-          <p className="title">Dance Camps</p>
-            <CampTitle className="sub-title">Exploring Ballet | Ages 3-5 | $175</CampTitle>
-            <p className="date">June 15 - 18 | Monday - Thursday | 10am - 12pm</p>
+            <p className="title">Dance Camps</p>
+            <CampTitle className="sub-title">Exploring Ballet | Ages 3-4 | $175</CampTitle>
+            <p className="date">June 14 - 17 | Monday - Thursday | 10am - 12pm</p>
             <p>
               A young dancer’s very first peek at classical ballet! This camp teaches ballet technique, flexibility,
               coordination, balance, creative movement & games, and stories of the classical ballets. The dancers
@@ -44,25 +45,30 @@ export default class SummerProgram extends Component {
               Craft supplies and snacks are included.
             </p>
 
-            <CampTitle className="sub-title">Creative Arts for Dancers | Ages 6-10 | $335</CampTitle>
-            <p className="date">June 22 - 26 | Monday - Friday | 9am - 3pm</p>
+            <CampTitle className="sub-title">Beginner Dance | Ages 5+ | $299</CampTitle>
+            <p className="date">July 26 - 30 | Monday - Friday | 9am - 2pm</p>
+            <p>Ballet, Jazz, Theatre, Choreography, Creative Movement, Sewing, and Make-up</p>
 
-            <CampTitle className="sub-title">Creative Arts for Dancers | Ages 11+ | $400</CampTitle>
-            <p className="date">July 6 - July 10 | Monday - Friday | 9am - 4pm</p>
+            <CampTitle className="sub-title">Intermediate Dance | Ages 8+ | $349</CampTitle>
+            <p className="date">July 12 - July 16 | Monday - Friday | 9am - 3pm</p>
+            <p> Ballet, Jazz, Modern, Theatre, Variations, Pre-Pointe, Creative Movement, Sewing, Make-up, Dance History, and Conditioning</p>
             <br />
-            <p>
-              These well-rounded camps are for the dancer that would like to expand their experience of the dance world.
-              Classes include modern dance, choreography, Capoeira, stage hair & makeup, theatre, drama, music theory,
-              sewing, and social dancing.
-            </p>
+            <CampTitle className="sub-title">Advanced Dance | Ages 11+ | $349</CampTitle>
+            <p className="date">June 21 - June 25 | Monday - Friday | 9am - 3pm</p>
+            <p>Ballet, Jazz, Modern, Theatre, Variations, Pointe, Repertoire, Composition, Pilates, Sewing, Make-up, and Dance History</p>
+            <br />
+
+            <CampTitle className="sub-title">CMJ Camp (Contemporary, Modern, Jazz) | Ages 8+ | $299</CampTitle>
+            <p className="date">July 5 - 9 | Monday - Friday | 9am - 2pm</p>
+            <p>Jazz, Modern, Contemporary, Theatre, Choreography, Repertoire, Improv, and Conditioning</p>
           </div>
         </div>
-        */}
+
 
         {/* Tables */}
         <div className="left-container">
-          {/*
-          <div className="summer-schedule">
+
+          {/* <div className="summer-schedule">
             <div className="summer-schedule">
               <div className="column-1 left">
                 <p className="head">Monday</p>
@@ -110,42 +116,42 @@ export default class SummerProgram extends Component {
                 <p />
               </div>
             </div>
-          </div>
-            */}
+          </div> */}
+
         </div>
         <div className="clear" />
         <div className="summer-program-registration-container">
-          {/* <p className="registration-wave">$15 Registration Fee | Waived for Multi-Student Families</p> */}
+          <p className="registration-wave">$15 Registration Fee | Waived for Multi-Student Families</p>
           <div id="summer-camps">
-            {/* <p className="heading show">Summer Camps | June 15 - July 10, 2020</p> */}
+            <p className="heading show">Summer Camps 2021</p>
             <p>
               {/* <span className="underline">Early Bird Discount:</span> Register by March 1 to receive 10% off camps */}
             </p>
             <p>
-              {/* <span className="underline">Camp/Class Combo:</span> 10% off camps when you also enroll in classes */}
+              <span className="underline">Camp/Class Combo:</span> 10% off camps when you also enroll in classes
             </p>
             {/* <p>*Discounts will be applied to your account within 72-hours</p> */}
           </div>
           <div id="summer-classes">
-            {/* <p className="heading show">Online Summer Classes | June 15 - August 14, 2020</p> */}
-            {/* <p>Multi-class discounts automatically applied during enrollment</p> */}
+            <p className="heading show">Summer Classes | June 7 - August 6, 2021</p>
+            <p>Multi-class discounts automatically applied during enrollment</p>
           </div>
         </div>
         {/* Buttons */}
-        {/*
+
         <div className="btn-wrap">
           <a className="bt" href={SummerClassSched} target="_blank" rel="noopener noreferrer">
             <PDFIcon /> SUMMER CLASS schedule
           </a>
-        <a className="bt" href={SummerCampSched} target="_blank" rel="noopener noreferrer">
+          {/* <a className="bt" href={SummerCampSched} target="_blank" rel="noopener noreferrer">
             <PDFIcon /> SUMMER CAMP schedule
-          </a>
+          </a> */}
 
           <a className="bt" href={SummerHandout} target="_blank" rel="noopener noreferrer">
             <PDFIcon /> SUMMER HANDOUT
           </a>
         </div>
-        */}
+
       </div>
     )
   }

@@ -24,12 +24,16 @@ export default class ClassListings extends Component {
     const summerCamps =
       '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=summer%20camp&hidecols=Gender,Tuition,Ages,EndDate,Session,Openings,Class%20Starts&sort=days&sort=class"></script>'
 
+    const summerClasses =
+      '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=Summer%20Classes&hidecols=Class%20Starts,Gender,Ages,EndDate,Session,openings&sort=class"></script>'
+
+
     // postscribe
     postscribe('#eight-week', eightWeek)
     postscribe('#by-placement', byPlacement)
     // postscribe('#matt-pilates', matPilates)
     postscribe('#beginner-classes', beginnerClasses)
-    // postscribe('#summer-classes', beginnerClasses)
+    postscribe('#summer-classes', summerClasses)
     postscribe('#summer-camps', summerCamps)
   }
 
@@ -51,14 +55,16 @@ export default class ClassListings extends Component {
         <div id="beginner-classes">
           <p className="heading show">Beginner Classes | January 11 - May 8, 2021</p>
         </div>
-        {/* <div id="summer-classes">
-          <p className="heading show">Beginner Classes | September 8 - December 12, 2020</p>
-        </div> */}
         <div id="by-placement">
           <p className="heading show">By Placement Only | January 11 - May 8, 2021</p>
         </div>
-        <div id="summer-camps">{/* <p className="heading show">Summer Camps</p> */}</div>
+        <div id="summer-classes">
+          <p className="heading show">Summer Classes | June 7 - August 6, 2021</p>
+        </div>
+        <div id="summer-camps"><p className="heading show">Summer Camps</p> </div>
       </div>
     )
   }
 }
+
+// Summer Classes | June 7 - August 6, 2021

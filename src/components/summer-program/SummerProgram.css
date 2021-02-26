@@ -7,8 +7,8 @@
 /* Poster */
 
 .summer-program-container .summer-poster {
-  /* float: left; */
-  /* width: 50vw; */
+  float: left;
+  width: 50vw;
   margin: 20px auto;
   text-align: center;
 }

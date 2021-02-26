@@ -126,22 +126,6 @@ const Faculty = () => (
       </p>
       <hr />
     </Instructor>
-
-    <Instructor>
-      <p>
-        <LeanneImage />
-        <span className="bold instructor">Leanne Higgins | Instructor</span>
-        Leanne Higgins has a Master of Science in Exercise Physiology and a Doctorate in Education from the University
-        of Delaware. She has been teaching group exercise for 30 years and began specializing in Pilates Mat work and
-        Mat with props 18 years ago. With a background in gymnastics, dance, and eventually college cheerleading at the
-        Pennsylvania State University, she found her passion in helping individuals discover physical strength and
-        mental endurance through exercise. Leanne has taught Pilates for students, professional dancers, and adult
-        participants at both the Mid-Atlantic Ballet in Newark, Delaware and First State Ballet Theater in Wilmington,
-        Delaware. Leanne truly believes the mind can master the muscles and hopes to inspire students to believe in
-        their own physical and emotional power through the practice of Pilates principles.{' '}
-      </p>
-      <hr />
-    </Instructor>
     <Instructor>
       <p>
         <AnnaImage />
@@ -195,6 +179,21 @@ const Faculty = () => (
         Amanda went on to earn her undergraduate degree in journalism and then a PhD in political science from the
         Pennsylvania State University. She now enjoys teaching both ballet and political science but spends most of her
         time wrangling her three wild and delightful little boys.
+      </p>
+      <hr />
+    </Instructor>
+    <Instructor>
+      <p>
+        <LeanneImage />
+        <span className="bold instructor">Leanne Higgins | Guest Instructor</span>
+        Leanne Higgins has a Master of Science in Exercise Physiology and a Doctorate in Education from the University
+        of Delaware. She has been teaching group exercise for 30 years and began specializing in Pilates Mat work and
+        Mat with props 18 years ago. With a background in gymnastics, dance, and eventually college cheerleading at the
+        Pennsylvania State University, she found her passion in helping individuals discover physical strength and
+        mental endurance through exercise. Leanne has taught Pilates for students, professional dancers, and adult
+        participants at both the Mid-Atlantic Ballet in Newark, Delaware and First State Ballet Theater in Wilmington,
+        Delaware. Leanne truly believes the mind can master the muscles and hopes to inspire students to believe in
+        their own physical and emotional power through the practice of Pilates principles.{' '}
       </p>
       <hr />
     </Instructor>

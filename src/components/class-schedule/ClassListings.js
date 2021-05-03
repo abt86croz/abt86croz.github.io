@@ -25,7 +25,7 @@ export default class ClassListings extends Component {
       '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=summer%20camp&hidecols=Gender,Tuition,Ages,EndDate,Session,Openings,Class%20Starts&sort=days&sort=class"></script>'
 
     const summerClasses =
-      '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=Summer%20Classes&hidecols=Class%20Starts,Gender,Ages,EndDate,Session,openings&sort=class"></script>'
+      '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=Summer%20Classes&hidecols=Tuition,Class%20Starts,Gender,Ages,EndDate,Session,openings&sort=class"></script>'
 
 
     // postscribe
@@ -59,7 +59,7 @@ export default class ClassListings extends Component {
           <p className="heading show">By Placement Only | January 11 - May 8, 2021</p>
         </div>
         <div id="summer-classes">
-          <p className="heading show">Summer Classes | June 7 - August 6, 2021</p>
+          <p className="heading show">Summer Classes | June 14 - August 6, 2021</p>
         </div>
         <div id="summer-camps"><p className="heading show">Summer Camps</p> </div>
       </div>

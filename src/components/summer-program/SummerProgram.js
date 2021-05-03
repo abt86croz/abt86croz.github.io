@@ -19,7 +19,7 @@ export default class SummerProgram extends Component {
       '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=Summer%20Camp&hidecols=Class%20Starts,Gender,Ages,EndDate,Session,openings&sort=times"></script>'
 
     const summerClasses =
-      '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=Summer%20Classes&hidecols=Class%20Starts,Gender,Ages,EndDate,Session,openings&sort=class"></script>'
+      '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=Summer%20Classes&hidecols=Tuition,Class%20Starts,Gender,Ages,EndDate,Session,openings&sort=class"></script>'
 
     // postscribe
     postscribe('#summer-camps', summerCamps)
@@ -133,8 +133,12 @@ export default class SummerProgram extends Component {
             {/* <p>*Discounts will be applied to your account within 72-hours</p> */}
           </div>
           <div id="summer-classes">
-            <p className="heading show">Summer Classes | June 7 - August 6, 2021</p>
-            <p>Multi-class discounts automatically applied during enrollment</p>
+            <p className="heading show">Summer Classes | June 14 - August 6, 2021</p>
+            <p className="underline">Tuition for 8-Week Classes</p>
+            <p>10% multi-class discount automatically applied during enrollment</p>
+            <p>*Exploring Ballet $130 | 1 hr. 15 min. class $169 </p>
+            <p>1 hr. Class $159         | 1 hr. 30 min. class $179</p>
+            <p>*7-week session begins 6/24</p>
           </div>
         </div>
         {/* Buttons */}

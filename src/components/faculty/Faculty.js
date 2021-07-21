@@ -226,6 +226,7 @@ const Faculty = () => (
         at Albemarle Ballet Theatre. She has been teaching and choreographing at ABT since 2006 and has performed with
         concorDance contemporary.
       </p>
+      <br />
       <hr />
     </Instructor>
     <Instructor>
@@ -259,6 +260,7 @@ const Faculty = () => (
         Delaware. Leanne truly believes the mind can master the muscles and hopes to inspire students to believe in
         their own physical and emotional power through the practice of Pilates principles.{' '}
       </p>
+      <br />
       <hr />
     </Instructor>
     <Instructor>
@@ -299,6 +301,7 @@ const Faculty = () => (
         Spanish at the Miller School of Albemarle. Mrs. Gillespie is also a festival organizer, milonga host, and
         instructor at Charlottesville Tango.
       </p>
+      <br />
       <hr />
     </Instructor>
     <Instructor>

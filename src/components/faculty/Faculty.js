@@ -12,6 +12,8 @@ import RoderickImg from '../../images/faculty/roderick.jpg'
 import LeanneImg from '../../images/faculty/leanne.jpg'
 import JenniferImg from '../../images/faculty/jennifer.jpg'
 import AnnaImg from '../../images/faculty/anna.jpg'
+import DavidImg from '../../images/faculty/david.jpg'
+import GeriImg from '../../images/faculty/geri.jpg'
 import './Faculty.css'
 
 /* eslint-disable max-len */
@@ -27,6 +29,8 @@ const MeganImage = () => <img src={MeganImg} alt="Megan Hillary" title="Megan Hi
 const EdwinImage = () => <img src={EdwinImg} alt="Edwin Roa" title="Edwin Roa" />
 const RoderickImage = () => <img src={RoderickImg} alt="Roderick Davis" title="Roderick Davis" />
 const AnnaImage = () => <img src={AnnaImg} alt="Anna Finan" title="Anna Finan" />
+const DavidImage = () => <img src={DavidImg} alt="David King" title="David King" />
+const GeriImage = () => <img src={GeriImg} alt="Geri Carlson Saul" title="Geri Carlson Saul" />
 
 const Instructor = styled.div`
   img {
@@ -112,7 +116,7 @@ const Faculty = () => (
     <Instructor>
       <p>
         <JenniferImage />
-        <span className="bold instructor">Jennifer Gage | Head of Communications, Instructor</span>
+        <span className="bold instructor">Jennifer Gage | Head of Communications</span>
         Jennifer recently moved to the area from Norfolk, VA, but it’s Chicago she called home where she taught for over
         20 years at many schools, including her own studio, NorthSide Dance Theater. Most of her classical foundation is
         from her training with Ballet Tennessee directors Anna and Barry Van-Cura in Cecchetti, Vaganova, and French
@@ -148,6 +152,63 @@ const Faculty = () => (
       </p>
     </Instructor>
     <hr />
+    <Instructor>
+      <p>
+        <DavidImage />
+        <span className="bold instructor">David King | Instructor</span>As a California native, David King devotes his
+        passion and energy teaching and spreading his love for dance any way he can. David began dancing at the age of 8
+        training under various local and industry instructors building his craft and creating a unique choreography
+        style. With well over a decade of choreography and teaching experience, he has had the privilege of teaching
+        master classes as well as recreational and competitive level routines all around the country. Currently, David
+        is the director of hip hop at DANCE CONNECTION PERFORMING ARTS CENTRE in northern California. His work with the
+        studio has garnered many national titles and choreography awards over his 10-year career with the studio. David
+        has also had the privilege of being artistic director and contributing choreographer for various hip hop
+        companies including GROOVE AGAINST THE MACHINE, FUNKANOMETRY SF and CHAPKIS DANCE. His teachings go beyond the
+        studio as well being able to mentor students all over the country as an SDA judge for REVOLUTION DANCE
+        COMPETITION.
+      </p>
+      <p>
+        Many of his current and past students have also received performance opportunities such as auditioning for
+        Americas Got Talent, the Superbowl featuring Beyonce, Bruno Mars and Coldplay and the Harlem Globetrotters. He
+        has choreographed stage shows at Six Flags parks for many of their holiday events as well as being in the
+        position of lead makeup artist for their Halloween event Fright Fest for many years. Although he currently
+        teaches hip hop and jazz funk predominantly, many of his pieces derive from his experience and training in many
+        styles of dance which lends for a unique visual impact on stage. His experience teaching all ages and levels
+        guarantees each student will leave class more knowledgeable and confident than they came.
+      </p>
+      <br />
+      <hr />
+    </Instructor>
+    <Instructor>
+      <p>
+        <GeriImage />
+        <span className="bold instructor">Geri Carlson Saul | Instructor</span>Geri has been teaching dance for over 25
+        years, and has choreographed, directed and performed in community and regional theater companies in Baton Rouge,
+        the Bay area, and now in Virginia. She graduated from the American Tap Dance Institute teacher training program,
+        and has attended several intensives such as the Dance Teacher Summit and the DC Tapfest. Choreography credits: A
+        Chorus Line, The Producers (LiveArts), Once on This Island, Cabaret, Godspell (4CP), Once Upon a Mattress
+        (University of Virginia) The Music Man (Cabrillo Stage), Director/choreographer credits: A Christmas Story, the
+        Musical, Honk!, Annie (4CP), Newsies (DMR), 42nd Street, The Will Rogers Follies, Thoroughly Modern Millie, A
+        Chorus Line. Professional performance credits include American Musical Theater San Jose (dance captain for 2
+        shows) and Cabrillo Stage. Geri looks forward to continuing to teach to a new group of students both tap and
+        jazz.
+      </p>
+      <br />
+      <hr />
+    </Instructor>
+    <Instructor>
+      <p>
+        <MeganImage />
+        <span className="bold instructor">Megan Hillary | Instructor</span>A returning teacher for Acting for Dancers,
+        Megan holds degrees in visual art and technical theater design, though she grew up with ballet until college,
+        when she discovered modern and was wholly seduced by it. Extremely active in the local gallery scene as an
+        installation artist, she also embraces directing and choreography -- at Live Arts and area schools. Often to be
+        found as a guest artist for puppetry at schools and for children‘s and teen‘s organizations, Megan‘s actual day
+        job is as the new manager of The Hip Joint in downtown Charlottesville.
+      </p>
+      <br />
+      <hr />
+    </Instructor>
     <Instructor>
       <p>
         <AshleyImage />
@@ -235,19 +296,6 @@ const Faculty = () => (
         Spanish at the Miller School of Albemarle. Mrs. Gillespie is also a festival organizer, milonga host, and
         instructor at Charlottesville Tango.
       </p>
-      <hr />
-    </Instructor>
-    <Instructor>
-      <p>
-        <MeganImage />
-        <span className="bold instructor">Megan Hillary | Guest Instructor</span>A returning teacher for Acting for
-        Dancers, Megan holds degrees in visual art and technical theater design, though she grew up with ballet until
-        college, when she discovered modern and was wholly seduced by it. Extremely active in the local gallery scene as
-        an installation artist, she also embraces directing and choreography -- at Live Arts and area schools. Often to
-        be found as a guest artist for puppetry at schools and for children‘s and teen‘s organizations, Megan‘s actual
-        day job is as the new manager of The Hip Joint in downtown Charlottesville.
-      </p>
-      <br />
       <hr />
     </Instructor>
     <Instructor>

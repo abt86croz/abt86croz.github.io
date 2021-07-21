@@ -21,20 +21,19 @@ export default class ClassListings extends Component {
     const beginnerClasses =
       '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat2=Beginning%20Ballet&hidecols=Gender,Tuition,Ages,EndDate,Session,Openings,Class%20Starts&sort=days&sort=class"></script>'
 
-    const summerCamps =
-      '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=summer%20camp&hidecols=Gender,Tuition,Ages,EndDate,Session,Openings,Class%20Starts&sort=days&sort=class"></script>'
+    // const summerCamps =
+    //   '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=summer%20camp&hidecols=Gender,Tuition,Ages,EndDate,Session,Openings,Class%20Starts&sort=days&sort=class"></script>'
 
-    const summerClasses =
-      '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=Summer%20Classes&hidecols=Tuition,Class%20Starts,Gender,Ages,EndDate,Session,openings&sort=class"></script>'
-
+    // const summerClasses =
+    //   '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=Summer%20Classes&hidecols=Tuition,Class%20Starts,Gender,Ages,EndDate,Session,openings&sort=class"></script>'
 
     // postscribe
     postscribe('#eight-week', eightWeek)
     postscribe('#by-placement', byPlacement)
     // postscribe('#matt-pilates', matPilates)
     postscribe('#beginner-classes', beginnerClasses)
-    postscribe('#summer-classes', summerClasses)
-    postscribe('#summer-camps', summerCamps)
+    // postscribe('#summer-classes', summerClasses)
+    // postscribe('#summer-camps', summerCamps)
   }
 
   render() {
@@ -48,20 +47,22 @@ export default class ClassListings extends Component {
           <p className="heading show">Mat Pilates | 1-Month Sessions</p>
         </div> */}
         <div id="eight-week">
-          <p className="heading show">8-Week Sessions</p>
-          <span className="subtitle-listing">Session 1: January 13 - March 6, 2021 </span>
-          <span className="subtitle-listing">Session 2: March 10 - May 8, 2021</span>
+          <p className="heading show">7-Week Sessions</p>
+          <span className="subtitle-listing">Session 1: September 04 - October 16, 2021 </span>
+          <span className="subtitle-listing">Session 2: October 23 - December 11, 2021</span>
         </div>
         <div id="beginner-classes">
-          <p className="heading show">Beginner Classes | January 11 - May 8, 2021</p>
+          <p className="heading show">Beginner Classes | August 30 – December 11, 2021</p>
         </div>
         <div id="by-placement">
-          <p className="heading show">By Placement Only | January 11 - May 8, 2021</p>
+          <p className="heading show">By Placement Only | August 30, 2021 – April 30, 2022</p>
         </div>
-        <div id="summer-classes">
+        {/* <div id="summer-classes">
           <p className="heading show">Summer Classes | June 14 - August 6, 2021</p>
         </div>
-        <div id="summer-camps"><p className="heading show">Summer Camps</p> </div>
+        <div id="summer-camps">
+          <p className="heading show">Summer Camps</p>{' '}
+        </div> */}
       </div>
     )
   }

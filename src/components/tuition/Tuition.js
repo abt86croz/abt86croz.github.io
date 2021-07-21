@@ -61,8 +61,9 @@ const Tuition = () => (
       <Title>Tuition</Title>
       <Subtitle className="bold underline">2021 Spring Semester Classes</Subtitle>
       <p>
-        Monthly class rates are based on a 4-week month and are listed below. For tuition questions or to request your
-        total tuition per semester, please contact{' '}
+        {' '}
+        Monthly class rates listed below are based on a 4-week month, rates will vary depending on the number of classes
+        offered in a given month. To request your total tuition per semester, please contact{' '}
         <a href="mailto:Nicky@abtdance.org" target="_top">
           Nicky
         </a>
@@ -70,11 +71,12 @@ const Tuition = () => (
       <p>
         For students taking multiple classes, a 10% discount will be applied for each additional class beyond the first.
       </p>
+
       <TableContainerStyled>
         <Table>
           {/* <CenterRow>Multi-Class Discounts</CenterRow>
         <GenerateTuitionDiscountTable /> */}
-          <CenterRow>Monthly Tuition Rates</CenterRow>
+          <CenterRow>* Monthly Tuition Rates</CenterRow>
           <GenerateTuitionDiscountTable />
         </Table>
         <Table>
@@ -84,18 +86,22 @@ const Tuition = () => (
           <GenerateNumberOfWeeksTable /> */}
         </Table>
       </TableContainerStyled>
-      {/* <TuitionClass>
-        <span>Mat Pilates</span>
-        1-Month Session: $15 per class
-      </TuitionClass> */}
       <TuitionClass>
-        <span>Exploring Ballet</span>
-        8-Week Session: $132
+        <span>Creative Movement Tuition</span>
+        7-Week Session: $119
+        <br />
+        8-Week Session: $136
       </TuitionClass>
-      {/* <TuitionClass>
-        <span>Dance With Me &amp; Creative Movement</span>
-        8-Week Session: $149
-      </TuitionClass> */}
+      <TuitionClass>
+        <span>Exploring Ballet Tuition</span>
+        7-Week Session: $126
+        <br />
+        8-Week Session: $144
+      </TuitionClass>
+      <TuitionClass>
+        <span>Theater Tuition</span>
+        4-Week Session: $85
+      </TuitionClass>
       {/* <TuitionClass>
         <span>Adult Drop-Ins/Class Cards</span>
         Adults may be eligible for drop-in rates in classes that already have a minimum number of required enrolled
@@ -105,20 +111,21 @@ const Tuition = () => (
         <br /> Single Class: $20 <br /> 2-Hour Classes: $32
       </TuitionClass> */}
       <p>
-        Annual tuition, excluding 8-week sessions, is billed monthly. If you would like to pay in full, please notify{' '}
+        All tuition, excluding Sessions and Summer Camps, is billed monthly. If you would like to pay in full, please
+        notify{' '}
         <a href="mailto:Nicky@abtdance.org" target="_top">
-          Nicky.
-        </a>{' '}
-        Tuition will be posted on the 1st of the month and cards on file will be charged on the 15th for the following
+          Nicky
+        </a>
+        . Tuition will be posted on the 1st of the month and cards on file will be charged on the 15th for the following
         month’s tuition, unless an alternative form of payment is received prior to the 15th.
       </p>
-      <p>Tuition is due in full at the time of registration for 8-Week Sessions.</p>
+      <p>Tuition is due in full at the time of registration for Sessions and Summer Camps.</p>
       <p>
         All tuition is non-refundable. If there are extenuating circumstances, please contact{' '}
         <a href="mailto:Nicky@abtdance.org" target="_top">
           Nicky
         </a>
-      </p>{' '}
+      </p>
     </Content>
   </TuitionContainer>
 )

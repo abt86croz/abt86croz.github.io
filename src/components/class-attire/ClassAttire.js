@@ -16,8 +16,10 @@ const ClassAttireContent = () => {
           <span className="row-2 girls">{o.girls.description}</span>
         </div>
         <div className="block">
-          <span className="underline row-1">{o.boys.attire}:</span>
-          <span className="row-2">{o.boys.description}</span>
+          <div>
+            <span className="underline row-1">{o.boys.attire && `${o.boys.attire}:`}</span>
+            <span className="row-2">{o.boys.description && o.boys.description}</span>
+          </div>
         </div>
       </div>
     )
@@ -30,10 +32,9 @@ const ClassAttire = () => (
     <Content>
       <Title>Class Attire</Title>
       <p className="italic">
-        Girls’ hair should be worn up and in a neat bun. Dancers with short hair must pin back bangs
-        or wear a headband. Boys’ hair should be neat and not fall into eyes; longer hair should be
-        pulled back in a ponytail. Remove all jewelry other than stud earrings. Please wear clean
-        dance clothes in good repair.
+        Girls’ hair should be worn up and in a neat bun or french twist. Dancers with short hair must pin back bangs or
+        wear a headband. Boys’ hair should be neat and not fall into the eyes, longer hair should be pulled back in a
+        ponytail. No jewelry other than stud earrings. Please wear clean dance clothes and shoes in good repair.
       </p>
       <ClassAttireContent />
     </Content>

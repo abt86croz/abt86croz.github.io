@@ -11,7 +11,6 @@ import './SummerProgram.css'
 
 const CampTitle = styled.p``
 
-
 /* eslint-disable max-len */
 export default class SummerProgram extends Component {
   componentDidMount() {
@@ -51,11 +50,18 @@ export default class SummerProgram extends Component {
 
             <CampTitle className="sub-title">Intermediate Dance | Ages 8+ | $349</CampTitle>
             <p className="date">July 12 - July 16 | Monday - Friday | 9am - 3pm</p>
-            <p> Ballet, Jazz, Modern, Theatre, Variations, Pre-Pointe, Creative Movement, Sewing, Make-up, Dance History, and Conditioning</p>
+            <p>
+              {' '}
+              Ballet, Jazz, Modern, Theatre, Variations, Pre-Pointe, Creative Movement, Sewing, Make-up, Dance History,
+              and Conditioning
+            </p>
             <br />
             <CampTitle className="sub-title">Advanced Dance | Ages 11+ | $349</CampTitle>
             <p className="date">June 21 - June 25 | Monday - Friday | 9am - 3pm</p>
-            <p>Ballet, Jazz, Modern, Theatre, Variations, Pointe, Repertoire, Composition, Pilates, Sewing, Make-up, and Dance History</p>
+            <p>
+              Ballet, Jazz, Modern, Theatre, Variations, Pointe, Repertoire, Composition, Pilates, Sewing, Make-up, and
+              Dance History
+            </p>
             <br />
 
             <CampTitle className="sub-title">CMJ Camp (Contemporary, Modern, Jazz) | Ages 8+ | $299</CampTitle>
@@ -64,10 +70,8 @@ export default class SummerProgram extends Component {
           </div>
         </div>
 
-
         {/* Tables */}
         <div className="left-container">
-
           {/* <div className="summer-schedule">
             <div className="summer-schedule">
               <div className="column-1 left">
@@ -117,7 +121,6 @@ export default class SummerProgram extends Component {
               </div>
             </div>
           </div> */}
-
         </div>
         <div className="clear" />
         <div className="summer-program-registration-container">
@@ -137,7 +140,7 @@ export default class SummerProgram extends Component {
             <p className="underline">Tuition for 8-Week Classes</p>
             <p>10% multi-class discount automatically applied during enrollment</p>
             <p>*Exploring Ballet $130 | 1 hr. 15 min. class $169 </p>
-            <p>1 hr. Class $159         | 1 hr. 30 min. class $179</p>
+            <p>1 hr. Class $159 | 1 hr. 30 min. class $179</p>
             <p>*7-week session begins 6/24</p>
           </div>
         </div>
@@ -155,7 +158,6 @@ export default class SummerProgram extends Component {
             <PDFIcon /> SUMMER HANDOUT
           </a>
         </div>
-
       </div>
     )
   }

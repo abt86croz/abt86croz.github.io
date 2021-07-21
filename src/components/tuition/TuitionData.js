@@ -13,11 +13,11 @@ export const tuitionDiscounts = [
 ]
 
 export const fallTuitionDiscounts = [
-  { numberOfClasses: '30 min. class', price: '$66', id: 1 },
-  { numberOfClasses: '40 min. class', price: '$72', id: 2 },
-  { numberOfClasses: '1 hr. class', price: '$74', id: 3 },
-  { numberOfClasses: '1 hr. 15 min. class', price: '$79', id: 4 },
-  { numberOfClasses: '1 hr. 30 min. class', price: '$85', id: 5 },
+  { numberOfClasses: '30 Minute class', price: '$68', id: 1 },
+  { numberOfClasses: '40 Minute class', price: '$72', id: 2 },
+  { numberOfClasses: '1 Hour class', price: '$75', id: 3 },
+  { numberOfClasses: '1.25 hour class', price: '$80', id: 4 },
+  { numberOfClasses: '1.50 Hour class', price: '$85', id: 5 },
 ]
 
 export const numberOfWeeks = [

@@ -176,7 +176,6 @@ const Faculty = () => (
         styles of dance which lends for a unique visual impact on stage. His experience teaching all ages and levels
         guarantees each student will leave class more knowledgeable and confident than they came.
       </p>
-      <br />
       <hr />
     </Instructor>
     <Instructor>
@@ -193,7 +192,6 @@ const Faculty = () => (
         shows) and Cabrillo Stage. Geri looks forward to continuing to teach to a new group of students both tap and
         jazz.
       </p>
-      <br />
       <hr />
     </Instructor>
     <Instructor>
@@ -201,10 +199,15 @@ const Faculty = () => (
         <MeganImage />
         <span className="bold instructor">Megan Hillary | Instructor</span>A returning teacher for Acting for Dancers,
         Megan holds degrees in visual art and technical theater design, though she grew up with ballet until college,
-        when she discovered modern and was wholly seduced by it. Extremely active in the local gallery scene as an
-        installation artist, she also embraces directing and choreography -- at Live Arts and area schools. Often to be
-        found as a guest artist for puppetry at schools and for children‘s and teen‘s organizations, Megan‘s actual day
-        job is as the new manager of The Hip Joint in downtown Charlottesville.
+        when she discovered modern and was wholly seduced by it.
+      </p>
+      <p>
+        Extremely active in the local gallery scene as an installation artist, she also embraces directing and
+        choreography -- at Live Arts and area schools.
+      </p>
+      <p>
+        Often to be found as a guest artist for puppetry at schools and for children‘s and teen‘s organizations, Megan‘s
+        actual day job is as the new manager of The Hip Joint in downtown Charlottesville.
       </p>
       <br />
       <hr />

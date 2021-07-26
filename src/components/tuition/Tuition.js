@@ -59,7 +59,7 @@ const Tuition = () => (
     <TuitionImage className="bg-image" />
     <Content>
       <Title>Tuition</Title>
-      <Subtitle className="bold underline">2021 Spring Semester Classes</Subtitle>
+      <Subtitle className="bold underline">2021 - 2022 School Year</Subtitle>
       <p>
         {' '}
         Monthly class rates listed below are based on a 4-week month, rates will vary depending on the number of classes

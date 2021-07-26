@@ -209,7 +209,6 @@ const Faculty = () => (
         Often to be found as a guest artist for puppetry at schools and for children‘s and teen‘s organizations, Megan‘s
         actual day job is as the new manager of The Hip Joint in downtown Charlottesville.
       </p>
-      <br />
       <hr />
     </Instructor>
     <Instructor>
@@ -226,7 +225,6 @@ const Faculty = () => (
         at Albemarle Ballet Theatre. She has been teaching and choreographing at ABT since 2006 and has performed with
         concorDance contemporary.
       </p>
-      <br />
       <hr />
     </Instructor>
     <Instructor>
@@ -260,7 +258,6 @@ const Faculty = () => (
         Delaware. Leanne truly believes the mind can master the muscles and hopes to inspire students to believe in
         their own physical and emotional power through the practice of Pilates principles.{' '}
       </p>
-      <br />
       <hr />
     </Instructor>
     <Instructor>
@@ -285,7 +282,6 @@ const Faculty = () => (
         his Mestre, Balanço graduated to one of Mestre Panão&#39;s first American Instructors in 2015. He is continuing
         his training with Mestre Panão and is now teaching capoeira in Charlottesville, VA.
       </p>
-      <br />
       <hr />
     </Instructor>
     <Instructor>
@@ -301,7 +297,6 @@ const Faculty = () => (
         Spanish at the Miller School of Albemarle. Mrs. Gillespie is also a festival organizer, milonga host, and
         instructor at Charlottesville Tango.
       </p>
-      <br />
       <hr />
     </Instructor>
     <Instructor>

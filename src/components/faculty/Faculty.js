@@ -14,6 +14,7 @@ import JenniferImg from '../../images/faculty/jennifer.jpg'
 import AnnaImg from '../../images/faculty/anna.jpg'
 import DavidImg from '../../images/faculty/david.jpg'
 import GeriImg from '../../images/faculty/geri.jpg'
+import PageImg from '../../images/faculty/page.jpg'
 import './Faculty.css'
 
 /* eslint-disable max-len */
@@ -30,7 +31,8 @@ const EdwinImage = () => <img src={EdwinImg} alt="Edwin Roa" title="Edwin Roa" /
 const RoderickImage = () => <img src={RoderickImg} alt="Roderick Davis" title="Roderick Davis" />
 const AnnaImage = () => <img src={AnnaImg} alt="Anna Finan" title="Anna Finan" />
 const DavidImage = () => <img src={DavidImg} alt="David King" title="David King" />
-const GeriImage = () => <img src={GeriImg} alt="Geri Carlson Saul" title="Geri Carlson Saul" />
+const GeriImage = () => <img src={GeriImg} alt="Geri Carlson Sauls" title="Geri Carlson Sauls" />
+const PageImage = () => <img src={PageImg} alt="Paige Werman" title="Paige Werman" />
 
 const Instructor = styled.div`
   img {
@@ -181,7 +183,7 @@ const Faculty = () => (
     <Instructor>
       <p>
         <GeriImage />
-        <span className="bold instructor">Geri Carlson Saul | Instructor</span>Geri has been teaching dance for over 25
+        <span className="bold instructor">Geri Carlson Sauls | Instructor</span>Geri has been teaching dance for over 25
         years, and has choreographed, directed and performed in community and regional theater companies in Baton Rouge,
         the Bay area, and now in Virginia. She graduated from the American Tap Dance Institute teacher training program,
         and has attended several intensives such as the Dance Teacher Summit and the DC Tapfest. Choreography credits: A
@@ -202,12 +204,29 @@ const Faculty = () => (
         when she discovered modern and was wholly seduced by it.
       </p>
       <p>
-        Extremely active in the local gallery scene as an installation artist, she also embraces directing and
-        choreography -- at Live Arts and area schools.
+        Extremely active in the local gallery and festival scene as an installation artist with McGuffey Art Center,
+        Chroma, The Bridge, the IX, and FLOW, she also embraces directing and choreography at Live Arts, Four County
+        Players, and area schools.
       </p>
       <p>
-        Often to be found as a guest artist for puppetry at schools and for children‘s and teen‘s organizations, Megan‘s
-        actual day job is as the new manager of The Hip Joint in downtown Charlottesville.
+        Often to be found as a guest artist for puppetry at schools and for children‘s and teens&#39; organizations,
+        Megan‘s actual day job is as the manager of My Dance Shoppe in downtown Charlottesville.
+      </p>
+      <hr />
+    </Instructor>
+    <Instructor>
+      <p>
+        <PageImage />
+        <span className="bold instructor">Paige Werman | Instructor</span>Paige has been teaching dance for eleven years
+        and Pilates for two years. She earned her BFA in dance from Fordham University/The Ailey School with a double
+        major in environmental policy where she worked with renowned choreographers such as Ray Mercer, Stephanie
+        Battenbland, Christopher Huggins, Yin Yue, Jae Man Joo, Brice Mousett, and many more. She has performed
+        professionally with Neville Dance Theatre, Dolly Sfeir &amp; Dancers, Jack Tracy, Universal Orlando, Julie
+        Petrusak, and more. She has taught dance for Mark Morris Dance Center, Ailey Arts In Education &amp; Community
+        Programs, LEAP, and Marquis Studios in NY, and The Dance Company in Richmond. Paige earned her Comprehensive
+        Pilates Certification at Balanced Pilates NYC and has taught for YvaYoga and TurnRVA, and currently teaches at
+        TruPilates in Charlottesville and Niche Pilates in Richmond. She is currently pursuing a Master of Landscape
+        Architecture and Master of Urban and Environmental Planning at UVA.
       </p>
       <hr />
     </Instructor>

@@ -12,7 +12,6 @@ import RoderickImg from '../../images/faculty/roderick.jpg'
 import LeanneImg from '../../images/faculty/leanne.jpg'
 import JenniferImg from '../../images/faculty/jennifer.jpg'
 import AnnaImg from '../../images/faculty/anna.jpg'
-import DavidImg from '../../images/faculty/david.jpg'
 import GeriImg from '../../images/faculty/geri.jpg'
 import PageImg from '../../images/faculty/page.jpg'
 import './Faculty.css'
@@ -30,7 +29,6 @@ const MeganImage = () => <img src={MeganImg} alt="Megan Hillary" title="Megan Hi
 const EdwinImage = () => <img src={EdwinImg} alt="Edwin Roa" title="Edwin Roa" />
 const RoderickImage = () => <img src={RoderickImg} alt="Roderick Davis" title="Roderick Davis" />
 const AnnaImage = () => <img src={AnnaImg} alt="Anna Finan" title="Anna Finan" />
-const DavidImage = () => <img src={DavidImg} alt="David King" title="David King" />
 const GeriImage = () => <img src={GeriImg} alt="Geri Carlson Sauls" title="Geri Carlson Sauls" />
 const PageImage = () => <img src={PageImg} alt="Paige Werman" title="Paige Werman" />
 
@@ -154,32 +152,7 @@ const Faculty = () => (
       </p>
     </Instructor>
     <hr />
-    <Instructor>
-      <p>
-        <DavidImage />
-        <span className="bold instructor">David King | Instructor</span>As a California native, David King devotes his
-        passion and energy teaching and spreading his love for dance any way he can. David began dancing at the age of 8
-        training under various local and industry instructors building his craft and creating a unique choreography
-        style. With well over a decade of choreography and teaching experience, he has had the privilege of teaching
-        master classes as well as recreational and competitive level routines all around the country. Currently, David
-        is the director of hip hop at DANCE CONNECTION PERFORMING ARTS CENTRE in northern California. His work with the
-        studio has garnered many national titles and choreography awards over his 10-year career with the studio. David
-        has also had the privilege of being artistic director and contributing choreographer for various hip hop
-        companies including GROOVE AGAINST THE MACHINE, FUNKANOMETRY SF and CHAPKIS DANCE. His teachings go beyond the
-        studio as well being able to mentor students all over the country as an SDA judge for REVOLUTION DANCE
-        COMPETITION.
-      </p>
-      <p>
-        Many of his current and past students have also received performance opportunities such as auditioning for
-        Americas Got Talent, the Superbowl featuring Beyonce, Bruno Mars and Coldplay and the Harlem Globetrotters. He
-        has choreographed stage shows at Six Flags parks for many of their holiday events as well as being in the
-        position of lead makeup artist for their Halloween event Fright Fest for many years. Although he currently
-        teaches hip hop and jazz funk predominantly, many of his pieces derive from his experience and training in many
-        styles of dance which lends for a unique visual impact on stage. His experience teaching all ages and levels
-        guarantees each student will leave class more knowledgeable and confident than they came.
-      </p>
-      <hr />
-    </Instructor>
+
     <Instructor>
       <p>
         <GeriImage />

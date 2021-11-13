@@ -1,6 +1,19 @@
 /* eslint-disable max-len */
 const classAttireData = [
   {
+    title: 'Creative Movement',
+    girls: {
+      attire: 'Attire',
+      description: `Solid colored t-shirt and leggings or shorts, and socks -or- leotard, tights,
+      And ballet slippers. Dancers should be able to move comfortably.`,
+    },
+    boys: {
+      attire: undefined,
+      description: undefined,
+    },
+    id: '1',
+  },
+  {
     title: 'Exploring Ballet',
     girls: {
       attire: 'Girls Attire',
@@ -10,7 +23,7 @@ const classAttireData = [
       attire: 'Boys Attire',
       description: 'Comfortable black shorts or black tights, fitted white tee-shirt, black ballet slippers.',
     },
-    id: '1',
+    id: '2',
   },
   {
     title: 'Ballet 1A-Ballet IV',
@@ -24,7 +37,7 @@ const classAttireData = [
       attire: 'Boys Attire',
       description: 'Black tights, fitted white t-shirt without logo or graphics, white socks, black ballet slippers.',
     },
-    id: '2',
+    id: '3',
   },
   {
     title: 'Advanced Ballet',
@@ -37,7 +50,7 @@ const classAttireData = [
       attire: 'Boys Attire',
       description: 'Black tights, fitted white t-shirt without logo or graphics, white socks, black ballet slippers.',
     },
-    id: '3',
+    id: '4',
   },
   {
     title: 'Jazz/Modern/Contemporary/Hip-Hop/Tap (all levels)',
@@ -46,19 +59,6 @@ const classAttireData = [
       description: `Athletic attire that can include any of the following: T-shirt, athletic shirt, leotard, jazz
       pants, tights, leggings, shorts. Bare feet for modern classes. Jazz shoes for jazz classes.
       Tap shoes for tap classes. Clean indoor-only sneakers for Hip Hop.`,
-    },
-    boys: {
-      attire: undefined,
-      description: undefined,
-    },
-    id: '4',
-  },
-  {
-    title: 'Creative Movement',
-    girls: {
-      attire: 'Attire',
-      description: `Solid colored t-shirt and leggings or shorts, and socks -or- leotard, tights,
-      And ballet slippers. Dancers should be able to move comfortably.`,
     },
     boys: {
       attire: undefined,

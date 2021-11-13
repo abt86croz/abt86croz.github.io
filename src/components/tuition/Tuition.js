@@ -64,7 +64,7 @@ const Tuition = () => (
         {' '}
         Monthly class rates listed below are based on a 4-week month, monthly rates will vary depending on the number of
         classes offered in a billing cycle. All tuition is non-refundable. To request your total tuition per semester,
-        please contac{' '}
+        please contact{' '}
         <a href="mailto:Anna@abtdance.org" target="_top">
           Anna Finan
         </a>

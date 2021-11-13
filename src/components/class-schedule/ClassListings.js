@@ -62,7 +62,7 @@ export default class ClassListings extends Component {
           <p className="heading show">By Placement Only | August 30, 2021 – April 30, 2022</p>
         </div>
         <div id="fitness">
-          <p className="heading show">Theatre | August 30, 2021 – December 11, 2021</p>
+          <p className="heading show">Theatre | January 3 - April 30, 2022</p>
           {/* <span className="subtitle-listing">Theatre Fall Session 1: September 2 - September 23, 2021 </span>
           <span className="subtitle-listing">Theatre Fall Session 2: September 30 - October 21, 2021</span>
           <span className="subtitle-listing">Theatre Fall Session 3: October 28 - November 18, 2021 </span> */}

@@ -79,6 +79,13 @@ const Contact = () => (
           </a>
         </StaffContact>
         <StaffContact>
+          <span>Anna Finan | Billing and Administration</span>
+          <br />
+          <a href="mailto:Anna@abtdance.org" target="_top">
+            Anna@abtdance.org
+          </a>
+        </StaffContact>
+        <StaffContact>
           <span className="bold">Send absences to</span>
           <br />
           <a href="mailto:Attendance@abtdance.org" target="_top">

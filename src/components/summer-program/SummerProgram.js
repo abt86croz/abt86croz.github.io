@@ -1,28 +1,26 @@
 import React, { Component } from 'react'
-import styled from 'styled-components'
-import postscribe from 'postscribe'
+// import styled from 'styled-components'
+// import postscribe from 'postscribe'
 
-import PDFIcon from 'react-icons/lib/fa/file-pdf-o'
-import SummerClassSched from '../../pdf/summer-class-schedule.pdf'
-import SummerHandout from '../../pdf/summer-handout.pdf'
+// import PDFIcon from 'react-icons/lib/fa/file-pdf-o'
+// import SummerClassSched from '../../pdf/summer-class-schedule.pdf'
+// import SummerHandout from '../../pdf/summer-handout.pdf'
 // import SummerCampSched from '../../pdf/2020-summer-camp-schedule.pdf'
 import SummerPoster from '../../images/site/summer/summer-2021.png'
 import './SummerProgram.css'
 
-const CampTitle = styled.p``
+// const CampTitle = styled.p``
 
 /* eslint-disable max-len */
 export default class SummerProgram extends Component {
   componentDidMount() {
-    const summerCamps =
-      '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=Summer%20Camp&hidecols=Class%20Starts,Gender,Ages,EndDate,Session,openings&sort=times"></script>'
-
-    const summerClasses =
-      '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=Summer%20Classes&hidecols=Tuition,Class%20Starts,Gender,Ages,EndDate,Session,openings&sort=class"></script>'
-
-    // postscribe
-    postscribe('#summer-camps', summerCamps)
-    postscribe('#summer-classes', summerClasses)
+    // const summerCamps =
+    //   '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=Summer%20Camp&hidecols=Class%20Starts,Gender,Ages,EndDate,Session,openings&sort=times"></script>'
+    // const summerClasses =
+    //   '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=Summer%20Classes&hidecols=Tuition,Class%20Starts,Gender,Ages,EndDate,Session,openings&sort=class"></script>'
+    // // postscribe
+    // postscribe('#summer-camps', summerCamps)
+    // postscribe('#summer-classes', summerClasses)
   }
 
   render() {
@@ -33,8 +31,10 @@ export default class SummerProgram extends Component {
         </div>
 
         <div className="summer-content-wrap">
-          <div className="summer-content">
-            <p className="title">Dance Camps</p>
+          <p className="title">Summer Program information coming soon</p>
+
+          {/* <div className="summer-content"> */}
+          {/* <p className="title">Dance Camps</p>
             <CampTitle className="sub-title">Exploring Ballet | Ages 3-4 | $175</CampTitle>
             <p className="date">June 14 - 17 | Monday - Thursday | 10am - 12pm</p>
             <p>
@@ -66,8 +66,8 @@ export default class SummerProgram extends Component {
 
             <CampTitle className="sub-title">CMJ Camp (Contemporary, Modern, Jazz) | Ages 8+ | $299</CampTitle>
             <p className="date">July 5 - 9 | Monday - Friday | 9am - 2pm</p>
-            <p>Jazz, Modern, Contemporary, Theatre, Choreography, Repertoire, Improv, and Conditioning</p>
-          </div>
+            <p>Jazz, Modern, Contemporary, Theatre, Choreography, Repertoire, Improv, and Conditioning</p> */}
+          {/* </div> */}
         </div>
 
         {/* Tables */}
@@ -122,20 +122,21 @@ export default class SummerProgram extends Component {
             </div>
           </div> */}
         </div>
+
         <div className="clear" />
-        <div className="summer-program-registration-container">
+        {/* <div className="summer-program-registration-container">
           <p className="registration-wave">$15 Registration Fee | Waived for Multi-Student Families</p>
           <div id="summer-camps">
-            <p className="heading show">Summer Camps 2021</p>
-            <p>
-              {/* <span className="underline">Early Bird Discount:</span> Register by March 1 to receive 10% off camps */}
-            </p>
-            <p>
+            <p className="heading show">Summer Camps 2021</p> */}
+        {/* <p> */}
+        {/* <span className="underline">Early Bird Discount:</span> Register by March 1 to receive 10% off camps */}
+        {/* </p> */}
+        {/* <p>
               <span className="underline">Camp/Class Combo:</span> 10% off camps when you also enroll in classes
-            </p>
-            {/* <p>*Discounts will be applied to your account within 72-hours</p> */}
-          </div>
-          <div id="summer-classes">
+            </p> */}
+        {/* <p>*Discounts will be applied to your account within 72-hours</p> */}
+        {/* </div> */}
+        {/* <div id="summer-classes">
             <p className="heading show">Summer Classes | June 14 - August 6, 2021</p>
             <p className="underline">Tuition for 8-Week Classes</p>
             <p>10% multi-class discount automatically applied during enrollment</p>
@@ -143,21 +144,21 @@ export default class SummerProgram extends Component {
             <p>1 hr. Class $159 | 1 hr. 30 min. class $179</p>
             <p>*7-week session begins 6/24</p>
           </div>
-        </div>
+        </div> */}
         {/* Buttons */}
 
-        <div className="btn-wrap">
+        {/* <div className="btn-wrap">
           <a className="bt" href={SummerClassSched} target="_blank" rel="noopener noreferrer">
             <PDFIcon /> SUMMER CLASS schedule
-          </a>
-          {/* <a className="bt" href={SummerCampSched} target="_blank" rel="noopener noreferrer">
+          </a> */}
+        {/* <a className="bt" href={SummerCampSched} target="_blank" rel="noopener noreferrer">
             <PDFIcon /> SUMMER CAMP schedule
           </a> */}
 
-          <a className="bt" href={SummerHandout} target="_blank" rel="noopener noreferrer">
+        {/* <a className="bt" href={SummerHandout} target="_blank" rel="noopener noreferrer">
             <PDFIcon /> SUMMER HANDOUT
           </a>
-        </div>
+        </div> */}
       </div>
     )
   }

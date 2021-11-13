@@ -51,21 +51,21 @@ export default class ClassListings extends Component {
           <p className="heading show">Mat Pilates | 1-Month Sessions</p>
         </div> */}
         <div id="eight-week">
-          <p className="heading show">7-Week Sessions</p>
-          <span className="subtitle-listing">Session 1: September 04 - October 16, 2021 </span>
-          <span className="subtitle-listing">Session 2: October 23 - December 11, 2021</span>
+          <p className="heading show">8-Week Sessions</p>
+          <span className="subtitle-listing">Spring Session 1: 1/6/22 - 2/26/22 </span>
+          <span className="subtitle-listing">Spring Session 2: 3/3/22 - 4/30/22</span>
         </div>
         <div id="beginner-classes">
-          <p className="heading show">Beginner Classes | August 30 – December 11, 2021</p>
+          <p className="heading show">Beginner Classes | January 3 - April 30, 2022</p>
         </div>
         <div id="by-placement">
           <p className="heading show">By Placement Only | August 30, 2021 – April 30, 2022</p>
         </div>
         <div id="fitness">
-          <p className="heading show">Fitness &amp; Theatre | August 30, 2021 – December 11, 2021</p>
-          <span className="subtitle-listing">Theatre Fall Session 1: September 2 - September 23, 2021 </span>
+          <p className="heading show">Theatre | August 30, 2021 – December 11, 2021</p>
+          {/* <span className="subtitle-listing">Theatre Fall Session 1: September 2 - September 23, 2021 </span>
           <span className="subtitle-listing">Theatre Fall Session 2: September 30 - October 21, 2021</span>
-          <span className="subtitle-listing">Theatre Fall Session 3: October 28 - November 18, 2021 </span>
+          <span className="subtitle-listing">Theatre Fall Session 3: October 28 - November 18, 2021 </span> */}
         </div>
         {/* <div id="summer-classes">
           <p className="heading show">Summer Classes | June 14 - August 6, 2021</p>

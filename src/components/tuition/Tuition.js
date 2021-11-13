@@ -103,6 +103,7 @@ const Tuition = () => (
         <span>Theater Tuition</span>
         4-Week Session: $85
       </TuitionClass>
+      {/* SEE THIS */}
       {/* <TuitionClass>
         <span>Adult Drop-Ins/Class Cards</span>
         Adults may be eligible for drop-in rates in classes that already have a minimum number of required enrolled

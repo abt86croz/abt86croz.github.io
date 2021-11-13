@@ -112,7 +112,7 @@ const Performances = () => (
 
       <Description>
         <Show>
-          <p className="bold center">Fall Performance TBD</p>
+          <p className="bold center">Information on Spring Gala at PVCC&#39;s Dickinson Theatre coming soon</p>
           <Location />
         </Show>
         <hr />

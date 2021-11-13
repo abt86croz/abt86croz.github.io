@@ -45,13 +45,26 @@ const classAttireData = [
       attire: 'Attire',
       description: `Athletic attire that can include any of the following: T-shirt, athletic shirt, leotard, jazz
       pants, tights, leggings, shorts. Bare feet for modern classes. Jazz shoes for jazz classes.
-      Tap shoes for tap classes.`,
+      Tap shoes for tap classes. Clean indoor-only sneakers for Hip Hop.`,
     },
     boys: {
       attire: undefined,
       description: undefined,
     },
     id: '4',
+  },
+  {
+    title: 'Creative Movement',
+    girls: {
+      attire: 'Attire',
+      description: `Solid colored t-shirt and leggings or shorts, and socks -or- leotard, tights,
+      And ballet slippers. Dancers should be able to move comfortably.`,
+    },
+    boys: {
+      attire: undefined,
+      description: undefined,
+    },
+    id: '5',
   },
 ]
 export default classAttireData

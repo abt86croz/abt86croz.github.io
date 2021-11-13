@@ -32,7 +32,7 @@ const ClassAttire = () => (
     <Content>
       <Title>Class Attire</Title>
       <p className="italic">
-        Girls’ hair should be worn up and in a neat bun or french twist. Dancers with short hair must pin back bangs or
+        Girls’ hair should be worn up and in a neat bun or French twist. Dancers with short hair must pin back bangs or
         wear a headband. Boys’ hair should be neat and not fall into the eyes, longer hair should be pulled back in a
         ponytail. No jewelry other than stud earrings. Please wear clean dance clothes and shoes in good repair.
       </p>

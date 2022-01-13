@@ -14,7 +14,7 @@ export const tuitionDiscounts = [
 
 export const fallTuitionDiscounts = [
   { numberOfClasses: '30 Minute class', price: '$68', id: 1 },
-  { numberOfClasses: '40 Minute class', price: '$72', id: 2 },
+  { numberOfClasses: '45 Minute class', price: '$72', id: 2 },
   { numberOfClasses: '1 Hour class', price: '$75', id: 3 },
   { numberOfClasses: '1.25 hour class', price: '$80', id: 4 },
   { numberOfClasses: '1.50 Hour class', price: '$85', id: 5 },

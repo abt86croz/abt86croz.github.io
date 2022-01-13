@@ -133,15 +133,15 @@ const Faculty = () => (
     <Instructor>
       <p>
         <AnnaImage />
-        <span className="bold instructor">Anna Finan | Instructor</span>
+        <span className="bold instructor">Anna Finan | Billing &amp; Administration, Instructor</span>
         Anna began her ballet training at the National Ballet School in Bytom, Poland. She studied the Vaganova
-        technique with Elisabeth Lebik, former principal dancer of the Silesian State Opera. At the age of 14, she
+        technique with Elisabeth Lebik, former principal dancer of the Silesian State Opera. At the age of 14, she
         participated in the acclaimed international ballet competition, the Prix de Lausanne in Switzerland, where she
         reached the half- final and was offered full scholarship to study at the Hamburg Ballet School in Germany. There
         she fine-tuned her technique and artistry with Marianne Kruse, Kevin Haigen and Ingrid Glindemann. After
         graduating from the school, she joined the Hamburg Ballet company directed by the renowned American
         choreographer John Neumeier. There she performed group and soloist roles in his various classical and modern
-        ballets such as The Nutcracker, Swan Lake, A Midsummer Night’s Dream, and The Little Mermaid as well as works
+        ballets such as The Nutcracker, Swan Lake, A Midsummer Night’s Dream, and The Little Mermaid as well as works
         from other choreographers like La Bayadere staged by N. Makarova and Jewels by G. Balanchine. Upon retiring from
         the stage, she pursued a second career, becoming a risk manager at Germany’s largest bank, Deutsche Bank AG.
         Yet, her love for movement never halted. She travelled to Thailand to became a certified Vinyasa Yoga instructor
@@ -172,18 +172,23 @@ const Faculty = () => (
     <Instructor>
       <p>
         <MeganImage />
-        <span className="bold instructor">Megan Hillary | Instructor</span>A returning teacher for Acting for Dancers,
-        Megan holds degrees in visual art and technical theater design, though she grew up with ballet until college,
-        when she discovered modern and was wholly seduced by it.
-      </p>
-      <p>
-        Extremely active in the local gallery and festival scene as an installation artist with McGuffey Art Center,
-        Chroma, The Bridge, the IX, and FLOW, she also embraces directing and choreography at Live Arts, Four County
-        Players, and area schools.
-      </p>
-      <p>
-        Often to be found as a guest artist for puppetry at schools and for children‘s and teens&#39; organizations,
-        Megan‘s actual day job is as the manager of My Dance Shoppe in downtown Charlottesville.
+        <span className="bold instructor">Megan Hillary | Instructor</span>Megan is a visual artist and theater director
+        &amp; designer currently specializing in site- specific installations. A once-upon-a-dancer and violinist, Megan
+        continued both while earning her degrees in the studio arts and technical theater design.  Traveling for the
+        sake of these varied pursuits, positions ranged from a stint in Manhattan as technical director for Altered
+        Stages to being the resident lighting designer for the East Hawaii Cultural Center, from working as a guest
+        director within university theater departments to being a board member of the Ohio/Pennsylvania chapter of
+        USITT. With installations up and down the east coast of the mainland, Megan now makes her home in
+        Charlottesville as one of Live Arts&#39; directors and designers, a designer for 4CP, a teacher of dance,
+        choreography, and acting at local ballet studios and for area schools&#39; mainstage productions, occasionally
+        appearing for puppetry workshops for organizations like the Boys &amp; Girls Club and the Governor&#39;s School
+        for Performing Arts. Planting interactive installations in local entities including McGuffey Art Center, The
+        Bridge, FLOW, and the IX, Megan most recently presented in the group show &quot;Pandemonium: Postcards From The
+        Edge&quot; through Chroma Art Lab and is currently developing an immersive piece with Kelli Shermeyer through a
+        grant with the Lab in Performance Cultures &amp; Embodied Creative Practices, a working group funded by
+        UVA&#39;s Institute for the Humanities and Global Culture. Having just completed a residency at McGuffey Art
+        Center, she’s newly installed in a residency at the Bronze Foundry through Sept 2022. During the day, Megan runs
+        downtown’s dance retail store, My Dance Shoppe.
       </p>
       <hr />
     </Instructor>

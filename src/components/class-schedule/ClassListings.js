@@ -21,11 +21,11 @@ export default class ClassListings extends Component {
     const beginnerClasses =
       '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat2=Beginning%20Ballet&hidecols=Gender,Tuition,Ages,EndDate,Session,Openings,Class%20Starts&sort=days&sort=class"></script>'
 
-    // const summerCamps =
-    //   '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=summer%20camp&hidecols=Gender,Tuition,Ages,EndDate,Session,Openings,Class%20Starts&sort=days&sort=class"></script>'
+    const summerCamps =
+      '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=summer%20camp&hidecols=Gender,Tuition,Ages,EndDate,Session,Openings,Class%20Starts&sort=age,time&sort=class"></script>'
 
-    // const summerClasses =
-    //   '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=Summer%20Classes&hidecols=Tuition,Class%20Starts,Gender,Ages,EndDate,Session,openings&sort=class"></script>'
+    const summerClasses =
+      '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=Summer%20Classes&hidecols=Tuition,Class%20Starts,Gender,Ages,EndDate,Session,openings&sort=class"></script>'
 
     const fitness =
       '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat2=fitness&hidecols=Gender,tuition,Ages,EndDate,Session,openings&sort=times"></script>'
@@ -36,8 +36,8 @@ export default class ClassListings extends Component {
     postscribe('#fitness', fitness)
     // postscribe('#matt-pilates', matPilates)
     postscribe('#beginner-classes', beginnerClasses)
-    // postscribe('#summer-classes', summerClasses)
-    // postscribe('#summer-camps', summerCamps)
+    postscribe('#summer-classes', summerClasses)
+    postscribe('#summer-camps', summerCamps)
   }
 
   render() {
@@ -67,12 +67,13 @@ export default class ClassListings extends Component {
           <span className="subtitle-listing">Theatre Fall Session 2: September 30 - October 21, 2021</span>
           <span className="subtitle-listing">Theatre Fall Session 3: October 28 - November 18, 2021 </span> */}
         </div>
-        {/* <div id="summer-classes">
-          <p className="heading show">Summer Classes | June 14 - August 6, 2021</p>
+        <div id="summer-classes">
+          <p className="heading show">Summer Classes | June 13 - August 5, 2022</p>
         </div>
+
         <div id="summer-camps">
-          <p className="heading show">Summer Camps</p>{' '}
-        </div> */}
+          <p className="heading show">Summer Camps</p>
+        </div>
       </div>
     )
   }

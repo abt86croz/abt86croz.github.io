@@ -157,14 +157,14 @@ export default class SummerProgram extends Component {
 
         <div className="clear" />
         <div className="summer-program-registration-container">
-          <p className="registration-wave">$15 Registration Fee | Waived for Multi-Student Families</p>
           <div>
-            <p className="heading show">Summer Camps 2022</p>
-            <p>
-              <span className="underline">Camp/Class Combo:</span> 10% off camps when you also enroll in classes
-            </p>
-            <p>*Discounts will be applied to your account within one week</p>
-            {/* </div> */}
+            <div id="summer-camps">
+              <p className="heading show">Summer Camps 2022</p>
+              <p>
+                <span className="underline">Camp/Class Combo:</span> 10% off camps when you also enroll in classes
+              </p>
+              <p>*Discounts will be applied to your account within one week</p>
+            </div>
             <div>
               <p className="heading show">Summer Classes | June 13 - August 5, 2022</p>
               <p>8-Week Class Rates (10% Multi-Class Discount applied at time of enrollment)</p>
@@ -189,9 +189,7 @@ export default class SummerProgram extends Component {
             <div id="summer-classes">
               <p className="heading show">SUMMER CLASSES 2022 (CLASSES &amp; SCHEDULE)</p>
             </div>
-            <div id="summer-camps">
-              <p className="heading show">SUMMER DANCE CAMPS 2022</p>
-            </div>
+
             <div id="summer-ballet">
               <p className="heading show">BALLET CLASSES</p>
             </div>

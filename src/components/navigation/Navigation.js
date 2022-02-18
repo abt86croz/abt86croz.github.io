@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { LinkContainer } from 'react-router-bootstrap'
 import { SocialIcon } from 'react-social-icons'
 import { Logo } from '../Images'
-import HandbookDoc from '../../pdf/2020-2021-policies.pdf'
+import HandbookDoc from '../../pdf/handbook_policies.pdf'
 import CovidProceduresDoc from '../../pdf/health-and-safety-plan.pdf'
 import './Navigation.css'
 

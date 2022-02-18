@@ -1,15 +1,18 @@
 import React from 'react'
+import styled from 'styled-components'
 import classAttireData from './ClassAttireData'
 import Content from '../styles/Content'
 import Title from '../styles/Title'
 
 import './ClassAttire.css'
 
+const ClassAtireType = styled.div``
+
 /* eslint-disable max-len */
 const ClassAttireContent = () => {
   return classAttireData.map((o) => {
     return (
-      <div key={o.id}>
+      <ClassAtireType key={o.id}>
         <p className="sub-title bold">{o.title}</p>
         <div>
           <span className="underline row-1">{o.girls.attire}:</span>
@@ -21,7 +24,7 @@ const ClassAttireContent = () => {
             <span className="row-2">{o.boys.description && o.boys.description}</span>
           </div>
         </div>
-      </div>
+      </ClassAtireType>
     )
   })
 }
@@ -37,6 +40,44 @@ const ClassAttire = () => (
         ponytail. No jewelry other than stud earrings. Please wear clean dance clothes and shoes in good repair.
       </p>
       <ClassAttireContent />
+      <p className="underline">
+        Hair for girls in the following styles should be worn securely pulled back in a ponytail:
+      </p>
+      <div css={'padding-bottom: var(--medium-padding);'} />
+      <ClassAtireType>
+        <p className="sub-title bold">Jazz/Modern/Contemporary</p>
+        <div>
+          <span className="underline row-1">Attire:</span>
+          <span className="row-2 girls">
+            Black jazz pants, tights, or leggings with a plain athletic shirt or leotard without graphics.
+          </span>
+        </div>
+        <div className="block">
+          <div>
+            <span className="underline row-1">Shoes:</span>
+            <span className="row-2">Bare feet for modern. Jazz shoes for jazz. Ballet slippers for contemporary.</span>
+          </div>
+        </div>
+      </ClassAtireType>
+      <ClassAtireType>
+        <p className="sub-title bold">Hip-Hop</p>
+        <div>
+          <span className="underline row-1">Attire:</span>
+          <span className="row-2 girls">
+            Comfortable solid-colored pants and a plain shirt without graphics. Clean sneakers that are worn indoors
+            only.
+          </span>
+        </div>
+      </ClassAtireType>
+      <ClassAtireType>
+        <p className="sub-title bold">Tap</p>
+        <div>
+          <span className="underline row-1">Attire:</span>
+          <span className="row-2 girls">
+            Black jazz pants or leggings with a plain leotard, athletic top, or t-shirt without graphics. Tap shoes.
+          </span>
+        </div>
+      </ClassAtireType>
     </Content>
   </div>
 )

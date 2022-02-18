@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 // import { HashLink as NutLink } from 'react-router-hash-link'
 import './Home.css'
 import { HomeBtn1, HomeBtn2, HomeBtn3, HomeBtn4 } from '../Images'
-import HandbookDoc from '../../pdf/2020-2021-policies.pdf'
+import HandbookDoc from '../../pdf/handbook_policies.pdf'
 
 const handlePoliciesClick = () => {
   window.open(HandbookDoc, '_blank')
@@ -57,9 +57,13 @@ const Home = () => (
 
     <div className="video-container">
       <iframe
-        src="https://www.youtube.com/embed/evsz4_AL2Hg?rel=0&amp;controls=1&amp;showinfo=0&amp;autoplay=0&amp;loop=1&amp;playlist=bgSMpRpObCg"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/evsz4_AL2Hg?rel=0&autoplay=0&modestbranding=1"
+        title="YouTube video player"
         frameBorder="0"
-        allow="encrypted-media"
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
       />
     </div>
     <div className="jack-rabbit-img" />

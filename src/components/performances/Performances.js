@@ -1,10 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import styled from 'styled-components'
 import Content from '../styles/Content'
 import Title from '../styles/Title'
 // import StoryImg from '../../images/site/step-into-story.png'
 // import NutImg from '../../images/site/nutcracker-ticket.png'
-// import StepIntoStoryIMG from '../../images/site/StepIntoTheStory.png'
+import StepIntoStoryIMG from '../../images/site/spring-gala.png'
 
 // import PayPalNutCracker from '../paypal/Paypal'
 import './Performances.css'
@@ -19,7 +20,9 @@ const Description = styled.div`
     margin: 0;
   }
   margin-bottom: 10px;
-  padding: ${props => (props.primary ? '0 30px 0 20px' : '')};
+  padding: ${(props) => {
+    return props.primary ? '0 30px 0 20px' : ''
+  }};
 `
 
 const Show = styled.div`
@@ -112,14 +115,22 @@ const Performances = () => (
 
       <Description>
         <Show>
-          <p className="bold center">Information on Spring Gala at PVCC&#39;s Dickinson Theatre coming soon</p>
+          <p className="bold center">Spring Gala 2022</p>
+          <p>'Carnival of the Animals' and 'Rhapsody'</p>
+          <p>Friday, May 6th at 6pm</p>
+          <p>Saturday, May 7th at 2pm and 5pm</p>
+          <p>The Dickinson Theatre at PVCC in Charlottesville, VA</p>
+          <div className="paddingTopLarge">
+            <a href="https://v6.click4tix.com/event-details.php?e=431428" target="_blank" rel="noopener noreferrer">
+              <img src={StepIntoStoryIMG} alt="2022 ABT Spring Gala Performance" />
+            </a>
+          </div>
           <Location />
         </Show>
-        <hr />
       </Description>
 
-      {/* <Description>
-        <Show>
+      <Description>
+        {/* <Show>
           <p className="bold underline" style={{ color: 'red' }}>
             ** Spring Gala Has been Canceled **
           </p>
@@ -127,14 +138,14 @@ const Performances = () => (
             <p>Saturday, May 9, 2020 | 2:00pm &amp; 6:00pm</p>
             <p>The Dickinson Theatre at Piedmont Community College, Charlottesville, VA </p>
           </Location>
-          <Location> */}
-      {/* <a href="https://v6.click4tix.com/event-details.php?e=431204" target="_blank" rel="noopener noreferrer">
+          <Location>
+            <a href="https://v6.click4tix.com/event-details.php?e=431204" target="_blank" rel="noopener noreferrer">
               <img src={StepIntoStoryIMG} alt="The Nutcracker Performances" />
-            </a> */}
-      {/* </Location>
+            </a>
+          </Location>
         </Show>
-        <hr />
-      </Description> */}
+        <hr /> */}
+      </Description>
 
       <Description>
         {/* <Show>

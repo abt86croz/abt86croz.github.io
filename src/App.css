@@ -112,6 +112,58 @@ hr {
   border-color: #babcbc;
 }
 
+/* PADDING */
+/* small */
+.paddingSmall {
+  padding: var(--small-padding);
+}
+.paddingTopSmall {
+  padding-top: var(--small-padding);
+}
+.paddingBottomSmall {
+  padding-bottom: var(--small-padding);
+}
+.paddingRightSmall {
+  padding-right: var(--small-padding);
+}
+.paddingLeftSmall {
+  padding-left: var(--small-padding);
+}
+
+/* medium */
+.paddingMedium {
+  padding: var(--medium-padding);
+}
+.paddingTopMedium {
+  padding-top: var(--medium-padding);
+}
+.paddingBottomMedium {
+  padding-bottom: var(--medium-padding);
+}
+.paddingRightMedium {
+  padding-right: var(--medium-padding);
+}
+.paddingLeftMedium {
+  padding-left: var(--medium-padding);
+}
+
+/* large */
+.paddingLarge {
+  padding: var(--large-padding);
+}
+.paddingTopLarge {
+  padding-top: var(--large-padding);
+}
+.paddingBottomLarge {
+  padding-bottom: var(--large-padding);
+}
+.paddingRightLarge {
+  padding-right: var(--large-padding);
+}
+.paddingLeftLarge {
+  padding-left: var(--large-padding);
+}
+
 .bt {
   color: #232223;
   text-decoration: none !important;

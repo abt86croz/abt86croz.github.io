@@ -120,6 +120,22 @@ const Performances = () => (
           <p>Friday, May 6th at 6pm</p>
           <p>Saturday, May 7th at 2pm and 5pm</p>
           <p>The Dickinson Theatre at PVCC in Charlottesville, VA</p>
+
+          <div className="paddingTopLarge">
+            <p className="bold">COVID-19 POLICY</p>
+            <p>- One seat will be held between each group of patrons for social distancing.</p>
+            <p>
+              - All audience members are asked to either: present proof of vaccination OR proof of negative Covid test
+              within 48-hours upon entry. Paper or digital documentation are both accepted.
+            </p>
+            <p>- All audience members over the age of 3 will be required to wear a mask.</p>
+            <p> - Please arrive 30-minutes prior to the show for check-in.</p>
+            <p className="paddingTopMedium">
+              We continue to monitor State and CDC guidelines and recommendations. Thank you for understanding and
+              supporting these health and safety protocols.
+            </p>
+          </div>
+
           <div className="paddingTopLarge">
             <a href="https://v6.click4tix.com/event-details.php?e=431428" target="_blank" rel="noopener noreferrer">
               <img src={StepIntoStoryIMG} alt="2022 ABT Spring Gala Performance" />

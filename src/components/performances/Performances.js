@@ -5,7 +5,7 @@ import Content from '../styles/Content'
 import Title from '../styles/Title'
 // import StoryImg from '../../images/site/step-into-story.png'
 // import NutImg from '../../images/site/nutcracker-ticket.png'
-import StepIntoStoryIMG from '../../images/site/spring-gala.png'
+// import StepIntoStoryIMG from '../../images/site/spring-gala.png'
 
 // import PayPalNutCracker from '../paypal/Paypal'
 import './Performances.css'
@@ -115,6 +115,9 @@ const Performances = () => (
 
       <Description>
         <Show>
+          <p className="italic red">
+            Online sales have ended. Tickets will be available for purchase at the theater 1-hour prior to each show
+          </p>
           <p className="bold center">Spring Gala 2022</p>
           <p>'Carnival of the Animals' and 'Rhapsody'</p>
           <p>Friday, May 6th at 6pm</p>
@@ -136,11 +139,11 @@ const Performances = () => (
             </p>
           </div>
 
-          <div className="paddingTopLarge">
+          {/* <div className="paddingTopLarge">
             <a href="https://v6.click4tix.com/event-details.php?e=431428" target="_blank" rel="noopener noreferrer">
               <img src={StepIntoStoryIMG} alt="2022 ABT Spring Gala Performance" />
             </a>
-          </div>
+          </div> */}
           <Location />
         </Show>
       </Description>

@@ -78,6 +78,26 @@ const ClassAttire = () => (
           </span>
         </div>
       </ClassAtireType>
+      <br />
+      <ClassAtireType>
+        <p className="sub-title bold">Solo Social Dance Party</p>
+        <div>
+          <span className="underline row-1">Attire:</span>
+          <span className="row-2 girls">
+            Comfortable solid-colored pants and a plain shirt without graphics or Athletic wear.
+          </span>
+        </div>
+        <div className="block">
+          <div>
+            <span className="underline row-1">Shoes:</span>
+            <span className="row-2">
+              Supportive, comfortable footwear like light weight sneakers are recommended (leather-soled or hard
+              rubber-soled shoes are also suitable but not required) - all shoes must be thoroughly clean and dedicated
+              for studio use only.
+            </span>
+          </div>
+        </div>
+      </ClassAtireType>
     </Content>
   </div>
 )

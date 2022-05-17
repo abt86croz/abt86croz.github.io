@@ -12,7 +12,7 @@ import RoderickImg from '../../images/faculty/roderick.jpg'
 import LeanneImg from '../../images/faculty/leanne.jpg'
 import JenniferImg from '../../images/faculty/jennifer.jpg'
 import AnnaImg from '../../images/faculty/anna.jpg'
-import GeriImg from '../../images/faculty/geri.jpg'
+// import GeriImg from '../../images/faculty/geri.jpg'
 import PageImg from '../../images/faculty/page.jpg'
 import KellyImg from '../../images/faculty/kelly.jpg'
 import './Faculty.css'
@@ -30,7 +30,7 @@ const MeganImage = () => <img src={MeganImg} alt="Megan Hillary" title="Megan Hi
 const EdwinImage = () => <img src={EdwinImg} alt="Edwin Roa" title="Edwin Roa" />
 const RoderickImage = () => <img src={RoderickImg} alt="Roderick Davis" title="Roderick Davis" />
 const AnnaImage = () => <img src={AnnaImg} alt="Anna Finan" title="Anna Finan" />
-const GeriImage = () => <img src={GeriImg} alt="Geri Carlson Sauls" title="Geri Carlson Sauls" />
+// const GeriImage = () => <img src={GeriImg} alt="Geri Carlson Sauls" title="Geri Carlson Sauls" />
 const PageImage = () => <img src={PageImg} alt="Paige Werman" title="Paige Werman" />
 const KellyImage = () => <img src={KellyImg} alt="Kelly Langan" title="Kelly Langan" />
 
@@ -174,7 +174,7 @@ const Faculty = () => (
     </Instructor>
     <hr />
 
-    <Instructor>
+    {/* <Instructor>
       <p>
         <GeriImage />
         <span className="bold instructor">Geri Carlson Sauls | Instructor</span>Geri has been teaching dance for over 25
@@ -189,7 +189,7 @@ const Faculty = () => (
         jazz.
       </p>
       <hr />
-    </Instructor>
+    </Instructor> */}
     <Instructor>
       <p>
         <MeganImage />

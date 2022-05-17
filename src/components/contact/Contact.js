@@ -72,24 +72,17 @@ const Contact = () => (
           </a>
         </StaffContact>
         <StaffContact>
-          <span>Jennifer Gage | Head of Communications</span>
-          <br />
-          <a href="mailto:Jennifer@abtdance.org" target="_top">
-            Jennifer@abtdance.org
-          </a>
-        </StaffContact>
-        <StaffContact>
-          <span>Anna Finan | Billing and Administration</span>
+          <span>Anna Finan | School Coordinator and Billing</span>
           <br />
           <a href="mailto:Anna@abtdance.org" target="_top">
             Anna@abtdance.org
           </a>
         </StaffContact>
         <StaffContact>
-          <span className="bold">Send absences to</span>
+          <span>Kelly Langan | School Administrator</span>
           <br />
-          <a href="mailto:Attendance@abtdance.org" target="_top">
-            Attendance@abtdance.org
+          <a href="mailto:Kelly@abtdance.org" target="_top">
+            Kelly@abtdance.org
           </a>
         </StaffContact>
         <hr />

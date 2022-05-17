@@ -27,8 +27,6 @@ const FinancialAid = () => (
           ABT offers a limited number of Work-Study positions available to all students. Work-Study may be completed by
           students aged 15-years and older or family members.
         </p>
-        <p className="bold">Fall semester application deadline: September 1, 2021</p>
-        <p className="bold">Spring semester application deadline: December 19, 2021</p>
       </Highlight>
       <ButtonContainer>
         <Button href={ScholarshipApplication} target="_blank" rel="noopener noreferrer">

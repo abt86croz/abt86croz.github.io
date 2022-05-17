@@ -59,18 +59,19 @@ const Tuition = () => (
     <TuitionImage className="bg-image" />
     <Content>
       <Title>Tuition</Title>
-      <Subtitle className="bold underline">2021 - 2022 School Year</Subtitle>
+      <Subtitle className="bold underline">2022 - 2023 School Year</Subtitle>
       <p>
-        {' '}
         Monthly class rates listed below are based on a 4-week month, monthly rates will vary depending on the number of
-        classes offered in a billing cycle. All tuition is non-refundable. To request your total tuition per semester,
-        please contact{' '}
+        classes offered in a billing cycle which runs from the 15th – 14th of the following month. All tuition is
+        non-refundable. To request your total tuition per semester, please contact {''}
         <a href="mailto:Anna@abtdance.org" target="_top">
           Anna Finan
         </a>
+        .
       </p>
       <p>
-        For students taking multiple classes, a 10% discount will be applied for each additional class beyond the first.
+        For students taking multiple classes, a 10% discount will automatically be applied for each additional class
+        beyond the first.
       </p>
 
       <TableContainerStyled>
@@ -89,19 +90,21 @@ const Tuition = () => (
       </TableContainerStyled>
       <TuitionClass>
         <span>Creative Movement Tuition</span>
-        7-Week Session: $119
+        6-Week Session: $105
         <br />
         8-Week Session: $136
       </TuitionClass>
       <TuitionClass>
-        <span>Exploring Ballet Tuition</span>
-        7-Week Session: $126
+        <span>Theater Tuition</span>
+        Session 1: $112/month (Monthly class rate is based on a 4-week month, monthly rates will vary depending on the
+        number of classes offered in a billing cycle)
         <br />
-        8-Week Session: $144
+        Session 2: $200
       </TuitionClass>
       <TuitionClass>
-        <span>Theater Tuition</span>
-        4-Week Session: $85
+        <span>Social Dance Tuition</span>
+        Single Class Rate: $22
+        <br />
       </TuitionClass>
       {/* DELETE THIS */}
       {/* <TuitionClass>
@@ -112,21 +115,29 @@ const Tuition = () => (
         fees will be added to your account and charged within 24-hours of class.
         <br /> Single Class: $20 <br /> 2-Hour Classes: $32
       </TuitionClass> */}
+      <div className="paddingTopLarge" />
       <p>
         All tuition, excluding Sessions and Summer Camps, is billed monthly. If you would like to pay in full, please
         notify{' '}
-        <a href="mailto:Nicky@abtdance.org" target="_top">
-          Nicky
+        <a href="mailto:Anna@abtdance.org" target="_top">
+          Anna Finan
         </a>
         . Tuition will be posted on the 1st of the month and cards on file will be charged on the 15th for the following
         month’s tuition, unless an alternative form of payment is received prior to the 15th.
       </p>
-      <p>Tuition is due in full at the time of registration for Sessions and Summer Camps.</p>
+
       <p>
-        All tuition is non-refundable. If there are extenuating circumstances, please contact{' '}
-        <a href="mailto:Nicky@abtdance.org" target="_top">
-          Nicky
+        Please send written notice to{' '}
+        <a href="mailto:Anna@abtdance.org" target="_top">
+          Anna Finan
         </a>
+        if you wish to withdraw from a class. Students who stop coming to class will continue to be billed until they
+        officially withdraw.{' '}
+        <span className="underline">
+          Written notice must be sent before the 15th of the month to avoid being charged for the following month’s
+          tuition.
+        </span>
+        {''} All tuition is nonrefundable. Notice cannot be retroactive.
       </p>
     </Content>
   </TuitionContainer>

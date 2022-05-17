@@ -22,8 +22,8 @@ const RatesContainer = styled.div`
 /* eslint-disable max-len */
 export default class SummerProgram extends Component {
   componentDidMount() {
-    const summerClasses =
-      '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=Summer%20Classes&hidecols=Tuition,Class%20Starts,Gender,Ages,EndDate,Session,openings&sort=Class"></script>'
+    // const summerClasses =
+    //   '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=Summer%20Classes&hidecols=Tuition,Class%20Starts,Gender,Ages,EndDate,Session,openings&sort=Class"></script>'
     const summerCamps =
       '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=summer%20camp&hidecols=Gender,Tuition,Ages,EndDate,Session,Openings,Class%20Starts&sort=age,times"></script>'
     const balletClassesSummer =
@@ -32,7 +32,7 @@ export default class SummerProgram extends Component {
       '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&amp;Cat1=Summer%20Classes&Cat3=Jazz&hidecols=Gender,tuition,Ages,EndDate,Session,openings,Class%20Starts&amp;sort=times"></script>'
     const pilates =
       '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&amp;Cat1=Summer%20Classes&Cat3=Theatre&hidecols=Gender,tuition,Ages,EndDate,Session,openings,Class%20Starts&amp;sort=age"></script>'
-    postscribe('#summer-classes', summerClasses)
+    //  postscribe('#summer-classes', summerClasses)
     postscribe('#summer-camps', summerCamps)
     postscribe('#summer-ballet', balletClassesSummer)
     postscribe('#summer-jazz', jazz)
@@ -186,9 +186,9 @@ export default class SummerProgram extends Component {
             </div>
           </div>
           <div>
-            <div id="summer-classes">
-              <p className="heading show">SUMMER CLASSES 2022 (CLASSES &amp; SCHEDULE)</p>
-            </div>
+            {/* <div id="summer-classes">
+              <p className="heading show">SSSUMMER CLASSES 2022 (CLASSES &amp; SCHEDULE)</p>
+            </div> */}
 
             <div id="summer-ballet">
               <p className="heading show">BALLET CLASSES</p>
@@ -197,7 +197,7 @@ export default class SummerProgram extends Component {
               <p className="heading show">JAZZ, MODERN, and HIP HOP</p>
             </div>
             <div id="summer-pilates">
-              <p className="heading show">PILATES and THEATRE</p>
+              <p className="heading show">THEATRE</p>
             </div>
           </div>
           {/* Buttons */}

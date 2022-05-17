@@ -32,14 +32,14 @@ const Show = styled.div`
   }
 `
 
-const Location = styled.div`
-  padding-bottom: 20px;
-  p {
-    font-size: 18px;
-    padding: 0;
-    margin: 0;
-  }
-`
+// const Location = styled.div`
+//   padding-bottom: 20px;
+//   p {
+//     font-size: 18px;
+//     padding: 0;
+//     margin: 0;
+//   }
+// `
 const Performances = () => (
   <div className="performances-container">
     <div className="bg-image description-img" />
@@ -53,9 +53,12 @@ const Performances = () => (
 
       <hr />
       {/* COMING SOON */}
-      {/* <Description>
-        <p className="sub-title bold">2019-2020 performance dates coming soon…</p>
-      </Description> */}
+      <Description>
+        <Show>
+          {' '}
+          <p className="sub-title bold">2022-2023 performance dates coming soon…</p>
+        </Show>
+      </Description>
 
       {/* Coming Back in some point
       <Description>
@@ -113,7 +116,7 @@ const Performances = () => (
         <hr />
       </Description> */}
 
-      <Description>
+      {/* <Description>
         <Show>
           <p className="italic red">
             Online sales have ended. Tickets will be available for purchase at the theater 1-hour prior to each show
@@ -144,9 +147,9 @@ const Performances = () => (
               <img src={StepIntoStoryIMG} alt="2022 ABT Spring Gala Performance" />
             </a>
           </div> */}
-          <Location />
-        </Show>
-      </Description>
+      {/* <Location />
+        </Show> */}
+      {/* </Description> */}
 
       <Description>
         {/* <Show>
@@ -183,6 +186,7 @@ const Performances = () => (
         </Show> */}
         {/* <hr /> */}
       </Description>
+      <br />
 
       <Description primary>
         <p>

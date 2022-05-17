@@ -150,6 +150,17 @@ const Description = () => (
       </DescriptionClass>
 
       <DescriptionClass>
+        <p className="sub-title bold">Boys, Teens, &amp; Adult Beginning Ballet | Ages 9 - Adult</p>
+        <p>
+          A class just for older beginner students and boys! For ballet enthusiasts, aspiring serious dancers, and
+          dancers who have been away from the barre for a long time, this class is just for you! Focusing on
+          fundamentals, positions, a variety of steps from plies to pirouettes, as well as body alignment and awareness,
+          strength, and flexibility.
+        </p>
+        <hr />
+      </DescriptionClass>
+
+      <DescriptionClass>
         <p className="sub-title bold">INTRO TO MODERN &amp; JAZZ</p>
         <p>
           Our Jazz and Modern program is segmented into four-week modules, alternating monthly between Jazz and Modern

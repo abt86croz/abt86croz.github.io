@@ -14,6 +14,7 @@ import JenniferImg from '../../images/faculty/jennifer.jpg'
 import AnnaImg from '../../images/faculty/anna.jpg'
 import GeriImg from '../../images/faculty/geri.jpg'
 import PageImg from '../../images/faculty/page.jpg'
+import KellyImg from '../../images/faculty/kelly.jpg'
 import './Faculty.css'
 
 /* eslint-disable max-len */
@@ -31,6 +32,7 @@ const RoderickImage = () => <img src={RoderickImg} alt="Roderick Davis" title="R
 const AnnaImage = () => <img src={AnnaImg} alt="Anna Finan" title="Anna Finan" />
 const GeriImage = () => <img src={GeriImg} alt="Geri Carlson Sauls" title="Geri Carlson Sauls" />
 const PageImage = () => <img src={PageImg} alt="Paige Werman" title="Paige Werman" />
+const KellyImage = () => <img src={KellyImg} alt="Kelly Langan" title="Kelly Langan" />
 
 const Instructor = styled.div`
   img {
@@ -115,25 +117,8 @@ const Faculty = () => (
     </Instructor>
     <Instructor>
       <p>
-        <JenniferImage />
-        <span className="bold instructor">Jennifer Gage | Head of Communications</span>
-        Jennifer recently moved to the area from Norfolk, VA, but it’s Chicago she called home where she taught for over
-        20 years at many schools, including her own studio, NorthSide Dance Theater. Most of her classical foundation is
-        from her training with Ballet Tennessee directors Anna and Barry Van-Cura in Cecchetti, Vaganova, and French
-        styles. Her Urban Contemporary Jazz formula stems from her later training with Joel Hall Dancers where she was a
-        company member, teacher, rehearsal assistant, and ballet mistress. Similar opportunities with Ballet Theater
-        North and Ballet Entre Nous brought out Jennifer’s passion for shaping her own company and productions and in
-        2002 created her own not-for-profit company, Alliance Dance Company. Over the 13 years they were active,
-        Alliance grew into producing a 3 show season with their own festival creating over 100 choreographed pieces,
-        including 18 productions and 15 full length story works! Jennifer is a huge believer in age appropriate/level
-        appropriate and enjoys teaching with a positive and constructive philosophy.
-      </p>
-      <hr />
-    </Instructor>
-    <Instructor>
-      <p>
         <AnnaImage />
-        <span className="bold instructor">Anna Finan | Billing &amp; Administration, Instructor</span>
+        <span className="bold instructor">Anna Finan | School Coordinator, Instructor</span>
         Anna began her ballet training at the National Ballet School in Bytom, Poland. She studied the Vaganova
         technique with Elisabeth Lebik, former principal dancer of the Silesian State Opera. At the age of 14, she
         participated in the acclaimed international ballet competition, the Prix de Lausanne in Switzerland, where she
@@ -150,6 +135,42 @@ const Faculty = () => (
         National Training Curriculum in Pre-Primary though Level 3 with Franco De Vita and Raymond Lukens. She loves
         teaching dance and passing on her lifelong ballet experience.
       </p>
+    </Instructor>
+    <hr />
+    <Instructor>
+      <p>
+        <KellyImage />
+        <span className="bold instructor">Kelly Langan | School Administrator</span>
+        Kelly is a native of Columbia, Maryland, and received her Bachelor&#39;s Degree from Towson University in
+        Communication Studies. Kelly began her career as Sales and Marketing Director for a premier Adult Day Care
+        Center in Annapolis, Maryland. After marrying her husband of over 25 years, the couple along with their two
+        daughters moved to England. While there, Kelly enjoyed travel, volunteer work, and many adventures with her
+        family living abroad. Upon returning from England, Kelly was thrilled to settle in Crozet. Before joining the
+        ABT team, Kelly was employed with the Jefferson Area Board for Aging (JABA) for almost ten years and wore many
+        hats including outreach, sales and marketing, volunteer recruitment and most recently as Activities Coordinator
+        for JABA&#39;s Adult Care Center. Kelly has been an avid volunteer advocate throughout her life. She enjoys the
+        arts and has performed with local theaters, and most recently was a member of the Crozet Chorus. One of her
+        favorite volunteer roles was serving as dance and music leader for her parish&#39;s Vacation Bible School.
+      </p>
+      <hr />
+    </Instructor>
+    <hr />
+    <Instructor>
+      <p>
+        <JenniferImage />
+        <span className="bold instructor">Jennifer Gage | Head of Communications</span>
+        Jennifer recently moved to the area from Norfolk, VA, but it’s Chicago she called home where she taught for over
+        20 years at many schools, including her own studio, NorthSide Dance Theater. Most of her classical foundation is
+        from her training with Ballet Tennessee directors Anna and Barry Van-Cura in Cecchetti, Vaganova, and French
+        styles. Her Urban Contemporary Jazz formula stems from her later training with Joel Hall Dancers where she was a
+        company member, teacher, rehearsal assistant, and ballet mistress. Similar opportunities with Ballet Theater
+        North and Ballet Entre Nous brought out Jennifer&#39;s passion for shaping her own company and productions and
+        in 2002 created her own not-for-profit company, Alliance Dance Company. Over the 13 years they were active,
+        Alliance grew into producing a 3 show season with their own festival creating over 100 choreographed pieces,
+        including 18 productions and 15 full length story works! Jennifer is a huge believer in age appropriate/level
+        appropriate and enjoys teaching with a positive and constructive philosophy.
+      </p>
+      <hr />
     </Instructor>
     <hr />
 

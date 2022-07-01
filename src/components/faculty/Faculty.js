@@ -14,7 +14,6 @@ import JenniferImg from '../../images/faculty/jennifer.jpg'
 import AnnaImg from '../../images/faculty/anna.jpg'
 // import GeriImg from '../../images/faculty/geri.jpg'
 import PageImg from '../../images/faculty/page.jpg'
-import KellyImg from '../../images/faculty/kelly.jpg'
 import './Faculty.css'
 
 /* eslint-disable max-len */
@@ -32,7 +31,6 @@ const RoderickImage = () => <img src={RoderickImg} alt="Roderick Davis" title="R
 const AnnaImage = () => <img src={AnnaImg} alt="Anna Finan" title="Anna Finan" />
 // const GeriImage = () => <img src={GeriImg} alt="Geri Carlson Sauls" title="Geri Carlson Sauls" />
 const PageImage = () => <img src={PageImg} alt="Paige Werman" title="Paige Werman" />
-const KellyImage = () => <img src={KellyImg} alt="Kelly Langan" title="Kelly Langan" />
 
 const Instructor = styled.div`
   img {
@@ -135,24 +133,6 @@ const Faculty = () => (
         National Training Curriculum in Pre-Primary though Level 3 with Franco De Vita and Raymond Lukens. She loves
         teaching dance and passing on her lifelong ballet experience.
       </p>
-    </Instructor>
-    <hr />
-    <Instructor>
-      <p>
-        <KellyImage />
-        <span className="bold instructor">Kelly Langan | School Administrator</span>
-        Kelly is a native of Columbia, Maryland, and received her Bachelor&#39;s Degree from Towson University in
-        Communication Studies. Kelly began her career as Sales and Marketing Director for a premier Adult Day Care
-        Center in Annapolis, Maryland. After marrying her husband of over 25 years, the couple along with their two
-        daughters moved to England. While there, Kelly enjoyed travel, volunteer work, and many adventures with her
-        family living abroad. Upon returning from England, Kelly was thrilled to settle in Crozet. Before joining the
-        ABT team, Kelly was employed with the Jefferson Area Board for Aging (JABA) for almost ten years and wore many
-        hats including outreach, sales and marketing, volunteer recruitment and most recently as Activities Coordinator
-        for JABA&#39;s Adult Care Center. Kelly has been an avid volunteer advocate throughout her life. She enjoys the
-        arts and has performed with local theaters, and most recently was a member of the Crozet Chorus. One of her
-        favorite volunteer roles was serving as dance and music leader for her parish&#39;s Vacation Bible School.
-      </p>
-      <hr />
     </Instructor>
     <hr />
     <Instructor>

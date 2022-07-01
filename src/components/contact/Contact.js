@@ -78,13 +78,6 @@ const Contact = () => (
             Anna@abtdance.org
           </a>
         </StaffContact>
-        <StaffContact>
-          <span>Kelly Langan | School Administrator</span>
-          <br />
-          <a href="mailto:Kelly@abtdance.org" target="_top">
-            Kelly@abtdance.org
-          </a>
-        </StaffContact>
         <hr />
       </StaffContactContainer>
 

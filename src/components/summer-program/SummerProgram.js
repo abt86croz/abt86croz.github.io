@@ -64,14 +64,14 @@ export default class SummerProgram extends Component {
               Craft supplies and snacks are included.
             </p>
             <CampTitle className="sub-title">Beginner Dance | Ages 5+ | $315</CampTitle>
-            <p className="date">July 25 - 29 | Monday - Friday | 9am - 2pm</p>
+            <p className="date">July 11 - 15 | July 25 - 29 | Monday - Friday | 9am - 2pm</p>
             <p>Ballet, Jazz, Theatre, Choreography, Capoeira, Creative Movement, Sewing, and Make-up</p>
-            <CampTitle className="sub-title">Intermediate Dance | By Placement Only | $315</CampTitle>
+            {/* <CampTitle className="sub-title">Intermediate Dance | By Placement Only | $315</CampTitle>
             <p className="date">July 11 - July 15 | Monday - Friday | 9am - 2pm</p>
             <p>
               Ballet, Jazz, Modern, Theatre, Variations, Pre-Pointe, Hip Hip, Tap, Capoeira, Sewing, Make-up, Dance
               History, and Conditioning
-            </p>
+            </p> */}
 
             <CampTitle className="sub-title">Advanced Dance | By Placement Only | $355</CampTitle>
             <p className="date">June 20 - June 24 | Monday - Friday | 9am - 3pm</p>

@@ -10,9 +10,9 @@ import MeganImg from '../../images/faculty/megan.jpg'
 import EdwinImg from '../../images/faculty/edwin.jpg'
 import RoderickImg from '../../images/faculty/roderick.jpg'
 import LeanneImg from '../../images/faculty/leanne.jpg'
-import JenniferImg from '../../images/faculty/jennifer.jpg'
+import KaylaImg from '../../images/faculty/kayla.jpg'
 import AnnaImg from '../../images/faculty/anna.jpg'
-// import GeriImg from '../../images/faculty/geri.jpg'
+import EmilyImg from '../../images/faculty/emily.jpg'
 import PageImg from '../../images/faculty/page.jpg'
 import './Faculty.css'
 
@@ -23,13 +23,13 @@ const AshleyImage = () => <img src={AshleyImg} alt="Ashley Geisler" title="Ashle
 const NickyImage = () => <img src={NickyImg} alt="Nicky Coelho" title="Nicky Coelho" />
 const AmandaImage = () => <img src={AmandaImg} alt="Amanda Jo Parks" title="Amanda Jo Parks" />
 const LeanneImage = () => <img src={LeanneImg} alt="Leanne Higgins" title="Leanne Higgins" />
-const JenniferImage = () => <img src={JenniferImg} alt="Jennifer Gage" title="Jennifer Gage" />
+const KaylaImage = () => <img src={KaylaImg} alt="Kayla Chonoles" title="Kayla Chonoles" />
 const SarahImage = () => <img src={SarahImg} alt="Sarah Gillespie" title="Sarah Gillespie" />
 const MeganImage = () => <img src={MeganImg} alt="Megan Hillary" title="Megan Hillary" />
 const EdwinImage = () => <img src={EdwinImg} alt="Edwin Roa" title="Edwin Roa" />
 const RoderickImage = () => <img src={RoderickImg} alt="Roderick Davis" title="Roderick Davis" />
 const AnnaImage = () => <img src={AnnaImg} alt="Anna Finan" title="Anna Finan" />
-// const GeriImage = () => <img src={GeriImg} alt="Geri Carlson Sauls" title="Geri Carlson Sauls" />
+const EmilyImage = () => <img src={EmilyImg} alt="Emily Oleson" title="Emily Oleson" />
 const PageImage = () => <img src={PageImg} alt="Paige Werman" title="Paige Werman" />
 
 const Instructor = styled.div`
@@ -130,27 +130,24 @@ const Faculty = () => (
         Yet, her love for movement never halted. She travelled to Thailand to became a certified Vinyasa Yoga instructor
         and, after moving to Charlottesville, VA with her husband and two boys in April 2016, she become NASM-certified
         personal trainer, Progressing Ballet Technique certified teacher and studied the American Ballet Theater
-        National Training Curriculum in Pre-Primary though Level 3 with Franco De Vita and Raymond Lukens. She loves
+        National Training Curriculum in Pre-Primary though Level 7 with Franco De Vita and Raymond Lukens. She loves
         teaching dance and passing on her lifelong ballet experience.
       </p>
     </Instructor>
     <hr />
     <Instructor>
       <p>
-        <JenniferImage />
-        <span className="bold instructor">Jennifer Gage | Head of Communications</span>
-        Jennifer recently moved to the area from Norfolk, VA, but it’s Chicago she called home where she taught for over
-        20 years at many schools, including her own studio, NorthSide Dance Theater. Most of her classical foundation is
-        from her training with Ballet Tennessee directors Anna and Barry Van-Cura in Cecchetti, Vaganova, and French
-        styles. Her Urban Contemporary Jazz formula stems from her later training with Joel Hall Dancers where she was a
-        company member, teacher, rehearsal assistant, and ballet mistress. Similar opportunities with Ballet Theater
-        North and Ballet Entre Nous brought out Jennifer&#39;s passion for shaping her own company and productions and
-        in 2002 created her own not-for-profit company, Alliance Dance Company. Over the 13 years they were active,
-        Alliance grew into producing a 3 show season with their own festival creating over 100 choreographed pieces,
-        including 18 productions and 15 full length story works! Jennifer is a huge believer in age appropriate/level
-        appropriate and enjoys teaching with a positive and constructive philosophy.
+        <KaylaImage />
+        <span className="bold instructor">Kayla Chonoles | Instructor</span>
+        Kayla has been dancing since she was 3 years old. Her first love is ballet, but through training at The Dance
+        Barn and at Charlottesville Ballet Academy, Kayla fell in love with jazz, modern, tap, and musical theater.
+        Kayla has had the privilege of attending several workshops led by working Broadway dance captains in addition to
+        vocal and acting workshops in Virginia and New York City. Kayla is new to the Waynesboro-Crozet area and has
+        enjoyed becoming more involved in the community theater in the area over the summer. Currently, Kayla teaches
+        10th and 12th grade English at Waynesboro High School, where she choreographed the musical Anastasia, and plans
+        on choreographing future productions. When she&#39;s not teaching, dancing, or singing, Kayla loves to read,
+        knit, and play guitar.
       </p>
-      <hr />
     </Instructor>
     <hr />
 
@@ -190,6 +187,22 @@ const Faculty = () => (
         UVA&#39;s Institute for the Humanities and Global Culture. Having just completed a residency at McGuffey Art
         Center, she’s newly installed in a residency at the Bronze Foundry through Sept 2022. During the day, Megan runs
         downtown’s dance retail store, My Dance Shoppe.
+      </p>
+      <hr />
+    </Instructor>
+    <Instructor>
+      <p>
+        <EmilyImage />
+        <span className="bold instructor">Emily Oleson | Instructor</span>Emily is a dance scholar who has studied a
+        broad range of movement styles, from traditional Appalachian flatfooting, tap, and other percussive dances, to
+        forms of Irish dance, partner dance, contemporary urban dances, and vernacular jazz. Emily’s performance
+        highlights include appearing with the Carolina Chocolate Drops, the Aulney-All-Blues festival in France,
+        Wheatland Music Festival, the Newport Folk Festival with Seeger’s Clogging All-Stars, Jacob’s Pillow’s
+        Inside/Out Stage, and a US State Department tour in Russia with The Meaning of Buck Dance, a collaboration with
+        Good Foot, Urban Artistry and Baakari Wilder. She received her MFA in Dance at the University of Maryland
+        College Park in May 2012 and a certification in Laban-Bartenieff Movement Analysis in 2015 from the
+        Laban-Bartenieff Institute of Movement Studies. She is currently pursuing a doctorate in Dance at Temple
+        University. Photo credit K. Opare.
       </p>
       <hr />
     </Instructor>

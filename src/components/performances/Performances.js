@@ -32,14 +32,14 @@ const Show = styled.div`
   }
 `
 
-// const Location = styled.div`
-//   padding-bottom: 20px;
-//   p {
-//     font-size: 18px;
-//     padding: 0;
-//     margin: 0;
-//   }
-// `
+const Location = styled.div`
+  padding-bottom: 20px;
+  p {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+  }
+`
 const Performances = () => (
   <div className="performances-container">
     <div className="bg-image description-img" />
@@ -50,16 +50,13 @@ const Performances = () => (
           Presented by Studio For The Performing Arts with the students of Albemarle Ballet Theatre
         </p>
       </Description>
-
       <hr />
       {/* COMING SOON */}
-      <Description>
+      {/* <Description>
         <Show>
-          {' '}
           <p className="sub-title bold">2022-2023 performance dates coming soon…</p>
         </Show>
-      </Description>
-
+      </Description> */}
       {/* Coming Back in some point
       <Description>
         <Show>
@@ -78,6 +75,7 @@ const Performances = () => (
         <hr />
       </Description>
 
+
       <Description>
         <Show>
           <p className="bold underline">The Nutcracker </p>
@@ -94,17 +92,19 @@ const Performances = () => (
         <hr />
       </Description>
 
+    */}
       <Description>
         <Show>
-          <p className="bold underline">‘Step Into The Story’ Nutcracker Series</p>
+          <p className="bold underline">December 3 &amp; 4 ‘Step Into The Story’ Nutcracker</p>
           <Location>
-            <img src={StoryImg} alt="Step Into The Story Performances" />
+            <p>The Whitebox Theatre at ABT</p>
+            <p>Times TBA</p>
+            {/* <img src={StoryImg} alt="Step Into The Story Performances" /> */}
           </Location>
-          <PayPalNutCracker />
+          {/* <PayPalNutCracker /> */}
         </Show>
         <hr />
       </Description>
-*/}
 
       {/* <Description>
         <Show>
@@ -115,7 +115,6 @@ const Performances = () => (
         </Show>
         <hr />
       </Description> */}
-
       {/* <Description>
         <Show>
           <p className="italic red">
@@ -150,44 +149,32 @@ const Performances = () => (
       {/* <Location />
         </Show> */}
       {/* </Description> */}
-
       <Description>
-        {/* <Show>
-          <p className="bold underline" style={{ color: 'red' }}>
-            ** Spring Gala Has been Canceled **
-          </p>
+        <Show>
+          <p className="bold underline">December 8: The Nutcracker </p>
           <Location>
-            <p>Saturday, May 9, 2020 | 2:00pm &amp; 6:00pm</p>
-            <p>The Dickinson Theatre at Piedmont Community College, Charlottesville, VA </p>
+            <p>Waynesboro Highschool Theatre Waynesboro, VA</p>
+            <p>2:00 and 6:00pm</p>
           </Location>
-          <Location>
+          {/* <Location>
             <a href="https://v6.click4tix.com/event-details.php?e=431204" target="_blank" rel="noopener noreferrer">
               <img src={StepIntoStoryIMG} alt="The Nutcracker Performances" />
             </a>
+          </Location> */}
+        </Show>
+        <hr />
+      </Description>
+      <Description>
+        <Show>
+          <p className="bold underline">May 12 &amp; 13: Spring Gala </p>
+          <Location>
+            <p>The Dickinson Theatre at Piedmont Community College Charlottesville, VA</p>
+            <p>Times TBA</p>
           </Location>
         </Show>
-        <hr /> */}
-      </Description>
-
-      <Description>
-        {/* <Show>
-          <p className="bold underline">Spring Gala Community Outreach Performances</p>
-          <Location>
-            <p>Monday, April 27, 2020 | 5:00pm </p>
-            <p>Crozet Library, Crozet, VA </p>
-            <p>Ballet IV - Advanced levels invited to perform </p>
-          </Location>
-
-          <Location>
-            <p>Monday, April 29, 2020 | 4:00pm </p>
-            <p>The Lodge at Old Trail, Crozet, VA </p>
-            <p>Ballet IV - Advanced levels invited to perform </p>
-          </Location>
-        </Show> */}
-        {/* <hr /> */}
+        <hr />
       </Description>
       <br />
-
       <Description primary>
         <p>
           Our dance studio is conveniently located in Crozet, near Western Albemarle High School, Henley, Brownsville,

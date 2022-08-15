@@ -196,7 +196,7 @@ const Description = () => (
       </DescriptionClass>
 
       <DescriptionClass>
-        <p className="sub-title bold">INTRO TO HIP HOP | Ages 7-9 &amp; 10+</p>
+        <p className="sub-title bold">HIP HOP I | Ages 7-9 &amp; 10+</p>
         <p>
           Hip hop is a high-energy class that infuses the latest styles of street dance and dance trends. Each week,
           David will create fun and challenging dances that can range from traditional hip hop foundations, tour style
@@ -207,12 +207,20 @@ const Description = () => (
       </DescriptionClass>
 
       <DescriptionClass>
-        <p className="sub-title bold">INTRO TO TAP | Ages 7-11 &amp; 12+</p>
+        <p className="sub-title bold">TAP I | Ages 7-11 &amp; 12+</p>
         <p>
-          This class will focus on teaching the fundamentals of tap as well as musicality - learning how to count,
-          hearing different rhythms and time signatures, etc., Each class will end with improvisation, as that is the
-          best way to explore rhythms. We will also be taking the time to teach tap history - it is a very important
-          part of understanding where and why tap dance exists today.
+          This class will focus on teaching the fundamentals of tap as well as musicality and improvisation. We will
+          also be taking the time to teach tap history as a social dance of African American origin and its
+          ever-changing performance aspects.
+        </p>
+        <hr />
+      </DescriptionClass>
+      <DescriptionClass>
+        <p className="sub-title bold">TAP II/III | Ages 7-11 &amp; 12+</p>
+        <p>
+          This class will build on the fundamentals of tap to learn more classic repertoire and embrace more rigorous
+          improvisation. We will dive deeper into tap history as a social dance of African American origin and its
+          contemporary performance aspects.
         </p>
         <hr />
       </DescriptionClass>

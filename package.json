@@ -16,9 +16,9 @@
   "dependencies": {
     "postscribe": "2.0.8",
     "prop-types": "15.6.0",
-    "react": "16.0.0",
+    "react": "16.13.1",
     "react-bootstrap": "0.32.1",
-    "react-dom": "16.0.1",
+    "react-dom": "16.13.1",
     "react-grid-gallery": "0.4.8",
     "react-icons": "2.2.7",
     "react-router": "4.2.0",

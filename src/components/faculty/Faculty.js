@@ -98,7 +98,7 @@ const Faculty = () => (
     <Instructor>
       <p>
         <NickyImage />
-        <span className="bold instructor">Nicky Coelho | Executive Director, Production Manager</span>
+        <span className="bold instructor">Nicky Coelho | Executive Director</span>
         Mrs. Coelho began training with her mother Sally Hart and has also studied with Virginia School of the Arts,
         Maryland Youth Ballet, and on scholarship at the Joffrey Ballet School. Nicky has danced with Charleston Ballet
         Theater, Robert Ivey Ballet, Mikerline Haitian Folkloric Dance Company, Dance Co, and James Sewell Ballet where
@@ -137,6 +137,29 @@ const Faculty = () => (
     <hr />
     <Instructor>
       <p>
+        <MeganImage />
+        <span className="bold instructor">Megan Hillary | Production Manager, Instructor</span>Megan is a visual artist
+        and theater director &amp; designer currently specializing in site- specific installations. A once-upon-a-dancer
+        and violinist, Megan continued both while earning her degrees in the studio arts and technical theater design.
+        Traveling for the sake of these varied pursuits, positions ranged from a stint in Manhattan as technical
+        director for Altered Stages to being the resident lighting designer for the East Hawaii Cultural Center, from
+        working as a guest director within university theater departments to being a board member of the
+        Ohio/Pennsylvania chapter of USITT. With installations up and down the east coast of the mainland, Megan now
+        makes her home in Charlottesville as one of Live Arts&#39; directors and designers, a designer for 4CP, a
+        teacher of dance, choreography, and acting at local ballet studios and for area schools&#39; mainstage
+        productions, occasionally appearing for puppetry workshops for organizations like the Boys &amp; Girls Club and
+        the Governor&#39;s School for Performing Arts. Planting interactive installations in local entities including
+        McGuffey Art Center, The Bridge, FLOW, and the IX, Megan most recently presented in the group show
+        &quot;Pandemonium: Postcards From The Edge&quot; through Chroma Art Lab and is currently developing an immersive
+        piece with Kelli Shermeyer through a grant with the Lab in Performance Cultures &amp; Embodied Creative
+        Practices, a working group funded by UVA&#39;s Institute for the Humanities and Global Culture. Having just
+        completed a residency at McGuffey Art Center, she’s newly installed in a residency at the Bronze Foundry through
+        Sept 2022. During the day, Megan runs downtown’s dance retail store, My Dance Shoppe.
+      </p>
+      <hr />
+    </Instructor>
+    <Instructor>
+      <p>
         <KaylaImage />
         <span className="bold instructor">Kayla Chonoles | Instructor</span>
         Kayla has been dancing since she was 3 years old. Her first love is ballet, but through training at The Dance
@@ -167,29 +190,7 @@ const Faculty = () => (
       </p>
       <hr />
     </Instructor> */}
-    <Instructor>
-      <p>
-        <MeganImage />
-        <span className="bold instructor">Megan Hillary | Instructor</span>Megan is a visual artist and theater director
-        &amp; designer currently specializing in site- specific installations. A once-upon-a-dancer and violinist, Megan
-        continued both while earning her degrees in the studio arts and technical theater design.  Traveling for the
-        sake of these varied pursuits, positions ranged from a stint in Manhattan as technical director for Altered
-        Stages to being the resident lighting designer for the East Hawaii Cultural Center, from working as a guest
-        director within university theater departments to being a board member of the Ohio/Pennsylvania chapter of
-        USITT. With installations up and down the east coast of the mainland, Megan now makes her home in
-        Charlottesville as one of Live Arts&#39; directors and designers, a designer for 4CP, a teacher of dance,
-        choreography, and acting at local ballet studios and for area schools&#39; mainstage productions, occasionally
-        appearing for puppetry workshops for organizations like the Boys &amp; Girls Club and the Governor&#39;s School
-        for Performing Arts. Planting interactive installations in local entities including McGuffey Art Center, The
-        Bridge, FLOW, and the IX, Megan most recently presented in the group show &quot;Pandemonium: Postcards From The
-        Edge&quot; through Chroma Art Lab and is currently developing an immersive piece with Kelli Shermeyer through a
-        grant with the Lab in Performance Cultures &amp; Embodied Creative Practices, a working group funded by
-        UVA&#39;s Institute for the Humanities and Global Culture. Having just completed a residency at McGuffey Art
-        Center, she’s newly installed in a residency at the Bronze Foundry through Sept 2022. During the day, Megan runs
-        downtown’s dance retail store, My Dance Shoppe.
-      </p>
-      <hr />
-    </Instructor>
+
     <Instructor>
       <p>
         <EmilyImage />

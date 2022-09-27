@@ -98,7 +98,8 @@ const Performances = () => (
           <p className="bold underline">December 3 &amp; 4 ‘Step Into The Story’ Nutcracker</p>
           <Location>
             <p>The Whitebox Theatre at ABT</p>
-            <p>Times TBA</p>
+            <p>Saturday: 3:00pm and 5:00pm</p>
+            <p>Sunday: 2:00pm and 4:00pm</p>
             {/* <img src={StoryImg} alt="Step Into The Story Performances" /> */}
           </Location>
           {/* <PayPalNutCracker /> */}

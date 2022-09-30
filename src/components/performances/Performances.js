@@ -152,7 +152,7 @@ const Performances = () => (
       {/* </Description> */}
       <Description>
         <Show>
-          <p className="bold underline">December 8: The Nutcracker </p>
+          <p className="bold underline">December 10: The Nutcracker </p>
           <Location>
             <p>Waynesboro Highschool Theatre Waynesboro, VA</p>
             <p>2:00 and 6:00pm</p>

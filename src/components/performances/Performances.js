@@ -3,8 +3,8 @@ import React from 'react'
 import styled from 'styled-components'
 import Content from '../styles/Content'
 import Title from '../styles/Title'
-// import StoryImg from '../../images/site/step-into-story.png'
-// import NutImg from '../../images/site/nutcracker-ticket.png'
+import StoryImg from '../../images/site/stepinto.png'
+import NutImg from '../../images/site/nutcracker.png'
 // import StepIntoStoryIMG from '../../images/site/spring-gala.png'
 
 // import PayPalNutCracker from '../paypal/Paypal'
@@ -100,7 +100,11 @@ const Performances = () => (
             <p>The Whitebox Theatre at ABT</p>
             <p>Saturday: 3:00pm and 5:00pm</p>
             <p>Sunday: 2:00pm and 4:00pm</p>
-            {/* <img src={StoryImg} alt="Step Into The Story Performances" /> */}
+          </Location>
+          <Location>
+            <a href="https://click4tix.com/ABT-MiniNutcracker" target="_blank" rel="noopener noreferrer">
+              <img src={StoryImg} alt="Step Into The Story Performances" />
+            </a>
           </Location>
           {/* <PayPalNutCracker /> */}
         </Show>
@@ -157,11 +161,11 @@ const Performances = () => (
             <p>Waynesboro Highschool Theatre Waynesboro, VA</p>
             <p>2:00 and 6:00pm</p>
           </Location>
-          {/* <Location>
-            <a href="https://v6.click4tix.com/event-details.php?e=431204" target="_blank" rel="noopener noreferrer">
-              <img src={StepIntoStoryIMG} alt="The Nutcracker Performances" />
+          <Location>
+            <a href="https://click4tix.com/ABT-Nutcracker" target="_blank" rel="noopener noreferrer">
+              <img src={NutImg} alt="The Nutcracker Performances" />
             </a>
-          </Location> */}
+          </Location>
         </Show>
         <hr />
       </Description>

@@ -103,7 +103,7 @@ const Performances = () => (
           </Location>
           <Location>
             <a href="https://click4tix.com/ABT-MiniNutcracker" target="_blank" rel="noopener noreferrer">
-              <img src={StoryImg} alt="Step Into The Story Performances" />
+              <img className="ticket-sale-image" src={StoryImg} alt="Step Into The Story Performances" />
             </a>
           </Location>
           {/* <PayPalNutCracker /> */}
@@ -163,7 +163,7 @@ const Performances = () => (
           </Location>
           <Location>
             <a href="https://click4tix.com/ABT-Nutcracker" target="_blank" rel="noopener noreferrer">
-              <img src={NutImg} alt="The Nutcracker Performances" />
+              <img className="ticket-sale-image" src={NutImg} alt="The Nutcracker Performances" />
             </a>
           </Location>
         </Show>

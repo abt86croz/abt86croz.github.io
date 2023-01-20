@@ -14,6 +14,7 @@ import KaylaImg from '../../images/faculty/kayla.jpg'
 import AnnaImg from '../../images/faculty/anna.jpg'
 import EmilyImg from '../../images/faculty/emily.jpg'
 import PageImg from '../../images/faculty/page.jpg'
+import AlexImg from '../../images/faculty/alex.jpg'
 import './Faculty.css'
 
 /* eslint-disable max-len */
@@ -31,6 +32,7 @@ const RoderickImage = () => <img src={RoderickImg} alt="Roderick Davis" title="R
 const AnnaImage = () => <img src={AnnaImg} alt="Anna Finan" title="Anna Finan" />
 const EmilyImage = () => <img src={EmilyImg} alt="Emily Oleson" title="Emily Oleson" />
 const PageImage = () => <img src={PageImg} alt="Paige Werman" title="Paige Werman" />
+const AlexImage = () => <img src={AlexImg} alt="Alex Salesin" title="Alex Salesin" />
 
 const Instructor = styled.div`
   img {
@@ -57,12 +59,14 @@ const Faculty = () => (
         opening of the Kennedy Center, with Kevin McKenzie, and in Joffrey Ballet classics Petrouchka, Trinity, Viva
         Vivaldi, and The Seasons.
       </p>
+      <br />
       <p>
         After her dance career, Mrs. Hart went on to become a professional make-up artist and worked on movie sets,
         runway shows, and for modeling agencies. Mrs. Hart began teaching ballet locally in 1992. She has produced many
         local dance productions. Sally has trained and mentored numerous students who have become professional dancers.
         Her unique curriculum includes a blend of English, Italian, and Russian technique.
       </p>
+      <br />
       <p>
         <span className="italic small quote">
           “If you are looking for a dance instructor for your fledgling child or aspiring professional, Mrs. Sally Hart
@@ -79,18 +83,20 @@ const Faculty = () => (
         She formerly danced with the Charleston Ballet Theatre, San Diego Ballet, The Garage Contemporary Ballet,
         Charlottesville Ballet, and Keith Lee Dances.
       </p>
+      <br />
       <p>
         Veronica began her training with her mother, Sally Hart. She continued her dance education at the Virginia
         School of the Arts and the Joffrey Ballet School and was blessed to have been the recipient of many
         scholarships.
       </p>
+      <br />
       <p>
         Veronica has performed leading roles in{' '}
         <span className="italic">Cinderella, Paquita, Les Corsaire, Les Sylphedes, and Swan Lake</span>, and
         choreographers have created roles for her. Additional memorable performances include{' '}
         <span className="italic">
           The King and I with Ash Lawn Opera, with the Duke Ellington Orchestra, Maria in West Side Story, and Keith
-          Lee’s Mama Rose.
+          Lee&#39;s Mama Rose.
         </span>
       </p>
       <hr />
@@ -98,13 +104,14 @@ const Faculty = () => (
     <Instructor>
       <p>
         <NickyImage />
-        <span className="bold instructor">Nicky Coelho | Executive Director</span>
+        <span className="bold instructor"> Nicky Coelho | Executive Director, Production Manager, Instructor</span>
         Mrs. Coelho began training with her mother Sally Hart and has also studied with Virginia School of the Arts,
         Maryland Youth Ballet, and on scholarship at the Joffrey Ballet School. Nicky has danced with Charleston Ballet
         Theater, Robert Ivey Ballet, Mikerline Haitian Folkloric Dance Company, Dance Co, and James Sewell Ballet where
         she was also the Company Manager for two years. She recently appeared as a dancer in the film Only Dance Can
         Save Us which was featured in the Twin Cities Film Fest.
       </p>
+      <br />
       <p>
         Mrs. Coelho has taught at various ballet schools throughout the Twin Cities and was on faculty at the Reif
         Center Summer Intensive in Grand Rapids, MN for five years and directed the Intensive in Minneapolis in 2015.
@@ -120,13 +127,13 @@ const Faculty = () => (
         Anna began her ballet training at the National Ballet School in Bytom, Poland. She studied the Vaganova
         technique with Elisabeth Lebik, former principal dancer of the Silesian State Opera. At the age of 14, she
         participated in the acclaimed international ballet competition, the Prix de Lausanne in Switzerland, where she
-        reached the half- final and was offered full scholarship to study at the Hamburg Ballet School in Germany. There
+        reached the half- final and was offered full scholarship to study at the Hamburg Ballet School in Germany. There
         she fine-tuned her technique and artistry with Marianne Kruse, Kevin Haigen and Ingrid Glindemann. After
         graduating from the school, she joined the Hamburg Ballet company directed by the renowned American
         choreographer John Neumeier. There she performed group and soloist roles in his various classical and modern
-        ballets such as The Nutcracker, Swan Lake, A Midsummer Night’s Dream, and The Little Mermaid as well as works
+        ballets such as The Nutcracker, Swan Lake, A Midsummer Night&#39;s Dream, and The Little Mermaid as well as works
         from other choreographers like La Bayadere staged by N. Makarova and Jewels by G. Balanchine. Upon retiring from
-        the stage, she pursued a second career, becoming a risk manager at Germany’s largest bank, Deutsche Bank AG.
+        the stage, she pursued a second career, becoming a risk manager at Germany&#39;s largest bank, Deutsche Bank AG.
         Yet, her love for movement never halted. She travelled to Thailand to became a certified Vinyasa Yoga instructor
         and, after moving to Charlottesville, VA with her husband and two boys in April 2016, she become NASM-certified
         personal trainer, Progressing Ballet Technique certified teacher and studied the American Ballet Theater
@@ -138,41 +145,26 @@ const Faculty = () => (
     <Instructor>
       <p>
         <MeganImage />
-        <span className="bold instructor">Megan Hillary | Production Manager, Instructor</span>Megan is a visual artist
-        and theater director &amp; designer currently specializing in site- specific installations. A once-upon-a-dancer
-        and violinist, Megan continued both while earning her degrees in the studio arts and technical theater design.
-        Traveling for the sake of these varied pursuits, positions ranged from a stint in Manhattan as technical
-        director for Altered Stages to being the resident lighting designer for the East Hawaii Cultural Center, from
-        working as a guest director within university theater departments to being a board member of the
-        Ohio/Pennsylvania chapter of USITT. With installations up and down the east coast of the mainland, Megan now
-        makes her home in Charlottesville as one of Live Arts&#39; directors and designers, a designer for 4CP, a
-        teacher of dance, choreography, and acting at local ballet studios and for area schools&#39; mainstage
-        productions, occasionally appearing for puppetry workshops for organizations like the Boys &amp; Girls Club and
-        the Governor&#39;s School for Performing Arts. Planting interactive installations in local entities including
-        McGuffey Art Center, The Bridge, FLOW, and the IX, Megan most recently presented in the group show
-        &quot;Pandemonium: Postcards From The Edge&quot; through Chroma Art Lab and is currently developing an immersive
-        piece with Kelli Shermeyer through a grant with the Lab in Performance Cultures &amp; Embodied Creative
-        Practices, a working group funded by UVA&#39;s Institute for the Humanities and Global Culture. Having just
-        completed a residency at McGuffey Art Center, she’s newly installed in a residency at the Bronze Foundry through
-        Sept 2022. During the day, Megan runs downtown’s dance retail store, My Dance Shoppe.
+        <span className="bold instructor">Megan Hillary | Instructor</span>Megan is a visual artist and theater director
+        &amp; designer currently specializing in site- specific installations. A once-upon-a-dancer and violinist, Megan
+        continued both while earning her degrees in the studio arts and technical theater design. Traveling for the sake
+        of these varied pursuits, positions ranged from a stint in Manhattan as technical director for Altered Stages to
+        being the resident lighting designer for the East Hawaii Cultural Center, from working as a guest director
+        within university theater departments to being a board member of the Ohio/Pennsylvania chapter of USITT. With
+        installations up and down the east coast of the mainland, Megan now makes her home in Charlottesville as one of
+        Live Arts&#39; directors and designers, a designer for 4CP, a teacher of dance, choreography, and acting at
+        local ballet studios and for area schools&#39; mainstage productions, occasionally appearing for puppetry
+        workshops for organizations like the Boys &amp; Girls Club and the Governor&#39;s School for Performing Arts.
+        Planting interactive installations in local entities including McGuffey Art Center, The Bridge, FLOW, and the
+        IX, Megan most recently presented in the group show &quot;Pandemonium: Postcards From The Edge&quot; through
+        Chroma Art Lab and is currently developing an immersive piece with Kelli Shermeyer through a grant with the Lab
+        in Performance Cultures &amp; Embodied Creative Practices, a working group funded by UVA&#39;s Institute for the
+        Humanities and Global Culture. Having just completed a residency at McGuffey Art Center, she’s newly installed
+        in a residency at the Bronze Foundry through Sept 2022. During the day, Megan runs downtown’s dance retail
+        store, My Dance Shoppe.
       </p>
       <hr />
     </Instructor>
-    <Instructor>
-      <p>
-        <KaylaImage />
-        <span className="bold instructor">Kayla Chonoles | Instructor</span>
-        Kayla has been dancing since she was 3 years old. Her first love is ballet, but through training at The Dance
-        Barn and at Charlottesville Ballet Academy, Kayla fell in love with jazz, modern, tap, and musical theater.
-        Kayla has had the privilege of attending several workshops led by working Broadway dance captains in addition to
-        vocal and acting workshops in Virginia and New York City. Kayla is new to the Waynesboro-Crozet area and has
-        enjoyed becoming more involved in the community theater in the area over the summer. Currently, Kayla teaches
-        10th and 12th grade English at Waynesboro High School, where she choreographed the musical Anastasia, and plans
-        on choreographing future productions. When she&#39;s not teaching, dancing, or singing, Kayla loves to read,
-        knit, and play guitar.
-      </p>
-    </Instructor>
-    <hr />
 
     {/* <Instructor>
       <p>
@@ -196,14 +188,32 @@ const Faculty = () => (
         <EmilyImage />
         <span className="bold instructor">Emily Oleson | Instructor</span>Emily is a dance scholar who has studied a
         broad range of movement styles, from traditional Appalachian flatfooting, tap, and other percussive dances, to
-        forms of Irish dance, partner dance, contemporary urban dances, and vernacular jazz. Emily’s performance
-        highlights include appearing with the Carolina Chocolate Drops, the Aulney-All-Blues festival in France,
-        Wheatland Music Festival, the Newport Folk Festival with Seeger’s Clogging All-Stars, Jacob’s Pillow’s
-        Inside/Out Stage, and a US State Department tour in Russia with The Meaning of Buck Dance, a collaboration with
-        Good Foot, Urban Artistry and Baakari Wilder. She received her MFA in Dance at the University of Maryland
-        College Park in May 2012 and a certification in Laban-Bartenieff Movement Analysis in 2015 from the
+        forms of Irish dance, partner dance, contemporary urban dances, and vernacular jazz. Emily&#39;s performance
+        highlights include appearing with the Carolina Chocolate Drops, the Aulney-All-Blues festival in France,
+        Wheatland Music Festival, the Newport Folk Festival with Seeger&#39;s Clogging All-Stars, Jacob&#39;s
+        Pillow&#39;s Inside/Out Stage, and a US State Department tour in Russia with The Meaning of Buck Dance, a
+        collaboration with Good Foot, Urban Artistry and Baakari Wilder. She received her MFA in Dance at the University
+        of Maryland College Park in May 2012 and a certification in Laban-Bartenieff Movement Analysis in 2015 from the
         Laban-Bartenieff Institute of Movement Studies. She is currently pursuing a doctorate in Dance at Temple
         University. Photo credit K. Opare.
+      </p>
+      <hr />
+    </Instructor>
+    <Instructor>
+      <p>
+        <AlexImage />
+        <span className="bold instructor">Alex Salesin | Instructor</span>Alex is a Kindergarten teacher with Albemarle
+        County Public Schools. She has taught Kindergarten for four years and first grade for one year. She has worked
+        with children from infancy through high school ages in a variety of capacities, including as Program Director
+        for an oceanography-based summer academic program for high school students in Cape Cod.
+      </p>
+      <br />
+      <p>
+        She danced throughout her childhood with a focus on ballet and received her training at dance schools in upstate
+        New York. She moved to Virginia to study at UVA, where she received her Bachelor&#39;s in History and
+        Master&#39;s in Teaching. She loves to include movement, music, and art in her teaching, and looks forward to
+        sharing her love of ballet with ABT&#39;s students!Wh en she isn&#39;t teaching, Alex enjoys hiking, painting,
+        and spending time by the water, and she recently performed as Mrs. Stahlbaum in ABT&#39;s Nutcracker.
       </p>
       <hr />
     </Instructor>
@@ -230,6 +240,7 @@ const Faculty = () => (
         Mrs. Geisler studied with the Old Dominion Ballet Company in Norfolk, Virginia, under the husband and wife team
         of Istvan and Nelli Ament.She spent her summers training with Nina Sakhnovskaya of the Vaganova Academy.
       </p>
+      <br />
       <p>
         During her tenure at ODU Ballet, Ashley performed the roles of Marzipan, Chinese, and Russian in The Nutcracker,
         and the lead roles in performances of Snow White and The Fairy Doll. After completing her undergraduate and
@@ -250,6 +261,7 @@ const Faculty = () => (
         George Balanchine’s Rubies, Dwight Rhodens StrayLifeLushHorn, Ruthanna Boris’s Cakewalk, as well as in
         contemporary classics, such as Beauty and the Beast, Cleopatra, and countless Nutcrackers.
       </p>
+      <br />
       <p>
         Amanda went on to earn her undergraduate degree in journalism and then a PhD in political science from the
         Pennsylvania State University. She now enjoys teaching both ballet and political science but spends most of her
@@ -257,6 +269,22 @@ const Faculty = () => (
       </p>
       <hr />
     </Instructor>
+    <Instructor>
+      <p>
+        <KaylaImage />
+        <span className="bold instructor">Kayla Chonoles | Guest Instructor</span>
+        Kayla has been dancing since she was 3 years old. Her first love is ballet, but through training at The Dance
+        Barn and at Charlottesville Ballet Academy, Kayla fell in love with jazz, modern, tap, and musical theater.
+        Kayla has had the privilege of attending several workshops led by working Broadway dance captains in addition to
+        vocal and acting workshops in Virginia and New York City. Kayla is new to the Waynesboro-Crozet area and has
+        enjoyed becoming more involved in the community theater in the area over the summer. Currently, Kayla teaches
+        10th and 12th grade English at Waynesboro High School, where she choreographed the musical Anastasia, and plans
+        on choreographing future productions. When she&#39;s not teaching, dancing, or singing, Kayla loves to read,
+        knit, and play guitar.
+      </p>
+      <hr />
+    </Instructor>
+
     <Instructor>
       <p>
         <LeanneImage />

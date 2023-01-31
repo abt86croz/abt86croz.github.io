@@ -3,12 +3,13 @@ import styled from 'styled-components'
 import postscribe from 'postscribe'
 
 import PDFIcon from 'react-icons/lib/fa/file-pdf-o'
-import SummerClassSched from '../../pdf/Summer2022-Schedule.pdf'
+import SummerClassSched from '../../pdf/Summer2023-Schedule.pdf'
 import SummerHandout from '../../pdf/summer-handout.pdf'
 // import SummerCampSched from '../../pdf/2020-summer-camp-schedule.pdf'
 import SummerPoster from '../../images/site/summer/summer-2022.png'
 import './SummerProgram.css'
 import SummerProgramTable from './SummerProgramTable'
+import SummerButtons from './SummerButtons'
 
 const CampTitle = styled.p``
 
@@ -140,16 +141,7 @@ export default class SummerProgramContents extends Component {
             </div>
           </div>
           {/* Buttons */}
-
-          <div className="btn-wrap">
-            <a className="bt" href={SummerClassSched} target="_blank" rel="noopener noreferrer">
-              <PDFIcon /> SUMMER CLASS schedule
-            </a>
-
-            <a className="bt" href={SummerHandout} target="_blank" rel="noopener noreferrer">
-              <PDFIcon /> SUMMER HANDOUT
-            </a>
-          </div>
+          <SummerButtons />
         </div>
       </div>
     )

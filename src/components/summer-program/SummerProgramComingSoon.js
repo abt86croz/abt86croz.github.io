@@ -1,5 +1,6 @@
 import React from 'react'
 import SummerPoster from '../../images/site/summer/summer-2022.png'
+import SummerButtons from './SummerButtons'
 import './SummerProgram.css'
 
 /* eslint-disable max-len */
@@ -21,6 +22,7 @@ const SummerProgramContents = () => {
       </div>
 
       <div className="clear" />
+      <SummerButtons />
     </div>
   )
 }

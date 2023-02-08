@@ -212,6 +212,17 @@ const Performances = () => (
             performance.
           </Location>
           <Location>
+            We have a limited number of scholarships for All Access tickets! Please fill out the application form to
+            apply{' '}
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdZutpNwUJbjcCE6yDzXVfPBtAaJT9GiamuP5Sa2sUGDhRMjw/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              here
+            </a>
+          </Location>
+          <Location>
             <a href="http://click4tix.com/ABT-Gala" target="_blank" rel="noopener noreferrer">
               <img className="ticket-sale-image" src={StoryImg} alt="Annual Spring Gala: Once Upon a Time" />
             </a>

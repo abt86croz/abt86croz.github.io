@@ -8,13 +8,13 @@
 
 .summer-program-container .summer-poster {
   float: left;
-  width: 50vw;
+  width: 30vw;
   margin: 20px auto;
   text-align: center;
 }
 
 .summer-program-container .summer-poster img {
-  width: 700px;
+  width: 30vw;
 }
 
 /* Schedule */
@@ -85,7 +85,7 @@
 
 .summer-program-container .summer-content-wrap {
   display: block;
-  width: 50vw;
+  width: 70vw;
   float: right;
 }
 
@@ -132,6 +132,8 @@
 .summer-program-container .btn-wrap {
   margin-bottom: 60px;
 }
+
+
 
 /* MOBILE */
 

@@ -1,10 +1,10 @@
 import React from 'react'
-import SummerProgramComingSoon from './SummerProgramComingSoon'
+import SummerProgramContents from './SummerProgramContents'
 // import SummerProgramContents from './SummerProgramContents'
 
 /* eslint-disable max-len */
 const SummerProgram = () => {
-  return <SummerProgramComingSoon />
+  return <SummerProgramContents />
 }
 
 export default SummerProgram

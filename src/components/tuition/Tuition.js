@@ -1,10 +1,12 @@
-import React from 'react'
-import styled from 'styled-components'
+/* eslint-disable quotes */
+/* eslint-disable semi */
+import React from "react";
+import styled from "styled-components";
 /* eslint-disable no-unused-vars */
-import { tuitionDiscounts, fallTuitionDiscounts, numberOfWeeks } from './TuitionData'
-import Title from '../styles/Title'
-import Subtitle from '../styles/Subtitle'
-import Content from '../styles/Content'
+import { tuitionDiscounts, fallTuitionDiscounts, numberOfWeeks } from "./TuitionData";
+import Title from "../styles/Title";
+import Subtitle from "../styles/Subtitle";
+import Content from "../styles/Content";
 import {
   TuitionContainer,
   TuitionClass,
@@ -14,7 +16,7 @@ import {
   LeftRow,
   RightRow,
   CenterRow,
-} from './TuitionStyles'
+} from "./TuitionStyles";
 
 const TableContainerStyled = styled.div`
   display: grid;
@@ -22,11 +24,11 @@ const TableContainerStyled = styled.div`
   @media (max-width: 667px) {
     grid-template-columns: repeat(1, 1fr);
   }
-`
+`;
 
 const NumberOfStyled = styled.span`
   display: block;
-`
+`;
 
 const GenerateTuitionDiscountTable = () => {
   return fallTuitionDiscounts.map((o) => {
@@ -35,9 +37,9 @@ const GenerateTuitionDiscountTable = () => {
         <LeftRow>{o.numberOfClasses}</LeftRow>
         <RightRow>{o.price}</RightRow>
       </FlexContainer>
-    )
-  })
-}
+    );
+  });
+};
 
 const GenerateNumberOfWeeksTable = () => {
   return numberOfWeeks.map((o) => {
@@ -49,9 +51,9 @@ const GenerateNumberOfWeeksTable = () => {
           <NumberOfStyled>{o.num2}</NumberOfStyled>
         </RightRow>
       </FlexContainer>
-    )
-  })
-}
+    );
+  });
+};
 
 /* eslint-disable max-len */
 const Tuition = () => (
@@ -61,13 +63,12 @@ const Tuition = () => (
       <Title>Tuition</Title>
       <Subtitle className="bold underline">2022 - 2023 School Year</Subtitle>
       <p>
-        Monthly class rates listed below are based on a 4-week month, monthly rates will vary depending on the number of
-        classes offered in a billing cycle which runs from the 15th – 14th of the following month. All tuition is
-        non-refundable. To request your total tuition per semester, please contact {''}
+        Tuition can either be paid in full (10% discount) or 8-monthly payments (August – March). Classes that run by
+        session and Summer Camps are billed in full. If you would like to pay in full, cash, or check, please email{" "}
         <a href="mailto:Anna@abtdance.org" target="_top">
           Anna Finan
         </a>
-        .
+        . Tuition will be posted on the 15 th of the month and cards on file will be charged on the 1 st.
       </p>
       <p>
         For students taking multiple classes, a 10% discount will automatically be applied for each additional class
@@ -90,20 +91,15 @@ const Tuition = () => (
       </TableContainerStyled>
       <TuitionClass>
         <span>Creative Movement Tuition</span>
-        6-Week Session: $105
+        7-Week Session: $133
         <br />
-        8-Week Session: $136
+        8-Week Session: $152
       </TuitionClass>
       <TuitionClass>
-        <span>Theater Tuition</span>
-        Session 1: $112/month (Monthly class rate is based on a 4-week month, monthly rates will vary depending on the
-        number of classes offered in a billing cycle)
+        <span>Tap I Tuition</span>
+        7-Week Session: $140
         <br />
-        Session 2: $200
-      </TuitionClass>
-      <TuitionClass>
-        <span>Social Dance Tuition</span>
-        Single Class Rate: $22
+        8-Week Session: $160
         <br />
       </TuitionClass>
       {/* DELETE THIS */}
@@ -117,30 +113,34 @@ const Tuition = () => (
       </TuitionClass> */}
       <div className="paddingTopLarge" />
       <p>
-        All tuition, excluding Sessions and Summer Camps, is billed monthly. If you would like to pay in full, please
-        notify{' '}
-        <a href="mailto:Anna@abtdance.org" target="_top">
-          Anna Finan
-        </a>
-        . Tuition will be posted on the 1st of the month and cards on file will be charged on the 15th for the following
-        month’s tuition, unless an alternative form of payment is received prior to the 15th.
+        Spring registration will be closed after February 15 th . Enrollment for Tap I will be closed after the 2 nd
+        week of each session.
+      </p>
+      <p>
+        Registration for Creative Movement and Tap I is per session and tuition is non- refundable once the session has
+        started.
       </p>
 
       <p>
-        Please send written notice to{' '}
+        Registration for all other classes is for the school year August 2023 – May 2024. All students will
+        automatically be enrolled in the Spring semester unless we receive notice via email.
+      </p>
+
+      <p>
+        Please send written notice to{" "}
         <a href="mailto:Anna@abtdance.org" target="_top">
           Anna Finan
-        </a>
+        </a>{" "}
         if you wish to withdraw from a class. Students who stop coming to class will continue to be billed until they
-        officially withdraw.{' '}
+        officially withdraw.
         <span className="underline">
-          Written notice must be sent before the 15th of the month to avoid being charged for the following month’s
+          Written notice must be sent before the 15 th of the month to avoid being charged for the following month’s
           tuition.
         </span>
-        {''} All tuition is nonrefundable. Notice cannot be retroactive.
+        {""} All tuition is nonrefundable. Notice cannot be retroactive.
       </p>
     </Content>
   </TuitionContainer>
-)
+);
 
-export default Tuition
+export default Tuition;

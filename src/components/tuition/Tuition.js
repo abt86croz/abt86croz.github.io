@@ -61,7 +61,7 @@ const Tuition = () => (
     <TuitionImage className="bg-image" />
     <Content>
       <Title>Tuition</Title>
-      <Subtitle className="bold underline">2022 - 2023 School Year</Subtitle>
+      <Subtitle className="bold underline">2023 - 2024 School Year</Subtitle>
       <p>
         Tuition can either be paid in full (10% discount) or 8-monthly payments (August – March). Classes that run by
         session and Summer Camps are billed in full. If you would like to pay in full, cash, or check, please email{" "}

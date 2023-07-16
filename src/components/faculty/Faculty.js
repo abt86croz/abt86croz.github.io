@@ -1,40 +1,45 @@
-import React from 'react'
-import styled from 'styled-components'
-import SallyImg from '../../images/faculty/sally.jpg'
-import AshleyImg from '../../images/faculty/ashley.jpg'
-import VeronicaImg from '../../images/faculty/veronica.jpg'
-import NickyImg from '../../images/faculty/nicky.jpg'
-import AmandaImg from '../../images/faculty/amanda.jpg'
-import SarahImg from '../../images/faculty/sarah.jpg'
-import MeganImg from '../../images/faculty/megan.jpg'
-import EdwinImg from '../../images/faculty/edwin.jpg'
-import RoderickImg from '../../images/faculty/roderick.jpg'
-import LeanneImg from '../../images/faculty/leanne.jpg'
-import KaylaImg from '../../images/faculty/kayla.jpg'
-import AnnaImg from '../../images/faculty/anna.jpg'
-import EmilyImg from '../../images/faculty/emily.jpg'
-import PageImg from '../../images/faculty/page.jpg'
-import AlexImg from '../../images/faculty/alex.jpg'
-import './Faculty.css'
+/* eslint-disable quotes */
+/* eslint-disable semi */
+import React from "react";
+import styled from "styled-components";
+import SallyImg from "../../images/faculty/sally.jpg";
+import AshleyImg from "../../images/faculty/ashley.jpg";
+import VeronicaImg from "../../images/faculty/veronica.jpg";
+import NickyImg from "../../images/faculty/nicky.jpg";
+import AmandaImg from "../../images/faculty/amanda.jpg";
+import SarahImg from "../../images/faculty/sarah.jpg";
+import MeganImg from "../../images/faculty/megan.jpg";
+import EdwinImg from "../../images/faculty/edwin.jpg";
+import RoderickImg from "../../images/faculty/roderick.jpg";
+import LeanneImg from "../../images/faculty/leanne.jpg";
+import KaylaImg from "../../images/faculty/kayla.jpg";
+import AnnaImg from "../../images/faculty/anna.jpg";
+import EmilyImg from "../../images/faculty/emily.jpg";
+import PageImg from "../../images/faculty/page.jpg";
+import AlexImg from "../../images/faculty/alex.jpg";
+import JeanMarieImg from "../../images/faculty/jeanmarie.jpg";
+import "./Faculty.css";
 
 /* eslint-disable max-len */
-const SallyImage = () => <img src={SallyImg} alt="Sally Hart" title="Sally Hart" />
-const VeronicaImage = () => <img src={VeronicaImg} alt="Veronica Piller" title="Sally Hart" />
-const AshleyImage = () => <img src={AshleyImg} alt="Ashley Geisler" title="Ashley Geisler" />
-const NickyImage = () => <img src={NickyImg} alt="Nicky Coelho" title="Nicky Coelho" />
-const AmandaImage = () => <img src={AmandaImg} alt="Amanda Jo Parks" title="Amanda Jo Parks" />
-const LeanneImage = () => <img src={LeanneImg} alt="Leanne Higgins" title="Leanne Higgins" />
-const KaylaImage = () => <img src={KaylaImg} alt="Kayla Chonoles" title="Kayla Chonoles" />
-const SarahImage = () => <img src={SarahImg} alt="Sarah Gillespie" title="Sarah Gillespie" />
-const MeganImage = () => <img src={MeganImg} alt="Megan Hillary" title="Megan Hillary" />
-const EdwinImage = () => <img src={EdwinImg} alt="Edwin Roa" title="Edwin Roa" />
-const RoderickImage = () => <img src={RoderickImg} alt="Roderick Davis" title="Roderick Davis" />
-const AnnaImage = () => <img src={AnnaImg} alt="Anna Finan" title="Anna Finan" />
-const EmilyImage = () => <img src={EmilyImg} alt="Emily Oleson" title="Emily Oleson" />
-const PageImage = () => <img src={PageImg} alt="Paige Werman" title="Paige Werman" />
-const AlexImage = () => <img src={AlexImg} alt="Alex Salesin" title="Alex Salesin" />
+const SallyImage = () => <img src={SallyImg} alt="Sally Hart" title="Sally Hart" />;
+const VeronicaImage = () => <img src={VeronicaImg} alt="Veronica Piller" title="Sally Hart" />;
+const AshleyImage = () => <img src={AshleyImg} alt="Ashley Geisler" title="Ashley Geisler" />;
+const NickyImage = () => <img src={NickyImg} alt="Nicky Coelho" title="Nicky Coelho" />;
+const AmandaImage = () => <img src={AmandaImg} alt="Amanda Jo Parks" title="Amanda Jo Parks" />;
+const LeanneImage = () => <img src={LeanneImg} alt="Leanne Higgins" title="Leanne Higgins" />;
+const KaylaImage = () => <img src={KaylaImg} alt="Kayla Chonoles" title="Kayla Chonoles" />;
+const SarahImage = () => <img src={SarahImg} alt="Sarah Gillespie" title="Sarah Gillespie" />;
+const MeganImage = () => <img src={MeganImg} alt="Megan Hillary" title="Megan Hillary" />;
+const EdwinImage = () => <img src={EdwinImg} alt="Edwin Roa" title="Edwin Roa" />;
+const RoderickImage = () => <img src={RoderickImg} alt="Roderick Davis" title="Roderick Davis" />;
+const AnnaImage = () => <img src={AnnaImg} alt="Anna Finan" title="Anna Finan" />;
+const EmilyImage = () => <img src={EmilyImg} alt="Emily Oleson" title="Emily Oleson" />;
+const PageImage = () => <img src={PageImg} alt="Paige Werman" title="Paige Werman" />;
+const AlexImage = () => <img src={AlexImg} alt="Alex Salesin" title="Alex Salesin" />;
+const JeanMarieImage = () => <img src={JeanMarieImg} alt="Jean-Marie R. Bralley" title="Jean-Marie R. Bralley" />;
 
 const Instructor = styled.div`
+  padding-bottom: 10px;
   img {
     float: left;
     padding: 0 15px 10px 0;
@@ -46,7 +51,16 @@ const Instructor = styled.div`
     padding: 0;
     margin: 0;
   }
-`
+`;
+
+const Divider = styled.div`
+  border-bottom: solid 0.3px;
+  color: #babcbc;
+`;
+
+const BreakPoint = styled.div`
+  padding-bottom: var(--medium-padding);
+`;
 
 /* eslint-disable max-len */
 const Faculty = () => (
@@ -59,22 +73,22 @@ const Faculty = () => (
         opening of the Kennedy Center, with Kevin McKenzie, and in Joffrey Ballet classics Petrouchka, Trinity, Viva
         Vivaldi, and The Seasons.
       </p>
-      <br />
+      <BreakPoint />
       <p>
         After her dance career, Mrs. Hart went on to become a professional make-up artist and worked on movie sets,
         runway shows, and for modeling agencies. Mrs. Hart began teaching ballet locally in 1992. She has produced many
         local dance productions. Sally has trained and mentored numerous students who have become professional dancers.
         Her unique curriculum includes a blend of English, Italian, and Russian technique.
       </p>
-      <br />
+      <BreakPoint />
       <p>
         <span className="italic small quote">
           “If you are looking for a dance instructor for your fledgling child or aspiring professional, Mrs. Sally Hart
           is the teacher that you want to train with!”- Linda M. Kuchera-Gage, formerly with “American Ballet Theatre”
         </span>
       </p>
-      <hr />
     </Instructor>
+    <Divider />
     <Instructor>
       <p>
         <VeronicaImage />
@@ -83,24 +97,24 @@ const Faculty = () => (
         She formerly danced with the Charleston Ballet Theatre, San Diego Ballet, The Garage Contemporary Ballet,
         Charlottesville Ballet, and Keith Lee Dances.
       </p>
-      <br />
+      <BreakPoint />
       <p>
         Veronica began her training with her mother, Sally Hart. She continued her dance education at the Virginia
         School of the Arts and the Joffrey Ballet School and was blessed to have been the recipient of many
         scholarships.
       </p>
-      <br />
+      <BreakPoint />
       <p>
-        Veronica has performed leading roles in{' '}
+        Veronica has performed leading roles in{" "}
         <span className="italic">Cinderella, Paquita, Les Corsaire, Les Sylphedes, and Swan Lake</span>, and
-        choreographers have created roles for her. Additional memorable performances include{' '}
+        choreographers have created roles for her. Additional memorable performances include{" "}
         <span className="italic">
           The King and I with Ash Lawn Opera, with the Duke Ellington Orchestra, Maria in West Side Story, and Keith
           Lee&#39;s Mama Rose.
         </span>
       </p>
-      <hr />
     </Instructor>
+    <Divider />
     <Instructor>
       <p>
         <NickyImage />
@@ -111,15 +125,15 @@ const Faculty = () => (
         she was also the Company Manager for two years. She recently appeared as a dancer in the film Only Dance Can
         Save Us which was featured in the Twin Cities Film Fest.
       </p>
-      <br />
+      <BreakPoint />
       <p>
         Mrs. Coelho has taught at various ballet schools throughout the Twin Cities and was on faculty at the Reif
         Center Summer Intensive in Grand Rapids, MN for five years and directed the Intensive in Minneapolis in 2015.
         Nicky has been the production and stage manager for ABT since 2005 and has choreographed several full-length
         ballets and original works in the repertoire.
       </p>
-      <hr />
     </Instructor>
+    <Divider />
     <Instructor>
       <p>
         <AnnaImage />
@@ -131,58 +145,17 @@ const Faculty = () => (
         she fine-tuned her technique and artistry with Marianne Kruse, Kevin Haigen and Ingrid Glindemann. After
         graduating from the school, she joined the Hamburg Ballet company directed by the renowned American
         choreographer John Neumeier. There she performed group and soloist roles in his various classical and modern
-        ballets such as The Nutcracker, Swan Lake, A Midsummer Night&#39;s Dream, and The Little Mermaid as well as works
-        from other choreographers like La Bayadere staged by N. Makarova and Jewels by G. Balanchine. Upon retiring from
-        the stage, she pursued a second career, becoming a risk manager at Germany&#39;s largest bank, Deutsche Bank AG.
-        Yet, her love for movement never halted. She travelled to Thailand to became a certified Vinyasa Yoga instructor
-        and, after moving to Charlottesville, VA with her husband and two boys in April 2016, she become NASM-certified
-        personal trainer, Progressing Ballet Technique certified teacher and studied the American Ballet Theater
-        National Training Curriculum in Pre-Primary though Level 7 with Franco De Vita and Raymond Lukens. She loves
-        teaching dance and passing on her lifelong ballet experience.
+        ballets such as The Nutcracker, Swan Lake, A Midsummer Night&#39;s Dream, and The Little Mermaid as well as
+        works from other choreographers like La Bayadere staged by N. Makarova and Jewels by G. Balanchine. Upon
+        retiring from the stage, she pursued a second career, becoming a risk manager at Germany&#39;s largest bank,
+        Deutsche Bank AG. Yet, her love for movement never halted. She travelled to Thailand to became a certified
+        Vinyasa Yoga instructor and, after moving to Charlottesville, VA with her husband and two boys in April 2016,
+        she become NASM-certified personal trainer, Progressing Ballet Technique certified teacher and studied the
+        American Ballet Theater National Training Curriculum in Pre-Primary though Level 7 with Franco De Vita and
+        Raymond Lukens. She loves teaching dance and passing on her lifelong ballet experience.
       </p>
     </Instructor>
-    <hr />
-    <Instructor>
-      <p>
-        <MeganImage />
-        <span className="bold instructor">Megan Hillary | Instructor</span>Megan is a visual artist and theater director
-        &amp; designer currently specializing in site- specific installations. A once-upon-a-dancer and violinist, Megan
-        continued both while earning her degrees in the studio arts and technical theater design. Traveling for the sake
-        of these varied pursuits, positions ranged from a stint in Manhattan as technical director for Altered Stages to
-        being the resident lighting designer for the East Hawaii Cultural Center, from working as a guest director
-        within university theater departments to being a board member of the Ohio/Pennsylvania chapter of USITT. With
-        installations up and down the east coast of the mainland, Megan now makes her home in Charlottesville as one of
-        Live Arts&#39; directors and designers, a designer for 4CP, a teacher of dance, choreography, and acting at
-        local ballet studios and for area schools&#39; mainstage productions, occasionally appearing for puppetry
-        workshops for organizations like the Boys &amp; Girls Club and the Governor&#39;s School for Performing Arts.
-        Planting interactive installations in local entities including McGuffey Art Center, The Bridge, FLOW, and the
-        IX, Megan most recently presented in the group show &quot;Pandemonium: Postcards From The Edge&quot; through
-        Chroma Art Lab and is currently developing an immersive piece with Kelli Shermeyer through a grant with the Lab
-        in Performance Cultures &amp; Embodied Creative Practices, a working group funded by UVA&#39;s Institute for the
-        Humanities and Global Culture. Having just completed a residency at McGuffey Art Center, she’s newly installed
-        in a residency at the Bronze Foundry through Sept 2022. During the day, Megan runs downtown’s dance retail
-        store, My Dance Shoppe.
-      </p>
-      <hr />
-    </Instructor>
-
-    {/* <Instructor>
-      <p>
-        <GeriImage />
-        <span className="bold instructor">Geri Carlson Sauls | Instructor</span>Geri has been teaching dance for over 25
-        years, and has choreographed, directed and performed in community and regional theater companies in Baton Rouge,
-        the Bay area, and now in Virginia. She graduated from the American Tap Dance Institute teacher training program,
-        and has attended several intensives such as the Dance Teacher Summit and the DC Tapfest. Choreography credits: A
-        Chorus Line, The Producers (LiveArts), Once on This Island, Cabaret, Godspell (4CP), Once Upon a Mattress
-        (University of Virginia) The Music Man (Cabrillo Stage), Director/choreographer credits: A Christmas Story, the
-        Musical, Honk!, Annie (4CP), Newsies (DMR), 42nd Street, The Will Rogers Follies, Thoroughly Modern Millie, A
-        Chorus Line. Professional performance credits include American Musical Theater San Jose (dance captain for 2
-        shows) and Cabrillo Stage. Geri looks forward to continuing to teach to a new group of students both tap and
-        jazz.
-      </p>
-      <hr />
-    </Instructor> */}
-
+    <Divider />
     <Instructor>
       <p>
         <EmilyImage />
@@ -197,42 +170,53 @@ const Faculty = () => (
         Laban-Bartenieff Institute of Movement Studies. She is currently pursuing a doctorate in Dance at Temple
         University. Photo credit K. Opare.
       </p>
-      <hr />
     </Instructor>
+    <Divider />
     <Instructor>
       <p>
-        <AlexImage />
-        <span className="bold instructor">Alex Salesin | Instructor</span>Alex is a Kindergarten teacher with Albemarle
-        County Public Schools. She has taught Kindergarten for four years and first grade for one year. She has worked
-        with children from infancy through high school ages in a variety of capacities, including as Program Director
-        for an oceanography-based summer academic program for high school students in Cape Cod.
+        <JeanMarieImage />
+        <span className="bold instructor">Jean-Marie R. Bralley | Instructor</span>Ms. Bralley began formal dance
+        lessons at the Dance Studio/DanCenter in her hometown of Charlottesville, VA, at the age of four.
       </p>
-      <br />
+      <BreakPoint />
       <p>
-        She danced throughout her childhood with a focus on ballet and received her training at dance schools in upstate
-        New York. She moved to Virginia to study at UVA, where she received her Bachelor&#39;s in History and
-        Master&#39;s in Teaching. She loves to include movement, music, and art in her teaching, and looks forward to
-        sharing her love of ballet with ABT&#39;s students!Wh en she isn&#39;t teaching, Alex enjoys hiking, painting,
-        and spending time by the water, and she recently performed as Mrs. Stahlbaum in ABT&#39;s Nutcracker.
+        She trained at the School of Richmond Ballet (SRB) beginning at age ten and rose through the pre-professional
+        ranks of the school, eventually achieving a two-year traineeship with the professional Richmond Ballet company
+        during high school. While in Richmond, she had the honor of performing in several staples of the classical
+        ballet canon, including The Nutcracker, Cinderella, A Midsummer Night’s Dream, and George Balanchine’s Serenade
+        and Rubies as well as numerous original works by the SRB faculty.
       </p>
-      <hr />
-    </Instructor>
-    <Instructor>
+      <BreakPoint />
       <p>
-        <PageImage />
-        <span className="bold instructor">Paige Werman | Instructor</span>Paige has been teaching dance for eleven years
-        and Pilates for two years. She earned her BFA in dance from Fordham University/The Ailey School with a double
-        major in environmental policy where she worked with renowned choreographers such as Ray Mercer, Stephanie
-        Battenbland, Christopher Huggins, Yin Yue, Jae Man Joo, Brice Mousett, and many more. She has performed
-        professionally with Neville Dance Theatre, Dolly Sfeir &amp; Dancers, Jack Tracy, Universal Orlando, Julie
-        Petrusak, and more. She has taught dance for Mark Morris Dance Center, Ailey Arts In Education &amp; Community
-        Programs, LEAP, and Marquis Studios in NY, and The Dance Company in Richmond. Paige earned her Comprehensive
-        Pilates Certification at Balanced Pilates NYC and has taught for YvaYoga and TurnRVA, and currently teaches at
-        TruPilates in Charlottesville and Niche Pilates in Richmond. She is currently pursuing a Master of Landscape
-        Architecture and Master of Urban and Environmental Planning at UVA.
+        In 2007 and 2008, she was selected from approximately 3,500 national and international students to study and
+        perform in American Ballet Theatre’s premiere summer intensive program in New York City, where she trained under
+        several dance luminaries, including Kirk Peterson, Leslie Browne, Cynthia Harvey, and Jessica Lang. She has been
+        trained in classical ballet, pointe, partnering, character dance, modern, jazz, and tap, among other genres.
       </p>
-      <hr />
+      <BreakPoint />
+      <p>
+        In 2016, she graduated summa cum laude with a degree in Humanities and a minor in French from Franciscan
+        University of Steubenville, where she was co-captain of the school dance team, helping to choreograph and plan
+        routines and events, including a joint fundraiser with Franciscan’s men’s rugby team. While in college, she also
+        developed and taught a beginning level classical ballet class. During her senior year, she trained in ballet and
+        voice on weekends at nearby Pittsburgh Ballet Theatre.
+      </p>
+      <BreakPoint />
+      <p>
+        She has taught ballet locally to students ranging from children to adults and has also trained and worked with
+        dance professionals Miki Liszt and Robert Cook in Charlottesville. From 2016- 2020, she performed with
+        Charlottesville Ballet’s professional company, and in 2019, she was named one of Piedmont Virginia Community
+        College’s Distinguished Alumni. She is currently ballet mistress at Gryphon Gymnastics.
+      </p>
+      <BreakPoint />
+      <p>
+        Outside of the studio, Jean-Marie is an avid reader and writer, having freelanced for publications, such as the
+        USO and Wallflower Journal. She is the author of Naomi Grace’s “Wonder-full” Christmas, which is available for
+        purchase online at Amazon and Barnes &amp; Noble. She’s excited and thankful to begin teaching at Albemarle
+        Ballet Theatre!
+      </p>
     </Instructor>
+    <Divider />
     <Instructor>
       <p>
         <AshleyImage />
@@ -240,7 +224,7 @@ const Faculty = () => (
         Mrs. Geisler studied with the Old Dominion Ballet Company in Norfolk, Virginia, under the husband and wife team
         of Istvan and Nelli Ament.She spent her summers training with Nina Sakhnovskaya of the Vaganova Academy.
       </p>
-      <br />
+      <BreakPoint />
       <p>
         During her tenure at ODU Ballet, Ashley performed the roles of Marzipan, Chinese, and Russian in The Nutcracker,
         and the lead roles in performances of Snow White and The Fairy Doll. After completing her undergraduate and
@@ -248,8 +232,8 @@ const Faculty = () => (
         at Albemarle Ballet Theatre. She has been teaching and choreographing at ABT since 2006 and has performed with
         concorDance contemporary.
       </p>
-      <hr />
     </Instructor>
+    <Divider />
     <Instructor>
       <p>
         <AmandaImage />
@@ -261,14 +245,71 @@ const Faculty = () => (
         George Balanchine’s Rubies, Dwight Rhodens StrayLifeLushHorn, Ruthanna Boris’s Cakewalk, as well as in
         contemporary classics, such as Beauty and the Beast, Cleopatra, and countless Nutcrackers.
       </p>
-      <br />
+      <BreakPoint />
       <p>
         Amanda went on to earn her undergraduate degree in journalism and then a PhD in political science from the
         Pennsylvania State University. She now enjoys teaching both ballet and political science but spends most of her
         time wrangling her three wild and delightful little boys.
       </p>
-      <hr />
     </Instructor>
+    <Divider />
+    <Instructor>
+      <p>
+        <PageImage />
+        <span className="bold instructor">Paige Werman | Guest Instructor</span>Paige has been teaching dance for eleven
+        years and Pilates for two years. She earned her BFA in dance from Fordham University/The Ailey School with a
+        double major in environmental policy where she worked with renowned choreographers such as Ray Mercer, Stephanie
+        Battenbland, Christopher Huggins, Yin Yue, Jae Man Joo, Brice Mousett, and many more. She has performed
+        professionally with Neville Dance Theatre, Dolly Sfeir &amp; Dancers, Jack Tracy, Universal Orlando, Julie
+        Petrusak, and more. She has taught dance for Mark Morris Dance Center, Ailey Arts In Education &amp; Community
+        Programs, LEAP, and Marquis Studios in NY, and The Dance Company in Richmond. Paige earned her Comprehensive
+        Pilates Certification at Balanced Pilates NYC and has taught for YvaYoga and TurnRVA, and currently teaches at
+        TruPilates in Charlottesville and Niche Pilates in Richmond. She is currently pursuing a Master of Landscape
+        Architecture and Master of Urban and Environmental Planning at UVA.
+      </p>
+    </Instructor>
+    <Divider />
+    <Instructor>
+      <p>
+        <MeganImage />
+        <span className="bold instructor">Megan Hillary | Guest Instructor</span>Megan is a visual artist and theater
+        director &amp; designer currently specializing in site- specific installations. A once-upon-a-dancer and
+        violinist, Megan continued both while earning her degrees in the studio arts and technical theater design.
+        Traveling for the sake of these varied pursuits, positions ranged from a stint in Manhattan as technical
+        director for Altered Stages to being the resident lighting designer for the East Hawaii Cultural Center, from
+        working as a guest director within university theater departments to being a board member of the
+        Ohio/Pennsylvania chapter of USITT. With installations up and down the east coast of the mainland, Megan now
+        makes her home in Charlottesville as one of Live Arts&#39; directors and designers, a designer for 4CP, a
+        teacher of dance, choreography, and acting at local ballet studios and for area schools&#39; mainstage
+        productions, occasionally appearing for puppetry workshops for organizations like the Boys &amp; Girls Club and
+        the Governor&#39;s School for Performing Arts. Planting interactive installations in local entities including
+        McGuffey Art Center, The Bridge, FLOW, and the IX, Megan most recently presented in the group show
+        &quot;Pandemonium: Postcards From The Edge&quot; through Chroma Art Lab and is currently developing an immersive
+        piece with Kelli Shermeyer through a grant with the Lab in Performance Cultures &amp; Embodied Creative
+        Practices, a working group funded by UVA&#39;s Institute for the Humanities and Global Culture. Having just
+        completed a residency at McGuffey Art Center, she’s newly installed in a residency at the Bronze Foundry through
+        Sept 2022. During the day, Megan runs downtown’s dance retail store, My Dance Shoppe.
+      </p>
+    </Instructor>
+    <Divider />
+    <Instructor>
+      <p>
+        <AlexImage />
+        <span className="bold instructor">Alex Salesin | Guest Instructor</span>Alex is a Kindergarten teacher with
+        Albemarle County Public Schools. She has taught Kindergarten for four years and first grade for one year. She
+        has worked with children from infancy through high school ages in a variety of capacities, including as Program
+        Director for an oceanography-based summer academic program for high school students in Cape Cod.
+      </p>
+      <BreakPoint />
+      <p>
+        She danced throughout her childhood with a focus on ballet and received her training at dance schools in upstate
+        New York. She moved to Virginia to study at UVA, where she received her Bachelor&#39;s in History and
+        Master&#39;s in Teaching. She loves to include movement, music, and art in her teaching, and looks forward to
+        sharing her love of ballet with ABT&#39;s students!Wh en she isn&#39;t teaching, Alex enjoys hiking, painting,
+        and spending time by the water, and she recently performed as Mrs. Stahlbaum in ABT&#39;s Nutcracker.
+      </p>
+    </Instructor>
+    <Divider />
     <Instructor>
       <p>
         <KaylaImage />
@@ -282,9 +323,8 @@ const Faculty = () => (
         on choreographing future productions. When she&#39;s not teaching, dancing, or singing, Kayla loves to read,
         knit, and play guitar.
       </p>
-      <hr />
     </Instructor>
-
+    <Divider />
     <Instructor>
       <p>
         <LeanneImage />
@@ -296,10 +336,10 @@ const Faculty = () => (
         mental endurance through exercise. Leanne has taught Pilates for students, professional dancers, and adult
         participants at both the Mid-Atlantic Ballet in Newark, Delaware and First State Ballet Theater in Wilmington,
         Delaware. Leanne truly believes the mind can master the muscles and hopes to inspire students to believe in
-        their own physical and emotional power through the practice of Pilates principles.{' '}
+        their own physical and emotional power through the practice of Pilates principles.{" "}
       </p>
-      <hr />
     </Instructor>
+    <Divider />
     <Instructor>
       <p>
         <RoderickImage />
@@ -322,8 +362,8 @@ const Faculty = () => (
         his Mestre, Balanço graduated to one of Mestre Panão&#39;s first American Instructors in 2015. He is continuing
         his training with Mestre Panão and is now teaching capoeira in Charlottesville, VA.
       </p>
-      <hr />
     </Instructor>
+    <Divider />
     <Instructor>
       <p>
         <SarahImage />
@@ -337,8 +377,8 @@ const Faculty = () => (
         Spanish at the Miller School of Albemarle. Mrs. Gillespie is also a festival organizer, milonga host, and
         instructor at Charlottesville Tango.
       </p>
-      <hr />
     </Instructor>
+    <Divider />
     <Instructor>
       <p>
         <EdwinImage />
@@ -351,9 +391,8 @@ const Faculty = () => (
         dance have encouraged him to experiment and develop a method of teaching social partner dance called Zabor
         Dance.
       </p>
-      <hr />
     </Instructor>
   </div>
-)
+);
 
-export default Faculty
+export default Faculty;

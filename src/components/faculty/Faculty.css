@@ -1,6 +1,8 @@
 .faculty-container {
+  display: grid;
+  gap: 10px;
   width: 80%;
-  margin: 30px auto 50px auto;
+  margin: 30px auto;
 }
 
 .faculty-container .instructor {

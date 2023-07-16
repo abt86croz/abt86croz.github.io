@@ -1,15 +1,18 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from 'react'
-import styled from 'styled-components'
-import Content from '../styles/Content'
-import Title from '../styles/Title'
-import StoryImg from '../../images/site/2023onceupontime.png'
-import StepIntoStoryImg from '../../images/site/2023step-into.png'
+/* eslint-disable quotes */
+/* eslint-disable semi */
+/* eslint-disable no-unused-vars */
+import React from "react";
+import styled from "styled-components";
+import Content from "../styles/Content";
+import Title from "../styles/Title";
+import StoryImg from "../../images/site/2023onceupontime.png";
+import StepIntoStoryImg from "../../images/site/2023step-into.png";
 // import NutImg from '../../images/site/nutcracker.png'
 // import StepIntoStoryIMG from '../../images/site/spring-gala.png'
 
 // import PayPalNutCracker from '../paypal/Paypal'
-import './Performances.css'
+import "./Performances.css";
 
 // import springGalaImg from '../../images/site/2019-spring-gala.png'
 
@@ -17,30 +20,158 @@ import './Performances.css'
 /* eslint-disable max-len */
 
 const Description = styled.div`
-  hr {
-    margin: 0;
-  }
-  margin-bottom: 10px;
   padding: ${(props) => {
-    return props.primary ? '0 30px 0 20px' : ''
+    return props.primary ? "20px 30px 0 20px" : "30px 20px";
   }};
-`
+`;
 
 const Show = styled.div`
-  padding: 0 30px 0 20px;
+  padding: 0 20px;
   p {
     font-size: 20px;
   }
-`
+`;
 
 const Location = styled.div`
-  padding-bottom: 20px;
   p {
     font-size: 18px;
     padding: 0;
     margin: 0;
   }
-`
+`;
+
+const Divider = styled.div`
+  border-bottom: solid 0.3px;
+  color: #babcbc;
+`;
+
+const BreakPoint = styled.div`
+  padding-bottom: var(--medium-padding);
+`;
+
+const NutcrackerShows = () => (
+  <React.Fragment>
+    <Description>
+      <Show>
+        <p className="bold underline">Step Into The Story: The Nutcracker</p>
+        <Location>
+          <p>December 3 at 3pm &amp; 5pm</p>
+          <p>December 4 at 2pm &amp; 4pm</p>
+          <p>ABT’s Whitebox Theater</p>
+          <p>$10 General Admission</p>
+        </Location>
+        <BreakPoint />
+        <Location>
+          <p>
+            Join us for this miniature performance of The Nutcracker! This 30-minute show created for our youngest
+            audience members will take place at ABT&#39;s White Box Theatre in an intimate seating arrangement designed
+            to be as close to the performers as possible. See Clara, the Sugar Plum Fairy, Russian Baklava, and many
+            other beloved characters. Audience members will get to learn steps from the ballet, hold real pointe shoes,
+            enjoy a reading of the Nutcracker, and meet the dancers after the performance!
+          </p>
+          {/* <a href="https://click4tix.com/ABT-MiniNutcracker" target="_blank" rel="noopener noreferrer">
+            <img className="ticket-sale-image" src={StoryImg} alt="Step Into The Story Performances" />
+          </a> */}
+        </Location>
+        {/* <PayPalNutCracker />  */}
+      </Show>
+    </Description>
+    <Divider />
+    <Description>
+      <Show>
+        <p className="bold underline">The Nutcracker </p>
+        <Location>
+          <p>December 15 at 6pm</p>
+          <p>December 16 at 2pm</p>
+          <p>Waynesboro Highschool Theatre</p>
+          <p>$24 Adult | $18 Student/Senior/Veteran</p>
+        </Location>
+        {/* <Location>
+          <a href="https://click4tix.com/ABT-Nutcracker" target="_blank" rel="noopener noreferrer">
+            <img className="ticket-sale-image" src={NutImg} alt="The Nutcracker Performances" />
+          </a>
+        </Location> */}
+      </Show>
+    </Description>
+    <Divider />
+  </React.Fragment>
+);
+
+const NutcrackerOutreachShows = () => (
+  <Description>
+    <Show>
+      <p className="bold underline">Nutcracker Community Outreach Performances</p>
+      <Location>
+        <p> Monday, December 2, 2019 | 4:30pm </p>
+        <p> Crozet Library, Crozet, VA</p>
+        <p> Ballet IV - Advanced levels invited to perform</p>
+      </Location>
+      <Location>
+        <p> Wednesday, December 4, 2019 | 3:00pm</p>
+        <p> Mountain Side, Crozet, VA</p>
+        <p> Ballet IV - Advanced levels invited to perform</p>
+      </Location>
+    </Show>
+  </Description>
+);
+
+const SpringGalaShows = () => (
+  <React.Fragment>
+    <Description>
+      <Show>
+        <p className="bold underline">Step Into The Story: Spring Gala</p>
+        <Location>
+          <p>April 27 at 3pm &amp; 5pm</p>
+          <p>Sunday: 2pm &amp; 4pm</p>
+          <p>ABT’s Whitebox Theater</p>
+          <p>$10 General Admission</p>
+        </Location>
+        {/* <Location>
+          <a href="http://click4tix.com/ABT-StepIntoTheStory" target="_blank" rel="noopener noreferrer">
+            <img className="ticket-sale-image" src={StepIntoStoryImg} alt="Step into the Story: Once Upon a Time" />
+          </a>
+        </Location> */}
+      </Show>
+    </Description>
+    <Divider />
+    <Description>
+      <Show>
+        <p className="bold underline">Annual Spring Gala</p>
+        <Location>
+          <p>May 10 at 6pm</p>
+          <p>May 11 at 11am &amp; 5pm</p>
+          <p>The Dickinson Theatre at Piedmont Community College</p>
+          <p>$24 Adult | $18 Student/Senior/Veteran</p>
+        </Location>
+        {/* <Location>
+          We have a limited number of scholarships for All Access tickets! Please fill out the application form to apply{" "}
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdZutpNwUJbjcCE6yDzXVfPBtAaJT9GiamuP5Sa2sUGDhRMjw/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            here
+          </a>
+        </Location>
+        <Location>
+          <a href="http://click4tix.com/ABT-Gala" target="_blank" rel="noopener noreferrer">
+            <img className="ticket-sale-image" src={StoryImg} alt="Annual Spring Gala: Once Upon a Time" />
+          </a>
+        </Location> */}
+      </Show>
+    </Description>
+    <Divider />
+  </React.Fragment>
+);
+
+const ComingSoonShows = () => (
+  <Description>
+    <Show>
+      <p className="sub-title bold">2022-2023 performance dates coming soon…</p>
+    </Show>
+  </Description>
+);
+
 const Performances = () => (
   <div className="performances-container">
     <div className="bg-image description-img" />
@@ -51,186 +182,9 @@ const Performances = () => (
           Presented by Studio For The Performing Arts with the students of Albemarle Ballet Theatre
         </p>
       </Description>
-      <hr />
-      {/* COMING SOON */}
-      {/* <Description>
-        <Show>
-          <p className="sub-title bold">2022-2023 performance dates coming soon…</p>
-        </Show>
-      </Description> */}
-      {/* Coming Back in some point
-      <Description>
-        <Show>
-          <p className="bold underline">Nutcracker Community Outreach Performances</p>
-          <Location>
-            <p> Monday, December 2, 2019 | 4:30pm </p>
-            <p> Crozet Library, Crozet, VA</p>
-            <p> Ballet IV - Advanced levels invited to perform</p>
-          </Location>
-          <Location>
-            <p> Wednesday, December 4, 2019 | 3:00pm</p>
-            <p> Mountain Side, Crozet, VA</p>
-            <p> Ballet IV - Advanced levels invited to perform</p>
-          </Location>
-        </Show>
-        <hr />
-      </Description>
+      <NutcrackerShows />
+      <SpringGalaShows />
 
-
-      <Description>
-        <Show>
-          <p className="bold underline">The Nutcracker </p>
-          <Location>
-            <a
-              href="https://waynetheatre.ticketforce.com/eventperformances.asp?evt=142"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={NutImg} alt="The Nutcracker Performances" />
-            </a>
-          </Location>
-        </Show>
-        <hr />
-      </Description>
-
-    */}
-      {/* <Description>
-        <Show>
-          <p className="bold underline">December 3 &amp; 4 ‘Step Into The Story’ Nutcracker</p>
-          <Location>
-            <p>The Whitebox Theatre at ABT</p>
-            <p>Saturday: 3:00pm and 5:00pm</p>
-            <p>Sunday: 2:00pm and 4:00pm</p>
-          </Location>
-          <Location>
-            <a href="https://click4tix.com/ABT-MiniNutcracker" target="_blank" rel="noopener noreferrer">
-              <img className="ticket-sale-image" src={StoryImg} alt="Step Into The Story Performances" />
-            </a>
-          </Location> */}
-      {/* <PayPalNutCracker /> */}
-      {/* </Show>
-        <hr />
-      </Description> */}
-
-      {/* <Description>
-        <Show>
-          <p className="bold underline">Exploring Ballet &amp; Ballet IA In-Studio Presentations</p>
-          <Location>
-            <p>May 3, 2020, | Times TBA </p>
-          </Location>
-        </Show>
-        <hr />
-      </Description> */}
-      {/* <Description>
-        <Show>
-          <p className="italic red">
-            Online sales have ended. Tickets will be available for purchase at the theater 1-hour prior to each show
-          </p>
-          <p className="bold center">Spring Gala 2022</p>
-          <p>'Carnival of the Animals' and 'Rhapsody'</p>
-          <p>Friday, May 6th at 6pm</p>
-          <p>Saturday, May 7th at 2pm and 5pm</p>
-          <p>The Dickinson Theatre at PVCC in Charlottesville, VA</p>
-
-          <div className="paddingTopLarge">
-            <p className="bold">COVID-19 POLICY</p>
-            <p>- One seat will be held between each group of patrons for social distancing.</p>
-            <p>
-              - All audience members are asked to either: present proof of vaccination OR proof of negative Covid test
-              within 48-hours upon entry. Paper or digital documentation are both accepted.
-            </p>
-            <p>- All audience members over the age of 3 will be required to wear a mask.</p>
-            <p> - Please arrive 30-minutes prior to the show for check-in.</p>
-            <p className="paddingTopMedium">
-              We continue to monitor State and CDC guidelines and recommendations. Thank you for understanding and
-              supporting these health and safety protocols.
-            </p>
-          </div>
-
-          {/* <div className="paddingTopLarge">
-            <a href="https://v6.click4tix.com/event-details.php?e=431428" target="_blank" rel="noopener noreferrer">
-              <img src={StepIntoStoryIMG} alt="2022 ABT Spring Gala Performance" />
-            </a>
-          </div> */}
-      {/* <Location />
-        </Show> */}
-      {/* </Description> */}
-      {/* <Description>
-        <Show>
-          <p className="bold underline">December 10: The Nutcracker </p>
-          <Location>
-            <p>Waynesboro Highschool Theatre Waynesboro, VA</p>
-            <p>2:00 and 6:00pm</p>
-          </Location>
-          <Location>
-            <a href="https://click4tix.com/ABT-Nutcracker" target="_blank" rel="noopener noreferrer">
-              <img className="ticket-sale-image" src={NutImg} alt="The Nutcracker Performances" />
-            </a>
-          </Location>
-        </Show>
-        <hr />
-      </Description> */}
-      <Description>
-        <Show>
-          <p className="bold underline">Step into the Story: Once Upon a Time</p>
-          <Location>
-            <p>April 29th at 3pm and 5pm</p>
-            <p>ABT's Whitebox Theater</p>
-            <p>$10 General Admission</p>
-          </Location>
-          <Location>
-            Join us for this miniature performance of our original ballet Once Upon a Time! This 30-minute show created
-            for our youngest audience members will take place at ABT's White Box Theatre in an intimate seating
-            arrangement designed to be as close to the performers as possible. See Sleeping Beauty, Cinderella, the
-            Three Little Pigs, Puss in Boots, and many other beloved fairy tale characters. Audience members will get to
-            learn steps from the ballet, hold real pointe shoes, and after the performance meet the dancers!
-          </Location>
-          <Location>
-            <a href="http://click4tix.com/ABT-StepIntoTheStory" target="_blank" rel="noopener noreferrer">
-              <img className="ticket-sale-image" src={StepIntoStoryImg} alt="Step into the Story: Once Upon a Time" />
-            </a>
-          </Location>
-        </Show>
-        <hr />
-      </Description>
-      <Description>
-        <Show>
-          <p className="bold underline">Annual Spring Gala: Once Upon a Time </p>
-          <Location>
-            <p>May 12th at 6pm</p>
-            <p>May 13th at 5pm</p>
-            <p>PVCC's V. Earl Dickinson Theatre</p>
-            <p>$24 Adult | $18 Student/Senior</p>
-            <p>*$40 All Access Dance Experience</p>
-          </Location>
-          <Location>
-            *Join us for our All Access Dance Experience, "Step Into the Story: Behind the Scenes at the Theater" for
-            young dance lovers ages 3-12 at 11am on Saturday May 13th. One caregiver may accompany the Student on
-            Saturday morning. The experience includes a ballet class onstage with Sleeping Beauty, Cinderella, the Three
-            Little Pigs, and other beloved fairy tale characters, learning choreography, and a tour of the set and stage
-            to see the magic of all that happens backstage as well as student admission to either the Friday or Saturday
-            performance.
-          </Location>
-          <Location>
-            We have a limited number of scholarships for All Access tickets! Please fill out the application form to
-            apply{' '}
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdZutpNwUJbjcCE6yDzXVfPBtAaJT9GiamuP5Sa2sUGDhRMjw/viewform"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              here
-            </a>
-          </Location>
-          <Location>
-            <a href="http://click4tix.com/ABT-Gala" target="_blank" rel="noopener noreferrer">
-              <img className="ticket-sale-image" src={StoryImg} alt="Annual Spring Gala: Once Upon a Time" />
-            </a>
-          </Location>
-        </Show>
-        <hr />
-      </Description>
-      <br />
       <Description primary>
         <p>
           Our dance studio is conveniently located in Crozet, near Western Albemarle High School, Henley, Brownsville,
@@ -256,6 +210,6 @@ const Performances = () => (
       </Description>
     </Content>
   </div>
-)
+);
 
-export default Performances
+export default Performances;

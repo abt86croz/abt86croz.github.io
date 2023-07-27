@@ -10,8 +10,10 @@ import StoryImg from "../../images/site/2023onceupontime.png";
 import StepIntoStoryImg from "../../images/site/2023step-into.png";
 // import NutImg from '../../images/site/nutcracker.png'
 // import StepIntoStoryIMG from '../../images/site/spring-gala.png'
+import PaypalButtonIMG from "../../images/site/dancer-paypal.png";
 
 // import PayPalNutCracker from '../paypal/Paypal'
+import { SummerShowPaypal } from "../paypal/Paypal";
 import "./Performances.css";
 
 // import springGalaImg from '../../images/site/2019-spring-gala.png'
@@ -47,6 +49,13 @@ const Divider = styled.div`
 
 const BreakPoint = styled.div`
   padding-bottom: var(--medium-padding);
+`;
+
+const PaypalContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 `;
 
 const NutcrackerShows = () => (
@@ -172,6 +181,45 @@ const ComingSoonShows = () => (
   </Description>
 );
 
+const SummerShows = () => (
+  <React.Fragment>
+    <Description>
+      <Show>
+        <p className="bold underline">Summer Stock Performances</p>
+        <Location>
+          <p>*FREE* open rehearsal at Grace Estate Tasting Room</p>
+          <p>August 18 at 6-7pm</p>
+        </Location>
+      </Show>
+    </Description>
+    <Divider />
+    <Description>
+      <Show>
+        <p className="bold underline">ABT Whitebox</p>
+        <Location>
+          <p>August 19 at 4pm & 6pm</p>
+          <p>August 20 at 2pm</p>
+          <p>$20 Adult | $15 Student</p>
+        </Location>
+        <BreakPoint />
+        <p>
+          Please join us in the intimate setting of ABT's Whitebox Theater for our inaugural Summer Stock Performances!
+          This family friendly one hour show features excerpts from the classical ballet Paquita and selections from Bob
+          Fosse's iconic repertoire, as well as a spread of delicious catered hor d'oeuvres and wine.
+        </p>
+      </Show>
+      <BreakPoint />
+      <PaypalContainer>
+        <div>
+          <img src={PaypalButtonIMG} alt="Paypal Button" />
+        </div>
+        <SummerShowPaypal />
+      </PaypalContainer>
+    </Description>
+    <Divider />
+  </React.Fragment>
+);
+
 const Performances = () => (
   <div className="performances-container">
     <div className="bg-image description-img" />
@@ -182,6 +230,7 @@ const Performances = () => (
           Presented by Studio For The Performing Arts with the students of Albemarle Ballet Theatre
         </p>
       </Description>
+      <SummerShows />
       <NutcrackerShows />
       <SpringGalaShows />
 

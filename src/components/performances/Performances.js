@@ -191,11 +191,9 @@ const SummerShows = () => (
           <p>August 18 at 6-7pm</p>
         </Location>
       </Show>
-    </Description>
-    <Divider />
-    <Description>
+      <BreakPoint />
       <Show>
-        <p className="bold underline">ABT Whitebox</p>
+        <p className="underline">ABT Whitebox</p>
         <Location>
           <p>August 19 at 4pm & 6pm</p>
           <p>August 20 at 2pm</p>
@@ -207,6 +205,11 @@ const SummerShows = () => (
           This family friendly one hour show features excerpts from the classical ballet Paquita and selections from Bob
           Fosse's iconic repertoire, as well as a spread of delicious catered hor d'oeuvres and wine.
         </p>
+        <p>
+          Doors open 30 minutes prior to each show. Please simply give your name at the door for entrance and keep your
+          Paypal receipt as proof of purchase.
+        </p>
+        <p>Lap children under 2 are free!</p>
       </Show>
       <BreakPoint />
       <PaypalContainer>

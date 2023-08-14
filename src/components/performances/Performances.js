@@ -82,7 +82,6 @@ const NutcrackerShows = () => (
             <img className="ticket-sale-image" src={StoryImg} alt="Step Into The Story Performances" />
           </a> */}
         </Location>
-        {/* <PayPalNutCracker />  */}
       </Show>
     </Description>
     <Divider />

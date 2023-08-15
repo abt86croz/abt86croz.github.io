@@ -58,8 +58,6 @@ export const SummerShowPaypal = () => (
               <option value="Sat @ 4pm | Student">Sat @ 4pm | Student $15.00 USD</option>
               <option value="Sat @ 6pm | Adult">Sat @ 6pm | Adult $20.00 USD</option>
               <option value="Sat @ 6pm | Student">Sat @ 6pm | Student $15.00 USD</option>
-              <option value="Sun @ 2pm | Adult">Sun @ 2pm | Adult $20.00 USD</option>
-              <option value="Sun @ 2pm | Student">Sun @ 2pm | Student $15.00 USD</option>
             </select>
           </td>
         </tr>

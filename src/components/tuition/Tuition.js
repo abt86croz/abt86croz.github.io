@@ -63,8 +63,10 @@ const Tuition = () => (
       <Title>Tuition</Title>
       <Subtitle className="bold underline">2023 - 2024 School Year</Subtitle>
       <p>
-        Tuition can either be paid in full (10% discount) or 8-monthly payments (August – March). Classes that run by
-        session and Summer Camps are billed in full. If you would like to pay in full, cash, or check, please email{" "}
+        Tuition can either be paid in full (10% discount) or 8-monthly payments (September – April). New students that
+        join after December 15 will automatically be enrolled in a 5-payment plan (January – May). The 5th payment will
+        be equal to 50% of your regular monthly payment. Classes that run by session and Summer Camps are billed in
+        full. If you would like to pay in full, cash, or check, please email{" "}
         <a href="mailto:Anna@abtdance.org" target="_top">
           Anna Finan
         </a>

@@ -6,17 +6,17 @@ import React from "react";
 import styled from "styled-components";
 import Content from "../styles/Content";
 import Title from "../styles/Title";
-import StoryImg from "../../images/site/2023onceupontime.png";
+import StoryImg from "../../images/site/nutcrackerstep-2023.png";
 import StepIntoStoryImg from "../../images/site/2023step-into.png";
-// import NutImg from '../../images/site/nutcracker.png'
-// import StepIntoStoryIMG from '../../images/site/spring-gala.png'
+import NutImg from "../../images/site/nutcracker.png";
+import StepIntoStoryIMG from "../../images/site/spring-gala.png";
 import PaypalButtonIMG from "../../images/site/dancer-paypal.png";
 
 // import PayPalNutCracker from '../paypal/Paypal'
 import { SummerShowPaypal } from "../paypal/Paypal";
 import "./Performances.css";
 
-// import springGalaImg from '../../images/site/2019-spring-gala.png'
+// import springGalaImg from "../../images/site/2019-spring-gala.png";
 
 /* eslint-disable unescaped-entities */
 /* eslint-disable max-len */
@@ -78,9 +78,10 @@ const NutcrackerShows = () => (
             other beloved characters. Audience members will get to learn steps from the ballet, hold real pointe shoes,
             enjoy a reading of the Nutcracker, and meet the dancers after the performance!
           </p>
-          {/* <a href="https://click4tix.com/ABT-MiniNutcracker" target="_blank" rel="noopener noreferrer">
+          <BreakPoint />
+          <a href="https://click4tix.com/ABT-StepIntoTheStory" target="_blank" rel="noopener noreferrer">
             <img className="ticket-sale-image" src={StoryImg} alt="Step Into The Story Performances" />
-          </a> */}
+          </a>
         </Location>
       </Show>
     </Description>
@@ -94,11 +95,12 @@ const NutcrackerShows = () => (
           <p>Waynesboro Highschool Theatre</p>
           <p>$24 Adult | $18 Student/Senior/Veteran</p>
         </Location>
-        {/* <Location>
+        <BreakPoint />
+        <Location>
           <a href="https://click4tix.com/ABT-Nutcracker" target="_blank" rel="noopener noreferrer">
             <img className="ticket-sale-image" src={NutImg} alt="The Nutcracker Performances" />
           </a>
-        </Location> */}
+        </Location>
       </Show>
     </Description>
     <Divider />
@@ -232,7 +234,7 @@ const Performances = () => (
           Presented by Studio For The Performing Arts with the students of Albemarle Ballet Theatre
         </p>
       </Description>
-      <SummerShows />
+      {/* <SummerShows /> */}
       <NutcrackerShows />
       <SpringGalaShows />
 

@@ -64,8 +64,8 @@ const NutcrackerShows = () => (
       <Show>
         <p className="bold underline">Step Into The Story: The Nutcracker</p>
         <Location>
-          <p>December 3 at 3pm &amp; 5pm</p>
-          <p>December 4 at 2pm &amp; 4pm</p>
+          <p>December 2 at 3pm &amp; 5pm</p>
+          <p>December 3 at 2pm &amp; 4pm</p>
           <p>ABT’s Whitebox Theater</p>
           <p>$10 General Admission</p>
         </Location>

@@ -235,8 +235,8 @@ const Performances = () => (
         </p>
       </Description>
       {/* <SummerShows /> */}
-      <NutcrackerShows />
-      <SpringGalaShows />
+      {/* <NutcrackerShows /> */}
+      {/* <SpringGalaShows /> */}
 
       <Description primary>
         <p>

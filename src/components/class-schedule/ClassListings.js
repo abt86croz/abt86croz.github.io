@@ -43,10 +43,10 @@ export default class ClassListings extends Component {
           <p className="heading show">Mat Pilates | 1-Month Sessions</p>
         </div> */}
         <div id="eight-week">
-          <p className="heading show">7-Week Sessions</p>
+          <p className="heading show">8-Week Sessions</p>
           <div className="paddingTopSmall">
-            <p className="subtitle center">Fall Session 1: 9/11/23 – 10/24/23</p>
-            <p className="subtitle center">Fall Session 2: 10/30/23 – 12/12/23</p>
+            <p className="subtitle center">Spring Session 1: 1/8/24 – 2/27/24</p>
+            <p className="subtitle center">Spring Session 2: 3/4/24 – 4/30/24</p>
           </div>
         </div>
         <div id="beginner-classes">

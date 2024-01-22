@@ -1,29 +1,31 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import React from 'react'
-import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
-import { LinkContainer } from 'react-router-bootstrap'
-import { SocialIcon } from 'react-social-icons'
-import { Logo } from '../Images'
-import HandbookDoc from '../../pdf/handbook_policies.pdf'
-import CovidProceduresDoc from '../../pdf/health-and-safety-plan.pdf'
-import './Navigation.css'
+/* eslint-disable quotes */
+/* eslint-disable semi */
+import React from "react";
+import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { LinkContainer } from "react-router-bootstrap";
+import { SocialIcon } from "react-social-icons";
+import { Logo } from "../Images";
+import HandbookDoc from "../../pdf/handbook_policies.pdf";
+import CovidProceduresDoc from "../../pdf/health-and-safety-plan.pdf";
+import "./Navigation.css";
 
 const handlePoliciesClick = () => {
-  window.open(HandbookDoc, '_blank')
-}
+  window.open(HandbookDoc, "_blank");
+};
 
 const handleDancerPortalClick = () => {
-  window.open('https://app.jackrabbitclass.com/jr3.0/ParentPortal/Login?orgID=534011', '_blank')
-}
+  window.open("https://app.jackrabbitclass.com/jr3.0/ParentPortal/Login?orgID=534011", "_blank");
+};
 
 const handleRegistrationClick = () => {
-  window.open('https://app.jackrabbitclass.com/regv2.asp?id=534011', '_blank')
-}
+  window.open("https://app.jackrabbitclass.com/regv2.asp?id=534011", "_blank");
+};
 
 const handleCovidProceduresClick = () => {
-  window.open(CovidProceduresDoc, '_blank')
-}
+  window.open(CovidProceduresDoc, "_blank");
+};
 
 const Navigation = () => (
   <Navbar fluid collapseOnSelect>
@@ -46,6 +48,10 @@ const Navigation = () => (
 
           <LinkContainer to="/about/our-philosophy">
             <MenuItem eventKey={3.2}>Our Philosophy</MenuItem>
+          </LinkContainer>
+
+          <LinkContainer to="/about/employment-opportunities">
+            <MenuItem eventKey={3.3}>Employment Opportunities</MenuItem>
           </LinkContainer>
         </NavDropdown>
 
@@ -115,6 +121,6 @@ const Navigation = () => (
       </Nav>
     </Navbar.Collapse>
   </Navbar>
-)
+);
 
-export default Navigation
+export default Navigation;

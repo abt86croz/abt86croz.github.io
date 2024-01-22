@@ -1,8 +1,10 @@
-import React from 'react'
+/* eslint-disable quotes */
+/* eslint-disable semi */
+import React from "react";
 
-import PDFIcon from 'react-icons/lib/fa/file-pdf-o'
-import SummerClassSched from '../../pdf/Summer2023-Schedule.pdf'
-import SummerHandout from '../../pdf/summer-handout.pdf'
+import PDFIcon from "react-icons/lib/fa/file-pdf-o";
+import SummerClassSched from "../../pdf/summer-schedule.pdf";
+import SummerHandout from "../../pdf/summer-handout.pdf";
 
 const SummerButtons = () => (
   <div>
@@ -16,6 +18,6 @@ const SummerButtons = () => (
       </a>
     </div>
   </div>
-)
+);
 
-export default SummerButtons
+export default SummerButtons;

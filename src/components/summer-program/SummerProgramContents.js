@@ -1,40 +1,42 @@
-import React, { Component } from 'react'
-import styled from 'styled-components'
-import postscribe from 'postscribe'
+/* eslint-disable quotes */
+/* eslint-disable semi */
+import React, { Component } from "react";
+import styled from "styled-components";
+import postscribe from "postscribe";
 
-import PDFIcon from 'react-icons/lib/fa/file-pdf-o'
-import SummerClassSched from '../../pdf/Summer2023-Schedule.pdf'
-import SummerHandout from '../../pdf/summer-handout.pdf'
+import PDFIcon from "react-icons/lib/fa/file-pdf-o";
+import SummerClassSched from "../../pdf/summer-schedule.pdf";
+import SummerHandout from "../../pdf/summer-handout.pdf";
 // import SummerCampSched from '../../pdf/2020-summer-camp-schedule.pdf'
-import SummerPoster from '../../images/site/summer/summer-2023.png'
-import './SummerProgram.css'
-import SummerButtons from './SummerButtons'
+import SummerPoster from "../../images/site/summer/summer-2023.png";
+import "./SummerProgram.css";
+import SummerButtons from "./SummerButtons";
 
-const CampTitle = styled.p``
+const CampTitle = styled.p``;
 
 const Container = styled.div`
   margin-bottom: 40px;
-`
+`;
 
 const DiscountContainer = styled.div`
   text-align: center;
-`
+`;
 
 /* eslint-disable max-len */
 export default class SummerProgramContents extends Component {
   componentDidMount() {
     const summerClasses =
-      '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=Summer%20Classes&hidecols=Tuition,Class%20Starts,Gender,Ages,EndDate,Session,openings&sort=Class"></script>'
+      '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=Summer%20Classes&hidecols=Tuition,Class%20Starts,Gender,Ages,EndDate,Session,openings&sort=Class"></script>';
     const summerCamps =
-      '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=summer%20camp&hidecols=Gender,Tuition,Ages,EndDate,Session,Openings,Class%20Starts&sort=age,times"></script>'
+      '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=summer%20camp&hidecols=Gender,Tuition,Ages,EndDate,Session,Openings,Class%20Starts&sort=age,times"></script>';
     // const balletClassesSummer =
     // '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&amp;Cat1=Summer%20Classes&Cat3=Ballet&hidecols=Gender,tuition,Ages,EndDate,Session,openings,Class%20Starts&amp;sort=Times"></script>'
     const summerStockPerformance =
-      '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=summer%20stock&hidecols=Gender,Tuition,Ages,EndDate,Session,Openings,Class%20Starts&sort=age,times"></script>'
+      '<script type="text/javascript" src="https://app.jackrabbitclass.com/jr3.0/Openings/OpeningsJS?OrgID=534011&Cat1=summer%20stock&hidecols=Gender,Tuition,Ages,EndDate,Session,Openings,Class%20Starts&sort=age,times"></script>';
     //  postscribe('#summer-classes', summerClasses)
-    postscribe('#summer-camps', summerCamps)
-    postscribe('#summer-stock-performance', summerStockPerformance)
-    postscribe('#summer-classes', summerClasses)
+    postscribe("#summer-camps", summerCamps);
+    postscribe("#summer-stock-performance", summerStockPerformance);
+    postscribe("#summer-classes", summerClasses);
   }
 
   render() {
@@ -49,42 +51,59 @@ export default class SummerProgramContents extends Component {
           <div className="summer-content">
             <p className="title">Camps</p>
             <Container>
-              <CampTitle className="sub-title">Exploring Ballet | Ages 3-5</CampTitle>
-              <p className="date">June 19 - 22 | July 24 - 27 | Monday - Thursday | 10am - 12pm | $200</p>
+              <CampTitle className="sub-title">Exploring Ballet</CampTitle>
+              <p className="date">June 17 - 20: Ages 4 - 5 & July 22 - 25: Ages 3 - 4</p>
+              <p className="date">M - Th | 10am - 12pm | $225</p>
               <p>
                 A young dancer’s very first peek at classical ballet! This camp teaches ballet technique, flexibility,
                 coordination, balance, creative movement and games, and stories of the classical ballets. The dancers
                 decorate their own costumes (that they keep after the camp) and share a demonstration on the last day.
                 Craft supplies and snacks are included.
               </p>
-              <CampTitle className="sub-title">Beginner Dance | Ages 5+</CampTitle>
-              <p className="date">June 26 - 30 | July 10 - 14 | Monday - Friday | 9am - 2pm | $335</p>
-              <p>
-                Students will have a variety of daily classes including Ballet, Jazz, Tap, Modern, Theatre,
-                Choreography, Crafts, and Sewing.
-              </p>
-              <CampTitle className="sub-title">
-                CMJ Camp (Contemporary, Modern, Jazz) | Previous Dance Experience Required | Ages 8+
-              </CampTitle>
-              <p className="date">July 17 - 21 | Monday - Friday | 9am - 2pm | $335</p>
-              <p>Jazz, Modern, Contemporary, Theatre, Choreography, Repertoire, Improv, and Conditioning</p>
+              <CampTitle className="sub-title">Beginner Dance | Ages 6+</CampTitle>
+              <p className="date">June 24- 28 & July 8 - 12</p>
+              <p className="date">M - F | 9am - 2pm | $350</p>
+              <p>Ballet, Jazz, Modern, Theatre, Choreography, Crafts, and Sewing.</p>
+              <CampTitle className="sub-title">Intermediate Dance: Ages 9+</CampTitle>
+              <p className="date">July 15 - 19</p>
+              <p className="date">2 years experience | M - F | 9am - 2pm | $350</p>
+              <p>Ballet, Jazz, Modern, Theatre, Repertoire, Improv, Sewing, and Conditioning</p>
             </Container>
             <Container>
-              <p className="title">Summer Stock Performance</p>
-              <CampTitle className="sub-title">IIIB - Advanced II | $250</CampTitle>
+              <p className="title">NEW Classes!</p>
+              <CampTitle className="sub-title">Variations I & II</CampTitle>
+              <p>
+                Dancers will learn classical variations and repertoire to be presented at the end of the session.
+                Tuition includes a presentation in the Whitebox on August 3, rehearsal costume, warm-up class, and video
+              </p>
+              <CampTitle className="sub-title">Choreography Workshop</CampTitle>
+              <p>
+                An accumulative class throughout program. Dancers will learn movement-sourcing skills, music and
+                geographical charting, and will work as a group to choreograph a piece that will be presented at the end
+                of the session. Tuition includes a presentation in the Whitebox, a rehearsal costume (if needed),
+                warm-up class, and a video.
+              </p>
+              <CampTitle className="sub-title">Sewing & Costume Design</CampTitle>
               <p className="date">Performances August 19 & 20</p>
               <p>
-                Performances August 19 & 20 Students in levels III-Advanced are invited to participate in our inaugural
-                Summer Stock Performances on August 19th & 20th. Dancers will have the opportunity to perform classical
-                ballet repertoire and selections from iconic Broadway musicals and jazz productions. Rehearsals will
-                take place on weeknights after regularly scheduled classes.
+                Sewing & Costume Design Dancers will learn sewing techniques and will recycle old clothing into their
+                own costume over the course of the program. Dancers will need to provide their supplies. Ages 8+.
               </p>
             </Container>
 
             <Container>
               <DiscountContainer>
+                <CampTitle className="title">Tuition</CampTitle>
                 <p className="registration-wave">$20 Registration Fee | Waived for Multi-Student Families</p>
                 <p className="bold">10% Discount on Camps when you also enroll in Summer Classes</p>
+                <p className="underline">
+                  8-week class rates will be split into 2 payments charged on June and July 1st.{" "}
+                </p>
+                <p>
+                  <strong>30-min:</strong> $155 | <strong>45-min:</strong> $165 | <strong>1 hr:</strong> $175 | {""}
+                  <strong>1.25 hr:</strong> $185 | <strong>1.5 hr:</strong> $195
+                </p>
+                <p>*10% Multi-class discount automatically applied</p>
               </DiscountContainer>
             </Container>
 
@@ -114,7 +133,7 @@ export default class SummerProgramContents extends Component {
               <p className="heading show">SUMMER CAMPS</p>
             </div>
             <div id="summer-stock-performance">
-              <p className="heading show">SUMMER STOCK PERFORMANCE</p>
+              <p className="heading show">NEW CLASSES!</p>
             </div>
             <div id="summer-classes">
               <p className="heading show">SUMMER CLASSES</p>
@@ -125,6 +144,6 @@ export default class SummerProgramContents extends Component {
           <SummerButtons />
         </div>
       </div>
-    )
+    );
   }
 }
